@@ -1,0 +1,55 @@
+<canvas id="canvas" width=200 height=200 style="border: 1px solid #000000;"></canvas>
+<meta charset="utf-8"/>
+<script src="src/rita.js"></script>
+<script src="src/defchild_reviews.js"></script>
+<script>
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// A Context-Free grammar for Generative Music Criticism by iroro 
+// V0.1 2009.11.06 (Processing, unreleased)
+// V0.2 2013.01.15 (Javascript)
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+RiTa.p5Compatible(1);
+var grammar, rts = [];
+
+// setup mouse-handling
+window.onload = setup;
+window.onmouseup = mouseClicked;
+
+function setup()
+{
+    RiText.size(800, 600);
+
+    RiText.defaults.paragraphLeading = 15;
+    RiText.defaultFont({name:"Georgia", size:32, leading:36}); // leading is vertical spacing
+    RiText.defaultAlignment(LEFT);
+/*
+    rts[0] = new RiText("to generate a review", RiText.width() / 6, 75);
+    rts[1] = new RiText("à la Boomkat clicky", RiText.width() / 6, 110);
+    rts[2] = new RiText("for serious enjoyment ", RiText.width() / 6, 145); 
+*/
+    grammar = new RiGrammar(reviewGrammar);
+    RiText.loop();
+}
+
+function draw()
+{
+    RiText.background(255, 204, 0);
+    RiText.drawAll();
+}
+
+function mouseClicked()
+{
+	RiText.disposeAll(); // cleanup
+
+    var result = grammar.expand();
+    var x=75, y=50, w=675, h=500; 
+    rts = RiText.createLines(result, x, y, w, h);
+   	
+	/* extras
+	for ( var i = 0; i < rts.length; i++) 
+    	rts[i].color(RiText.randomColor()); */
+}
+
+</script>
