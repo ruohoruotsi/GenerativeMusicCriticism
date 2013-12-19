@@ -12,6 +12,7 @@
     <![endif]-->
 </head>
 
+
 <body>
 <canvas id="canvas" width=200 height=200 style="border: 1px solid #000000;"></canvas>
 <script src="src/rita_dict.js" type="text/javascript"></script>
@@ -33,39 +34,32 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 RiTa.p5Compatible(1);
-var grammar, rts = [];
+var grammar, rts, hotttartists = [];
 
 // setup mouse-handling
 window.onload = setup;
 window.onmouseup = mouseClicked;
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Setup The echonest
-
-$(document).ready(function() {
-							
+function setup()
+{
+	// Setup The echonest
 	var echonest = new EchoNest("2VN1LKJEQUBPUKXEC");
 	var x = 1;
 
 	// What artists are currently "hottt"? (this should return a hotttnesss value but doesn't)
 	echonest.artist().top_hottt( function(topHotttCollection) {
 		console.log(topHotttCollection);
-//		$('#artistTopHottt').append( topHotttCollection.to_html('<strong>${name}</strong><br/>') );
+		console.log(topHotttCollection.data.artists[0].name);		
+	//	$('#artistTopHottt').append( topHotttCollection.to_html('<strong>${name}</strong><br/>') );
 	});
-	
-	// What artists are currently "hottt"? (this should return a hotttnesss value but doesn't)
+
+	// What terms are currently "hottt"? (this should return a hotttnesss value but doesn't)
 	// echonest.artist().top_terms( function(topTermsCollection) {
 	//	$('#artistTopTerms').append( topTermsCollection.to_html('<strong>${name}</strong> - ${frequency}<br/>') );
 	// });
-	
-});
-
-//
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-function setup()
-{
+	// HTML5 Canvas size
     RiText.size(800, 600);
 
     RiText.defaults.paragraphLeading = 15;
@@ -102,16 +96,11 @@ function mouseClicked()
 </script>
 
 
-<script type="text/javascript">
-
-
-					
-</script>
-
 		<h3>Current Top Hottt Artists</h3>
 		<div id="artistTopHottt"></div>
 
 		<h3>Current Top Terms</h3>
 		<div id="artistTopTerms"></div>
+		
 </body>
 </html>
