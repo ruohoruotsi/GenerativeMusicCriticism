@@ -312,6 +312,10 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 			Buenos Aires | Montevideo | Tokyo | Seoul | Ulan Bator | Manila | Bangkok | Kuala Lumpur | Jakarta | Kabul | \
 			Jerusalem | Dakar | Cairo | Kingston | Lagos  | Addis Ababa | Abidjan | Kinshasa | Casablanca | Accra | \
 			Dar es Salaam | Bamako | Ouagadougou | Mogadishu | Cotonou | Harare",
+			
+"<label>": 			"Kompakt | Hyperdub | Tongut  | Soul Jazz | Strictly Rhythm | Defected | \
+					  Studio 1 | Nonesuch | Mille-Plateaux  | Force Inc. | Bpitch Control | \
+					  Shitkatapult | Warp | The Leaf | Kranky | Thoughtless Music | Unfoundsound",
 
 "<time>": 			"<epoch> | <time-period> <epoch>",
 
