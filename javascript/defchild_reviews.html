@@ -35,6 +35,7 @@
 
 RiTa.p5Compatible(1);
 var grammar, rts, hotttartists = [];
+var echonest; 
 
 // setup mouse-handling
 window.onload = setup;
@@ -43,14 +44,14 @@ window.onmouseup = mouseClicked;
 function setup()
 {
 	// Setup The echonest
-	var echonest = new EchoNest("2VN1LKJEQUBPUKXEC");
+	echonest = new EchoNest("2VN1LKJEQUBPUKXEC"); // API key
 	var x = 1;
 
 	// What artists are currently "hottt"? (this should return a hotttnesss value but doesn't)
 	echonest.artist().top_hottt( function(topHotttCollection) {
-		console.log(topHotttCollection);
-		console.log(topHotttCollection.data.artists[0].name);		
-	//	$('#artistTopHottt').append( topHotttCollection.to_html('<strong>${name}</strong><br/>') );
+		// console.log(topHotttCollection.data.artists[0].name);
+		hotttartists = topHotttCollection.data.artists;			
+	    // $('#artistTopHottt').append( topHotttCollection.to_html('<strong>${name}</strong><br/>') );
 	});
 
 	// What terms are currently "hottt"? (this should return a hotttnesss value but doesn't)
@@ -93,14 +94,21 @@ function mouseClicked()
     	rts[i].color(RiText.randomColor()); */
 }
 
+function getHotttArtists()
+{	 
+	// get a random Hottt artist
+	var rand = Math.floor((Math.random()*15));
+	return hotttartists[rand].name;
+}
+
 </script>
 
 
-		<h3>Current Top Hottt Artists</h3>
+		<!-- <h3>Current Top Hottt Artists</h3>
 		<div id="artistTopHottt"></div>
 
 		<h3>Current Top Terms</h3>
-		<div id="artistTopTerms"></div>
+		<div id="artistTopTerms"></div> -->
 		
 </body>
 </html>

@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // A Context-Free grammar for Generative Music Criticism by iroro 
 // V0.1 2009.11.06 (Processing, unreleased)
-// V0.2 2013.01.15
+// V0.2 2013.01.15 (Javascript)
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 reviewGrammar = { 
@@ -35,7 +35,7 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 \
 <artist> and <artist> take on the <label> crew for another strictly limited pressing. The production <verb-phrase-singular> once again with a pair of sick twelve inches that <verb-phrase-plural>",
 
-"<artist>": 	"Sammy Davis Junior | Madonna | DFNT | Meesha | Ruoho Ruotsi | Aschka | Lumineon | Triton | Dirk Leyers | Dave Aju ",
+"<artist>": 	"`getHotttArtists()`",
 
 "<artist-descriptive-noun>": "<music-adjective-terminal> <artist-descriptive-noun-terminal>",
 
