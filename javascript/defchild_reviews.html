@@ -14,7 +14,11 @@
 
 
 <body>
-<canvas id="canvas" width=200 height=200 style="border: 1px solid #000000;"></canvas>
+<!-- <canvas id="canvas" width=200 height=200 style="border: 1px solid #000000;"></canvas> -->
+<div style="text-align:center">
+<canvas id="canvas" width=200 height=200></canvas>
+</div>
+
 <script src="src/rita_dict.js" type="text/javascript"></script>
 <script src="src/rita.js" type="text/javascript"></script>
 <script src="src/defchild_reviews.js" type="text/javascript"></script>
@@ -77,7 +81,7 @@ function setup()
 
 function draw()
 {
-    RiText.background(255, 204, 0);
+    RiText.background(255, 255, 255);
     RiText.drawAll();
 }
 
