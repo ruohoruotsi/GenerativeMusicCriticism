@@ -1,0 +1,289 @@
+<!DOCTYPE HTML>
+<!--
+	Halcyonic 3.1 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Two Column 2 - Halcyonic by HTML5 UP</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/config.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+	</head>
+	<body class="subpage">
+
+		
+		<div style="text-align:center">
+		<canvas id="canvas" width=0 height=0></canvas>
+		</div>
+		
+		<script src="src/rita_dict.js" type="text/javascript"></script>
+		<script src="src/rita.js" type="text/javascript"></script>
+		<script src="src/defchild_reviews.js" type="text/javascript"></script>
+		<script src="src/jquery.echonest.js" type="text/javascript"></script>
+		
+
+		<script type="text/javascript">
+
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// A Context-Free grammar for Generative Music Criticism by iroro 
+		// V0.1 2009.11.06 (Processing, unreleased)
+		// V0.2 2013.01.15 (Javascript)
+		//
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		RiTa.p5Compatible(1);
+		var grammar, rts, hotttartists = [];
+		var echonest; 
+
+		// setup mouse-handling
+		window.onload = setup;
+		window.onmouseup = mouseClicked;
+
+		function setup()
+		{
+			// Setup The echonest
+			echonest = new EchoNest("2VN1LKJEQUBPUKXEC"); // API key
+			var x = 1;
+
+			// What artists are currently "hottt" (this should return a hotttnesss value but doesn't)
+			echonest.artist().top_hottt( function(topHotttCollection) {
+				// console.log(topHotttCollection.data.artists[0].name);
+				hotttartists = topHotttCollection.data.artists;			
+				// $('#artistTopHottt').append( topHotttCollection.to_html('<strong>${name}</strong><br/>') );
+			});
+
+			// What terms are currently "hottt" (this should return a hotttnesss value but doesn't)
+			// echonest.artist().top_terms( function(topTermsCollection) {
+			//	$('#artistTopTerms').append( topTermsCollection.to_html('<strong>${name}</strong> - ${frequency}<br/>') );
+			// });
+
+			// HTML5 Canvas size
+			RiText.size(1, 1);
+
+			//RiText.defaults.paragraphLeading = 15;
+			//RiText.defaultFont({name:"Georgia", size:32, leading:36}); // leading is vertical spacing
+			// RiText.defaultAlignment(LEFT);
+		/*
+			rts[0] = new RiText("to generate a review", RiText.width() / 6, 75);
+			rts[1] = new RiText("à la Boomkat clicky", RiText.width() / 6, 110);
+			rts[2] = new RiText("for serious enjoyment ", RiText.width() / 6, 145); 
+		*/
+
+			grammar = new RiGrammar(reviewGrammar);
+			RiText.loop();
+			console.log("Setup complete");
+		}
+
+		function draw()
+		{
+			RiText.background(255, 255, 255);
+			RiText.drawAll();
+		}
+
+		function mouseClicked()
+		{
+			RiText.disposeAll(); // cleanup
+
+			var result = grammar.expand();
+			var x=75, y=50, w=675, h=500; 
+			rts = RiText.createLines(result, x, y, w, h);
+	
+			/* extras
+			for ( var i = 0; i < rts.length; i++) 
+				rts[i].color(RiText.randomColor()); */
+		
+			console.log(result);
+			document.getElementById("ruohoreviews").innerHTML=result;
+		}
+
+		function getHotttArtists()
+		{	 
+			// get a random Hottt artist
+			var rand = Math.floor((Math.random()*15));
+			return hotttartists[rand].name;
+		}
+		
+// 		function getHotttRating()
+// 		{	 
+// 			// get a random Hottt artist rating
+// 			// document.getElementById("ruohoreviews").innerHTML=Math.floor((Math.random()*100));
+// 
+// 		}
+
+		</script>
+
+
+		<!-- Header -->
+			<div id="header-wrapper">
+				<header id="header" class="container">
+					<div class="row">
+						<div class="12u">
+
+							<!-- Logo -->
+								<h1><a href="#" id="logo">ruoho reviews</a></h1>
+							
+							<!-- Nav -->
+								<nav id="nav">
+								</nav>
+
+						</div>
+					</div>
+				</header>
+			</div>
+
+		<!-- Content -->
+			<div id="content-wrapper">
+				<div id="content">
+					<div class="container">
+						<div class="row">
+							<div class="3u">
+								
+								<!-- Sidebar -->
+									<section>
+										<header>
+											<h2>Magna Phasellus</h2>
+										</header>
+										<ul class="link-list">
+											<li><a href="#">Sed dolore viverra</a></li>
+											<li><a href="#">Ligula non varius</a></li>
+											<li><a href="#">Nec sociis natoque</a></li>
+											<li><a href="#">Penatibus et magnis</a></li>
+											<li><a href="#">Dis parturient montes</a></li>
+											<li><a href="#">Nascetur ridiculus</a></li>
+										</ul>
+									</section>
+									<section>
+										<header>
+											<h2>RR Rating: 9.8</h2>
+										</header>
+		
+									</section>
+
+							</div>
+							<div class="9u skel-cell-important">
+								
+								<!-- Main Content -->
+									<section>
+										<header>
+											<h2>Two Column #2</h2>
+											<h3>Another generic two column layout</h3>
+										</header>
+										<p id="ruohoreviews">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam metus, congue 
+											vel suscipit ut, dignissim non risus. Vestibulum ante est, fringilla nec placerat 
+											eu, vestibulum vitae diam. Integer eget egestas eros. Duis enim erat, mollis quis 
+											lacinia eget, blandit nec ipsum. Donec vitae turpis ipsum. Aliquam mauris libero, 
+											sagittis in eleifend at, mattis imperdiet velit. Donec urna risus, rutrum molestie 
+											varius ac, lacinia sit amet augue. Nam ultrices elementum eros.
+										</p>
+										<p>
+											Sed faucibus viverra ligula, non varius magna semper vitae. Donec eu justo ut ipsum 
+											hendrerit congue nec eu risus. Cum sociis natoque penatibus et magnis dis parturient 
+											montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing 
+											egestas tempus. Cras convallis odio sit amet risus convallis porttitor. Integer 
+											vehicula fermentum ligula at pretium. Suspendisse semper iaculis eros, eu aliquam 
+											justo imperdiet vel. Proin nec dictum mi. Duis commodo enim non tellus interdum 
+											elit. Suspendisse fermentum adipiscing nisi, a tempor libero malesuada at. Morbi 
+											lacinia dui adipiscing risus eleifend tincidunt. Proin eu mauris eu tellus eleifend 
+											hendrerit.
+										</p>
+										<p>
+											Mauris sit amet tellus urna. In facilisis, tortor vitae ultricies egestas, odio 
+											mi rhoncus arcu, quis euismod felis felis et velit. Mauris varius consectetur erat 
+											egestas tempus. Cras convallis odio sit amet risus convallis porttitor. Integer 
+											vehicula fermentum ligula at pretium. Suspendisse semper iaculis eros, eu aliquam 
+											justo imperdiet vel. Proin nec dictum mi. Duis commodo enim non tellus interdum 
+											iaculis. Phasellus ultrices diam sit amet orci lacinia sed consequat dui auctor. 							
+										</p>
+										<p>
+											Sed faucibus viverra ligula, non varius magna semper vitae. Donec eu justo ut ipsum 
+											hendrerit congue nec eu risus. Cum sociis natoque penatibus et magnis dis parturient 
+											montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing 
+											egestas tempus. Cras convallis odio sit amet risus convallis porttitor. Integer 
+											vehicula fermentum ligula at pretium. Suspendisse semper iaculis eros, eu aliquam 
+											justo imperdiet vel. Proin nec dictum mi. Duis commodo enim non tellus interdum 
+											elit. Suspendisse fermentum adipiscing nisi, a tempor libero malesuada at. Morbi 
+											lacinia dui adipiscing risus eleifend tincidunt. Proin eu mauris eu tellus eleifend 
+											hendrerit.
+										</p>
+										<p>
+											Mauris sit amet tellus urna. In facilisis, tortor vitae ultricies egestas, odio 
+											mi rhoncus arcu, quis euismod felis felis et velit. Mauris varius consectetur erat 
+											egestas tempus. Cras convallis odio sit amet risus convallis porttitor. Integer 
+											vehicula fermentum ligula at pretium. Suspendisse semper iaculis eros, eu aliquam 
+											justo imperdiet vel. Proin nec dictum mi. Duis commodo enim non tellus interdum 
+											iaculis. Phasellus ultrices diam sit amet orci lacinia sed consequat dui auctor. 							
+										</p>
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		<!-- Footer -->
+			<div id="footer-wrapper">
+				<footer id="footer" class="container">
+					<div class="row">
+						<div class="8u">
+						
+							<!-- Links -->
+									<h2>About Ruoho Reviews</h2>
+												<p>
+												As a label manager <a href="http://twitter.com/defchildmusic">@defchildmusic</a>, 
+												Ruoho wrote copy for artist profiles, featured releases, promo reviews, tweets, onesheets, 
+												blog posts & online commentary, amassing a prodigious collection of musical phrases,
+												idiomatic expressions and colourful constructions.
+												 
+												<br/>These reviews are fashioned using Ruoho's custom 
+												<a href="http://en.wikipedia.org/wiki/Context-free_grammar">context-free grammar</a> 
+												(<a href="https://github.com/dhowe/RiTa/">RiTa</a>) and "hottt" artist <a href="http://developer.echonest.com/docs/v4/artist.html#top-hottt">charts</a> 
+												are pulled down in realtime from <a href="http://developer.echonest.com">The Echo Nest</a>. 
+												Ruoho hopes these reviews will suggest new musical vistas, artist collaborations and perhaps 
+												garner a few chuckles. 
+												
+												<br/><br/>For entertainment purposes only.						
+												</p>
+
+						</div>
+						<div class="4u">
+							
+							<!-- Blurb -->
+								<section>
+									<h2>   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Socialize</h2>
+									
+									<ul class="icons">
+										<li><a class="fa fa-twitter solo" href="http://twitter.com/n33co"><span>Twitter</span></a></li>
+										<li><a class="fa fa-youtube solo" href="http://dribbble.com/n33"><span>Dribbble</span></a></li>
+										<li><a class="fa fa-github solo" href="#"><span>LinkedIn</span></a></li>
+									</ul>
+								</section>
+				
+						</div>
+					</div>
+				</footer>
+			</div>
+
+		<!-- Copyright -->
+			<div id="copyright">
+				&copy; 2013-2014 iroro orife. All rights reserved. | Design: <a href="http://html5up.net">HTML5 UP</a> | Images: <a href="http://fotogrph.com">fotogrph</a>
+			</div>
+
+
+	</body>
+</html>
