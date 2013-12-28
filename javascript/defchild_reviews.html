@@ -77,6 +77,7 @@ function setup()
 
     grammar = new RiGrammar(reviewGrammar);
     RiText.loop();
+    console.log("Setup complete");
 }
 
 function draw()
@@ -96,6 +97,9 @@ function mouseClicked()
 	/* extras
 	for ( var i = 0; i < rts.length; i++) 
     	rts[i].color(RiText.randomColor()); */
+    	
+    console.log(result);
+    document.getElementById("ruohoreviews").innerHTML=result;
 }
 
 function getHotttArtists()
@@ -107,9 +111,11 @@ function getHotttArtists()
 
 </script>
 
+<h3>Ruoho Reviews</h3>
+<p id="ruohoreviews"> asdfasda</p>
 
-		<!-- <h3>Current Top Hottt Artists</h3>
-		<div id="artistTopHottt"></div>
+		<h3>Current Top Hottt Artists</h3>
+		<div id="getHotttArtists"></div>
 
 		<h3>Current Top Terms</h3>
 		<div id="artistTopTerms"></div> -->
