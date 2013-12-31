@@ -5,6 +5,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
+
 	<head>
 		<title>Two Column 2 - Halcyonic by HTML5 UP</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -23,13 +24,8 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 	</head>
-	<body>
-
-		
-<!--		<div id="myDiv" style="text-align:center position:absolute; left: 0px; top: 0px;">
-		<canvas id="canvas" width=0 height=0></canvas>
-		</div> -->
-		
+	
+	<body>		
 		<script src="src/rita_dict.js" type="text/javascript"></script>
 		<script src="src/rita.js" type="text/javascript"></script>
 		<script src="src/defchild_reviews.js" type="text/javascript"></script>
@@ -38,17 +34,42 @@
 
 		<script type="text/javascript">
 
-		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		//////////////////////////////////////////////////////////////////////////////////
 		// A Context-Free grammar for Generative Music Criticism by iroro 
 		// V0.1 2009.11.06 (Processing, unreleased)
 		// V0.2 2013.01.15 (Javascript)
 		//
-		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		//////////////////////////////////////////////////////////////////////////////////
 
 		RiTa.p5Compatible(1);
-		var grammar, currentArtist, hotttartists = [];
-		var echonest; 
-
+		var grammar, echonest; 
+		var currentArtist, hotttartists = [];
+		
+		var cachedArtistList = ['Moby', 'Donna Summer', 'Robbie Williams', 
+								'Pet Shop Boys', 'Prince', 'Sly and the Family Stone',
+								'David Bowie', 'Marvin Gaye', 'Aretha Franklin', 
+								'Juan Atkins', 'Michael Jackson', 'Stevie Wonder', 
+								'Led Zeppelin', 'Pink Floyd', 'Rihanna', 'Tina Turner',
+								'Johnny Hallyday', 'Gloria Estefan', 'Tupac Shakur', 
+								'Depeche Mode', 'Björk', 'Daft Punk', 'Aphex Twin', 
+								'Prodigy', 'Gold Chains', 'Kraftwerk', 'Massive Attack',
+								'DJ Shadow', 'Radiohead', 'The Orb', 'Jean-Michel Jarre',
+								'Röyksopp', 'LCD Soundsystem', 'Faithless', 'Ruoho Ruotsi',
+								'Ratatat', 'Postal Service', 'Wilco', 'The Avett Brothers',
+								'Tangerine Dream', 'Leftfield', 'Frivolous', 'Basement Jaxx',
+								'Boards of Canada', 'Amon Tobin', 'Glitch Mob', 
+								'Hollis P. Monroe', 'Frankie Knuckles', 'Francois K',
+								'Trentemøller', 'Chelonis R. Jones', 'Steve Bug', 
+								'Lawrence', 'Jimpster', 'Jeff Samuel', 'Ian Pooley',
+								'Omar-S', 'Luomo', 'Kerri Chandler', 'Charles Webster',
+								'Roy Davis Jr.', 'Robert Owens', 'Cajmere feat. Dajae',
+								'Black Science Orchestra', 'Mr. Fingers', 'Saint Etienne,',
+								'Masters at Work', 'Theo Parrish', 'Moodymann', 
+								'Pepe Bradock', 'Chez N Trent', 'Basic Channel', 
+								'Rhythm & Sound', 'Roman Flügel', 'Joe Lewis', 'DJ Said', 
+								'Recloose', 'Kate Simko', 'Aschka', 'Ikonika', 
+								'Maya Jane Coles'];
+								
 		// setup mouse-handling
 		window.onload = setup;
 		window.onmouseup = mouseClicked;
@@ -57,56 +78,57 @@
 		{
 			// Setup The echonest
 			echonest = new EchoNest("2VN1LKJEQUBPUKXEC"); // API key
-			var x = 1;
 
-			// What artists are currently "hottt" (this should return a hotttnesss value but doesn't)
+			// What artists are currently "hottt" (Should return a hotttnesss but doesn't)
 			echonest.artist().top_hottt( function(topHotttCollection) {
-				// console.log(topHotttCollection.data.artists[0].name);
 				hotttartists = topHotttCollection.data.artists;			
-				// $('#artistTopHottt').append( topHotttCollection.to_html('<strong>${name}</strong><br/>') );
 			});
 
-			// What terms are currently "hottt" (this should return a hotttnesss value but doesn't)
-			// echonest.artist().top_terms( function(topTermsCollection) {
-			//	$('#artistTopTerms').append( topTermsCollection.to_html('<strong>${name}</strong> - ${frequency}<br/>') );
-			// });
-
 			grammar = new RiGrammar(reviewGrammar);
+			
+			mouseClicked();
 			console.log("Setup completed");
-		}
-
-		function draw()
-		{
-			RiText.background(255, 255, 255);
-			RiText.drawAll();
 		}
 
 		function mouseClicked()
 		{
-			RiText.disposeAll(); // cleanup
-
 			var result = grammar.expand();
 			console.log(result);
 			
 			// Populate html elements
 			document.getElementById("ruohoreviews").innerHTML=result;
 			getHotttRating();
+			getCurrentArtist();
 		}
 
-		function getHotttArtists()
-		{	 
-			// get a random Hottt artist
-			var rand = Math.floor((Math.random()*15));
-			return hotttartists[rand].name;
+		function getHotttArtists() // get a random Hottt artist
+		{	
+			if(hotttartists.length == 0) {
+
+				var rand = Math.floor((Math.random()*80));
+				currentArtist = cachedArtistList[rand];
+				return currentArtist;
+
+			} else {
+
+				var rand = Math.floor((Math.random()*15));
+				currentArtist = hotttartists[rand].name;
+				return currentArtist;
+			}
 		}
 		
- 		function getHotttRating()
+ 		function getHotttRating() // get a random Hottt artist rating
  		{	 
- 			// get a random Hottt artist rating
- 			document.getElementById("ruohorating").innerHTML="Ruoho Rating:  &nbsp;&nbsp;" + 
- 															  Math.floor((Math.random()*100)) + 
- 															  "." + 
- 															  Math.floor((Math.random()*10));
+ 			document.getElementById("ruohorating").innerHTML = 
+ 				"Ruoho Rating:  &nbsp;&nbsp;" + 
+ 				Math.floor((Math.random()*100)) + 
+ 				"." + 
+ 				Math.floor((Math.random()*10));
+ 		}
+ 		
+ 		function getCurrentArtist() // get current artist
+ 		{	 
+ 			document.getElementById("reviewArtist").innerHTML = currentArtist;
  		}
 
 		</script>
@@ -161,8 +183,8 @@
 								<!-- Main Content -->
 									<section>
 										<header>
-											<h2>Two Column #2</h2>
-											<h3>Another generic two column layout</h3>
+											<h2 id="reviewArtist">Two Column #2</h2>
+											<h3 id="reviewSubtitle">Another generic two column layout</h3>
 										</header>
 										<p id="ruohoreviews" style="font-size: 24pt;"></p>
 									</section>
