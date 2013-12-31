@@ -46,7 +46,7 @@
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 		RiTa.p5Compatible(1);
-		var grammar, rts, hotttartists = [];
+		var grammar, currentArtist, hotttartists = [];
 		var echonest; 
 
 		// setup mouse-handling
@@ -55,9 +55,6 @@
 
 		function setup()
 		{
-		
-			// document.getElementById('myDiv').style.clientHeight = 500;
-		
 			// Setup The echonest
 			echonest = new EchoNest("2VN1LKJEQUBPUKXEC"); // API key
 			var x = 1;
@@ -74,21 +71,8 @@
 			//	$('#artistTopTerms').append( topTermsCollection.to_html('<strong>${name}</strong> - ${frequency}<br/>') );
 			// });
 
-			// HTML5 Canvas size
-			// RiText.size(1, 1);
-
-			//RiText.defaults.paragraphLeading = 15;
-			//RiText.defaultFont({name:"Georgia", size:32, leading:36}); // leading is vertical spacing
-			// RiText.defaultAlignment(LEFT);
-		/*
-			rts[0] = new RiText("to generate a review", RiText.width() / 6, 75);
-			rts[1] = new RiText("à la Boomkat clicky", RiText.width() / 6, 110);
-			rts[2] = new RiText("for serious enjoyment ", RiText.width() / 6, 145); 
-		*/
-
 			grammar = new RiGrammar(reviewGrammar);
-			// RiText.loop();
-			console.log("Setup complete");
+			console.log("Setup completed");
 		}
 
 		function draw()
@@ -102,14 +86,9 @@
 			RiText.disposeAll(); // cleanup
 
 			var result = grammar.expand();
-			var x=75, y=50, w=675, h=500; 
-			// rts = RiText.createLines(result, x, y, w, h);
-	
-			/* extras
-			for ( var i = 0; i < rts.length; i++) 
-				rts[i].color(RiText.randomColor()); */
-		
 			console.log(result);
+			
+			// Populate html elements
 			document.getElementById("ruohoreviews").innerHTML=result;
 			getHotttRating();
 		}
@@ -124,8 +103,10 @@
  		function getHotttRating()
  		{	 
  			// get a random Hottt artist rating
- 			document.getElementById("ruohorating").innerHTML="Ruoho Rating:" + 
- 															  Math.floor((Math.random()*100)) + ".";
+ 			document.getElementById("ruohorating").innerHTML="Ruoho Rating:  &nbsp;&nbsp;" + 
+ 															  Math.floor((Math.random()*100)) + 
+ 															  "." + 
+ 															  Math.floor((Math.random()*10));
  		}
 
 		</script>
@@ -159,7 +140,7 @@
 								<!-- Sidebar -->
 									<section>
 										<header>
-											<h2>Magna Phasellus</h2>
+											<h2>More</h2>
 										</header>
 										<ul class="link-list">
 											<li><a href="#">Sed dolore viverra</a></li>
@@ -171,11 +152,7 @@
 										</ul>
 									</section>
 									<section>
-										<header>
-											<h2></h2>
 											<p id="ruohorating" style="font-size: 24pt;">
-										</header>
-		
 									</section>
 
 							</div>
@@ -206,7 +183,8 @@
 									<h2>About Ruoho Reviews</h2>
 												<p>
 												As a label manager <a href="http://twitter.com/defchildmusic">@defchildmusic</a>, 
-												Ruoho wrote copy for artist profiles, featured releases, promo reviews, tweets, onesheets, 
+												<a href="http://defchild.com/artists/">Ruoho Ruotsi</a> wrote copy for artist profiles, 
+												featured releases, promo reviews, tweets, onesheets, 
 												blog posts & online commentary, amassing a prodigious collection of musical phrases,
 												idiomatic expressions and colourful constructions.
 												 
@@ -214,12 +192,10 @@
 												<a href="http://en.wikipedia.org/wiki/Context-free_grammar">context-free grammar</a> 
 												(<a href="https://github.com/dhowe/RiTa/">RiTa</a>) and "hottt" artist <a href="http://developer.echonest.com/docs/v4/artist.html#top-hottt">charts</a> 
 												are pulled down in realtime from <a href="http://developer.echonest.com">The Echo Nest</a>. 
-												Ruoho hopes these reviews will suggest new musical vistas, artist collaborations and perhaps 
-												garner a few chuckles. 
+												Ruoho hopes these reviews will suggest new musical vistas, creative possibilities, artist 
+												collaborations and perhaps garner a few chuckles. </p>
 												
-												<br/><br/>For entertainment purposes only.						
-												</p>
-
+												For entertainment purposes only.						
 						</div>
 						<div class="4u">
 							
@@ -241,7 +217,7 @@
 
 		<!-- Copyright -->
 			<div id="copyright">
-				&copy; 2013-2014 iroro orife. &nbsp;All rights reserved. &nbsp;| &nbsp;Design: <a href="http://html5up.net">HTML5 UP</a>
+				&copy; 2013-2014 iroro orife. &nbsp;All rights reserved. &nbsp;|&nbsp; Design: <a href="http://html5up.net">HTML5 UP</a>
 			</div>
 
 
