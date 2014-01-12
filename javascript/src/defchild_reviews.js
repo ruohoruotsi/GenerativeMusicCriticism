@@ -28,7 +28,8 @@ It <song-description-phrase>, yet its essence <song-description-phrase> | \
 The <time-adjective> <music-recording-noun> by <artist> <verb-phrase> <adverb> <genre-adjective>. \
 It <song-description-phrase>, yet its essence is <evocative-adjective> of music played in <city> during the <time> | \
 \
-The ascendent talent of <artist> is on display again this year, showing off <structure-description>, all while channelling <adverb> <genre-adjective> grooves and <adverb-time-terminal> <gerund-song-phrase> | \
+The ascendent talent of <artist> is on display again this year, showing off <structure-description>, all while channelling \
+<adverb> <genre-adjective> grooves and <adverb-time-terminal> <gerund-song-phrase> | \
 \
 Not many artists are this adept at wringing emotion from their laptops, yet the introductory track by \
 <artist> provides an instantly breathtaking blend of <structure-description> and <structure-description> | \
@@ -65,7 +66,7 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 
 "<gerund-song-phrase>": 	"marrying <genre> from the <time> with <structure-description> | \
 							meandering around a plucked melody that <verb-phrase-singular> |	\
-							altogether sounding like <artist> in a skank off, after inhaling a canister of nitrous oxide | \
+							sounding like <artist> in a skank off, after inhaling a canister of nitrous oxide | \
 							blurring the boundaries between <structure-description> and <structure-description> | \
 							eschewing the familiar palimpsest of credible <genre> <genre-noun> | \
 							injecting hints of <genre> patterns into <genre> | \
