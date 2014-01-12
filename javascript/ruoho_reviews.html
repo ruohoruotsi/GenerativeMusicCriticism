@@ -44,6 +44,7 @@
 		RiTa.p5Compatible(1);
 		var grammar, echonest; 
 		var currentArtist, hotttartists = [];
+		var numArtists = 50;
 		
 		var cachedArtistList = ['Moby', 'Donna Summer', 'Robbie Williams', 
 								'Pet Shop Boys', 'Prince', 'Sly and the Family Stone',
@@ -78,11 +79,16 @@
 		{
 			// Setup The echonest
 			echonest = new EchoNest("2VN1LKJEQUBPUKXEC"); // API key
-
+			
+			// perform an artist search using a search options hash
+			searchOptions = {
+				results: numArtists
+			};
+			
 			// What artists are currently "hottt" (Should return a hotttnesss but doesn't)
 			echonest.artist().top_hottt( function(topHotttCollection) {
 				hotttartists = topHotttCollection.data.artists;			
-			});
+			}, searchOptions);
 
 			grammar = new RiGrammar(reviewGrammar);
 			
@@ -110,8 +116,8 @@
 				return currentArtist;
 
 			} else {
-
-				var rand = Math.floor((Math.random()*15));
+				console.log(hotttartists.length);
+				var rand = Math.floor((Math.random()*numArtists));
 				currentArtist = hotttartists[rand].name;
 				return currentArtist;
 			}
