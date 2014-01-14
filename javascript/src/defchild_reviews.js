@@ -14,7 +14,7 @@ reviewGrammar = {
 The <artist-descriptive-noun> <artist-verb-past-tense> by <artist> <artist-description-phrase> | \
 \
 The <artist-descriptive-noun> <artist-verb-past-tense> by <artist> <join-phrase> <genre> with \
-<structure-description>, <evocative-adjective> of music played in <city> during the <time> | \
+<structure-description>, <evocative-adjective> of <time> music played in <city> | \
 \
 The <artist-descriptive-noun> <artist-verb-past-tense> by <artist> <join-phrase> <structure-description>, \
 <evocative-adjective> of the <time>, with <structure-description> | \
@@ -26,15 +26,15 @@ The <time-adjective> <music-recording-noun> by <artist> <verb-phrase> <adverb> <
 It <song-description-phrase>, yet its essence <song-description-phrase> | \
 \
 The <time-adjective> <music-recording-noun> by <artist> <verb-phrase> <adverb> <genre-adjective>. \
-It <song-description-phrase>, yet its essence is <evocative-adjective> of music played in <city> during the <time> | \
+It <song-description-phrase>, yet its essence is <evocative-adjective> of <time> music played in <city> | \
 \
 The ascendent talent of <artist> is on display again this year, showing off <structure-description>, all while channelling \
-<adverb> <genre-adjective> grooves and <adverb-time-terminal> <gerund-song-phrase> | \
+<adverb> <genre-adjective> grooves, <adverb-time-terminal> <gerund-song-phrase> | \
 \
 Not many artists are this adept at wringing emotion from their laptops, yet the introductory track by \
 <artist> provides an instantly breathtaking blend of <structure-description> and <structure-description> | \
 \
-<artist> and <artist> take on the <label> crew for another strictly limited pressing. The production <verb-phrase-singular> once again with a pair of sick twelve inches that <verb-phrase-plural>",
+<artist> and <artist> take on the <label> crew for another strictly limited vinyl pressing, a pair of sick twelve inches that <verb-phrase-plural>",
 
 "<artist>": 	"`getHotttArtists()`",
 
@@ -214,7 +214,7 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 							the synth drones of Klaus Schlze | \
 							the wind-chilled electronics of Thomas Koner | \
 							sumptuous Chicago reductions | \
-							chugging machinations steeped in the traditions of Scandinavian machine music | \
+							the chugging machinations steeped in the traditions of Scandinavian machine music | \
 							hazy washes of reverbed harps | \
 							rippling xylophonics |	 \
 							majestic cloud-like structures of droning synth tones | \
@@ -322,14 +322,14 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 
 "<time-period>": 	"early | late | mid",
 
-"<epoch>": 			"20th century | 19th century | 21st century | Medieval era | renaissance period |  \
-					baroque era | classical period | impressionist era | neo-impressionist period | romantic era |  \
-					futurist era | modernist period | postmodernist period | nouveau-realist era |  \
-					expressionist era | neo-expressionist period | atonal period | neo-surrealist era |  \
-					purist era | avant-minimalist era | post-luminist period | noveau-constructivist era |  \
-					lyrical abstractionist period | post-cynical meta-realist period | maximalist era |  \
-					vegan-deconstructivist era | modular constructivist period | subversive poussinist era |  \
-					organic abstractionist epoch",
+"<epoch>": 			"20th century | 19th century | 21st century | Medieval era | renaissance era |  \
+					baroque  | classical  | impressionist era | neo-impressionist  | romantic  |  \
+					futurist  | modernist  | postmodernist  | nouveau-realist  |  \
+					expressionist  | neo-expressionist  | atonal  | neo-surrealist  |  \
+					purist  | avant-minimalist  | post-luminist  | noveau-constructivist  |  \
+					lyrical abstractionist  | post-cynical meta-realist period | maximalist  |  \
+					vegan-deconstructivist  | modular constructivist  | subversive poussinist  |  \
+					organic abstractionist ",
 
 <!--"<adverb>":			"`getSynonyms(<adverb-terminal>, "r");` | <adverb-terminal", -->
 "<adverb>":				"<adverb-terminal> | <adverb-terminal>",
