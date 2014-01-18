@@ -17,7 +17,7 @@ The <artist-descriptive-noun> <artist-verb-past-tense> by <artist> <join-phrase>
 <structure-description>, <evocative-adjective> of <time> music played in <city> | \
 \
 The <artist-descriptive-noun> <artist-verb-past-tense> by <artist> <join-phrase> <structure-description> \
-with <structure-description> <evocative-adjective> of the <time> era| \
+with <structure-description> <evocative-adjective> of <time> era sounds| \
 \
 The <time-adjective> <music-recording-noun> by <artist> is <adverb> <genre-adjective>. \
 It <singular-subject-song-verb>, while <adverb-time-terminal> <gerund-song-phrase> | \
@@ -64,7 +64,7 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 "<adverb-terminal>": 	"brilliantly | astutely | adeptly | robustly | amazingly | carefully | inadequately | \
 						abstractly | absurdly | accidentally  | brightly",
 
-"<gerund-song-phrase>": 	"marrying <genre> from the <time> with <structure-description> | \
+"<gerund-song-phrase>": 	"marrying <genre> from the <time> period with <structure-description> | \
 							meandering around a plucked melody that <verb-phrase-singular> |	\
 							sounding like <artist> in a skank off, after inhaling a canister of nitrous oxide | \
 							blurring the boundaries between <structure-description> and <structure-description> | \
@@ -211,8 +211,8 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 							devastatingly heavy <genre> mutations | \
 							dadaist post-pop and <genre> | \
 							rousing mini-orchestral swells | \
-							the synth drones of Klaus Schlze | \
-							the wind-chilled electronics of Thomas Koner | \
+							the synth drones of Klaus Schulze | \
+							the wind-chilled electronics of Thomas Köner | \
 							sumptuous Chicago reductions | \
 							the chugging machinations steeped in the traditions of Scandinavian machine music | \
 							hazy washes of reverbed harps | \
@@ -363,7 +363,7 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 								\
 								has critics and fans alike, queuing up to drape compliments over it's shiny chassis | \
 								\
-								is a deep & dark tech-house number from the <time>, whose B-side dub remix, takes it even deeper, adding loads of effect throws, percussion solos and dramatic breakdowns | \
+								is a deep & dark tech-house number, whose B-side dub remix, takes it even deeper, adding loads of effect throws, percussion solos and dramatic breakdowns | \
 								\
 								is a deep & dark blues-house number from the <time>. It's ragingly infectious vocals are laced with moody blues guitar riffs, layers upon layers of percussion, hypnotizing filtered  stabs and the obligatory driving bass line | \
 								\
@@ -386,7 +386,9 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 								\
 								does not initially seem to be doing anything special, but the subtlety and intensity eventually worms its way into your heart",
 
-"<verb-phrase>":		"feels | sounds | strikes one as | comes across as | shows signs of being | resonates as",
+"<verb-phrase>":		"feels | sounds | strikes one as | comes across as | shows signs of being | \
+						resonates as | reverberates as | echoes as | tintinnabulates as |\
+						 | ",
 
 "<verb-phrase-singular>":	"floats in and out of your consciousness with a wool-lined ease | \
 							sits deeply in <adverb-terminal> smoky atmospherics | \
