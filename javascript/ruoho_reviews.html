@@ -40,7 +40,7 @@
 		//
 		//////////////////////////////////////////////////////////////////////////////////
 
-		RiTa.p5Compatible(1);
+		// RiTa.p5Compatible(1);
 		var grammar, echonest; 
 		var currentArtist, hotttartists = [];
 		var numArtists = 50;
@@ -70,6 +70,37 @@
 								'Recloose', 'Kate Simko', 'Aschka', 'Ikonika', 
 								'Maya Jane Coles'];
 								
+		var cachedAlbumList = ['Back with Homework', 'Greatest Hits (1999-2009)', 'The Lighter Side', 
+								'Dirty Twerking', 'Let\'s Talk', 'Dirty Little Pills',
+								'Afternoon Delighting', 'Cali Music Boxen', 'Gough & Franklin', 
+								'The Will', 'My Heart', 'Californication', 'Good', 'Super Theory',
+								'Sexy Chicas Locas', 'Off Probation', 'Milking Me Softly', 
+								'Give Me My Flowers', 'Against The World', 'Blunted', 
+								'Sweating The Techniques', 'Runaways', '909s & Heartache', 
+								'No Free Rides', 'Tripping on Bath Salts', 'Lies & Counterfeit',
+								'Uprightly Minded', 'Sub Bass Theory', 'Liquid Swords',
+								'Licensed In Chill', 'Twice Removed From Today',
+								'For Mars Above', 'Bridge of Sighs', 'City of Tears',
+								'Caravan To The Edge', 'Midnight On The Edge', 'A Hate Supreme',
+								'Karma Island', 'Crimson Edge', 'Who Came Next', 
+								'Highway 101', 'Aeros Over The Sea', 'Miami Calling',
+								'After Tonight', 'Crazy Horse', 'This is Nowhere', 
+								'Under A Groove', 'Down Stroke', 'Clone Soul', 
+								'Millions of Rubbers', 'Miseducation Banquet', 'Beggars Hill',
+								'Sticky Changes', 'Exile on Wall St.', 'Closing Time',
+								'Elevation', 'More Songs About Rabbits', 'Cosmic Rising',
+								'Silently Ashen', 'Here Comes The Warm Light', 
+								'Your Seduction', 'Closer Now', 'Oceanview', 'Just A Day',
+								'Aurora Borealis', 'Things Fall Apart Again', 'The Return',
+								'Unquestionable Doubt', 'Freedom Jazz', 'Postively Leptokurtic',
+								'Bramble Brambles', 'Dolores Tristes', 'Brilliant Deafness',
+								'Unified Fires', 'Astral Minds', 'Being Here', 'Vulgar Ambulance',
+								'Shut The F**k Up', 'Trout Face Paranoia', 'Toys From The Destruction',
+								'Pure Grit', 'Conveniently Dead', 'Fear Of Weasel Flesh',
+								'The Goodfinger Chronicles', 'My White Keyboard', 'Indigo',
+								'Ghost In The Club'];
+											
+								
 		// setup mouse-handling
 		window.onload = setup;
 		window.onmouseup = mouseClicked;
@@ -79,15 +110,13 @@
 			// Setup The echonest
 			echonest = new EchoNest("2VN1LKJEQUBPUKXEC"); // API key
 			
-			// perform an artist search using a search options hash
-			searchOptions = {
-				results: numArtists
-			};
-			
 			// What artists are currently "hottt" (Should return a hotttnesss but doesn't)
 			echonest.artist().top_hottt( function(topHotttCollection) {
 				hotttartists = topHotttCollection.data.artists;			
-			}, searchOptions);
+			}, {results: numArtists});
+
+			getHotttArtists();
+			getCurrentArtistImage();
 
 			grammar = new RiGrammar(reviewGrammar);
 			
@@ -98,12 +127,15 @@
 		function mouseClicked()
 		{
 			var result = grammar.expand();
-			console.log(result);
+			// console.log(result);
 			
 			// Populate html elements
 			document.getElementById("ruohoreviews").innerHTML=result;
+			
 			getHotttRating();
 			getCurrentArtist();
+			getCurrentArtistImage();
+			getAlbumName();
 		}
 
 		function getHotttArtists() // get a random Hottt artist
@@ -115,7 +147,8 @@
 				return currentArtist;
 
 			} else {
-				console.log(hotttartists.length);
+			
+				// console.log(hotttartists.length);
 				var rand = Math.floor((Math.random()*numArtists));
 				currentArtist = hotttartists[rand].name;
 				return currentArtist;
@@ -135,6 +168,24 @@
  		{	 
  			document.getElementById("reviewArtist").innerHTML = currentArtist;
  		}
+
+		function getCurrentArtistImage() 
+		{
+			// get a set of "Radiohead" artist images and output as a bunch of images to the page (limited to first five results)
+			echonest.artist(currentArtist).images( function(imageCollection) {
+				document.getElementById("artistImages").src = imageCollection.data.images[0].url;
+				console.log(imageCollection.data.images[0].url);
+			}, {results: 1});
+		}
+		
+		function getAlbumName() 
+		{
+				// console.log(cachedAlbumList.length);
+				var rand = Math.floor((Math.random()*87));
+				document.getElementById("reviewTitle").innerHTML = cachedAlbumList[rand];
+		}
+		
+
 
 		</script>
 
@@ -167,8 +218,10 @@
 								<!-- Sidebar -->
 									<section>
 										<header>
-											<h2>More</h2>
+											<h2 id="reviewArtist">Artist</h2>
 										</header>
+										<img id="artistImages" src="nothing.jpg" width="200"/>
+
 										<ul class="link-list">
 											<li><a href="#">Sed dolore viverra</a></li>
 											<li><a href="#">Ligula non varius</a></li>
@@ -184,8 +237,8 @@
 								<!-- Main Content -->
 									<section>
 										<header>
-											<h2 id="reviewArtist">Two Column #2</h2>
-											<h3 id="reviewSubtitle">Another generic two column layout</h3>
+											<h2 id="reviewTitle">Album Title</h2>
+											<h3 id="reviewSubtitle">Label and year</h3>
 										</header>
 										<p id="ruohoreviews" style="font-size: 24pt;"></p>
 									</section>
