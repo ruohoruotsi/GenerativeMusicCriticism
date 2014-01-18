@@ -16,8 +16,8 @@ The <artist-descriptive-noun> <artist-verb-past-tense> by <artist> <artist-descr
 The <artist-descriptive-noun> <artist-verb-past-tense> by <artist> <join-phrase> <genre> with \
 <structure-description>, <evocative-adjective> of <time> music played in <city> | \
 \
-The <artist-descriptive-noun> <artist-verb-past-tense> by <artist> <join-phrase> <structure-description>, \
-<evocative-adjective> of the <time>, with <structure-description> | \
+The <artist-descriptive-noun> <artist-verb-past-tense> by <artist> <join-phrase> <structure-description> \
+with <structure-description> <evocative-adjective> of the <time> era| \
 \
 The <time-adjective> <music-recording-noun> by <artist> is <adverb> <genre-adjective>. \
 It <singular-subject-song-verb>, while <adverb-time-terminal> <gerund-song-phrase> | \
@@ -198,7 +198,7 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
  	Waltz | Wassoulou | Western swing | Xhosa | Zarzuela (Spanish operetta) | Zeibekiko (Greek Dance 9/8 Rytmus) | \
  	Ziglibithy | Zolo (Hyper Bitchy rhythms) | Zouglou | Zouk  |  Zydeco",
 
-"<music-adjective-terminal>":	"sonic | artistic | inventive acousitc | creative | musical | innovative musical | original melodic | expressive acoustic | visionary sonic | \
+"<music-adjective-terminal>":	"sonic | artistic | inventive acoustic | creative | musical | innovative musical | original melodic | expressive acoustic | visionary sonic | \
 								enterprisingly musical | stylish sonic | elegant | exquisite musical",
 
 "<artist-descriptive-noun-terminal>": 	"talent | ferocity | courage | weight | cowardice | nerve | stoutheartedness | endowment | dauntlessness | savagery | genius | furiousness | violence | ornamentation | wildness | severeness | simplicity | accessibility | straightforwardness | comprehensibility | unpretentiousness | naturalness | clarity | spareness | austerity | effortlessness | affectation | pretentiousness | posturing | facade | mulishness | recalcitrance",
