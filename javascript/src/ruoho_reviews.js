@@ -4,6 +4,7 @@
 // V0.2 2013.01.15 (Javascript)
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 reviewGrammar = { 
 
 "<start>": "<artist-phrase>. | <artist-phrase>. <interjection>",
@@ -42,11 +43,10 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 
 "<artist-verb-past-tense>": "exhibited | displayed | manifested | shown | demonstrated | expressed ",
 
-"<interjection>": 	"Most crucial! | Excellent!	|  Astounding!	| Brilliant! | Hair-raising! | Mind-blowing! | \
-					Jaw-dropping! | Breathtaking! | Action-packed! | Rip-roaring! | Spine-tingling! | Gripping stuff! | Riveting! | \
-					Arousing! | Thrilling! | Exhilarating material! | Frankly intoxicating!! | Rousing material! | Electrifying! | \
-					Most-definitely heady!! | A masterpiece of composition! |  Miss out at your peril! | WOW. | Seriously? | \
-					Sweet baby cheeses!",
+"<interjection>": 	"This is a crucial release! | Most excellent! |  Utterly astounding! | Somewhat mind-blowing! | \
+					Jaw-dropping! | Breathtaking! | This is gripping sh*t! | Frankly intoxicating! | \
+					Rousing material! | Electrifying! | Most-definitely heady!! | A modern masterpiece of composition! | \
+					Miss out at your peril! | Seriously? | Wow! ",
 
 "<music-recording-noun>":	"12” wax | MP3 | home-made cassette | CD | album | 4-track cartridge | \
 							betamax| laserdisc | DVD-R | EP | ogg-vorbis download | maxi-single | Bandcamp release | \
@@ -273,7 +273,7 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 							sticky, wriggly electro influences | \
 							an alchemical blend of post-rave electronics | \
 							endlessly arpeggiated chords | \
-							drum machines left to run through pattern permutations for days | \
+							drum machines left to run for days through myriad pattern permutations | \
 							enunciated consonants and floppy fringe harmonies | \
 							hummable melodies and post-pop slacker tendencies | \
 							psychedelic rhythm manipulation |  \
@@ -328,7 +328,7 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 					expressionist  | neo-expressionist  | atonal  | neo-surrealist  |  \
 					purist  | avant-minimalist  | post-luminist  | noveau-constructivist  |  \
 					lyrical abstractionist  | post-cynical meta-realist period | maximalist  |  \
-					vegan-deconstructivist  | modular constructivist  | subversive poussinist  |  \
+					vegan-deconstructivist  | modular constructivist  | subversive |  \
 					organic abstractionist ",
 
 <!--"<adverb>":			"`getSynonyms(<adverb-terminal>, "r");` | <adverb-terminal", -->
@@ -388,7 +388,7 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 
 "<verb-phrase>":		"feels | sounds | strikes one as | comes across as | shows signs of being | \
 						resonates as | reverberates as | echoes as | tintinnabulates as |\
-						 | ",
+						gently throbs and is | softly palpitates, feeling | roars, suggesting a vibe that is",
 
 "<verb-phrase-singular>":	"floats in and out of your consciousness with a wool-lined ease | \
 							sits deeply in <adverb-terminal> smoky atmospherics | \
@@ -407,12 +407,6 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 };
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// A Context-Free grammar for Generative Music Criticism by iroro 
-// V0.1 2009.11.06 (Processing, unreleased)
-// V0.2 2013.01.15 (Javascript)
-//
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 labelYearGrammar = { 
 
 "<start>": "<label>, <year>",
@@ -425,4 +419,5 @@ labelYearGrammar = {
 					2013 | 2014 |2014 | 2014 | 2013 | 2014 | 2013 | 2014 | 2014 | \
 					2013 | 2014 | 2015 | 2015 | 2014"
 };
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
