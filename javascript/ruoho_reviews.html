@@ -41,7 +41,8 @@
 		//////////////////////////////////////////////////////////////////////////////////
 
 		// RiTa.p5Compatible(1);
-		var grammar, echonest; 
+		var reviewRiGrammar, labelyearRiGrammar;
+		var echonest; 
 		var currentArtist, hotttartists = [];
 		var numArtists = 50;
 		
@@ -105,6 +106,7 @@
 		window.onload = setup;
 		window.onmouseup = mouseClicked;
 
+		//////////////////////////////////////////////////////////////////////////////////
 		function setup()
 		{
 			// Setup The echonest
@@ -118,19 +120,24 @@
 			getHotttArtists();
 			getCurrentArtistImage();
 
-			grammar = new RiGrammar(reviewGrammar);
+			reviewRiGrammar = new RiGrammar(reviewGrammar);
+			labelyearRiGrammar = new RiGrammar(labelYearGrammar);
 			
 			mouseClicked();
 			console.log("Setup completed");
 		}
 
+
+		//////////////////////////////////////////////////////////////////////////////////
 		function mouseClicked()
 		{
-			var result = grammar.expand();
-			// console.log(result);
+			var aReview = reviewRiGrammar.expand();
+			var labelyear = labelyearRiGrammar.expand();
+			// console.log(aReview);
 			
 			// Populate html elements
-			document.getElementById("ruohoreviews").innerHTML=result;
+			document.getElementById("ruohoreviews").innerHTML = aReview;
+			document.getElementById("reviewSubtitle").innerHTML = labelyear;
 			
 			getHotttRating();
 			getCurrentArtist();
@@ -138,6 +145,7 @@
 			getAlbumName();
 		}
 
+		//////////////////////////////////////////////////////////////////////////////////
 		function getHotttArtists() // get a random Hottt artist
 		{	
 			if(hotttartists.length == 0) {
@@ -154,7 +162,9 @@
 				return currentArtist;
 			}
 		}
+
 		
+		//////////////////////////////////////////////////////////////////////////////////
  		function getHotttRating() // get a random Hottt artist rating
  		{	 
  			document.getElementById("ruohorating").innerHTML = 
@@ -163,12 +173,16 @@
  				"." + 
  				Math.floor((Math.random()*10));
  		}
+
  		
+		//////////////////////////////////////////////////////////////////////////////////
  		function getCurrentArtist() // get current artist
  		{	 
  			document.getElementById("reviewArtist").innerHTML = currentArtist;
  		}
 
+
+		//////////////////////////////////////////////////////////////////////////////////
 		function getCurrentArtistImage() 
 		{
 			// get a set of "Radiohead" artist images and output as a bunch of images to the page (limited to first five results)
@@ -178,11 +192,12 @@
 			}, {results: 1});
 		}
 		
+		//////////////////////////////////////////////////////////////////////////////////
 		function getAlbumName() 
 		{
-				// console.log(cachedAlbumList.length);
-				var rand = Math.floor((Math.random()*87));
-				document.getElementById("reviewTitle").innerHTML = cachedAlbumList[rand];
+			// console.log(cachedAlbumList.length);
+			var rand = Math.floor((Math.random()*87));
+			document.getElementById("reviewTitle").innerHTML = cachedAlbumList[rand];
 		}
 		
 
@@ -218,13 +233,13 @@
 								<!-- Sidebar -->
 									<section>
 										<header>
-											<h2 id="reviewArtist">Artist</h2>
+											<h2 id="reviewArtist" style="font-size: 30pt;">Artist</h2>
 										</header>
 										<img id="artistImages" src="nothing.jpg" width="200"/>
 
 										<ul class="link-list">
-											<li><a href="#">Sed dolore viverra</a></li>
-											<li><a href="#">Ligula non varius</a></li>
+											<li>Artist Link:</li>
+											<li>Shop @:</li>
 										</ul>
 									</section>
 									<section>

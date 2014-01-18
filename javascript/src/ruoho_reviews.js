@@ -404,3 +404,23 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 
 };
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// A Context-Free grammar for Generative Music Criticism by iroro 
+// V0.1 2009.11.06 (Processing, unreleased)
+// V0.2 2013.01.15 (Javascript)
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+labelYearGrammar = { 
+
+"<start>": "<label>, <year>",
+			
+"<label>": 			"Kompakt | Hyperdub | Tongut  | Soul Jazz | Strictly Rhythm | Defected | \
+					  Studio 1 | Nonesuch | Mille-Plateaux  | Force Inc. | Bpitch Control | \
+					  Shitkatapult | Warp | The Leaf | Kranky | Thoughtless Music | Unfoundsound",
+					  
+"<year>": 			"1984 | 1997 | 1999 | 2001 | 2003| 2008 | 2009 | 2011 | \
+					2013 | 2014 |2014 | 2014 | 2013 | 2014 | 2013 | 2014 | 2014 | \
+					2013 | 2014 | 2015 | 2015 | 2014"
+};
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
