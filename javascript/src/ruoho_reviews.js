@@ -323,7 +323,7 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 "<time-period>": 	"early | late | mid",
 
 "<epoch>": 			"20th century | 19th century | 21st century | Medieval era | renaissance era |  \
-					baroque  | classical  | impressionist era | neo-impressionist  | romantic  |  \
+					baroque  | classical  | impressionist | neo-impressionist  | romantic  |  \
 					futurist  | modernist  | postmodernist  | nouveau-realist  |  \
 					expressionist  | neo-expressionist  | atonal  | neo-surrealist  |  \
 					purist  | avant-minimalist  | post-luminist  | noveau-constructivist  |  \
