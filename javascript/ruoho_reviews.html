@@ -32,6 +32,15 @@
 		
 
 		<script type="text/javascript">
+		
+		// Twitter integration	
+		window.twttr = (function (d,s,id) {
+		  var t, js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+		  js.src="https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+		  return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+		}(document, "script", "twitter-wjs"));
+		
 
 		//////////////////////////////////////////////////////////////////////////////////
 		// A Context-Free grammar for Generative Music Criticism by iroro 
@@ -104,7 +113,7 @@
 								
 		// setup
 		window.onload = setup;
-		// window.onmouseup = mouseClicked;
+		window.onmouseup = mouseClicked;
 
 		//////////////////////////////////////////////////////////////////////////////////
 		function setup()
@@ -125,6 +134,26 @@
 			
 			mouseClicked();
 			console.log("Setup completed");
+			
+			/*
+			twttr.widgets.createShareButton(
+				'20',
+				document.getElementById('custom-tweet-button'),
+				function (el) {
+					console.log("Twitter share button created.")
+				},
+				{
+					count: 'none',
+					size: 'large',
+					text: document.getElementById("ruohoreviews").innerHTML + " #ruohoreviews"
+			 	}
+			);	*/	
+			
+			
+			document.getElementById('custom-tweet-button').addEventListener('click', function (el) {
+			  el.target.href = "https://twitter.com/intent/tweet?text=" + 
+			  	document.getElementById("ruohoreviews").innerHTML;
+			});	
 		}
 
 
@@ -143,6 +172,7 @@
 			getCurrentArtist();
 			getCurrentArtistImage();
 			getAlbumName();
+			
 		}
 
 		//////////////////////////////////////////////////////////////////////////////////
@@ -185,10 +215,13 @@
 		//////////////////////////////////////////////////////////////////////////////////
 		function getCurrentArtistImage() 
 		{
-			// get a set of "Radiohead" artist images and output as a bunch of images to the page (limited to first five results)
+			// get an artist images
 			echonest.artist(currentArtist).images( function(imageCollection) {
-				document.getElementById("artistImages").src = imageCollection.data.images[0].url;
-				console.log(imageCollection.data.images[0].url);
+			
+				if(imageCollection.data.images[0].url) {
+					document.getElementById("artistImages").src = imageCollection.data.images[0].url;
+					console.log(imageCollection.data.images[0].url);
+				}
 			}, {results: 1});
 		}
 		
@@ -200,8 +233,6 @@
 			document.getElementById("reviewTitle").innerHTML = cachedAlbumList[rand];
 		}
 		
-
-
 		</script>
 
 
@@ -235,17 +266,14 @@
 										<header>
 											<h2 id="reviewArtist" style="font-size: 30pt;">Artist</h2>
 										</header>
-										<img id="artistImages" src="nothing.jpg" width="200"/>
+										<img id="artistImages" src="" width="200"/>
 
 										<ul class="link-list">
 											<li>Artist Link:</li>
 											<li>Shop @:</li>
 										</ul>
+										<p id="ruohorating" style="font-size: 20pt;">
 									</section>
-									<section>
-											<p id="ruohorating" style="font-size: 24pt;">
-									</section>
-
 							</div>
 							<div class="9u skel-cell-important">
 								
@@ -255,19 +283,25 @@
 											<h2 id="reviewTitle">Album Title</h2>
 											<h3 id="reviewSubtitle">Label and year</h3>
 										</header>
-										<p id="ruohoreviews" style="font-size: 24pt;"></p>
-										</section>
 										
-										<section>
-										<p id="ruohoreviewssdfsd" style="font-size: 24pt;"><a href="https://twitter.com/intent/tweet?button_hashtag=ruohoreviews" class="twitter-hashtag-button" data-size="large" data-related="defchildmusic" data-dnt="true">Tweet #ruohoreviews</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
-									
-									<a href="https://twitter.com/intent/tweet?button_hashtag=TwitterStories" class="twitter-hashtag-button" data-related="ruohoreviews">Tweet #TwitterStories</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-									
-								<a href="#" class="button" onclick="mouseClicked()">Another review</a>
-
-							</section>
+										<p id="ruohoreviews" style="font-size: 24pt;"></p>
+										<!-- <a id="custom-tweet-button"></a> -->
+										
+										<style type="text/css" media="screen">
+										  #custom-tweet-button a {
+											display: block;
+											padding: 2px 5px 2px 20px;
+											background: url('https://twitter.com/favicons/favicon.ico') 1px center no-repeat;
+											// border: 1px solid #ccc;
+										  }
+										</style>
+ 
+										<div id="custom-tweet-button">
+										  <a href="https://twitter.com/intent/tweet">Tweet</a>
+										  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+										</div>
+										
+									</section>
 							</div>
 						</div>
 					</div>
