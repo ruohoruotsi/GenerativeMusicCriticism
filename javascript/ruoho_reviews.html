@@ -41,6 +41,15 @@
 		  return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
 		}(document, "script", "twitter-wjs"));
 		
+		$(document).ready(function(){
+				$('a[data-text]').each(function(){
+					// console.log($('#reviewArtist').html);
+					
+				  $(this).attr('data-text', "This works!");
+				});
+				$.getScript('http://platform.twitter.com/widgets.js');
+			});
+
 
 		//////////////////////////////////////////////////////////////////////////////////
 		// A Context-Free grammar for Generative Music Criticism by iroro 
@@ -135,25 +144,13 @@
 			mouseClicked();
 			console.log("Setup completed");
 			
-			/*
-			twttr.widgets.createShareButton(
-				'20',
-				document.getElementById('custom-tweet-button'),
-				function (el) {
-					console.log("Twitter share button created.")
-				},
-				{
-					count: 'none',
-					size: 'large',
-					text: document.getElementById("ruohoreviews").innerHTML + " #ruohoreviews"
-			 	}
-			);	*/	
-			
-			
+			/*		
 			document.getElementById('custom-tweet-button').addEventListener('click', function (el) {
 			  el.target.href = "https://twitter.com/intent/tweet?text=" + 
 			  	document.getElementById("ruohoreviews").innerHTML;
 			});	
+			*/
+			
 		}
 
 
@@ -171,8 +168,9 @@
 			getHotttRating();
 			getCurrentArtist();
 			getCurrentArtistImage();
-			getAlbumName();
+			getAlbumName();	
 			
+			//console.log(document.getElementById("ruohotweet"));
 		}
 
 		//////////////////////////////////////////////////////////////////////////////////
@@ -292,14 +290,21 @@
 											display: block;
 											padding: 2px 5px 2px 20px;
 											background: url('https://twitter.com/favicons/favicon.ico') 1px center no-repeat;
-											// border: 1px solid #ccc;
 										  }
 										</style>
  
+ 										<!--
 										<div id="custom-tweet-button">
 										  <a href="https://twitter.com/intent/tweet">Tweet</a>
-										  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-										</div>
+										</div> -->
+										
+
+									<a href="http://twitter.com/share"
+										class="twitter-share-button"
+										data-text="This is what we want to change dynamically"
+										data-count="none" data-via="chris_camps">Tweet</a>
+									<!-- moved to the js above <script type="text/javascript"
+										src="http://platform.twitter.com/widgets.js"></script> -->
 										
 									</section>
 							</div>
