@@ -29,11 +29,14 @@ It <song-description-phrase>, yet its essence <song-description-phrase> | \
 The <time-adjective> <music-recording-noun> by <artist> <verb-phrase> <adverb> <genre-adjective>. \
 It <song-description-phrase>, yet its essence is <evocative-adjective> of <time> music played in <city> | \
 \
-The ascendent talent of <artist> is on display again this year, showing off <structure-description>, all while channelling \
+The ascendent talent of <artist> is on display again this year, showing off <structure-description>, channelling \
 <adverb> <genre-adjective> grooves, <adverb-time-terminal> <gerund-song-phrase> | \
 \
+The songwriting <artist-descriptive-noun-terminal> <artist-verb-past-tense> by <artist> raises the biggest goosebumps, showing off <structure-description>, \
+dwarfing the <structure-description> of many better known artists| \
+\
 Not many artists are this adept at wringing emotion from their laptops, yet the introductory track by \
-<artist> provides an instantly breathtaking blend of <structure-description> and <structure-description> | \
+<artist> breathtakingly blends <structure-description> and <structure-description> | \
 \
 <artist> and <artist> take on the <label> crew for another strictly limited vinyl pressing, a pair of sick twelve inches that <verb-phrase-plural>",
 
@@ -152,7 +155,7 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 
 "<genre>": "Future Samba | Fonk Arabic | Digital Zulu | 2-step garage  | 8-bit | A-cappella  | \
  	Acid Jazz | Acid Rock | Afrobeat  | Nigerian Apala  | Arabesque | Avant-garde jazz  | Avant-garde metal  | \
- 	Avant-punk | Bachata  | Baile Funk | Balinese Gamelan  | Ballet  | Bamboo band  | Bambuco  | Baroque  | Miami bass | Booty bass | Batucada  | \
+ 	Avant-punk | Bachata  | Baile Funk | Balinese Gamelan  | Ballet  | Bambuco  | Baroque  | Miami bass | Booty bass | Batucada  | \
  	Beatboxing  | Bebop  | Bhangra  | Bhangragga | Bhangramuffin | Big Beat | \
  	Bluegrass  | Blues  |  Bitpop  | Bocet | Bohemian Dub  | Boi  | Bolero  | Bomba | \
  	Bombay pop | Bongo  |  Bossa nova |  Breakbeat  | Breakcore  |  Britfunk |  Britpop | Broken beat  | \
@@ -203,7 +206,13 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 "<music-adjective-terminal>":	"sonic | artistic | inventive acoustic | creative | musical | innovative musical | original melodic | expressive acoustic | visionary sonic | \
 								enterprisingly musical | stylish sonic | elegant | exquisite musical",
 
-"<artist-descriptive-noun-terminal>": 	"talent | ferocity | courage | weight | cowardice | nerve | stoutheartedness | endowment | dauntlessness | savagery | genius | furiousness | violence | ornamentation | wildness | severeness | simplicity | accessibility | straightforwardness | comprehensibility | unpretentiousness | naturalness | clarity | spareness | austerity | effortlessness | affectation | pretentiousness | posturing | facade | mulishness | recalcitrance",
+"<artist-descriptive-noun-terminal>": 	"talent | ferocity | courage | charisma | weight | cowardice | nerve | \
+										 stoutheartedness | endowment | dauntlessness | savagery | genius | \
+										 furiousness | violence |  wildness | severeness | \
+										 simplicity | accessibility | straightforwardness | comprehensibility | \
+										 unpretentiousness | naturalness | clarity | spareness | austerity | \
+										 effortlessness | affectation | pretentiousness | posturing | \
+										 mulishness | recalcitrance",
 
 "<structure-description>":	"European technical execution | \
 							slinking garage syncopations | \
@@ -303,11 +312,13 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 							tortured saxophone emissions | \
 							dramatic percussive interjections | \
 							shuffling, '60s West Coast sounds | \
-							magnificently evocative and mercilessly deep, tweaked out, post-rave ecstasy | \
-							cassette tape overdubs, early handmade experiments | \
+							magnificently evocative, mercilessly deep, tweaked out, post-rave ecstasy | \
+							cassette tape overdubs | \
+							early handmade experiments | \
 							inimitably raw, psychedelic wow-and-flutter beats | \
 							acid house effusions turned hardcore breakbeat | \
-							breakneck tempos and spleen-crushing bass | \
+							spleen-crushing bass | \
+							breakneck tempos | \
 							steely, speaker-destroying dub techno | \
 							shuddering, breakbeat-fueled <genre> | \
 							dark careening tones from bright, queasy synthesizers | \
@@ -317,7 +328,8 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 							bass frequencies turned to jellied slush | \
 							hazily buoyant, ethereal female vocals | \
 							blistering breakbeats gatecrashing your earlobes | \
-							flanged beats, delayed bleeps and massively modulated vocal treatments",
+							flanged beats, delayed bleeps | \
+							massively modulated vocal treatments",
 
 "<artist-description-phrase>": 	"<adverb> defies categorisation | \
 								demonstrates an innate grasp of the sublime qualities of <genre>  | \
