@@ -87,6 +87,8 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 							skittering post-Autechre beat deconstructions | \
 							exhibiting tearjerking, suckerpunching, piano-meets-strings melancholy | \
 							dripping with endless reverb and delay manipulation | \
+							trawling the depths of vinyl's pockmarked grooves | \
+							collapsing beneath the dead-eyed twinkle of the disco ball | \
 							exhibiting an intensely overbearing darkness, covered by a fuzzy thicket of layered drones",
 
 "<genre-noun>": "landscapes | ephemera | futurism | classicism | sensibilities",
@@ -209,7 +211,6 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 							dense analogue experiments | \
 							digitally dissected orchestral figures | \
 							devastatingly heavy <genre> mutations | \
-							dadaist post-pop and <genre> | \
 							rousing mini-orchestral swells | \
 							the synth drones of Klaus Schulze | \
 							the wind-chilled electronics of Thomas Köner | \
@@ -223,7 +224,7 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 							waves of static | \
 							spherical bell tones | \
 							sea-sick rhythms | \
-							an assortment of disembodied voices | \
+							assorted disembodied voices | \
 							expertly manipulated rhythm alchemy  | \
 							beautifully tempered zones of twilight ambient  | \
 							reverberant, quivering sustains | \
@@ -239,6 +240,7 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 							oblique hi-end processing | \
 							utterly sick digital spasms | \
 							unfathomably complex textures | \
+							unfathomably deep, utterly sick, dubwise textures | \
 							layered spaciousness | \
 							intricately funked syncopations edging on the territory of Autechre or Alva Noto | \
 							dense thickets of digitally applied crackle | \
@@ -261,6 +263,8 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 							a fragrant, bubblegum flavoured ditty | \
 							a veritable haberdashery of exquisitely vintage musical textures | \
 							a Flying Lotus-style bass reduction |  \
+							a dense, effulgent piece of faux-romantic orchestral syrup | \
+							an indisposable slice of <genre> delectability | \
 							distorted crescendos and electronic squiggles | \
 							hi-scoring aquakrunk madness | \
 							layered embers of sound | \
@@ -292,7 +296,28 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
  							glacially paced gothic stoner rock | \
 							heavy rolling dancehall grinders |  \
 							orchestral level pomp and bombast |  \
-							seriously dextrous rhythm section arrangements",
+							seriously dextrous rhythm section arrangements | \
+							soporific ambiences | \
+							dexterous skanking movements | \
+							vintage radio sonic essences infected with malaria from a pre-digital era | \
+							tortured saxophone emissions | \
+							dramatic percussive interjections | \
+							shuffling, '60s West Coast sounds | \
+							magnificently evocative and mercilessly deep, tweaked out, post-rave ecstasy | \
+							cassette tape overdubs, early handmade experiments | \
+							inimitably raw, psychedelic wow-and-flutter beats | \
+							acid house effusions turned hardcore breakbeat | \
+							breakneck tempos and spleen-crushing bass | \
+							steely, speaker-destroying dub techno | \
+							shuddering, breakbeat-fueled <genre> | \
+							dark careening tones from bright, queasy synthesizers | \
+							uncharacteristically spry tempos | \
+							haunted melancholy | \
+							flickering syncopations | \
+							bass frequencies turned to jellied slush | \
+							hazily buoyant, ethereal female vocals | \
+							blistering breakbeats gatecrashing your earlobes | \
+							flanged beats, delayed bleeps and massively modulated vocal treatments",
 
 "<artist-description-phrase>": 	"<adverb> defies categorisation | \
 								demonstrates an innate grasp of the sublime qualities of <genre>  | \
