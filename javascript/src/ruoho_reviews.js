@@ -29,8 +29,7 @@ It <song-description-phrase>, yet its essence <song-description-phrase> | \
 The <time-adjective> <music-recording-noun> by <artist> <verb-phrase> <adverb> <genre-adjective>. \
 It <song-description-phrase>, yet its essence is <evocative-adjective> of <time> music played in <city> | \
 \
-The ascendent talent of <artist> is on display again this year, showing off <structure-description>, channelling \
-<adverb> <genre-adjective> grooves, <adverb-time-terminal> <gerund-song-phrase> | \
+The ascendent talent of <artist> is on display again this year, showing off <structure-description>, all while <adverb-time-terminal> <gerund-song-phrase> | \
 \
 The songwriting <artist-descriptive-noun-terminal> <artist-verb-past-tense> by <artist> raises the biggest goosebumps, showing off <structure-description>, \
 dwarfing the <structure-description> of many better known artists| \
