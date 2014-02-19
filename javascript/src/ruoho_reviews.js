@@ -48,7 +48,7 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 "<interjection>": 	"This is a crucial release! | Most excellent! |  Utterly astounding! | Somewhat mind-blowing! | \
 					Jaw-dropping! | Breathtaking! | This is gripping sh*t! | Frankly intoxicating! | \
 					Rousing material! | Electrifying! | Most-definitely heady!! | A modern masterpiece of composition! | \
-					Miss out at your peril! | Seriously? | Wow! ",
+					Miss out at your peril! | Seriously? | Wow! | They mean it, maaaan",
 
 "<music-recording-noun>":	"12” wax | MP3 | home-made cassette | CD | album | 4-track cartridge | \
 							betamax| laserdisc | DVD-R | EP | ogg-vorbis download | maxi-single | Bandcamp release | \
