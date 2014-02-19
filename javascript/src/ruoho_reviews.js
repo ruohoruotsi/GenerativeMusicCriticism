@@ -34,6 +34,9 @@ The ascendent talent of <artist> is on display again this year, showing off <str
 The songwriting <artist-descriptive-noun-terminal> <artist-verb-past-tense> by <artist> raises the biggest goosebumps, showing off <structure-description>, \
 dwarfing the <structure-description> of many better known artists| \
 \
+The <artist-descriptive-noun> <artist-verb-past-tense> by <artist> tenuously welds a growing amalgam of \
+contradictions and genre experiments with a veneer of schtick, persona and Fonzie cool | \
+\
 Not many artists are this adept at wringing emotion from their laptops, yet the introductory track by \
 <artist> breathtakingly blends <structure-description> and <structure-description> | \
 \
