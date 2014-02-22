@@ -20,7 +20,7 @@ The <artist-descriptive-noun> <artist-verb-past-tense> by <artist> <join-phrase>
 The <artist-descriptive-noun> <artist-verb-past-tense> by <artist> <join-phrase> <structure-description> \
 with <structure-description> <evocative-adjective> of <time> era sounds| \
 \
-The <time-adjective> <music-recording-noun> by <artist> is <adverb> <genre-adjective>. \
+The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>. \
 It <singular-subject-song-verb>, while <adverb-time-terminal> <gerund-song-phrase> | \
 \
 The <time-adjective> <music-recording-noun> by <artist> <verb-phrase> <adverb> <genre-adjective>. \
@@ -29,10 +29,11 @@ It <song-description-phrase>, yet its essence <song-description-phrase> | \
 The <time-adjective> <music-recording-noun> by <artist> <verb-phrase> <adverb> <genre-adjective>. \
 It <song-description-phrase>, yet its essence is <evocative-adjective> of <time> music played in <city> | \
 \
-The ascendent talent of <artist> is on display again this year, showing off <structure-description>, all while <adverb-time-terminal> <gerund-song-phrase> | \
+The ascendent talent of <artist> is on display again this year, showing off <structure-description>, \
+all while <adverb-time-terminal> <gerund-song-phrase> | \
 \
-The songwriting <artist-descriptive-noun-terminal> <artist-verb-past-tense> by <artist> raises the biggest goosebumps, showing off <structure-description>, \
-dwarfing the <structure-description> of many better known artists| \
+The songwriting <artist-descriptive-noun-terminal> <artist-verb-past-tense> by <artist> raises the biggest \
+goosebumps, showing off <structure-description>, dwarfing the <structure-description> of many better known artists | \
 \
 The <artist-descriptive-noun> <artist-verb-past-tense> by <artist> tenuously welds a growing amalgam of \
 contradictions and genre experiments with a veneer of schtick, persona and Fonzie cool | \
@@ -57,7 +58,7 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 							betamax| laserdisc | DVD-R | EP | ogg-vorbis download | maxi-single | Bandcamp release | \
 							ambisonic release | limited edition | remastered EP | white-label | unofficial release | \
 							back-to-mine compilation | Soundcloud (teaser clip) | promo | youtube video | 7” vinyl | box set | \
-							Mixcloud set | (new) myspace track | unplugged session | live webcast | music video",
+							Mixcloud set | Myspace track | unplugged session | live webcast | music video",
 
 "<time-adjective>":	"latest | most recent | newest | current | currently charting | recently dropped",
 
