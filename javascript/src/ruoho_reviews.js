@@ -9,25 +9,7 @@ reviewGrammar = {
 
 "<start>": "<artist-phrase>. | <artist-phrase>. <interjection>",
 
-"<artist-phrase>": "The forthcoming <music-recording-noun> by <artist> taps into a delicate, \
-<genre-adjective> corner of the musical universe, all while <adverb-time-terminal> <gerund-song-phrase> | \
-\
-The <artist-descriptive-noun> <artist-verb-past-tense> by <artist> <artist-description-phrase> | \
-\
-The <artist-descriptive-noun> <artist-verb-past-tense> by <artist> <join-phrase> <genre> with \
-<structure-description>, <evocative-adjective> of <time> music played in <city> | \
-\
-The <artist-descriptive-noun> <artist-verb-past-tense> by <artist> <join-phrase> <structure-description> \
-with <structure-description> <evocative-adjective> of <time> era sounds| \
-\
-The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>. \
-It <singular-subject-song-verb>, while <adverb-time-terminal> <gerund-song-phrase> | \
-\
-The <time-adjective> <music-recording-noun> by <artist> <verb-phrase> <adverb> <genre-adjective>. \
-It <song-description-phrase>, yet its essence <song-description-phrase> | \
-\
-The <time-adjective> <music-recording-noun> by <artist> <verb-phrase> <adverb> <genre-adjective>. \
-It <song-description-phrase>, yet its essence is <evocative-adjective> of <time> music played in <city> | \
+"<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | \
 \
 The ascendent talent of <artist> is on display again this year, showing off <structure-description>, \
 all while <adverb-time-terminal> <gerund-song-phrase> | \
@@ -35,14 +17,40 @@ all while <adverb-time-terminal> <gerund-song-phrase> | \
 The songwriting <artist-descriptive-noun-terminal> <artist-verb-past-tense> by <artist> raises the biggest \
 goosebumps, showing off <structure-description>, dwarfing the <structure-description> of many better known artists | \
 \
-The <artist-descriptive-noun> <artist-verb-past-tense> by <artist> tenuously welds a growing amalgam of \
-contradictions and genre experiments with a veneer of schtick, persona and Fonzie cool | \
-\
 Not many artists are this adept at wringing emotion from their laptops, yet the introductory track by \
 <artist> breathtakingly blends <structure-description> and <structure-description> | \
 \
 <artist> and <artist> take on the <label> crew for another strictly limited vinyl pressing, a pair of sick twelve inches that <verb-phrase-plural>",
 
+///////  
+"<artist-descriptive-phrase>": "\
+		\
+		The <artist-descriptive-noun> <artist-verb-past-tense> by <artist> <artist-description-phrase> | \
+		\
+		The <artist-descriptive-noun> <artist-verb-past-tense> by <artist> <join-phrase> <genre> with \
+		<structure-description>, <evocative-adjective> of <time> music played in <city> | \
+		\
+		The <artist-descriptive-noun> <artist-verb-past-tense> by <artist> <join-phrase> <structure-description> \
+		with <structure-description> <evocative-adjective> of <time> era sounds| \
+		\
+		The <artist-descriptive-noun> <artist-verb-past-tense> by <artist> tenuously welds a growing amalgam of \
+		contradictions and genre experiments with a veneer of schtick, persona and Fonzie cool",
+		
+"<music-recording-phrase>": "\
+		\
+		The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>. \
+		It <singular-subject-song-verb>, while <adverb-time-terminal> <gerund-song-phrase> | \
+		\
+		The <time-adjective> <music-recording-noun> by <artist> <verb-phrase> <adverb> <genre-adjective>. \
+		It <song-description-phrase>, yet its essence <song-description-phrase> | \
+		\
+		The <time-adjective> <music-recording-noun> by <artist> <verb-phrase> <adverb> <genre-adjective>. \
+		It <song-description-phrase>, yet its essence is <evocative-adjective> of <time> music played in <city> | \
+		\
+		The <time-adjective> <music-recording-noun> by <artist> taps into a delicate, \
+		<genre-adjective> corner of the musical universe, all while <adverb-time-terminal> <gerund-song-phrase>",		
+
+		
 "<artist>": 	"`getHotttArtists()`",
 
 "<artist-descriptive-noun>": "<music-adjective-terminal> <artist-descriptive-noun-terminal>",
@@ -60,7 +68,7 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 							back-to-mine compilation | Soundcloud (teaser clip) | promo | youtube video | 7” vinyl | box set | \
 							Mixcloud set | Myspace track | unplugged session | live webcast | music video",
 
-"<time-adjective>":	"latest | most recent | newest | current | currently charting | recently dropped",
+"<time-adjective>":	"latest | most recent | newest | current | currently charting | recently dropped | forthcoming",
 
 "<genre-adjective>": 	"quotidian | commonplace | slippery | fragmented | punctured | wispy | atmospheric | \
 						smudged | obscure  | delicate | exquisite | silky and sweet | unsteady | fractured | \
@@ -378,7 +386,7 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 						inadequately | abstractly | absurdly | accidentally  | brightly",
 
 "<adverb-time-terminal>":	"occasionally | sporadically | infrequently | periodically | \
-							irregularly | intermittently | frequently | repeatedly | continually | recurrently",
+							irregularly | intermittently | frequently | repeatedly | recurrently",
 
 "<song-description-phrase>":	"<adverb> defies categorisation | \
 								slides out a <genre-adjective> groove of immense proportions | \
