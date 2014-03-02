@@ -9,18 +9,19 @@ reviewGrammar = {
 
 "<start>": "<artist-phrase>. | <artist-phrase>. <interjection>",
 
+///////  
 "<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | \
-\
-The ascendent talent of <artist> is on display again this year, showing off <structure-description>, \
-all while <adverb-time-terminal> <gerund-song-phrase> | \
-\
-The songwriting <artist-descriptive-noun-terminal> <artist-verb-past-tense> by <artist> raises the biggest \
-goosebumps, showing off <structure-description>, dwarfing the <structure-description> of many better known artists | \
-\
-Not many artists are this adept at wringing emotion from their laptops, yet the introductory track by \
-<artist> breathtakingly blends <structure-description> and <structure-description> | \
-\
-<artist> and <artist> take on the <label> crew for another strictly limited vinyl pressing, a pair of sick twelve inches that <verb-phrase-plural>",
+		\
+		The ascendent talent of <artist> is on display again this year, showing off <structure-description>, \
+		all while <adverb-time-terminal> <gerund-song-phrase> | \
+		\
+		The songwriting <artist-descriptive-noun-terminal> <artist-verb-past-tense> by <artist> raises the biggest \
+		goosebumps, showing off <structure-description>, dwarfing the <structure-description> of many better known artists | \
+		\
+		Not many artists are this adept at wringing emotion from their laptops, yet the introductory track by \
+		<artist> breathtakingly blends <structure-description> and <structure-description> | \
+		\
+		<artist> and <artist> take on the <label> crew for another strictly limited vinyl pressing, a pair of sick twelve inches that <verb-phrase-plural>",
 
 ///////  
 "<artist-descriptive-phrase>": "\
@@ -35,7 +36,8 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 		\
 		The <artist-descriptive-noun> <artist-verb-past-tense> by <artist> tenuously welds a growing amalgam of \
 		contradictions and genre experiments with a veneer of schtick, persona and Fonzie cool",
-		
+
+///////  		
 "<music-recording-phrase>": "\
 		\
 		The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>. \
@@ -269,6 +271,7 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 							hyper-prismic agitated synthlines | \
 							spectrally sifted electronics | \
 							alien analogue tones |  \
+							rising, haunting strings | \
 							a pure, transcendental rave feeling | \
 							a bubbly pop appreciation | \
 							a mindblowing dubscape of effects | \
@@ -340,6 +343,7 @@ Not many artists are this adept at wringing emotion from their laptops, yet the 
 							hazily buoyant, ethereal female vocals | \
 							blistering breakbeats gatecrashing your earlobes | \
 							flanged beats, delayed bleeps | \
+							pure Balearic house bliss | \
 							massively modulated vocal treatments",
 
 "<artist-description-phrase>": 	"<adverb> defies categorisation | \
