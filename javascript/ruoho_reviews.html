@@ -2,6 +2,8 @@
 <!--
 	Based on Halcyonic 3.1 by HTML5 UP html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	
+	developed by iroro orife, 2013-2014
 -->
 <html>
 
@@ -135,7 +137,10 @@
 			
 			// What artists are currently "hottt" (Should return a hotttnesss but doesn't)
 			echonest.artist().top_hottt( function(topHotttCollection) {
-				hotttartists = topHotttCollection.data.artists;			
+				
+				hotttartists = topHotttCollection.data.artists;	
+				// console.log(topHotttCollection.data.artists);
+						
 			}, {results: numArtists});
 
 			getHotttArtists();
@@ -172,8 +177,9 @@
 			getCurrentArtist();
 			getCurrentArtistImage();
 			getAlbumName();	
+			getCurrentArtistTwitterURL();
 			
-			//console.log(document.getElementById("ruohotweet"));
+			// console.log(document.getElementById("ruohotweet"));
 		}
 
 		//////////////////////////////////////////////////////////////////////////////////
@@ -221,7 +227,7 @@
 			
 				if(imageCollection.data.images[0].url) {
 					document.getElementById("artistImages").src = imageCollection.data.images[0].url;
-					console.log(imageCollection.data.images[0].url);
+					// console.log(imageCollection.data.images[0].url);
 				}
 			}, {results: 1});
 		}
@@ -233,10 +239,45 @@
 			var rand = Math.floor((Math.random()*87));
 			document.getElementById("reviewTitle").innerHTML = cachedAlbumList[rand];
 		}
+
+		//////////////////////////////////////////////////////////////////////////////////
+		function getCurrentArtistTwitterURL() 
+		{			
+			echonest.artist(currentArtist).urls( function(urlsCollection) {
+				
+				var link = urlsCollection.data.urls["twitter_url"];
+				
+				if(!link) {		
+					link =  urlsCollection.data.urls["wikipedia_url"];
+				}
+				if(!link) {	
+					link =  urlsCollection.data.urls["myspace_url"];
+				}
+				if(!link) {	
+					link =  urlsCollection.data.urls["lastfm_url"];
+				}				
+				if(!link) {	
+					link =  urlsCollection.data.urls["official_url"];
+				}				
+				if(!link) {	
+					link =  urlsCollection.data.urls["mb_url"];
+				}				
+				if(!link) {	
+					link =  "";
+				}
+				
+								
+				document.getElementById("artistTwitter").innerHTML = link;
+				
+				console.log(urlsCollection.data.urls);
+				// console.log(urlsCollection.data.urls["twitter_url"]);
+			});
+		}
 		
 		</script>
 
 
+		
 		<!-- Header -->
 			<div id="header-wrapper">
 				<header id="header" class="container">
@@ -270,8 +311,8 @@
 										<img id="artistImages" src="" width="200"/>
 
 										<ul class="link-list">
-											<li>Artist Link:</li>
-											<li>Shop @:</li>
+											<li id="artistTwitter">Twitter</li>
+											<li>Videos:</li>
 										</ul>
 										<p id="ruohorating" style="font-size: 20pt;">
 									</section>		
