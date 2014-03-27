@@ -245,7 +245,6 @@
 		{			
 			echonest.artist(currentArtist).urls( function(urlsCollection) {
 				
-							
 				var a = document.getElementById('artistTwitter');
 
 				var link = urlsCollection.data.urls["twitter_url"];
@@ -271,14 +270,10 @@
 					link =  urlsCollection.data.urls["official_url"];
 					a.title = "Official Website";
 					a.innerHTML = "Artist Website";															
-				}				
-				if(!link) {	
-					link =  urlsCollection.data.urls["mb_url"];
-					a.title = "MB_what_is_this";
-					a.innerHTML = "Artist MB??";																				
-				}				
+				}							
 				if(!link) {	
 					link =  " ";
+					a.innerHTML = " ";	
 				}
 				
 				// innerHTML
