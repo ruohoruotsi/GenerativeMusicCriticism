@@ -245,29 +245,44 @@
 		{			
 			echonest.artist(currentArtist).urls( function(urlsCollection) {
 				
+							
+				var a = document.getElementById('artistTwitter');
+
 				var link = urlsCollection.data.urls["twitter_url"];
+				a.title = "Twitter";
+				a.innerHTML = "Artist Twitter";
 				
 				if(!link) {		
 					link =  urlsCollection.data.urls["wikipedia_url"];
+					a.title = "Wikipedia";
+					a.innerHTML = "Artist Wikipedia";
 				}
 				if(!link) {	
 					link =  urlsCollection.data.urls["myspace_url"];
+					a.title = "Myspace";
+					a.innerHTML = "Artist Myspace";					
 				}
 				if(!link) {	
 					link =  urlsCollection.data.urls["lastfm_url"];
+					a.title = "LastFM";
+					a.innerHTML = "Artist LastFM";										
 				}				
 				if(!link) {	
 					link =  urlsCollection.data.urls["official_url"];
+					a.title = "Official Website";
+					a.innerHTML = "Artist Website";															
 				}				
 				if(!link) {	
 					link =  urlsCollection.data.urls["mb_url"];
+					a.title = "MB_what_is_this";
+					a.innerHTML = "Artist MB??";																				
 				}				
 				if(!link) {	
-					link =  "";
+					link =  " ";
 				}
 				
-								
-				document.getElementById("artistTwitter").innerHTML = link;
+				// innerHTML
+				a.href = link;
 				
 				console.log(urlsCollection.data.urls);
 				// console.log(urlsCollection.data.urls["twitter_url"]);
@@ -311,7 +326,7 @@
 										<img id="artistImages" src="" width="200"/>
 
 										<ul class="link-list">
-											<li id="artistTwitter">Twitter</li>
+											<li><a href="" id="artistTwitter">Artist Info</a></li>
 											<li>Videos:</li>
 										</ul>
 										<p id="ruohorating" style="font-size: 20pt;">
