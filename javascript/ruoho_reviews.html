@@ -67,6 +67,7 @@
 		var echonest; 
 		var currentArtist, hotttartists = [];
 		var numArtists = 50;
+		var numCachedArtists = 80;
 		
 		var cachedArtistList = ['Moby', 'Donna Summer', 'Robbie Williams', 
 								'Pet Shop Boys', 'Prince', 'Sly and the Family Stone',
@@ -75,7 +76,7 @@
 								'Led Zeppelin', 'Pink Floyd', 'Rihanna', 'Tina Turner',
 								'Johnny Hallyday', 'Gloria Estefan', 'Tupac Shakur', 
 								'Depeche Mode', 'Björk', 'Daft Punk', 'Aphex Twin', 
-								'Prodigy', 'Gold Chains', 'Kraftwerk', 'Massive Attack',
+								'Prodigy', 'Kraftwerk', 'Massive Attack',
 								'DJ Shadow', 'Radiohead', 'The Orb', 'Jean-Michel Jarre',
 								'Röyksopp', 'LCD Soundsystem', 'Faithless', 'Ruoho Ruotsi',
 								'Ratatat', 'Postal Service', 'Wilco', 'The Avett Brothers',
@@ -185,18 +186,27 @@
 		//////////////////////////////////////////////////////////////////////////////////
 		function getHotttArtists() // get a random Hottt artist
 		{	
+			var randCachedArtist = Math.floor((Math.random()*numCachedArtists));
+
 			if(hotttartists.length == 0) {
 
-				var rand = Math.floor((Math.random()*80));
-				currentArtist = cachedArtistList[rand];
+				currentArtist = cachedArtistList[randCachedArtist];
 				return currentArtist;
 
 			} else {
-			
-				// console.log(hotttartists.length);
-				var rand = Math.floor((Math.random()*numArtists));
-				currentArtist = hotttartists[rand].name;
-				return currentArtist;
+
+				var useCharts= Math.floor(Math.random()*2); // binary choice of RR faves or charts!
+				console.log(useCharts);
+				if(useCharts) {
+				
+					var rand = Math.floor((Math.random()*numArtists));
+					currentArtist = hotttartists[rand].name;
+				
+				} else {
+				
+				 	currentArtist = cachedArtistList[randCachedArtist];
+				}
+				return currentArtist;	
 			}
 		}
 
