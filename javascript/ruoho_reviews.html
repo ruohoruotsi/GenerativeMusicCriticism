@@ -30,6 +30,7 @@
 		<script src="src/rita_dict.js" type="text/javascript"></script>
 		<script src="src/rita.js" type="text/javascript"></script>
 		<script src="src/ruoho_reviews.js" type="text/javascript"></script>
+		<script src="src/artistMetaData.js" type="text/javascript"></script>
 		<script src="src/jquery.echonest.js" type="text/javascript"></script>
 		
 
@@ -68,6 +69,17 @@
 		var currentArtist, hotttartists = [];
 		var numArtists = 50;
 		var numCachedArtists = 80;
+		
+		/*
+		var artist = {
+		
+			name: " ",
+			imageCollection: {}
+			bioLinkCollection: {}
+			youtubeLinkCollection: {}
+		
+		}; */
+		
 		
 		var cachedArtistList = ['Moby', 'Donna Summer', 'Robbie Williams', 
 								'Pet Shop Boys', 'Prince', 'Sly and the Family Stone',
@@ -160,6 +172,10 @@
 			});	
 			*/
 			
+			
+			// print sthit out here!!
+			// console.log(cachedAAABBB);
+			// console.log(JSON.stringify(cachedArtistList));
 		}
 
 
@@ -196,7 +212,7 @@
 			} else {
 
 				var useCharts= Math.floor(Math.random()*2); // binary choice of RR faves or charts!
-				console.log(useCharts);
+				// console.log(useCharts);
 				if(useCharts) {
 				
 					var rand = Math.floor((Math.random()*numArtists));
@@ -235,11 +251,20 @@
 			// get an artist images
 			echonest.artist(currentArtist).images( function(imageCollection) {
 			
-				if(imageCollection.data.images[0].url) {
-					document.getElementById("artistImages").src = imageCollection.data.images[0].url;
-					// console.log(imageCollection.data.images[0].url);
+				if(imageCollection.data.images.length > 0) {
+					
+					// random selection from image array
+					var imageIndex = Math.floor(Math.random()*imageCollection.data.images.length);
+					//console.log(imageIndex);
+					//console.log(imageCollection.data.images.length);
+					//console.log(imageCollection.data.images);
+
+					document.getElementById("artistImages").src = imageCollection.data.images[imageIndex].url;
+					console.log(imageCollection.data.images[imageIndex].url);
 				}
-			}, {results: 1});
+				else { } // IO HAVOC : TODO - add stock images from disk here
+				
+			}, {results: 5});
 		}
 		
 		//////////////////////////////////////////////////////////////////////////////////
@@ -288,7 +313,7 @@
 				
 				a.href = link;
 				
-				console.log(urlsCollection.data.urls);
+				// console.log(urlsCollection.data.urls);
 				// console.log(urlsCollection.data.urls["twitter_url"]);
 			});
 		}
