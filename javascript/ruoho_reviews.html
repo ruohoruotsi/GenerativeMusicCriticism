@@ -65,11 +65,17 @@
 
 		// RiTa.p5Compatible(1);
 		var reviewRiGrammar, labelyearRiGrammar;
-		var echonest; 
-		var currentArtist, hotttartists = [];
-		var numArtists = 50;
-		var numCachedArtists = 80;
 		
+		var echonest; 
+		
+		var currentArtist;
+		
+		var hotttArtistsList = [];
+		var numHotttArtists = 50;		
+		
+		var hotttArtistsImages = [];
+		var globalCounter = 0;
+
 		/*
 		var artist = {
 		
@@ -80,7 +86,7 @@
 		
 		}; */
 		
-		
+
 		var cachedArtistList = ['Moby', 'Donna Summer', 'Robbie Williams', 
 								'Pet Shop Boys', 'Prince', 'Sly and the Family Stone',
 								'David Bowie', 'Marvin Gaye', 'Aretha Franklin', 
@@ -151,13 +157,18 @@
 			// What artists are currently "hottt" (Should return a hotttnesss but doesn't)
 			echonest.artist().top_hottt( function(topHotttCollection) {
 				
-				hotttartists = topHotttCollection.data.artists;	
+				hotttArtistsList = topHotttCollection.data.artists;	
 				// console.log(topHotttCollection.data.artists);
+				
+				for(var i = 0; i < topHotttCollection.data.artists.length; i++) {
+				
+					console.log(topHotttCollection.data.artists[i]);
+				}
+				
 						
-			}, {results: numArtists});
+			}, {results: numHotttArtists});
 
-			getHotttArtists();
-			getCurrentArtistImage();
+			// getHotttArtists();
 
 			reviewRiGrammar = new RiGrammar(reviewGrammar);
 			labelyearRiGrammar = new RiGrammar(labelYearGrammar);
@@ -173,7 +184,7 @@
 			*/
 			
 			
-			// print sthit out here!!
+			// print shit out here!!
 			// console.log(cachedAAABBB);
 			// console.log(JSON.stringify(cachedArtistList));
 		}
@@ -189,22 +200,22 @@
 			// Populate html elements
 			document.getElementById("ruohoreviews").innerHTML = aReview;
 			document.getElementById("reviewSubtitle").innerHTML = labelyear;
-			
+						
+			getAlbumName();	
 			getHotttRating();
 			getCurrentArtist();
-			getCurrentArtistImage();
-			getAlbumName();	
+			getCurrentArtistImage();		
 			getCurrentArtistTwitterURL();
-			
-			// console.log(document.getElementById("ruohotweet"));
+
+			// console.log(document.getElementById("ruohotweet"));			
 		}
 
 		//////////////////////////////////////////////////////////////////////////////////
 		function getHotttArtists() // get a random Hottt artist
 		{	
-			var randCachedArtist = Math.floor((Math.random()*numCachedArtists));
+			var randCachedArtist = Math.floor((Math.random()*cachedArtistList.length));
 
-			if(hotttartists.length == 0) {
+			if(hotttArtistsList.length == 0) {
 
 				currentArtist = cachedArtistList[randCachedArtist];
 				return currentArtist;
@@ -215,8 +226,8 @@
 				// console.log(useCharts);
 				if(useCharts) {
 				
-					var rand = Math.floor((Math.random()*numArtists));
-					currentArtist = hotttartists[rand].name;
+					var rand = Math.floor((Math.random()*numHotttArtists));
+					currentArtist = hotttArtistsList[rand].name;
 				
 				} else {
 				
@@ -248,17 +259,22 @@
 		//////////////////////////////////////////////////////////////////////////////////
 		function getCurrentArtistImage() 
 		{
+				console.log("getCurrentArtistImage");
+			
 			// get an artist images
 			echonest.artist(currentArtist).images( function(imageCollection) {
 			
 				if(imageCollection.data.images.length > 0) {
 					
+					// Add imageCollection to artistList
+					var length = hotttArtistsImages.length - 1;
+					if(length < 1) length = 0;
+
+					hotttArtistsImages[globalCounter] = {name:currentArtist, images:imageCollection.data.images, URLs:{}};
+					globalCounter++
+					
 					// random selection from image array
 					var imageIndex = Math.floor(Math.random()*imageCollection.data.images.length);
-					//console.log(imageIndex);
-					//console.log(imageCollection.data.images.length);
-					//console.log(imageCollection.data.images);
-
 					document.getElementById("artistImages").src = imageCollection.data.images[imageIndex].url;
 					console.log(imageCollection.data.images[imageIndex].url);
 				}
@@ -277,7 +293,10 @@
 
 		//////////////////////////////////////////////////////////////////////////////////
 		function getCurrentArtistTwitterURL() 
-		{			
+		{	
+		
+		console.log("getCurrentArtistTwitterURL");
+				
 			echonest.artist(currentArtist).urls( function(urlsCollection) {
 				
 				var a = document.getElementById('artistTwitter');
@@ -313,8 +332,19 @@
 				
 				a.href = link;
 				
+	
+				var length = hotttArtistsImages.length - 1;
+				if(length < 1) length = 0;
+				console.log("Length - 1 index: " + length);
+					
+				// hotttArtistsImages[length].URLs = urlsCollection.data.urls;
+				// hotttArtistsImages[hotttArtistsImages.length - 1].name = 'sammy';
+				console.log(hotttArtistsImages);
+								
 				// console.log(urlsCollection.data.urls);
 				// console.log(urlsCollection.data.urls["twitter_url"]);
+				
+				
 			});
 		}
 		
