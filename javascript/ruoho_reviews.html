@@ -76,16 +76,6 @@
 		var hotttArtistsImages = [];
 		var globalCounter = 0;
 
-		/*
-		var artist = {
-		
-			name: " ",
-			imageCollection: {}
-			bioLinkCollection: {}
-			youtubeLinkCollection: {}
-		
-		}; */
-		
 
 		var cachedArtistList = ['Moby', 'Donna Summer', 'Robbie Williams', 
 								'Pet Shop Boys', 'Prince', 'Sly and the Family Stone',
@@ -162,10 +152,13 @@
 				
 				for(var i = 0; i < topHotttCollection.data.artists.length; i++) {
 				
-					console.log(topHotttCollection.data.artists[i]);
-				}
-				
-						
+					hotttArtistsImages[topHotttCollection.data.artists[i].name] = { 
+											  artistRec: topHotttCollection.data.artists[i], 
+											  images: {}, 
+											  videos: {},
+											  URLs: {},
+											};
+				}		
 			}, {results: numHotttArtists});
 
 			// getHotttArtists();
@@ -258,27 +251,26 @@
 
 		//////////////////////////////////////////////////////////////////////////////////
 		function getCurrentArtistImage() 
-		{
-				console.log("getCurrentArtistImage");
-			
+		{			
 			// get an artist images
 			echonest.artist(currentArtist).images( function(imageCollection) {
 			
-				if(imageCollection.data.images.length > 0) {
+				if(imageCollection.data.images.length > 0 &&
+				   hotttArtistsImages[currentArtist] != 'undefined') {
 					
 					// Add imageCollection to artistList
-					var length = hotttArtistsImages.length - 1;
-					if(length < 1) length = 0;
-
-					hotttArtistsImages[globalCounter] = {name:currentArtist, images:imageCollection.data.images, URLs:{}};
-					globalCounter++
+					console.log(hotttArtistsImages[currentArtist]);
+					// hotttArtistsImages[currentArtist].images = imageCollection.data.images;
 					
 					// random selection from image array
 					var imageIndex = Math.floor(Math.random()*imageCollection.data.images.length);
 					document.getElementById("artistImages").src = imageCollection.data.images[imageIndex].url;
-					console.log(imageCollection.data.images[imageIndex].url);
+					// console.log(imageCollection.data.images[imageIndex].url);
 				}
-				else { } // IO HAVOC : TODO - add stock images from disk here
+				else { 
+				
+					console.log("hotttArtistsImages[currentArtist] doesn't exist");
+				} // IO HAVOC : TODO - add stock images from disk here
 				
 			}, {results: 5});
 		}
@@ -293,10 +285,7 @@
 
 		//////////////////////////////////////////////////////////////////////////////////
 		function getCurrentArtistTwitterURL() 
-		{	
-		
-		console.log("getCurrentArtistTwitterURL");
-				
+		{					
 			echonest.artist(currentArtist).urls( function(urlsCollection) {
 				
 				var a = document.getElementById('artistTwitter');
@@ -335,11 +324,11 @@
 	
 				var length = hotttArtistsImages.length - 1;
 				if(length < 1) length = 0;
-				console.log("Length - 1 index: " + length);
+				// console.log("Length - 1 index: " + length);
 					
 				// hotttArtistsImages[length].URLs = urlsCollection.data.urls;
 				// hotttArtistsImages[hotttArtistsImages.length - 1].name = 'sammy';
-				console.log(hotttArtistsImages);
+				// console.log(hotttArtistsImages);
 								
 				// console.log(urlsCollection.data.urls);
 				// console.log(urlsCollection.data.urls["twitter_url"]);
