@@ -152,12 +152,21 @@
 				
 				for(var i = 0; i < topHotttCollection.data.artists.length; i++) {
 				
-					hotttArtistsImages[topHotttCollection.data.artists[i].name] = { 
-											  artistRec: topHotttCollection.data.artists[i], 
-											  images: {}, 
-											  videos: {},
-											  URLs: {},
-											};
+					var key = topHotttCollection.data.artists[i].name;
+// 					hotttArtistsImages[key] = { 
+// 							artist: topHotttCollection.data.artists[i], 
+// 							images: {}, 
+// 							videos: {},
+// 							URLs: {}
+// 					};
+
+					hotttArtistsImages.push( { 
+ 							artist: topHotttCollection.data.artists[i], 
+ 							images: {}, 
+ 							videos: {},
+ 							URLs: {}
+ 					} );
+
 				}		
 			}, {results: numHotttArtists});
 
@@ -176,10 +185,9 @@
 			});	
 			*/
 			
-			
 			// print shit out here!!
 			// console.log(cachedAAABBB);
-			// console.log(JSON.stringify(cachedArtistList));
+			// console.log(JSON.stringify(cachedArtistList));			
 		}
 
 
@@ -203,6 +211,7 @@
 			// console.log(document.getElementById("ruohotweet"));			
 		}
 
+
 		//////////////////////////////////////////////////////////////////////////////////
 		function getHotttArtists() // get a random Hottt artist
 		{	
@@ -215,17 +224,16 @@
 
 			} else {
 
-				var useCharts= Math.floor(Math.random()*2); // binary choice of RR faves or charts!
-				// console.log(useCharts);
-				if(useCharts) {
-				
+				var useCharts = Math.floor(Math.random()*2); // Choice of RR faves or charts!
+
+				if(useCharts) {				
 					var rand = Math.floor((Math.random()*numHotttArtists));
 					currentArtist = hotttArtistsList[rand].name;
 				
-				} else {
-				
+				} else {				
 				 	currentArtist = cachedArtistList[randCachedArtist];
 				}
+				
 				return currentArtist;	
 			}
 		}
@@ -256,10 +264,10 @@
 			echonest.artist(currentArtist).images( function(imageCollection) {
 			
 				if(imageCollection.data.images.length > 0 &&
-				   hotttArtistsImages[currentArtist] != 'undefined') {
+				   typeof hotttArtistsImages[currentArtist] != 'undefined') {
 					
 					// Add imageCollection to artistList
-					console.log(hotttArtistsImages[currentArtist]);
+					console.log(hotttArtistsImages);
 					// hotttArtistsImages[currentArtist].images = imageCollection.data.images;
 					
 					// random selection from image array
@@ -275,6 +283,7 @@
 			}, {results: 5});
 		}
 		
+		
 		//////////////////////////////////////////////////////////////////////////////////
 		function getAlbumName() 
 		{
@@ -282,6 +291,7 @@
 			var rand = Math.floor((Math.random()*87));
 			document.getElementById("reviewTitle").innerHTML = cachedAlbumList[rand];
 		}
+
 
 		//////////////////////////////////////////////////////////////////////////////////
 		function getCurrentArtistTwitterURL() 
@@ -332,8 +342,7 @@
 								
 				// console.log(urlsCollection.data.urls);
 				// console.log(urlsCollection.data.urls["twitter_url"]);
-				
-				
+
 			});
 		}
 		
