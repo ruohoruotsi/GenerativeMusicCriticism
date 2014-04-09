@@ -66,16 +66,11 @@
 		// RiTa.p5Compatible(1);
 		var reviewRiGrammar, labelyearRiGrammar;
 		
-		var echonest; 
-		
+		var echonest; 		
 		var currentArtist = {name:"", index:-1};
-		
-		// var hotttArtistsList = [];
-		var numHotttArtists = 50;		
-		
-		var hotttArtistsImages = [];
-		var globalCounter = 0;
 
+		var numHotttArtists = 50;		
+		var hotttArtistsImages = [];
 
 		var cachedArtistList = ['Moby', 'Donna Summer', 'Robbie Williams', 
 								'Pet Shop Boys', 'Prince', 'Sly and the Family Stone',
@@ -151,14 +146,6 @@
 				
 				for(var i = 0; i < topHotttCollection.data.artists.length; i++) {
 				
-					var key = topHotttCollection.data.artists[i].name;
-// 					hotttArtistsImages[key] = { 
-// 							artist: topHotttCollection.data.artists[i], 
-// 							images: {}, 
-// 							videos: {},
-// 							URLs: {}
-// 					};
-
 					hotttArtistsImages.push( { 
  							artist: topHotttCollection.data.artists[i], 
  							images: {}, 
@@ -186,7 +173,6 @@
 			
 			// print shit out here!!
 			// console.log(cachedAAABBB);
-			// console.log(JSON.stringify(cachedArtistList));			
 		}
 
 
@@ -207,7 +193,8 @@
 			getCurrentArtistImage();		
 			getCurrentArtistTwitterURL();
 
-			// console.log(document.getElementById("ruohotweet"));			
+			// console.log(document.getElementById("ruohotweet"));		
+			// console.log(JSON.stringify(hotttArtistsImages));			
 		}
 
 
@@ -227,7 +214,7 @@
 				var useCharts = Math.floor(Math.random()*2); // Choice of RR faves or charts!
 				
 				if(useCharts) {				
-					var rand = Math.floor((Math.random()*numHotttArtists));
+					var rand = Math.floor((Math.random()*hotttArtistsImages.length));
 					currentArtist.name = hotttArtistsImages[rand].artist.name;
 					currentArtist.index = rand;
 
@@ -245,9 +232,7 @@
  		{	 
  			document.getElementById("ruohorating").innerHTML = 
  				"Ruoho Rating:  &nbsp;&nbsp;" + 
- 				Math.floor((Math.random()*100)) + 
- 				"." + 
- 				Math.floor((Math.random()*10));
+ 				Math.floor((Math.random()*100)) + "." + Math.floor((Math.random()*10));
  		}
 
  		
@@ -266,8 +251,8 @@
 								
 				if(imageCollection.data.images.length > 0) {
 					
-					if(currentArtist.index != -1) { // i.e. is not a cached value
-						// Add imageCollection to artistList
+					// Add imageCollection to artistList, if not from cached list (for now)
+					if(currentArtist.index != -1) { 
 						hotttArtistsImages[currentArtist.index].images = imageCollection.data.images;
 					}
 					
@@ -328,24 +313,13 @@
 				
 				a.href = link;
 				
-	
-				if(currentArtist.index != -1) { // i.e. is not a cached value
-					// Add urls to artistList
+				// Add urls to artistList, if not from cached list (for now)
+				if(currentArtist.index != -1) { 
 				 	hotttArtistsImages[currentArtist.index].URLs = urlsCollection.data.urls;
 				}
 	
-				var length = hotttArtistsImages.length - 1;
-				if(length < 1) length = 0;
-				// console.log("Length - 1 index: " + length);
-					
-				// hotttArtistsImages[length].URLs = urlsCollection.data.urls;
-				// hotttArtistsImages[hotttArtistsImages.length - 1].name = 'sammy';
-				console.log("currentArtist: " + currentArtist.name + " " + currentArtist.index);
-				console.log(hotttArtistsImages);
-								
-				// console.log(urlsCollection.data.urls);
-				// console.log(urlsCollection.data.urls["twitter_url"]);
-
+				// console.log("currentArtist: " + currentArtist.name + " " + currentArtist.index);
+				// console.log(hotttArtistsImages);
 			});
 		}
 		
