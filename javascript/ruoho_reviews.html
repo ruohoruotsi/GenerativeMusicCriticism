@@ -217,7 +217,6 @@
 			var randCachedArtist = Math.floor((Math.random()*cachedArtistList.length));
 			currentArtist.index = -1;
 			
-			console.log(hotttArtistsImages.length);	
 			if(hotttArtistsImages.length == 0) {
 
 				currentArtist.name = cachedArtistList[randCachedArtist];
@@ -264,15 +263,10 @@
 		{			
 			// get an artist images
 			echonest.artist(currentArtist.name).images( function(imageCollection) {
-			
-				if(currentArtist.index != -1) {
-					console.log(hotttArtistsImages[currentArtist.index].artist.name);
-				}
 								
 				if(imageCollection.data.images.length > 0) {
 					
 					if(currentArtist.index != -1) { // i.e. is not a cached value
-						// console.log(hotttArtistsImages[currentArtist.index].artist.name);
 						// Add imageCollection to artistList
 						hotttArtistsImages[currentArtist.index].images = imageCollection.data.images;
 					}
@@ -280,12 +274,8 @@
 					// random selection from image array
 					var imageIndex = Math.floor(Math.random()*imageCollection.data.images.length);
 					document.getElementById("artistImages").src = imageCollection.data.images[imageIndex].url;
-					// console.log(imageCollection.data.images[imageIndex].url);
 				}
-				else { 
-				
-					// console.log("hotttArtistsImages[currentArtist] doesn't exist");
-				} // IO HAVOC : TODO - add stock images from disk here
+				else {} // IO HAVOC : TODO - add stock images from disk here
 				
 			}, {results: 5});
 		}
@@ -339,13 +329,19 @@
 				a.href = link;
 				
 	
+				if(currentArtist.index != -1) { // i.e. is not a cached value
+					// Add urls to artistList
+				 	hotttArtistsImages[currentArtist.index].URLs = urlsCollection.data.urls;
+				}
+	
 				var length = hotttArtistsImages.length - 1;
 				if(length < 1) length = 0;
 				// console.log("Length - 1 index: " + length);
 					
 				// hotttArtistsImages[length].URLs = urlsCollection.data.urls;
 				// hotttArtistsImages[hotttArtistsImages.length - 1].name = 'sammy';
-				// console.log(hotttArtistsImages);
+				console.log("currentArtist: " + currentArtist.name + " " + currentArtist.index);
+				console.log(hotttArtistsImages);
 								
 				// console.log(urlsCollection.data.urls);
 				// console.log(urlsCollection.data.urls["twitter_url"]);
