@@ -136,28 +136,8 @@
 		//////////////////////////////////////////////////////////////////////////////////
 		function setup()
 		{
-			// Setup The echonest
-			echonest = new EchoNest("2VN1LKJEQUBPUKXEC"); // API key
+			setupEchoNest();
 			
-			// What artists are currently "hottt" (Should return a hotttnesss but doesn't)
-			echonest.artist().top_hottt( function(topHotttCollection) {
-				
-				// console.log(topHotttCollection.data.artists);
-				
-				for(var i = 0; i < topHotttCollection.data.artists.length; i++) {
-				
-					hotttArtistsImages.push( { 
- 							artist: topHotttCollection.data.artists[i], 
- 							images: {}, 
- 							videos: {},
- 							URLs: {}
- 					} );
-
-				}		
-			}, {results: numHotttArtists});
-
-			// getHotttArtists();
-
 			reviewRiGrammar = new RiGrammar(reviewGrammar);
 			labelyearRiGrammar = new RiGrammar(labelYearGrammar);
 			
@@ -173,6 +153,31 @@
 			
 			// print shit out here!!
 			// console.log(cachedAAABBB);
+		}
+
+
+		//////////////////////////////////////////////////////////////////////////////////
+		function setupEchoNest()
+		{
+			// Setup The echonest
+			echonest = new EchoNest("2VN1LKJEQUBPUKXEC"); // API key
+			
+			// What artists are currently "hottt"
+			echonest.artist().top_hottt( function(topHotttCollection) {
+				
+				// console.log(topHotttCollection.data.artists);
+				
+				for(var i = 0; i < topHotttCollection.data.artists.length; i++) {
+				
+					hotttArtistsImages.push( { 
+ 							artist: topHotttCollection.data.artists[i], 
+ 							images: {}, 
+ 							videos: {},
+ 							URLs: {}
+ 					} );
+
+				}		
+			}, {results: numHotttArtists});
 		}
 
 
