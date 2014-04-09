@@ -68,9 +68,9 @@
 		
 		var echonest; 
 		
-		var currentArtist;
+		var currentArtist = {name:"", index:-1};
 		
-		var hotttArtistsList = [];
+		// var hotttArtistsList = [];
 		var numHotttArtists = 50;		
 		
 		var hotttArtistsImages = [];
@@ -95,7 +95,7 @@
 								'Lawrence', 'Jimpster', 'Jeff Samuel', 'Ian Pooley',
 								'Omar-S', 'Luomo', 'Kerri Chandler', 'Charles Webster',
 								'Roy Davis Jr.', 'Robert Owens', 'Cajmere feat. Dajae',
-								'Black Science Orchestra', 'Mr. Fingers', 'Saint Etienne,',
+								'Black Science Orchestra', 'Mr. Fingers', 'Saint Etienne',
 								'Masters at Work', 'Theo Parrish', 'Moodymann', 
 								'Pepe Bradock', 'Chez N Trent', 'Basic Channel', 
 								'Rhythm & Sound', 'Roman Flügel', 'Joe Lewis', 'DJ Said', 
@@ -147,7 +147,6 @@
 			// What artists are currently "hottt" (Should return a hotttnesss but doesn't)
 			echonest.artist().top_hottt( function(topHotttCollection) {
 				
-				hotttArtistsList = topHotttCollection.data.artists;	
 				// console.log(topHotttCollection.data.artists);
 				
 				for(var i = 0; i < topHotttCollection.data.artists.length; i++) {
@@ -216,25 +215,28 @@
 		function getHotttArtists() // get a random Hottt artist
 		{	
 			var randCachedArtist = Math.floor((Math.random()*cachedArtistList.length));
+			currentArtist.index = -1;
+			
+			console.log(hotttArtistsImages.length);	
+			if(hotttArtistsImages.length == 0) {
 
-			if(hotttArtistsList.length == 0) {
-
-				currentArtist = cachedArtistList[randCachedArtist];
-				return currentArtist;
+				currentArtist.name = cachedArtistList[randCachedArtist];
+				return currentArtist.name;
 
 			} else {
 
 				var useCharts = Math.floor(Math.random()*2); // Choice of RR faves or charts!
-
+				
 				if(useCharts) {				
 					var rand = Math.floor((Math.random()*numHotttArtists));
-					currentArtist = hotttArtistsList[rand].name;
-				
+					currentArtist.name = hotttArtistsImages[rand].artist.name;
+					currentArtist.index = rand;
+
 				} else {				
-				 	currentArtist = cachedArtistList[randCachedArtist];
+				 	currentArtist.name = cachedArtistList[randCachedArtist];
 				}
 				
-				return currentArtist;	
+				return currentArtist.name;	
 			}
 		}
 
@@ -253,7 +255,7 @@
 		//////////////////////////////////////////////////////////////////////////////////
  		function getCurrentArtist() // get current artist
  		{	 
- 			document.getElementById("reviewArtist").innerHTML = currentArtist;
+ 			document.getElementById("reviewArtist").innerHTML = currentArtist.name;
  		}
 
 
@@ -261,14 +263,19 @@
 		function getCurrentArtistImage() 
 		{			
 			// get an artist images
-			echonest.artist(currentArtist).images( function(imageCollection) {
+			echonest.artist(currentArtist.name).images( function(imageCollection) {
 			
-				if(imageCollection.data.images.length > 0 &&
-				   typeof hotttArtistsImages[currentArtist] != 'undefined') {
+				if(currentArtist.index != -1) {
+					console.log(hotttArtistsImages[currentArtist.index].artist.name);
+				}
+								
+				if(imageCollection.data.images.length > 0) {
 					
-					// Add imageCollection to artistList
-					console.log(hotttArtistsImages);
-					// hotttArtistsImages[currentArtist].images = imageCollection.data.images;
+					if(currentArtist.index != -1) { // i.e. is not a cached value
+						// console.log(hotttArtistsImages[currentArtist.index].artist.name);
+						// Add imageCollection to artistList
+						hotttArtistsImages[currentArtist.index].images = imageCollection.data.images;
+					}
 					
 					// random selection from image array
 					var imageIndex = Math.floor(Math.random()*imageCollection.data.images.length);
@@ -277,7 +284,7 @@
 				}
 				else { 
 				
-					console.log("hotttArtistsImages[currentArtist] doesn't exist");
+					// console.log("hotttArtistsImages[currentArtist] doesn't exist");
 				} // IO HAVOC : TODO - add stock images from disk here
 				
 			}, {results: 5});
@@ -296,7 +303,7 @@
 		//////////////////////////////////////////////////////////////////////////////////
 		function getCurrentArtistTwitterURL() 
 		{					
-			echonest.artist(currentArtist).urls( function(urlsCollection) {
+			echonest.artist(currentArtist.name).urls( function(urlsCollection) {
 				
 				var a = document.getElementById('artistTwitter');
 
