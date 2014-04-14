@@ -54,6 +54,7 @@ reviewGrammar = {
 
 		
 "<artist>": 	"`getHotttArtists_Cached()`",
+// "<artist>": 	"`getHotttArtists()`",
 
 "<artist-descriptive-noun>": "<music-adjective-terminal> <artist-descriptive-noun-terminal>",
 
