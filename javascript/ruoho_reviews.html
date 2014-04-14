@@ -71,6 +71,8 @@
 
 		var numHotttArtists = 50;		
 		var hotttArtistsImages = [];
+		
+		var globalCounter = 0;
 
 		var cachedArtistList = ['Moby', 'Donna Summer', 'Robbie Williams', 
 								'Pet Shop Boys', 'Prince', 'Sly and the Family Stone',
@@ -130,9 +132,111 @@
 											
 								
 		// setup
-		window.onload = setup;
-		window.onmouseup = mouseClicked;
+		window.onload = setupCached;
+		window.onmouseup = mouseClicked_Cached;
 
+		//////////////////////////////////////////////////////////////////////////////////
+		function setupCached()
+		{
+			// read in cached version of 
+			//var cached = JSON.parse(cachedHotttArtists);	
+			console.log(cachedHotttArtists);
+			
+			reviewRiGrammar = new RiGrammar(reviewGrammar);
+			labelyearRiGrammar = new RiGrammar(labelYearGrammar);
+			
+			mouseClicked_Cached();
+			console.log("setupCached completed");
+		}
+
+		//////////////////////////////////////////////////////////////////////////////////
+		function mouseClicked_Cached()
+		{
+			var aReview = reviewRiGrammar.expand();
+			var labelyear = labelyearRiGrammar.expand();
+			// console.log(aReview);
+			
+			// Populate html elements
+			document.getElementById("ruohoreviews").innerHTML = aReview;
+			document.getElementById("reviewSubtitle").innerHTML = labelyear;
+						
+			getAlbumName();	
+			getHotttRating();
+			getCurrentArtist();
+			getCurrentArtistImage_Cached();		
+			getCurrentArtistTwitterURL_Cached();		
+		}
+		
+		
+		//////////////////////////////////////////////////////////////////////////////////
+		function getHotttArtists_Cached() // get a random Hottt artist
+		{							
+			var rand = Math.floor((Math.random()*cachedHotttArtists.length));
+			currentArtist.name = cachedHotttArtists[rand].artist.name;
+			currentArtist.index = rand;
+	
+			console.log(currentArtist);
+	
+			return currentArtist.name;	
+		}
+		
+		
+		//////////////////////////////////////////////////////////////////////////////////
+		function getCurrentArtistImage_Cached() 
+		{			
+			console.log(cachedHotttArtists[currentArtist.index].images);
+			
+			// random selection from image array
+			var imageList = cachedHotttArtists[currentArtist.index].images;
+			var imageIndex = Math.floor(Math.random()*imageList.length); console.log(imageIndex);
+			document.getElementById("artistImages").src = imageList[imageIndex].url;
+		}
+
+
+		//////////////////////////////////////////////////////////////////////////////////
+		function getCurrentArtistTwitterURL_Cached() 
+		{	
+			// random selection from image array
+			var urlList = cachedHotttArtists[currentArtist.index].URLs;
+			console.log(urlList);
+
+			var a = document.getElementById('artistTwitter');
+
+			var link = urlList["twitter_url"];
+			a.title = "Twitter";
+			a.innerHTML = "Artist Twitter";
+		
+			if(!link) {		
+				link =  urlList["wikipedia_url"];
+				a.title = "Wikipedia";
+				a.innerHTML = "Artist Wikipedia";
+			}
+			if(!link) {	
+				link =  urlList["myspace_url"];
+				a.title = "Myspace";
+				a.innerHTML = "Artist Myspace";					
+			}
+			if(!link) {	
+				link =  urlList["lastfm_url"];
+				a.title = "LastFM";
+				a.innerHTML = "Artist LastFM";										
+			}				
+			if(!link) {	
+				link =  urlList["official_url"];
+				a.title = "Official Website";
+				a.innerHTML = "Artist Website";															
+			}							
+			if(!link) {	
+				link =  " ";
+				a.innerHTML = " ";	
+			}
+		
+			a.href = link;
+
+		}
+
+		//////////////////////////////////////////////////////////////////////////////////
+		//////////////////////////////////////////////////////////////////////////////////
 		//////////////////////////////////////////////////////////////////////////////////
 		function setup()
 		{
@@ -142,7 +246,7 @@
 			labelyearRiGrammar = new RiGrammar(labelYearGrammar);
 			
 			mouseClicked();
-			console.log("Setup completed");
+			console.log("setup completed");
 			
 			/*		
 			document.getElementById('custom-tweet-button').addEventListener('click', function (el) {
@@ -150,9 +254,6 @@
 			  	document.getElementById("ruohoreviews").innerHTML;
 			});	
 			*/
-			
-			// print shit out here!!
-			// console.log(cachedAAABBB);
 		}
 
 
@@ -162,7 +263,7 @@
 			// Setup The echonest
 			echonest = new EchoNest("2VN1LKJEQUBPUKXEC"); // API key
 			
-			// What artists are currently "hottt"
+			// Populate object array with artists are currently "hottt"
 			echonest.artist().top_hottt( function(topHotttCollection) {
 				
 				// console.log(topHotttCollection.data.artists);
@@ -177,7 +278,7 @@
  					} );
 
 				}		
-			}, {results: numHotttArtists});
+			}, {results: numHotttArtists});			
 		}
 
 
@@ -198,10 +299,10 @@
 			getCurrentArtistImage();		
 			getCurrentArtistTwitterURL();
 
-			// console.log(document.getElementById("ruohotweet"));		
-			// console.log(JSON.stringify(hotttArtistsImages));			
+			// console.log(document.getElementById("ruohotweet"));	
+			// console.log(JSON.stringify(hotttArtistsImages));				
 		}
-
+		
 
 		//////////////////////////////////////////////////////////////////////////////////
 		function getHotttArtists() // get a random Hottt artist
@@ -216,12 +317,18 @@
 
 			} else {
 
-				var useCharts = Math.floor(Math.random()*2); // Choice of RR faves or charts!
+				var useCharts = 1; // Math.floor(Math.random()*2); // Choice of RR faves or charts!
 				
 				if(useCharts) {				
-					var rand = Math.floor((Math.random()*hotttArtistsImages.length));
+					/* var rand = Math.floor((Math.random()*hotttArtistsImages.length));
 					currentArtist.name = hotttArtistsImages[rand].artist.name;
-					currentArtist.index = rand;
+					currentArtist.index = rand; */
+					
+					currentArtist.name = hotttArtistsImages[globalCounter].artist.name;
+					currentArtist.index = globalCounter;
+					
+					console.log(currentArtist);
+					globalCounter++;
 
 				} else {				
 				 	currentArtist.name = cachedArtistList[randCachedArtist];
@@ -231,7 +338,16 @@
 			}
 		}
 
-		
+
+		//////////////////////////////////////////////////////////////////////////////////
+		function getAlbumName() 
+		{
+			// console.log(cachedAlbumList.length);
+			var rand = Math.floor((Math.random()*87));
+			document.getElementById("reviewTitle").innerHTML = cachedAlbumList[rand];
+		}
+			
+				
 		//////////////////////////////////////////////////////////////////////////////////
  		function getHotttRating() // get a random Hottt artist rating
  		{	 
@@ -269,16 +385,6 @@
 				
 			}, {results: 5});
 		}
-		
-		
-		//////////////////////////////////////////////////////////////////////////////////
-		function getAlbumName() 
-		{
-			// console.log(cachedAlbumList.length);
-			var rand = Math.floor((Math.random()*87));
-			document.getElementById("reviewTitle").innerHTML = cachedAlbumList[rand];
-		}
-
 
 		//////////////////////////////////////////////////////////////////////////////////
 		function getCurrentArtistTwitterURL() 

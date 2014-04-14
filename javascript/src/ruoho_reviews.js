@@ -53,7 +53,7 @@ reviewGrammar = {
 		<genre-adjective> corner of the musical universe, all while <adverb-time-terminal> <gerund-song-phrase>",		
 
 		
-"<artist>": 	"`getHotttArtists()`",
+"<artist>": 	"`getHotttArtists_Cached()`",
 
 "<artist-descriptive-noun>": "<music-adjective-terminal> <artist-descriptive-noun-terminal>",
 
