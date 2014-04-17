@@ -230,34 +230,35 @@ reviewGrammar = {
 										 effortlessness | affectation | pretentiousness | posturing | \
 										 mulishness | recalcitrance",
 
+"<a-structure-description>": 	"a pure, transcendental rave feeling | \
+								a bubbly pop appreciation | \
+								a mindblowing dubscape of effects | \
+								a persistent undulating pulse of bass | \
+								a cacophany of autistic rhythms | \
+								a fragrant, effortless warmth | \
+								a deluge of piano flecked gems | \
+								a veneer of melancholy |  \
+								a growing amalgam of contradictions |  \
+								a blistering feast of distortion | \
+								a feast of noise-rock virtuosity | \
+								a JS Bach-meets-krautrock bassline  | \
+								a fragrant, bubbly bubblegum vibe | \
+								a veritable haberdashery of exquisitely vintage musical textures | \
+								a Flying Lotus-style bass reduction |  \
+								a dense, effulgent piece of faux-romantic orchestral syrup | \
+								an indisposable slice of <genre> delectability | \
+								a dark, haunted melancholy | \
+								an eerily impeccable falsetto | \
+								an alchemical blend of post-rave electronics",
+
 "<structure-description>": "alien analogue tones |  \
 							avant-garde chamber instrumentation | \
 							assorted disembodied voices | \
-							a pure, transcendental rave feeling | \
-							a bubbly pop appreciation | \
-							a mindblowing dubscape of effects | \
-							a persistent undulating pulse of bass | \
-							a cacophany of autistic rhythms | \
-							a fragrant, effortless warmth | \
-							a deluge of piano flecked gems | \
-							a veneer of melancholy |  \
-							a growing amalgam of contradictions |  \
-							a blistering feast of distortion | \
-							a feast of noise-rock virtuosity | \
-							a JS Bach-meets-krautrock bassline  | \
-							a fragrant, bubbly bubblegum vibe | \
-							a veritable haberdashery of exquisitely vintage musical textures | \
-							a Flying Lotus-style bass reduction |  \
-							a dense, effulgent piece of faux-romantic orchestral syrup | \
-							an indisposable slice of <genre> delectability | \
-							a dark, haunted melancholy | \
-							acid house effusions turned hardcore breakbeat | \
-							an eerily impeccable falsetto | \
-							an alchemical blend of post-rave electronics | \
 							bass frequencies turned to jellied slush | \
 							blistering breakbeats gatecrashing your earlobes | \
 							beautifully tempered zones of twilight ambient  | \
 							breakneck tempos | \
+							acid house effusions turned hardcore breakbeat | \
 							cinematic string samples of the Caretaker variety |  \
 							cassette tape overdubs | \
 							dense analogue experiments | \
