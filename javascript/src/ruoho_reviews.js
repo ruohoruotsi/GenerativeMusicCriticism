@@ -12,36 +12,36 @@ reviewGrammar = {
 ///////  
 "<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | \
 		\
-		The ascendent talent of <artist> is on display again this year, showing off <structure-description>, \
-		all while <adverb-time-terminal> <gerund-song-phrase> | \
+		The ascendent <ferocity-syn> of <artist> is on display again, showing off <structure-description>, \
+		while <adverb-time-terminal> <gerund-song-phrase> | \
 		\
-		The songwriting <artist-descriptive-noun-terminal> <artist-verb-past-tense> by <artist> raises the biggest \
+		The songwriting <ferocity-syn> <exhibited-syn> by <artist> raises the biggest \
 		goosebumps, showing off <structure-description>, dwarfing the <structure-description> of many better known artists | \
 		\
-		Not many artists are this adept at wringing emotion from their laptops, yet the introductory track by \
-		<artist> breathtakingly blends <structure-description> and <structure-description> | \
+		Few artists are this <adept-syn> at wringing so much <ferocity-syn> from their laptops, yet the introductory track by \
+		<artist> <adverb-terminal> blends <structure-description> and <structure-description> | \
 		\
 		<artist> and <artist> take on the <label> crew for another strictly limited vinyl pressing, a pair of sick twelve inches that <verb-phrase-plural>",
 
 ///////  
 "<artist-descriptive-phrase>": "\
 		\
-		The <artist-descriptive-noun> <artist-verb-past-tense> by <artist> <artist-description-phrase> | \
+		The <artist-descriptive-noun> <exhibited-syn> by <artist> <artist-description-phrase> | \
 		\
-		The <artist-descriptive-noun> <artist-verb-past-tense> by <artist> <join-phrase> <genre> with \
+		The <artist-descriptive-noun> <exhibited-syn> by <artist> <join-phrase> <genre> with \
 		<structure-description>, <evocative-adjective> of <time> music played in <city> | \
 		\
-		The <artist-descriptive-noun> <artist-verb-past-tense> by <artist> <join-phrase> <structure-description> \
+		The <artist-descriptive-noun> <exhibited-syn> by <artist> <join-phrase> <structure-description> \
 		with <structure-description> <evocative-adjective> of <time> era sounds| \
 		\
-		The <artist-descriptive-noun> <artist-verb-past-tense> by <artist> tenuously welds a growing amalgam of \
+		The <artist-descriptive-noun> <exhibited-syn> by <artist> tenuously welds a growing amalgam of \
 		contradictions and genre experiments with a veneer of schtick, persona and Fonzie cool",
 
 ///////  		
 "<music-recording-phrase>": "\
 		\
 		The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>. \
-		It <singular-subject-song-verb>, while <adverb-time-terminal> <gerund-song-phrase> | \
+		It <singular-subject-song-verb> <adverb-terminal>, while <adverb-time-terminal> <gerund-song-phrase> | \
 		\
 		The <time-adjective> <music-recording-noun> by <artist> <verb-phrase> <adverb> <genre-adjective>. \
 		It <song-description-phrase>, yet its essence <song-description-phrase> | \
@@ -50,15 +50,17 @@ reviewGrammar = {
 		It <song-description-phrase>, yet its essence is <evocative-adjective> of <time> music played in <city> | \
 		\
 		The <time-adjective> <music-recording-noun> by <artist> taps into a delicate, \
-		<genre-adjective> corner of the musical universe, all while <adverb-time-terminal> <gerund-song-phrase>",		
+		<genre-adjective> corner of the musical universe, while <adverb-time-terminal> <gerund-song-phrase>",		
 
 		
 "<artist>": 	"`getHotttArtists_Cached()`",
 // "<artist>": 	"`getHotttArtists()`",
 
-"<artist-descriptive-noun>": "<music-adjective-terminal> <artist-descriptive-noun-terminal>",
+"<artist-descriptive-noun>": "<music-adjective-terminal> <ferocity-syn>",
 
-"<artist-verb-past-tense>": "exhibited | displayed | manifested | shown | demonstrated | expressed ",
+"<adept-syn>": "adept | skilled | masterful | deft | dexterous | brilliant ",
+
+"<exhibited-syn>": "exhibited | displayed | manifested | shown | demonstrated | expressed ",
 
 "<interjection>": 	"This is a crucial release! | Most excellent! |  Utterly astounding! | Somewhat mind-blowing! | \
 					Jaw-dropping! | Breathtaking! | This is gripping sh*t! | Frankly intoxicating! | \
@@ -94,14 +96,14 @@ reviewGrammar = {
 							eschewing the usual formulaic pitfalls | \
 							spinning a collection of understated string and piano elegies | \
 							veering off on solo tangents of enchanted ambient abstraction | \
-							functioning mainly through the frosted lens of physical Finnish stoicism | \
+							functioning through the frosted lens of physical Finnish stoicism | \
 							revolving about achingly well-formed shuffle patterns | \
 							whining and squealing like a farmyard animal in the pangs of labour | \
 							ricocheting gunshots off grimy bassline warps | \
 							employing classically staggered harmonic progressions | \
 							riding rock hard subbass depth charges | \
 							creating atmospheric pressures sharp enough to give lesser experienced divers the bends | \
-							skittering post-Autechre beat deconstructions | \
+							skittering back to post-Autechre beat deconstructions | \
 							exhibiting tearjerking, suckerpunching, piano-meets-strings melancholy | \
 							dripping with endless reverb and delay manipulation | \
 							trawling the depths of vinyl's pockmarked grooves | \
@@ -220,7 +222,7 @@ reviewGrammar = {
 "<music-adjective-terminal>":	"sonic | artistic | inventive acoustic | creative | musical | innovative musical | original melodic | expressive acoustic | visionary sonic | \
 								enterprisingly musical | stylish sonic | elegant | exquisite musical",
 
-"<artist-descriptive-noun-terminal>": 	"talent | ferocity | courage | charisma | weight | cowardice | nerve | \
+"<ferocity-syn>": 	"ferocity | courage | charisma | cowardice | nerve | \
 										 stoutheartedness | endowment | dauntlessness | savagery | genius | \
 										 furiousness | violence |  wildness | severeness | \
 										 simplicity | accessibility | straightforwardness | comprehensibility | \
@@ -228,51 +230,9 @@ reviewGrammar = {
 										 effortlessness | affectation | pretentiousness | posturing | \
 										 mulishness | recalcitrance",
 
-"<structure-description>":	"European technical execution | \
-							slinking garage syncopations | \
-							supple subbass push | \
-							dense analogue experiments | \
-							digitally dissected orchestral figures | \
-							devastatingly heavy <genre> mutations | \
-							rousing mini-orchestral swells | \
-							the synth drones of Klaus Schulze | \
-							the wind-chilled electronics of Thomas Köner | \
-							sumptuous Chicago reductions | \
-							the chugging machinations steeped in the traditions of Scandinavian machine music | \
-							hazy washes of reverbed harps | \
-							rippling xylophonics |	 \
-							majestic cloud-like structures of droning synth tones | \
-							febrile rhythm mechanics | \
-							wispily resonant distortion | 	 \
-							waves of static | \
-							spherical bell tones | \
-							sea-sick rhythms | \
-							assorted disembodied voices | \
-							expertly manipulated rhythm alchemy  | \
-							beautifully tempered zones of twilight ambient  | \
-							reverberant, quivering sustains | \
+"<structure-description>": "alien analogue tones |  \
 							avant-garde chamber instrumentation | \
-							gloriously wild natural timbres | \
-							grim, crust-laden darkness | \
-							fat skronked basslines under fractured, minimal percussion | \
-							hazy synthetic electronical embellishments |  \
-							overheated arcade game melodies | \
-							exothermal synthlines | \
-							symphonic droning | \
-							drifting electronica | \
-							oblique hi-end processing | \
-							utterly sick digital spasms | \
-							unfathomably complex textures | \
-							unfathomably deep, utterly sick, dubwise textures | \
-							layered spaciousness | \
-							intricately funked syncopations edging on the territory of Autechre or Alva Noto | \
-							dense thickets of digitally applied crackle | \
-							sinister Euro-porno soundtracks | \
-							modern amorphous psychedelia |	 \
-							hyper-prismic agitated synthlines | \
-							spectrally sifted electronics | \
-							alien analogue tones |  \
-							rising, haunting strings | \
+							assorted disembodied voices | \
 							a pure, transcendental rave feeling | \
 							a bubbly pop appreciation | \
 							a mindblowing dubscape of effects | \
@@ -282,70 +242,116 @@ reviewGrammar = {
 							a deluge of piano flecked gems | \
 							a veneer of melancholy |  \
 							a growing amalgam of contradictions |  \
-							a blistering feast of distortion and noise-rock virtuosity | \
+							a blistering feast of distortion | \
+							a feast of noise-rock virtuosity | \
 							a JS Bach-meets-krautrock bassline  | \
 							a fragrant, bubbly bubblegum vibe | \
 							a veritable haberdashery of exquisitely vintage musical textures | \
 							a Flying Lotus-style bass reduction |  \
 							a dense, effulgent piece of faux-romantic orchestral syrup | \
 							an indisposable slice of <genre> delectability | \
-							distorted crescendos and electronic squiggles | \
-							hi-scoring aquakrunk madness | \
-							layered embers of sound | \
+							a dark, haunted melancholy | \
+							acid house effusions turned hardcore breakbeat | \
 							an eerily impeccable falsetto | \
-							textural guitar-scapes | \
-							soft, smoky sax lines | \
-							flickering electronic rhythm sections | \
-							cinematic string samples of the Caretaker variety |  \
-							head-pressurised technohouse vibes	| \
-							sticky, wriggly electro influences | \
 							an alchemical blend of post-rave electronics | \
-							endlessly arpeggiated chords | \
+							bass frequencies turned to jellied slush | \
+							blistering breakbeats gatecrashing your earlobes | \
+							beautifully tempered zones of twilight ambient  | \
+							breakneck tempos | \
+							cinematic string samples of the Caretaker variety |  \
+							cassette tape overdubs | \
+							dense analogue experiments | \
+							digitally dissected orchestral figures | \
+							devastatingly heavy <genre> mutations | \
+							dexterous skanking movements | \
+							distorted crescendos | \
+							dark careening tones from bright, queasy synthesizers | \
+							drifting electronica | \
+							dense thickets of digitally applied crackle | \
+							dramatic percussive interjections | \
 							drum machines left to run for days through myriad pattern permutations | \
-							enunciated consonants and floppy fringe harmonies | \
-							hummable melodies and post-pop slacker tendencies | \
-							psychedelic rhythm manipulation |  \
-							narcotic keys |  \
-							spacious Balearic keys |  \
-							rootsy one-drop dub keys |  \
-							lysergic trumpet lines panned to infinity  |  \
-							slurred articulations |  \
-							synaesthetic ecstasy |  \
 							deep, rustic darkness |  \
-							wonderfully shambolic tendencies | \
-							haunted-house analogue tactics |  \
+							exothermal synthlines | \
+							electronic squiggles | \
+							expertly manipulated rhythm alchemy  | \
+							early handmade experiments | \
+							endlessly arpeggiated chords | \
+							enunciated consonants | \
+							European technical execution | \
+							fat skronked basslines under fractured, minimal percussion | \
+							febrile rhythm mechanics | \
+							flickering syncopations | \
+							flanged beats, delayed bleeps | \
 							foggy northern European landscapes |  \
-							wicked ragga-bashment flava |  \
-							stringently reduced techno |  \
- 							glacially paced gothic stoner rock | \
+							flickering electronic rhythm sections | \
+							floppy fringe harmonies | \
+							gloriously wild natural timbres | \
+							grim, crust-laden darkness | \
+							glacially paced gothic stoner rock | \
+							hazy washes of reverbed harps | \
+							hazy synthetic electronical embellishments |  \
+							hi-scoring aquakrunk madness | \
+							head-pressurised technohouse vibes	| \
+							hyper-prismic agitated synthlines | \
+							hummable melodies |\
 							heavy rolling dancehall grinders |  \
-							orchestral level pomp and bombast |  \
+							haunted-house analogue tactics |  \
+							hazily buoyant, ethereal female vocals | \
+							intricately funked syncopations edging on the territory of Autechre or Alva Noto | \
+							inimitably raw, psychedelic wow-and-flutter beats | \
+							layered embers of sound | \
+							layered spaciousness | \
+							lysergic trumpet lines panned to infinity  |  \
+							modern amorphous psychedelia |	 \
+							magnificently evocative, mercilessly deep, tweaked out, post-rave ecstasy | \
+							majestic cloud-like structures of droning synth tones | \
+							massively modulated vocal treatments |\
+							narcotic keys |  \
+							overheated arcade game melodies | \
+							oblique hi-end processing | \
+							orchestral level pomp & bombast |  \
+							post-pop slacker tendencies | \
+							psychedelic rhythm manipulation |  \
+							pure Balearic house bliss | \
+							rootsy one-drop dub keys |  \
+							rising, haunting strings | \
+							reverberant, quivering sustains | \
+							rousing mini-orchestral swells | \
+							rippling xylophonics | \
+							spherical bell tones | \
+							sticky, wriggly electro influences | \
+							soft, smoky sax lines | \
+							slinking garage syncopations | \
+							supple subbass push | \
+							sumptuous Chicago reductions | \
+							sea-sick rhythms | \
+							symphonic droning | \
+							stringently reduced techno |  \
+							sinister Euro-porno soundtracks | \
+							spectrally sifted electronics | \
+							spacious Balearic keys |  \
 							seriously dextrous rhythm section arrangements | \
 							soporific ambiences | \
-							dexterous skanking movements | \
-							vintage radio sonic essences infected with malaria from a pre-digital era | \
-							tortured saxophone emissions | \
-							dramatic percussive interjections | \
+							slurred articulations |  \
+							synaesthetic ecstasy |  \
 							shuffling, '60s West Coast sounds | \
-							magnificently evocative, mercilessly deep, tweaked out, post-rave ecstasy | \
-							cassette tape overdubs | \
-							early handmade experiments | \
-							inimitably raw, psychedelic wow-and-flutter beats | \
-							acid house effusions turned hardcore breakbeat | \
 							spleen-crushing bass | \
-							breakneck tempos | \
 							steely, speaker-destroying dub techno | \
 							shuddering, breakbeat-fueled <genre> | \
-							dark careening tones from bright, queasy synthesizers | \
+							tortured saxophone emissions | \
+							textural guitar-scapes | \
+							the synth drones of Klaus Schulze | \
+							the wind-chilled electronics of Thomas Köner | \
+							the chugging machinations steeped in the traditions of Scandinavian machine music | \
+							utterly sick digital spasms | \
+							unfathomably complex textures | \
 							uncharacteristically spry tempos | \
-							haunted melancholy | \
-							flickering syncopations | \
-							bass frequencies turned to jellied slush | \
-							hazily buoyant, ethereal female vocals | \
-							blistering breakbeats gatecrashing your earlobes | \
-							flanged beats, delayed bleeps | \
-							pure Balearic house bliss | \
-							massively modulated vocal treatments",
+							unfathomably deep, utterly sick, dubwise textures | \
+							vintage radio sonic essences infected with malaria from a pre-digital era | \
+							wonderfully shambolic tendencies | \
+							wispily resonant distortion | \
+							wicked ragga-bashment flava |  \
+							waves of static",
 
 "<artist-description-phrase>": 	"<adverb> defies categorisation | \
 								demonstrates an innate grasp of the sublime qualities of <genre>  | \
@@ -388,7 +394,7 @@ reviewGrammar = {
 "<adverb>":				"<adverb-terminal> | <adverb-terminal>",
 
 "<adverb-terminal>":	"brilliantly | astutely | adeptly | robustly | amazingly | carefully | \
-						inadequately | abstractly | absurdly | accidentally  | brightly",
+						inadequately | abstractly | absurdly | accidentally  | brightly | breathtakingly",
 
 "<adverb-time-terminal>":	"occasionally | sporadically | infrequently | periodically | \
 							irregularly | intermittently | frequently | repeatedly | recurrently",
