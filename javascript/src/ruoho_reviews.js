@@ -10,10 +10,12 @@ reviewGrammar = {
 "<start>": "<artist-phrase>. | <artist-phrase>. <interjection>",
 
 ///////  
-"<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | \
-		\
-		The ascendent <ferocity-syn> of <artist> is on display again, showing off <structure-description>, \
-		while <adverb-time-terminal> <gerund-song-phrase> | \
+"<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
+		
+///////  
+"<artist-action-phrase>": "\
+		The ascendant <ferocity-syn> of <artist> is on display again, showing off <structure-description>, \
+		<while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
 		\
 		The songwriting <ferocity-syn> <exhibited-syn> by <artist> raises the biggest \
 		goosebumps, showing off <structure-description>, dwarfing the <structure-description> of many better known artists | \
@@ -41,7 +43,7 @@ reviewGrammar = {
 "<music-recording-phrase>": "\
 		\
 		The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>. \
-		It <singular-subject-song-verb> <adverb-terminal>, while <adverb-time-terminal> <gerund-song-phrase> | \
+		It <singular-subject-song-verb> <adverb-terminal>, <while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
 		\
 		The <time-adjective> <music-recording-noun> by <artist> <verb-phrase> <adverb> <genre-adjective>. \
 		It <song-description-phrase>, yet its essence <song-description-phrase> | \
@@ -50,7 +52,7 @@ reviewGrammar = {
 		It <song-description-phrase>, yet its essence is <evocative-adjective> of <time> music played in <city> | \
 		\
 		The <time-adjective> <music-recording-noun> by <artist> taps into a delicate, \
-		<genre-adjective> corner of the musical universe, while <adverb-time-terminal> <gerund-song-phrase>",		
+		<genre-adjective> corner of the musical universe, <while-syn> <adverb-time-terminal> <gerund-song-phrase>",		
 
 		
 "<artist>": 	"`getHotttArtists_Cached()`",
@@ -61,6 +63,8 @@ reviewGrammar = {
 "<adept-syn>": "adept | skilled | masterful | deft | dexterous | brilliant ",
 
 "<exhibited-syn>": "exhibited | displayed | manifested | shown | demonstrated | expressed ",
+
+"<while-syn>": "while | whilst | albeit | despite  | all the while ",
 
 "<interjection>": 	"This is a crucial release! | Most excellent! |  Utterly astounding! | Somewhat mind-blowing! | \
 					Jaw-dropping! | Breathtaking! | This is gripping sh*t! | Frankly intoxicating! | \
@@ -378,18 +382,17 @@ reviewGrammar = {
 					  Studio 1 | Nonesuch | Mille-Plateaux  | Force Inc. | Bpitch Control | \
 					  Shitkatapult | Warp | The Leaf | Kranky | Thoughtless Music | Unfoundsound",
 
-"<time>": 			"<epoch> | <time-period> <epoch>",
+"<time>": 			"<epoch> | <time-period>-<epoch>",
 
 "<time-period>": 	"early | late | mid",
 
-"<epoch>": 			"20th century | 19th century | 21st century | Medieval era | renaissance era |  \
-					baroque  | classical  | impressionist | neo-impressionist  | romantic  |  \
+"<epoch>": 			"Medieval  | renaissance  |  baroque  | classical  | neo-impressionist |\
 					futurist  | modernist  | postmodernist  | nouveau-realist  |  \
 					expressionist  | neo-expressionist  | atonal  | neo-surrealist  |  \
 					purist  | avant-minimalist  | post-luminist  | noveau-constructivist  |  \
-					lyrical abstractionist  | post-cynical meta-realist period | maximalist  |  \
-					vegan-deconstructivist  | modular constructivist  | subversive |  \
-					organic abstractionist ",
+					lyrical-abstractionist  | post-cynical meta-realist | maximalist  |  \
+					vegan-deconstructivist  | modular-constructivist  | subversive |  \
+					organic-abstractionist ",
 
 <!--"<adverb>":			"`getSynonyms(<adverb-terminal>, "r");` | <adverb-terminal", -->
 "<adverb>":				"<adverb-terminal> | <adverb-terminal>",
@@ -425,7 +428,7 @@ reviewGrammar = {
 								\
 								is a deep & dark tech-house number, whose B-side dub remix, takes it even deeper, adding loads of effect throws, percussion solos and dramatic breakdowns | \
 								\
-								is a deep & dark blues-house number from the <time>. It's ragingly infectious vocals are laced with moody blues guitar riffs, layers upon layers of percussion, hypnotizing filtered  stabs and the obligatory driving bass line | \
+								is a deep & dark blues-house number from the <time> era. It's ragingly infectious vocals are laced with moody blues guitar riffs, layers upon layers of percussion, hypnotizing filtered  stabs and the obligatory driving bass line | \
 								\
 								is an incredible, <adverb> mesmerising sound that will tempt, allure, petrify and utterly mind-f**k you in equal measure | \
 								\
@@ -438,7 +441,7 @@ reviewGrammar = {
 								contains passages of deep melodic beauty. This is unquestionably a journey that is <adverb> rooted in atonal explorations | \
 								\
 								is a schizophrenic composition, <adverb> and without warning cutting between sparse, low-end tension and thumping organ clusters | \
-								is a sexy, groovy little stomper, that just keeps on building and building while <gerund-song-phrase> | \
+								is a sexy, groovy little stomper, that just keeps on building and building <while-syn> <gerund-song-phrase> | \
 								\
 								is one of those avant-gardist EPs showcasing how versatile <genre> can get | \
 								\
