@@ -32,7 +32,7 @@ reviewGrammar = {
 		<structure-description>, <evocative-adjective> of <time> music played in <city> | \
 		\
 		The <artist-descriptive-noun> <exhibited-syn> by <artist> <join-phrase> <structure-description> \
-		with <structure-description> <evocative-adjective> of <time> era sounds| \
+		with <structure-description> <evocative-adjective> of <time> sounds| \
 		\
 		The <artist-descriptive-noun> <exhibited-syn> by <artist> tenuously welds a growing amalgam of \
 		contradictions and genre experiments with a veneer of schtick, persona and Fonzie cool",
