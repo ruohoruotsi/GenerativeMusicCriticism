@@ -45,11 +45,11 @@ reviewGrammar = {
 		The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>. \
 		It <singular-subject-song-verb> <adverb-terminal>, <while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
 		\
-		The <time-adjective> <music-recording-noun> by <artist> <verb-phrase> <adverb> <genre-adjective>. \
+		The <time-adjective> <music-recording-noun> by <artist> <adverb> <verb-phrase> <genre-adjective>. \
 		It <song-description-phrase>, yet its essence <song-description-phrase> | \
 		\
 		The <time-adjective> <music-recording-noun> by <artist> <verb-phrase> <adverb> <genre-adjective>. \
-		It <song-description-phrase>, yet its essence is <evocative-adjective> of <time> music played in <city> | \
+		It <song-description-phrase>, yet its essence is <evocative-adjective> of <time> music enjoyed in <city> | \
 		\
 		The <time-adjective> <music-recording-noun> by <artist> taps into a delicate, \
 		<genre-adjective> corner of the musical universe, <while-syn> <adverb-time-terminal> <gerund-song-phrase>",		
@@ -83,10 +83,7 @@ reviewGrammar = {
 						smudged | obscure  | delicate | exquisite | silky and sweet | unsteady | fractured | \
 						mangled | indifferent | shattered | otherworldly | disenchanted | sadder and wiser | \
 						sophisticated",
-
-"<adverb-terminal>": 	"brilliantly | astutely | adeptly | robustly | amazingly | carefully | inadequately | \
-						abstractly | absurdly | accidentally  | brightly",
-
+						
 "<gerund-song-phrase>": 	"marrying <genre> from the <time> period with <structure-description> | \
 							meandering around a plucked melody that <verb-phrase-singular> |	\
 							sounding like <artist> in a skank off, after inhaling a canister of nitrous oxide | \
@@ -96,7 +93,7 @@ reviewGrammar = {
 							letting in shards of light painted through snippets of <genre> and <genre> re-painted in sparkling, sumptuous colours | \
 							propelling ethereal glitching rhythms across plains of elaborately fashioned electroacoustic static | \
 							wielding Detroit shuffles à la Theo Parrish | \
-							brushing its rhythms with a cool sleight of hand that's still utterly breathtaking | \
+							brushing its rhythms with a cool sleight of hand that is still utterly breathtaking | \
 							eschewing the usual formulaic pitfalls | \
 							spinning a collection of understated string and piano elegies | \
 							veering off on solo tangents of enchanted ambient abstraction | \
@@ -363,9 +360,11 @@ reviewGrammar = {
 								makes for an uncommonly good performance that <verb-phrase-singular> | \
 								compliments credible <genre> <genre-noun> with a mighty doublepack of deadly bass variations that <verb-phrase-singular> | \
 								<adverb> elevates <genre> sophistication with <genre-adjective> <genre> <genre-noun> | \
-								writhes <adverb> with overdriven intensity and deeply sinister undercurrents | \
+								<writhes-syn> <adverb> with overdriven intensity and deeply sinister undercurrents | \
 								tries to solve an inherently under-constrained musical problem, trying to make sense out of a 3D sonic world using auditory projections that are <adverb> two-dimensional | \
 								<adverb> hoists up the profile of screeched-out abstract vocals and mournful, desolate lyrics",
+
+"<writhes-syn>":	"writhes | squirms | wriggles | thrashes | merges | flails | tosses and turns",
 
 "<join-phrase>": 	"marries | fuses | blends | marries | merges | mixes | unifies | intermingles | melds | joins",
 
@@ -389,7 +388,7 @@ reviewGrammar = {
 "<epoch>": 			"Medieval  | renaissance  |  baroque  | classical  | neo-impressionist |\
 					futurist  | modernist  | postmodernist  | nouveau-realist  |  \
 					expressionist  | neo-expressionist  | atonal  | neo-surrealist  |  \
-					purist  | avant-minimalist  | post-luminist  | noveau-constructivist  |  \
+					avant-minimalist  | post-luminist  | noveau-constructivist  |  \
 					lyrical-abstractionist  | post-cynical meta-realist | maximalist  |  \
 					vegan-deconstructivist  | modular-constructivist  | subversive |  \
 					organic-abstractionist ",
@@ -432,7 +431,7 @@ reviewGrammar = {
 								\
 								is an incredible, <adverb> mesmerising sound that will tempt, allure, petrify and utterly mind-f**k you in equal measure | \
 								\
-								is an uneasy listening experience, catapulting the listener <adverb> at times with irrepressible spirited contrasts | \
+								is an uneasy listening experience, <adverb> catapulting the listener with irrepressible spirited contrasts | \
 								\
 								suddenly explodes into an unrelenting, glistening wall of discordance, sounding like a thousand church organs screeching out | \
 								\
