@@ -11,6 +11,8 @@ reviewGrammar = {
 
 ///////  
 "<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
+// "<artist-phrase>": "The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
+//		It <song-description-phrase>, yet its essence <song-description-phrase>",
 		
 ///////  
 "<artist-action-phrase>": "\
@@ -45,10 +47,10 @@ reviewGrammar = {
 		The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>. \
 		It <singular-subject-song-verb> <adverb-terminal>, <while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
 		\
-		The <time-adjective> <music-recording-noun> by <artist> <adverb> <verb-phrase> <genre-adjective>. \
+		The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
 		It <song-description-phrase>, yet its essence <song-description-phrase> | \
 		\
-		The <time-adjective> <music-recording-noun> by <artist> <verb-phrase> <adverb> <genre-adjective>. \
+		The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
 		It <song-description-phrase>, yet its essence is <evocative-adjective> of <time> music enjoyed in <city> | \
 		\
 		The <time-adjective> <music-recording-noun> by <artist> taps into a delicate, \
@@ -155,7 +157,7 @@ reviewGrammar = {
 	Pop rai |  Pornocore | Porro (Colombian big band) | Post-grunge | Post-industrial | Post-Traumatic-Stress-Core | \
  	Power electronics | Progressive house | Protopunk | Psychedelic trance (Psy-trance) | Psychobilly | Psychosomatic trance | \
  	Psych-pop | Punk funk | Punk rock | Qawwali (Sufi religious music) | Raggamuffin (Ragga) | Ragga-soca | \
- 	Ragga-zouk | Ragtime | Rai  | Rap | Rave | Reggae | Reggaeton | Rekilaulu (Finnish rhyming sleigh songs) | \
+ 	Ragga-zouk | Ragtime | Rai  | Rap | Rave | Reggae | Reggaeton | Rekilaulu (Finnish sleigh songs) | \
  	Rhapsody | Rhythm & Blues | Rímur (Icelandic heroic epic songs) | Ring Bang (Barbadian Soca) | Riot grrrl | \
  	Rock | Rock opera | Rockabilly | Rocksteady | Rodeo music | Rokon fada | Rondeaux | Roots reggae | Rumba |  \
 	Yambu (Cuban Rumba) | Guaguanco (Cuban Rumba) | Salsa  | Samba  | Sato kagura | Saya (Bolivia) | Serialism | Shango | \
@@ -242,15 +244,13 @@ reviewGrammar = {
 								a growing amalgam of contradictions |  \
 								a blistering feast of distortion | \
 								a feast of noise-rock virtuosity | \
-								a JS Bach-meets-krautrock bassline  | \
-								a fragrant, bubbly bubblegum vibe | \
 								a veritable haberdashery of exquisitely vintage musical textures | \
 								a Flying Lotus-style bass reduction |  \
 								a dense, effulgent piece of faux-romantic orchestral syrup | \
 								an indisposable slice of <genre> delectability | \
 								a dark, haunted melancholy | \
 								an eerily impeccable falsetto | \
-								an alchemical blend of post-rave electronics",
+								an alchemical blend of post-rave <genre> electronics",
 
 "<structure-description>": "alien analogue tones |  \
 							avant-garde chamber instrumentation | \
@@ -448,9 +448,9 @@ reviewGrammar = {
 								\
 								does not initially seem to be doing anything special, but the subtlety and intensity eventually worms its way into your heart",
 
-"<verb-phrase>":		"feels | sounds | strikes one as | comes across as | shows signs of being | \
-						resonates as | reverberates as | echoes as | tintinnabulates as |\
-						gently throbs and is | softly palpitates, feeling | roars, suggesting a vibe that is",
+"<reverbs-with-phrase>":	"reverberates with | feels like | strikes one with | resonates with | \
+							echoes with | gently throbs with | softly palpitates, with | \
+							<adverb-terminal> <singular-subject-song-verb> with",
 
 "<verb-phrase-singular>":	"floats in and out of your consciousness with a wool-lined ease | \
 							sits deeply in <adverb-terminal> smoky atmospherics | \
