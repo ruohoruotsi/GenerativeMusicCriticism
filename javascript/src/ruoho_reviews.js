@@ -39,7 +39,7 @@ reviewGrammar = {
 		with <structure-description> <evocative-adjective> of <time> sounds| \
 		\
 		The <artist-descriptive-noun> <exhibited-syn> by <artist> tenuously welds a growing amalgam of \
-		contradictions and genre experiments with a veneer of schtick, persona and Fonzie cool",
+		contradictions and genre experiments with a veneer of <ferocity-syn>, <ferocity-syn> and Fonzie cool",
 
 ///////  		
 "<music-recording-phrase>": "\
@@ -121,8 +121,8 @@ reviewGrammar = {
 	Balinese Gamelan  | Ballet  | Bamboo band  | Bambuco  | Baroque  | Miami bass | Booty bass | Batucada  | \
  	Beatboxing  | Bebop  | Beiguan  | Bel canto  | Bhangra  | Bhangragga | Bhangramuffin | Big Beat | \
  	Bluegrass  | Blues  |  Bitpop  | Bocet | Bohemian Dub  | Boi  | Bolero  | Bomba | \
- 	Bombay pop | Bongo  |  Bossa nova |  	Breakbeat  | Breakcore  |  	Britfunk |  Britpop | Broken beat  | \
- 	Bubblegum pop  |  Bikutsi |  	Bulerias | Bunraku  |  Calentanos | Calypso  |  Canto popular  | \
+ 	Bombay pop | Bongo  |  Bossa nova |  Breakbeat  | Breakcore  |  Britfunk |  Britpop | Broken beat  | \
+ 	Bubblegum pop  |  Bikutsi |  Bulerias | Bunraku  |  Calentanos | Calypso  |  Canto popular  | \
  	Cantopop  | Capoeira | Carceleras | Carnatic music | Cello rock | Cha-cha-cha | Chamber music | Champeta  | \
  	Chemical breaks | Chicago house | Chicken scratch | Chillout | Chimurenga | Classical | Clicks 'n' Cuts |  \
 	Compas meringue | Cothoza mfana | Country | Cowpunk | Crunk  | Cueca | Cumbia  |  	Cybergrind | Dancehall | \
@@ -179,7 +179,7 @@ reviewGrammar = {
  	Bluegrass  | Blues  |  Bitpop  | Bocet | Bohemian Dub  | Boi  | Bolero  | Bomba | \
  	Bombay pop | Bongo  |  Bossa nova |  Breakbeat  | Breakcore  |  Britfunk |  Britpop | Broken beat  | \
  	Bubblegum pop  |  Bikutsi  | Calypso  |  Canto popular  | \
- 	Cantopop  | Capoeira  | Carnatic music | Cello rock | Cha-cha-cha | Chamber music |  | \
+ 	Cantopop  | Capoeira  | Carnatic music | Cello rock | Cha-cha-cha | Chamber music | \
  	Chemical breaks | Chicago house | Chicken scratch | Chillout | Chimurenga | Classical | Clicks 'n' Cuts |  \
 	Compas meringue  | Country | Cowpunk | Crunk  | Cumbia  |  	Cybergrind | Dancehall | \
  	Darkcore  | Darkwave | Death metal | Delta blues | Deep house | Detroit techno  | Digital hardcore |  \
@@ -226,12 +226,12 @@ reviewGrammar = {
 								enterprisingly musical | stylish sonic | elegant | exquisite musical",
 
 "<ferocity-syn>": 	"ferocity | courage | charisma | cowardice | nerve | \
-										 stoutheartedness | endowment | dauntlessness | savagery | genius | \
-										 furiousness | violence |  wildness | severeness | \
-										 simplicity | accessibility | straightforwardness | comprehensibility | \
-										 unpretentiousness | naturalness | clarity | spareness | austerity | \
-										 effortlessness | affectation | pretentiousness | posturing | \
-										 mulishness | recalcitrance",
+					stoutheartedness | endowment | dauntlessness | savagery | genius | \
+					furiousness | violence |  wildness | severeness | \
+					simplicity | accessibility | straightforwardness | comprehensibility | \
+					unpretentiousness | naturalness | clarity | spareness | austerity | \
+					effortlessness | affectation | pretentiousness | posturing | \
+					mulishness | recalcitrance | schtick ",
 
 "<a-structure-description>": 	"a pure, transcendental rave feeling | \
 								a bubbly pop appreciation | \
