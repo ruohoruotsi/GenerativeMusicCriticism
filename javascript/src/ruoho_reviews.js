@@ -10,10 +10,14 @@ reviewGrammar = {
 "<start>": "<artist-phrase>. | <artist-phrase>. <interjection>",
 
 ///////  
-"<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | \
-		\
-		The ascendent <ferocity-syn> of <artist> is on display again, showing off <structure-description>, \
-		while <adverb-time-terminal> <gerund-song-phrase> | \
+"<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
+// "<artist-phrase>": "The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
+//		It <song-description-phrase>, yet its essence <song-description-phrase>",
+		
+///////  
+"<artist-action-phrase>": "\
+		The ascendant <ferocity-syn> of <artist> is on display again, showing off <structure-description>, \
+		<while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
 		\
 		The songwriting <ferocity-syn> <exhibited-syn> by <artist> raises the biggest \
 		goosebumps, showing off <structure-description>, dwarfing the <structure-description> of many better known artists | \
@@ -32,25 +36,25 @@ reviewGrammar = {
 		<structure-description>, <evocative-adjective> of <time> music played in <city> | \
 		\
 		The <artist-descriptive-noun> <exhibited-syn> by <artist> <join-phrase> <structure-description> \
-		with <structure-description> <evocative-adjective> of <time> era sounds| \
+		with <structure-description> <evocative-adjective> of <time> sounds| \
 		\
 		The <artist-descriptive-noun> <exhibited-syn> by <artist> tenuously welds a growing amalgam of \
-		contradictions and genre experiments with a veneer of schtick, persona and Fonzie cool",
+		contradictions and genre experiments with a veneer of <ferocity-syn>, <ferocity-syn> and Fonzie cool",
 
 ///////  		
 "<music-recording-phrase>": "\
 		\
 		The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>. \
-		It <singular-subject-song-verb> <adverb-terminal>, while <adverb-time-terminal> <gerund-song-phrase> | \
+		It <singular-subject-song-verb> <adverb-terminal>, <while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
 		\
-		The <time-adjective> <music-recording-noun> by <artist> <verb-phrase> <adverb> <genre-adjective>. \
+		The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
 		It <song-description-phrase>, yet its essence <song-description-phrase> | \
 		\
-		The <time-adjective> <music-recording-noun> by <artist> <verb-phrase> <adverb> <genre-adjective>. \
-		It <song-description-phrase>, yet its essence is <evocative-adjective> of <time> music played in <city> | \
+		The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
+		It <song-description-phrase>, yet its essence is <evocative-adjective> of <time> music enjoyed in <city> | \
 		\
 		The <time-adjective> <music-recording-noun> by <artist> taps into a delicate, \
-		<genre-adjective> corner of the musical universe, while <adverb-time-terminal> <gerund-song-phrase>",		
+		<genre-adjective> corner of the musical universe, <while-syn> <adverb-time-terminal> <gerund-song-phrase>",		
 
 		
 "<artist>": 	"`getHotttArtists_Cached()`",
@@ -61,6 +65,8 @@ reviewGrammar = {
 "<adept-syn>": "adept | skilled | masterful | deft | dexterous | brilliant ",
 
 "<exhibited-syn>": "exhibited | displayed | manifested | shown | demonstrated | expressed ",
+
+"<while-syn>": "while | whilst | albeit | despite  | all the while ",
 
 "<interjection>": 	"This is a crucial release! | Most excellent! |  Utterly astounding! | Somewhat mind-blowing! | \
 					Jaw-dropping! | Breathtaking! | This is gripping sh*t! | Frankly intoxicating! | \
@@ -79,10 +85,7 @@ reviewGrammar = {
 						smudged | obscure  | delicate | exquisite | silky and sweet | unsteady | fractured | \
 						mangled | indifferent | shattered | otherworldly | disenchanted | sadder and wiser | \
 						sophisticated",
-
-"<adverb-terminal>": 	"brilliantly | astutely | adeptly | robustly | amazingly | carefully | inadequately | \
-						abstractly | absurdly | accidentally  | brightly",
-
+						
 "<gerund-song-phrase>": 	"marrying <genre> from the <time> period with <structure-description> | \
 							meandering around a plucked melody that <verb-phrase-singular> |	\
 							sounding like <artist> in a skank off, after inhaling a canister of nitrous oxide | \
@@ -92,7 +95,7 @@ reviewGrammar = {
 							letting in shards of light painted through snippets of <genre> and <genre> re-painted in sparkling, sumptuous colours | \
 							propelling ethereal glitching rhythms across plains of elaborately fashioned electroacoustic static | \
 							wielding Detroit shuffles à la Theo Parrish | \
-							brushing its rhythms with a cool sleight of hand that's still utterly breathtaking | \
+							brushing its rhythms with a cool sleight of hand that is still utterly breathtaking | \
 							eschewing the usual formulaic pitfalls | \
 							spinning a collection of understated string and piano elegies | \
 							veering off on solo tangents of enchanted ambient abstraction | \
@@ -118,8 +121,8 @@ reviewGrammar = {
 	Balinese Gamelan  | Ballet  | Bamboo band  | Bambuco  | Baroque  | Miami bass | Booty bass | Batucada  | \
  	Beatboxing  | Bebop  | Beiguan  | Bel canto  | Bhangra  | Bhangragga | Bhangramuffin | Big Beat | \
  	Bluegrass  | Blues  |  Bitpop  | Bocet | Bohemian Dub  | Boi  | Bolero  | Bomba | \
- 	Bombay pop | Bongo  |  Bossa nova |  	Breakbeat  | Breakcore  |  	Britfunk |  Britpop | Broken beat  | \
- 	Bubblegum pop  |  Bikutsi |  	Bulerias | Bunraku  |  Calentanos | Calypso  |  Canto popular  | \
+ 	Bombay pop | Bongo  |  Bossa nova |  Breakbeat  | Breakcore  |  Britfunk |  Britpop | Broken beat  | \
+ 	Bubblegum pop  |  Bikutsi |  Bulerias | Bunraku  |  Calentanos | Calypso  |  Canto popular  | \
  	Cantopop  | Capoeira | Carceleras | Carnatic music | Cello rock | Cha-cha-cha | Chamber music | Champeta  | \
  	Chemical breaks | Chicago house | Chicken scratch | Chillout | Chimurenga | Classical | Clicks 'n' Cuts |  \
 	Compas meringue | Cothoza mfana | Country | Cowpunk | Crunk  | Cueca | Cumbia  |  	Cybergrind | Dancehall | \
@@ -154,7 +157,7 @@ reviewGrammar = {
 	Pop rai |  Pornocore | Porro (Colombian big band) | Post-grunge | Post-industrial | Post-Traumatic-Stress-Core | \
  	Power electronics | Progressive house | Protopunk | Psychedelic trance (Psy-trance) | Psychobilly | Psychosomatic trance | \
  	Psych-pop | Punk funk | Punk rock | Qawwali (Sufi religious music) | Raggamuffin (Ragga) | Ragga-soca | \
- 	Ragga-zouk | Ragtime | Rai  | Rap | Rave | Reggae | Reggaeton | Rekilaulu (Finnish rhyming sleigh songs) | \
+ 	Ragga-zouk | Ragtime | Rai  | Rap | Rave | Reggae | Reggaeton | Rekilaulu (Finnish sleigh songs) | \
  	Rhapsody | Rhythm & Blues | Rímur (Icelandic heroic epic songs) | Ring Bang (Barbadian Soca) | Riot grrrl | \
  	Rock | Rock opera | Rockabilly | Rocksteady | Rodeo music | Rokon fada | Rondeaux | Roots reggae | Rumba |  \
 	Yambu (Cuban Rumba) | Guaguanco (Cuban Rumba) | Salsa  | Samba  | Sato kagura | Saya (Bolivia) | Serialism | Shango | \
@@ -176,7 +179,7 @@ reviewGrammar = {
  	Bluegrass  | Blues  |  Bitpop  | Bocet | Bohemian Dub  | Boi  | Bolero  | Bomba | \
  	Bombay pop | Bongo  |  Bossa nova |  Breakbeat  | Breakcore  |  Britfunk |  Britpop | Broken beat  | \
  	Bubblegum pop  |  Bikutsi  | Calypso  |  Canto popular  | \
- 	Cantopop  | Capoeira  | Carnatic music | Cello rock | Cha-cha-cha | Chamber music |  | \
+ 	Cantopop  | Capoeira  | Carnatic music | Cello rock | Cha-cha-cha | Chamber music | \
  	Chemical breaks | Chicago house | Chicken scratch | Chillout | Chimurenga | Classical | Clicks 'n' Cuts |  \
 	Compas meringue  | Country | Cowpunk | Crunk  | Cumbia  |  	Cybergrind | Dancehall | \
  	Darkcore  | Darkwave | Death metal | Delta blues | Deep house | Detroit techno  | Digital hardcore |  \
@@ -223,12 +226,12 @@ reviewGrammar = {
 								enterprisingly musical | stylish sonic | elegant | exquisite musical",
 
 "<ferocity-syn>": 	"ferocity | courage | charisma | cowardice | nerve | \
-										 stoutheartedness | endowment | dauntlessness | savagery | genius | \
-										 furiousness | violence |  wildness | severeness | \
-										 simplicity | accessibility | straightforwardness | comprehensibility | \
-										 unpretentiousness | naturalness | clarity | spareness | austerity | \
-										 effortlessness | affectation | pretentiousness | posturing | \
-										 mulishness | recalcitrance",
+					stoutheartedness | endowment | dauntlessness | savagery | genius | \
+					furiousness | violence |  wildness | severeness | \
+					simplicity | accessibility | straightforwardness | comprehensibility | \
+					unpretentiousness | naturalness | clarity | spareness | austerity | \
+					effortlessness | affectation | pretentiousness | posturing | \
+					mulishness | recalcitrance | schtick ",
 
 "<a-structure-description>": 	"a pure, transcendental rave feeling | \
 								a bubbly pop appreciation | \
@@ -241,15 +244,13 @@ reviewGrammar = {
 								a growing amalgam of contradictions |  \
 								a blistering feast of distortion | \
 								a feast of noise-rock virtuosity | \
-								a JS Bach-meets-krautrock bassline  | \
-								a fragrant, bubbly bubblegum vibe | \
 								a veritable haberdashery of exquisitely vintage musical textures | \
 								a Flying Lotus-style bass reduction |  \
 								a dense, effulgent piece of faux-romantic orchestral syrup | \
 								an indisposable slice of <genre> delectability | \
 								a dark, haunted melancholy | \
 								an eerily impeccable falsetto | \
-								an alchemical blend of post-rave electronics",
+								an alchemical blend of post-rave <genre> electronics",
 
 "<structure-description>": "alien analogue tones |  \
 							avant-garde chamber instrumentation | \
@@ -359,9 +360,11 @@ reviewGrammar = {
 								makes for an uncommonly good performance that <verb-phrase-singular> | \
 								compliments credible <genre> <genre-noun> with a mighty doublepack of deadly bass variations that <verb-phrase-singular> | \
 								<adverb> elevates <genre> sophistication with <genre-adjective> <genre> <genre-noun> | \
-								writhes <adverb> with overdriven intensity and deeply sinister undercurrents | \
+								<writhes-syn> <adverb> with overdriven intensity and deeply sinister undercurrents | \
 								tries to solve an inherently under-constrained musical problem, trying to make sense out of a 3D sonic world using auditory projections that are <adverb> two-dimensional | \
 								<adverb> hoists up the profile of screeched-out abstract vocals and mournful, desolate lyrics",
+
+"<writhes-syn>":	"writhes | squirms | wriggles | thrashes | merges | flails | tosses and turns",
 
 "<join-phrase>": 	"marries | fuses | blends | marries | merges | mixes | unifies | intermingles | melds | joins",
 
@@ -378,18 +381,17 @@ reviewGrammar = {
 					  Studio 1 | Nonesuch | Mille-Plateaux  | Force Inc. | Bpitch Control | \
 					  Shitkatapult | Warp | The Leaf | Kranky | Thoughtless Music | Unfoundsound",
 
-"<time>": 			"<epoch> | <time-period> <epoch>",
+"<time>": 			"<epoch> | <time-period>-<epoch>",
 
 "<time-period>": 	"early | late | mid",
 
-"<epoch>": 			"20th century | 19th century | 21st century | Medieval era | renaissance era |  \
-					baroque  | classical  | impressionist | neo-impressionist  | romantic  |  \
+"<epoch>": 			"Medieval  | renaissance  |  baroque  | classical  | neo-impressionist |\
 					futurist  | modernist  | postmodernist  | nouveau-realist  |  \
 					expressionist  | neo-expressionist  | atonal  | neo-surrealist  |  \
-					purist  | avant-minimalist  | post-luminist  | noveau-constructivist  |  \
-					lyrical abstractionist  | post-cynical meta-realist period | maximalist  |  \
-					vegan-deconstructivist  | modular constructivist  | subversive |  \
-					organic abstractionist ",
+					avant-minimalist  | post-luminist  | noveau-constructivist  |  \
+					lyrical-abstractionist  | post-cynical meta-realist | maximalist  |  \
+					vegan-deconstructivist  | modular-constructivist  | subversive |  \
+					organic-abstractionist ",
 
 <!--"<adverb>":			"`getSynonyms(<adverb-terminal>, "r");` | <adverb-terminal", -->
 "<adverb>":				"<adverb-terminal> | <adverb-terminal>",
@@ -425,11 +427,11 @@ reviewGrammar = {
 								\
 								is a deep & dark tech-house number, whose B-side dub remix, takes it even deeper, adding loads of effect throws, percussion solos and dramatic breakdowns | \
 								\
-								is a deep & dark blues-house number from the <time>. It's ragingly infectious vocals are laced with moody blues guitar riffs, layers upon layers of percussion, hypnotizing filtered  stabs and the obligatory driving bass line | \
+								is a deep & dark blues-house number from the <time> era. It's ragingly infectious vocals are laced with moody blues guitar riffs, layers upon layers of percussion, hypnotizing filtered  stabs and the obligatory driving bass line | \
 								\
 								is an incredible, <adverb> mesmerising sound that will tempt, allure, petrify and utterly mind-f**k you in equal measure | \
 								\
-								is an uneasy listening experience, catapulting the listener <adverb> at times with irrepressible spirited contrasts | \
+								is an uneasy listening experience, <adverb> catapulting the listener with irrepressible spirited contrasts | \
 								\
 								suddenly explodes into an unrelenting, glistening wall of discordance, sounding like a thousand church organs screeching out | \
 								\
@@ -438,7 +440,7 @@ reviewGrammar = {
 								contains passages of deep melodic beauty. This is unquestionably a journey that is <adverb> rooted in atonal explorations | \
 								\
 								is a schizophrenic composition, <adverb> and without warning cutting between sparse, low-end tension and thumping organ clusters | \
-								is a sexy, groovy little stomper, that just keeps on building and building while <gerund-song-phrase> | \
+								is a sexy, groovy little stomper, that just keeps on building and building <while-syn> <gerund-song-phrase> | \
 								\
 								is one of those avant-gardist EPs showcasing how versatile <genre> can get | \
 								\
@@ -446,9 +448,9 @@ reviewGrammar = {
 								\
 								does not initially seem to be doing anything special, but the subtlety and intensity eventually worms its way into your heart",
 
-"<verb-phrase>":		"feels | sounds | strikes one as | comes across as | shows signs of being | \
-						resonates as | reverberates as | echoes as | tintinnabulates as |\
-						gently throbs and is | softly palpitates, feeling | roars, suggesting a vibe that is",
+"<reverbs-with-phrase>":	"reverberates with | feels like | strikes one with | resonates with | \
+							echoes with | gently throbs with | softly palpitates, with | \
+							<adverb-terminal> <singular-subject-song-verb> with",
 
 "<verb-phrase-singular>":	"floats in and out of your consciousness with a wool-lined ease | \
 							sits deeply in <adverb-terminal> smoky atmospherics | \
