@@ -189,6 +189,13 @@ body, input, textarea, select
 			font-size: 1em;
 		}
 		
+		#content h4  /* IO HAVOC */
+		{
+			/* color: #474f51; */
+			line-height: 1.05em;
+			font-size: 1.75em;
+		}
+		
 		#content a
 		{
 			color: #ED391B;
