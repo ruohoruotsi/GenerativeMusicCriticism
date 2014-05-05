@@ -97,7 +97,7 @@ body, input, textarea, select
 
 	#header
 	{
-		/* display: none; */
+		/* display: none; */ /* IO HAVOC for good mobile layout */
 	}
 
 	#banner
@@ -178,7 +178,7 @@ body, input, textarea, select
 	
 		#content h2
 		{
-			font-size: 1.25em;
+			font-size: 1.55em;
 			color: #373f42;
 			margin: 0 0 0.1em 0;
 		}
