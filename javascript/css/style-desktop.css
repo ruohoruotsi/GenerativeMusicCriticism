@@ -176,13 +176,18 @@
 			font-size: 1.25em;
 		}
 		
-		#content h4  /* IO HAVOC */
+		#content h4   /* IO HAVOC for id="ruohoreviews" */
 		{
 			/* color: #474f51; */
 			line-height: 1.05em;
 			font-size: 1.75em;
 		}
 		
+		#content h5   /* IO HAVOC for id="reviewArtist" */
+		{
+			color: #373f42;
+			font-size: 2.22em;
+		}
 		
 		#content a
 		{
