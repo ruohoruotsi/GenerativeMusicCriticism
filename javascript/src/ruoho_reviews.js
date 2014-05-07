@@ -22,10 +22,10 @@ reviewGrammar = {
 		The songwriting <ferocity-syn> <exhibited-syn> by <artist> raises the biggest \
 		goosebumps, showing off <structure-description>, dwarfing the <structure-description> of many better known artists | \
 		\
-		Few artists are this <adept-syn> at wringing so much <ferocity-syn> from their laptops, yet the introductory track by \
+		Few artists are this <adept-syn> at wringing so much <ferocity-syn> from their laptops, yet the <time-adjective> <music-recording-noun> by \
 		<artist> <adverb-terminal> blends <structure-description> and <structure-description> | \
 		\
-		<artist> and <artist> take on the <label> crew for another strictly limited vinyl pressing, a pair of sick twelve inches that <verb-phrase-plural>",
+		<artist> and <static-artist> take on the <label> crew for another <music-recording-noun>, a pair of sick twelve inches that <verb-phrase-plural>",
 
 ///////  
 "<artist-descriptive-phrase>": "\
@@ -45,7 +45,7 @@ reviewGrammar = {
 "<music-recording-phrase>": "\
 		\
 		The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>. \
-		It <singular-subject-song-verb> <adverb-terminal>, <while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
+		It <singular-subject-song-verb> <adverb-terminal>, <adverb-time-terminal> <gerund-song-phrase> | \
 		\
 		The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
 		It <song-description-phrase>, yet its essence <song-description-phrase> | \
@@ -59,6 +59,9 @@ reviewGrammar = {
 		
 "<artist>": 	"`getHotttArtists_Cached()`",
 // "<artist>": 	"`getHotttArtists()`",
+
+
+"<static-artist>": 	"Madonna | Prince | Bono | Salif Keita | Baaba Maal | Femi Kuti ",
 
 "<artist-descriptive-noun>": "<music-adjective-terminal> <ferocity-syn>",
 
@@ -88,11 +91,11 @@ reviewGrammar = {
 						
 "<gerund-song-phrase>": 	"marrying <genre> from the <time> period with <structure-description> | \
 							meandering around a plucked melody that <verb-phrase-singular> |	\
-							sounding like <artist> in a skank off, after inhaling a canister of nitrous oxide | \
+							sounding like <static-artist> in a skank off, after inhaling a canister of nitrous oxide | \
 							blurring the boundaries between <structure-description> and <structure-description> | \
 							eschewing the familiar palimpsest of credible <genre> <genre-noun> | \
 							injecting hints of <genre> patterns into <genre> | \
-							letting in shards of light painted through snippets of <genre> and <genre> re-painted in sparkling, sumptuous colours | \
+							letting in shards of light painted through snippets of <genre>, re-painted in sparkling, sumptuous colours | \
 							propelling ethereal glitching rhythms across plains of elaborately fashioned electroacoustic static | \
 							wielding Detroit shuffles à la Theo Parrish | \
 							brushing its rhythms with a cool sleight of hand that is still utterly breathtaking | \
@@ -105,7 +108,7 @@ reviewGrammar = {
 							ricocheting gunshots off grimy bassline warps | \
 							employing classically staggered harmonic progressions | \
 							riding rock hard subbass depth charges | \
-							creating atmospheric pressures sharp enough to give lesser experienced divers the bends | \
+							creating atmospheric pressure drops sharp enough to give lesser experienced divers the bends | \
 							skittering back to post-Autechre beat deconstructions | \
 							exhibiting tearjerking, suckerpunching, piano-meets-strings melancholy | \
 							dripping with endless reverb and delay manipulation | \
@@ -349,7 +352,7 @@ reviewGrammar = {
 							unfathomably complex textures | \
 							uncharacteristically spry tempos | \
 							unfathomably deep, utterly sick, dubwise textures | \
-							vintage radio sonic essences infected with malaria from a pre-digital era | \
+							vintage radio essences infected with malaria from a pre-digital era | \
 							wonderfully shambolic tendencies | \
 							wispily resonant distortion | \
 							wicked ragga-bashment flava |  \
@@ -361,7 +364,8 @@ reviewGrammar = {
 								compliments credible <genre> <genre-noun> with a mighty doublepack of deadly bass variations that <verb-phrase-singular> | \
 								<adverb> elevates <genre> sophistication with <genre-adjective> <genre> <genre-noun> | \
 								<writhes-syn> <adverb> with overdriven intensity and deeply sinister undercurrents | \
-								tries to solve an inherently under-constrained musical problem, trying to make sense out of a 3D sonic world using auditory projections that are <adverb> two-dimensional | \
+								tries to solve an inherently under-constrained musical problem with <structure-description> and <structure-description>|\
+								tries to make sense out of a 3D sonic world using <structure-description> that are <adverb> two-dimensional | \
 								<adverb> hoists up the profile of screeched-out abstract vocals and mournful, desolate lyrics",
 
 "<writhes-syn>":	"writhes | squirms | wriggles | thrashes | merges | flails | tosses and turns",
