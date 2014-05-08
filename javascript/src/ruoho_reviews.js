@@ -10,8 +10,8 @@ reviewGrammar = {
 "<start>": "<artist-phrase>. | <artist-phrase>. <interjection>",
 
 ///////  
-// "<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
-"<artist-phrase>": 	"<artist> and <static-artist> take on the <label> crew for another <music-recording-noun>, demonstrating <structure-description> and a <creative-syn> <ferocity-syn> that <verb-phrase-singular>",
+"<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
+// "<artist-phrase>": 	"<artist> and <static-artist> take on the <label> crew for another <music-recording-noun>, demonstrating <structure-description> and a <creative-syn> <ferocity-syn> that <verb-phrase-singular>",
 		
 ///////  
 "<artist-action-phrase>": "\
@@ -24,7 +24,7 @@ reviewGrammar = {
 		Few artists are this <adept-syn> at wringing so much <ferocity-syn> from their laptops, yet the <time-adjective> <music-recording-noun> by \
 		<artist> <adverb-terminal> blends <structure-description> and <structure-description> | \
 		\
-		<artist> and <static-artist> take on the <label> crew for another <music-recording-noun>, demonstrating a creative <ferocity-syn> that <verb-phrase-plural>",
+		<artist> and <static-artist> take on the <label> crew for another <music-recording-noun>, demonstrating <structure-description> and a <creative-syn> <ferocity-syn> that <verb-phrase-singular>",
 
 ///////  
 "<artist-descriptive-phrase>": "\
@@ -453,14 +453,20 @@ reviewGrammar = {
 							echoes with | gently throbs with | softly palpitates, with | \
 							<adverb-terminal> <singular-subject-song-verb> with",
 
-"<verb-phrase-singular>":	"floats in and out of your consciousness with a wool-lined ease | \
+"<verb-phrase-singular>":	"floats in & out of your <consciousness-syn> with a wool-lined ease | \
 							sits deeply in <adverb-terminal> smoky atmospherics | \
-							drowns out the sound of jaws hitting the floor",
+							is nestled in <a-structure-description> | \
+							drowns out the sound of jaws hitting the <floor-syn>",
 
 "<verb-phrase-plural>":  	"<plural-subject-song-verb> with <structure-description> and <structure-description> | \
-							float in and out of your consciousness with a wool-lined ease | \
+							float in & out of your <consciousness-syn> with a wool-lined ease | \
 							sit deep in <adverb-terminal> smoky atmospherics | \
-							simply drown out the sound of jaws hitting the floor", 
+							simply drown out the sound of jaws hitting the <floor-syn>", 
+
+
+"<consciousness-syn>": "consciousness | mental grasp | awareness | attention | cognizance | loaf | mind | perception ",
+
+"<floor-syn>": "floor | pavement | concrete | ground",
 
 "<plural-subject-song-verb>":  "rock | shine | shimmer | chug | drone | sparkle | unnerve | tremble | surprise | startle | sparkle | scintillate",
 
