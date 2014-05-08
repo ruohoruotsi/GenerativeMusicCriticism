@@ -10,9 +10,8 @@ reviewGrammar = {
 "<start>": "<artist-phrase>. | <artist-phrase>. <interjection>",
 
 ///////  
-"<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
-// "<artist-phrase>": "The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
-//		It <song-description-phrase>, yet its essence <song-description-phrase>",
+// "<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
+"<artist-phrase>": 	"<artist> and <static-artist> take on the <label> crew for another <music-recording-noun>, demonstrating <structure-description> and a <creative-syn> <ferocity-syn> that <verb-phrase-singular>",
 		
 ///////  
 "<artist-action-phrase>": "\
@@ -25,20 +24,20 @@ reviewGrammar = {
 		Few artists are this <adept-syn> at wringing so much <ferocity-syn> from their laptops, yet the <time-adjective> <music-recording-noun> by \
 		<artist> <adverb-terminal> blends <structure-description> and <structure-description> | \
 		\
-		<artist> and <static-artist> take on the <label> crew for another <music-recording-noun>, a pair of sick twelve inches that <verb-phrase-plural>",
+		<artist> and <static-artist> take on the <label> crew for another <music-recording-noun>, demonstrating a creative <ferocity-syn> that <verb-phrase-plural>",
 
 ///////  
 "<artist-descriptive-phrase>": "\
 		\
-		The <artist-descriptive-noun> <exhibited-syn> by <artist> <artist-description-phrase> | \
+		The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <artist-description-phrase> | \
 		\
-		The <artist-descriptive-noun> <exhibited-syn> by <artist> <join-phrase> <genre> with \
+		The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <genre> with \
 		<structure-description>, <evocative-adjective> of <time> music played in <city> | \
 		\
-		The <artist-descriptive-noun> <exhibited-syn> by <artist> <join-phrase> <structure-description> \
+		The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <structure-description> \
 		with <structure-description> <evocative-adjective> of <time> sounds| \
 		\
-		The <artist-descriptive-noun> <exhibited-syn> by <artist> tenuously welds a growing amalgam of \
+		The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> tenuously welds a growing amalgam of \
 		contradictions and genre experiments with a veneer of <ferocity-syn>, <ferocity-syn> and Fonzie cool",
 
 ///////  		
@@ -62,8 +61,6 @@ reviewGrammar = {
 
 
 "<static-artist>": 	"Madonna | Prince | Bono | Salif Keita | Baaba Maal | Femi Kuti ",
-
-"<artist-descriptive-noun>": "<music-adjective-terminal> <ferocity-syn>",
 
 "<adept-syn>": "adept | skilled | masterful | deft | dexterous | brilliant ",
 
@@ -225,8 +222,8 @@ reviewGrammar = {
  	Waltz | Wassoulou | Western swing | Xhosa | Zarzuela (Spanish operetta) | Zeibekiko (Greek Dance 9/8 Rytmus) | \
  	Ziglibithy | Zolo (Hyper Bitchy rhythms) | Zouglou | Zouk  |  Zydeco",
 
-"<music-adjective-terminal>":	"sonic | artistic | inventive acoustic | creative | musical | innovative musical | original melodic | expressive acoustic | visionary sonic | \
-								enterprisingly musical | stylish sonic | elegant | exquisite musical",
+"<creative-syn>":	"sonic | tasteful acoustic | creative | musical | novel musical | fresh melodic | stirring acoustic | visionary sonic | \
+					trendy musical | stylish sonic | refined | magnificent musical",
 
 "<ferocity-syn>": 	"ferocity | courage | charisma | cowardice | nerve | \
 					stoutheartedness | endowment | dauntlessness | savagery | genius | \
