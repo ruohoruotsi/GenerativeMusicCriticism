@@ -11,7 +11,6 @@ reviewGrammar = {
 
 ///////  
 "<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
-// "<artist-phrase>": 	"<artist> and <static-artist> take on the <label> crew for another <music-recording-noun>, demonstrating <structure-description> and a <creative-syn> <ferocity-syn> that <verb-phrase-singular>",
 		
 ///////  
 "<artist-action-phrase>": "\
@@ -32,10 +31,10 @@ reviewGrammar = {
 		The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <artist-description-phrase> | \
 		\
 		The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <genre> with \
-		<structure-description>, <evocative-adjective> of <time> music played in <city> | \
+		<structure-description>, <evocative-adjective> of <epoch> music from <city> | \
 		\
 		The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <structure-description> \
-		with <structure-description> <evocative-adjective> of <time> sounds| \
+		with <structure-description> <evocative-adjective> of <epoch> sounds| \
 		\
 		The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> tenuously welds a growing amalgam of \
 		contradictions and genre experiments with a veneer of <ferocity-syn>, <ferocity-syn> and Fonzie cool",
@@ -50,7 +49,7 @@ reviewGrammar = {
 		It <song-description-phrase>, yet its essence <song-description-phrase> | \
 		\
 		The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
-		It <song-description-phrase>, yet its essence is <evocative-adjective> of <time> music enjoyed in <city> | \
+		It <song-description-phrase>, yet its essence is <evocative-adjective> of <epoch> music enjoyed in <city> | \
 		\
 		The <time-adjective> <music-recording-noun> by <artist> taps into a delicate, \
 		<genre-adjective> corner of the musical universe, <while-syn> <adverb-time-terminal> <gerund-song-phrase>",		
@@ -86,7 +85,7 @@ reviewGrammar = {
 						mangled | indifferent | shattered | otherworldly | disenchanted | sadder and wiser | \
 						sophisticated",
 						
-"<gerund-song-phrase>": 	"marrying <genre> from the <time> period with <structure-description> | \
+"<gerund-song-phrase>": 	"marrying <genre> from the <epoch> period with <structure-description> | \
 							meandering around a plucked melody that <verb-phrase-singular> |	\
 							sounding like <static-artist> in a skank off, after inhaling a canister of nitrous oxide | \
 							blurring the boundaries between <structure-description> and <structure-description> | \
@@ -382,17 +381,11 @@ reviewGrammar = {
 					  Studio 1 | Nonesuch | Mille-Plateaux  | Force Inc. | Bpitch Control | \
 					  Shitkatapult | Warp | The Leaf | Kranky | Thoughtless Music | Unfoundsound",
 
-"<time>": 			"<epoch> | <time-period>-<epoch>",
-
-"<time-period>": 	"early | late | mid",
-
-"<epoch>": 			"Medieval  | renaissance  |  baroque  | classical  | neo-impressionist |\
-					futurist  | modernist  | postmodernist  | nouveau-realist  |  \
-					expressionist  | neo-expressionist  | atonal  | neo-surrealist  |  \
-					avant-minimalist  | post-luminist  | noveau-constructivist  |  \
-					lyrical-abstractionist  | post-cynical meta-realist | maximalist  |  \
-					vegan-deconstructivist  | modular-constructivist  | subversive |  \
-					organic-abstractionist ",
+"<epoch>": 			"British Invasion era | New Wave era | Motown era | Stax/Volt era | \
+					MTV era | futurist  | modernist  | postmodernist  | nouveau-realist  |  \
+					expressionist  | post-atonal  | atonal  | neo-surrealist  |  \
+					twelve-tone serialist | subversive | avant-gardist",
+					
 
 <!--"<adverb>":			"`getSynonyms(<adverb-terminal>, "r");` | <adverb-terminal", -->
 "<adverb>":				"<adverb-terminal> | <adverb-terminal>",
@@ -416,7 +409,7 @@ reviewGrammar = {
 								\
 								is a sweet-like-tropical blend of <genre>, <genre> and dubstep | \
 								\
-								is an eighty-minute odyssey into stoner heaven | \
+								is an 20 minute odyssey into stoner heaven | \
 								\
 								is as foul-smelling as an oily anal leakage | \
 								\
@@ -428,7 +421,7 @@ reviewGrammar = {
 								\
 								is a deep & dark tech-house number, whose B-side dub remix, takes it even deeper, adding loads of effect throws, percussion solos and dramatic breakdowns | \
 								\
-								is a deep & dark blues-house number from the <time> era. It's ragingly infectious vocals are laced with moody blues guitar riffs, layers upon layers of percussion, hypnotizing filtered  stabs and the obligatory driving bass line | \
+								is a deep & dark blues-house number from the <epoch> era. It's ragingly infectious vocals are laced with moody blues guitar riffs, layers upon layers of percussion, hypnotizing filtered  stabs and the obligatory driving bass line | \
 								\
 								is an incredible, <adverb> mesmerising sound that will tempt, allure, petrify and utterly mind-f**k you in equal measure | \
 								\
@@ -443,7 +436,7 @@ reviewGrammar = {
 								is a schizophrenic composition, <adverb> and without warning cutting between sparse, low-end tension and thumping organ clusters | \
 								is a sexy, groovy little stomper, that just keeps on building and building <while-syn> <gerund-song-phrase> | \
 								\
-								is one of those avant-gardist EPs showcasing how versatile <genre> can get | \
+								is one of those <epoch> EPs showcasing how versatile <genre> can get | \
 								\
 								is high grade bass music so intense you can blow-dry your hair right in front of the bass bins | \
 								\
