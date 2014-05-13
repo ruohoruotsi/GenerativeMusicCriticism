@@ -23,7 +23,8 @@ reviewGrammar = {
 		Few artists are this <adept-syn> at wringing so much <ferocity-syn> from their laptops, yet the <time-adjective> <music-recording-noun> by \
 		<artist> <adverb-terminal> blends <structure-description> and <structure-description> | \
 		\
-		<artist> and <static-artist> take on the <label> crew for another <music-recording-noun>, demonstrating <structure-description> and a <creative-syn> <ferocity-syn> that <verb-phrase-singular>",
+		<artist> and <static-artist> take on the <label> crew for another <music-recording-noun>, demonstrating <structure-description> and a \
+		<creative-syn> <ferocity-syn> that <verb-phrase-singular>",
 
 ///////  
 "<artist-descriptive-phrase>": "\
@@ -54,18 +55,32 @@ reviewGrammar = {
 		The <time-adjective> <music-recording-noun> by <artist> taps into a delicate, \
 		<genre-adjective> corner of the musical universe, <while-syn> <adverb-time-terminal> <gerund-song-phrase>",		
 
-		
+///////  		
 "<artist>": 	"`getHotttArtists_Cached()`",
 // "<artist>": 	"`getHotttArtists()`",
 
-
 "<static-artist>": 	"Madonna | Prince | Bono | Salif Keita | Baaba Maal | Femi Kuti ",
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 "<adept-syn>": "adept | skilled | masterful | deft | dexterous | brilliant ",
 
 "<exhibited-syn>": "exhibited | displayed | manifested | shown | demonstrated | expressed ",
 
 "<while-syn>": "while | whilst | albeit | despite  | all the while ",
+
+"<creative-syn>":	"sonic | tasteful acoustic | creative | musical | novel musical | fresh melodic | stirring acoustic | visionary sonic | \
+					trendy musical | stylish sonic | refined | magnificent musical",
+
+"<ferocity-syn>": 	"ferocity | courage | charisma | cowardice | nerve | \
+					stoutheartedness | endowment | dauntlessness | savagery | genius | \
+					furiousness | violence |  wildness | severeness | \
+					simplicity | accessibility | straightforwardness | comprehensibility | \
+					unpretentiousness | naturalness | clarity | spareness | austerity | \
+					effortlessness | affectation | pretentiousness | posturing | \
+					mulishness | recalcitrance | schtick ",
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 "<interjection>": 	"This is a crucial release! | Most excellent! |  Utterly astounding! | Somewhat mind-blowing! | \
 					Jaw-dropping! | Breathtaking! | This is gripping sh*t! | Frankly intoxicating! | \
@@ -220,17 +235,6 @@ reviewGrammar = {
  	Vaudeville | Verbunkos (Hungarian folk music) | Verismo | Vocal house | Waila (Chicken Scratch)  | \
  	Waltz | Wassoulou | Western swing | Xhosa | Zarzuela (Spanish operetta) | Zeibekiko (Greek Dance 9/8 Rytmus) | \
  	Ziglibithy | Zolo (Hyper Bitchy rhythms) | Zouglou | Zouk  |  Zydeco",
-
-"<creative-syn>":	"sonic | tasteful acoustic | creative | musical | novel musical | fresh melodic | stirring acoustic | visionary sonic | \
-					trendy musical | stylish sonic | refined | magnificent musical",
-
-"<ferocity-syn>": 	"ferocity | courage | charisma | cowardice | nerve | \
-					stoutheartedness | endowment | dauntlessness | savagery | genius | \
-					furiousness | violence |  wildness | severeness | \
-					simplicity | accessibility | straightforwardness | comprehensibility | \
-					unpretentiousness | naturalness | clarity | spareness | austerity | \
-					effortlessness | affectation | pretentiousness | posturing | \
-					mulishness | recalcitrance | schtick ",
 
 "<a-structure-description>": 	"a pure, transcendental rave feeling | \
 								a bubbly pop appreciation | \
