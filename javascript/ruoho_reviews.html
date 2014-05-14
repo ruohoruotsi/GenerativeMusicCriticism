@@ -163,7 +163,8 @@
 			getHotttRating();
 			getCurrentArtist();
 			getCurrentArtistImage_Cached();		
-			getCurrentArtistTwitterURL_Cached();		
+			getCurrentArtistTwitterURL_Cached();
+			getCurrentArtistInfo_Cached();		
 		}
 		
 		
@@ -203,27 +204,27 @@
 
 			var link = urlList["twitter_url"];
 			a.title = "Twitter";
-			a.innerHTML = "Artist Twitter";
+			a.innerHTML = "@" + cachedHotttArtists[currentArtist.index].twitter_id;
 		
 			if(!link) {		
 				link =  urlList["wikipedia_url"];
 				a.title = "Wikipedia";
-				a.innerHTML = "Artist Wikipedia";
+				a.innerHTML = "Wikipedia";
 			}
 			if(!link) {	
 				link =  urlList["myspace_url"];
 				a.title = "Myspace";
-				a.innerHTML = "Artist Myspace";					
+				a.innerHTML = "Myspace";					
 			}
 			if(!link) {	
 				link =  urlList["lastfm_url"];
 				a.title = "LastFM";
-				a.innerHTML = "Artist LastFM";										
+				a.innerHTML = "LastFM";										
 			}				
 			if(!link) {	
 				link =  urlList["official_url"];
 				a.title = "Official Website";
-				a.innerHTML = "Artist Website";															
+				a.innerHTML = "Official Website";															
 			}							
 			if(!link) {	
 				link =  " ";
@@ -232,6 +233,24 @@
 		
 			a.href = link;
 
+		}
+
+
+		//////////////////////////////////////////////////////////////////////////////////
+		function getCurrentArtistInfo_Cached() 
+		{	
+			// random selection from image array
+			var artistID = cachedHotttArtists[currentArtist.index].id;
+			console.log(artistID);
+
+			var a = document.getElementById('artistInfo');
+			console.log(a);
+
+			if(artistID) {		
+				a.href = "http://static.echonest.com/echotron/?id=" + artistID;
+				a.title = "Echotron";
+				a.innerHTML = "Artist Echotron";
+			}
 		}
 
 		//////////////////////////////////////////////////////////////////////////////////
@@ -471,7 +490,7 @@
 
 										<ul class="link-list">
 											<li><a href="" id="artistTwitter">Artist Info</a></li>
-											<li>Reviews</li>
+											<li><a href="" id="artistInfo">Artist Info</a></li>
 											<li>Play this artist</li>
 										</ul>
 
