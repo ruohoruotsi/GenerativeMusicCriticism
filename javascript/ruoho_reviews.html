@@ -137,9 +137,7 @@
 		//////////////////////////////////////////////////////////////////////////////////
 		function setupCached()
 		{
-			// read in cached version of 
-			//var cached = JSON.parse(cachedHotttArtists);	
-			console.log(cachedHotttArtists);
+			// hotttArtistsCache is read, when we included it in artistMetaData.js above 
 			
 			reviewRiGrammar = new RiGrammar(reviewGrammar);
 			labelyearRiGrammar = new RiGrammar(labelYearGrammar);
@@ -171,8 +169,8 @@
 		//////////////////////////////////////////////////////////////////////////////////
 		function getHotttArtists_Cached() // get a random Hottt artist
 		{							
-			var rand = Math.floor((Math.random()*cachedHotttArtists.length));
-			currentArtist.name = cachedHotttArtists[rand].name;
+			var rand = Math.floor((Math.random()*hotttArtistsCache.length));
+			currentArtist.name = hotttArtistsCache[rand].name;
 			currentArtist.index = rand;
 	
 			console.log(currentArtist);
@@ -184,10 +182,10 @@
 		//////////////////////////////////////////////////////////////////////////////////
 		function getCurrentArtistImage_Cached() 
 		{			
-			console.log(cachedHotttArtists[currentArtist.index].images);
+			console.log(hotttArtistsCache[currentArtist.index].images);
 			
 			// random selection from image array
-			var imageList = cachedHotttArtists[currentArtist.index].images;
+			var imageList = hotttArtistsCache[currentArtist.index].images;
 			var imageIndex = Math.floor(Math.random()*imageList.length); console.log(imageIndex);
 			document.getElementById("artistImages").src = imageList[imageIndex].url;
 		}
@@ -197,14 +195,14 @@
 		function getCurrentArtistTwitterURL_Cached() 
 		{	
 			// random selection from image array
-			var urlList = cachedHotttArtists[currentArtist.index].URLs;
+			var urlList = hotttArtistsCache[currentArtist.index].URLs;
 			console.log(urlList);
 
 			var a = document.getElementById('artistTwitter');
 
 			var link = urlList["twitter_url"];
 			a.title = "Twitter";
-			a.innerHTML = "@" + cachedHotttArtists[currentArtist.index].twitter_id;
+			a.innerHTML = "@" + hotttArtistsCache[currentArtist.index].twitter_id;
 		
 			if(!link) {		
 				link =  urlList["wikipedia_url"];
@@ -240,7 +238,7 @@
 		function getCurrentArtistInfo_Cached() 
 		{	
 			// random selection from image array
-			var artistID = cachedHotttArtists[currentArtist.index].id;
+			var artistID = hotttArtistsCache[currentArtist.index].id;
 			console.log(artistID);
 
 			var a = document.getElementById('artistInfo');
