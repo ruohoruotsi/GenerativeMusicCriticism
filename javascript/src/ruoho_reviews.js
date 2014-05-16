@@ -283,7 +283,7 @@ reviewGrammar = {
 							endlessly arpeggiated chords | \
 							enunciated consonants | \
 							European technical execution | \
-							fat skronked basslines under fractured, minimal percussion | \
+							fat skronked basslines under <genre-adjective>, minimal percussion | \
 							febrile rhythm mechanics | \
 							flickering syncopations | \
 							flanged beats, delayed bleeps | \
@@ -438,7 +438,8 @@ reviewGrammar = {
 								contains passages of deep melodic beauty. This is unquestionably a journey that is <adverb> rooted in atonal explorations | \
 								\
 								is a schizophrenic composition, <adverb> and without warning cutting between sparse, low-end tension and thumping organ clusters | \
-								is a sexy, groovy little stomper, that just keeps on building and building <while-syn> <gerund-song-phrase> | \
+								\
+								is a <sexy-syn> little stomper, that just keeps on building and building <while-syn> <gerund-song-phrase> | \
 								\
 								is one of those <epoch> EPs showcasing how versatile <genre> can get | \
 								\
@@ -460,10 +461,12 @@ reviewGrammar = {
 							sit deep in <adverb-terminal> smoky atmospherics | \
 							simply drown out the sound of jaws hitting the <floor-syn>", 
 
-
 "<consciousness-syn>": "consciousness | mental grasp | awareness | attention | cognizance | loaf | mind | perception ",
 
 "<floor-syn>": "floor | pavement | concrete | ground",
+
+"<sexy-syn>": "sexy | groovy | alluring | sultry | slinky | provocative | tantalizing | nubile | bootylicious | erotic |\
+				titillating | racy | naughty | X-rated | pornographic | crude | lewd | raunchy | steamy | horny | slick | red-hot",
 
 "<plural-subject-song-verb>":  "rock | shine | shimmer | chug | drone | sparkle | unnerve | tremble | surprise | startle | sparkle | scintillate",
 
