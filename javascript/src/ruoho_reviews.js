@@ -57,7 +57,6 @@ reviewGrammar = {
 
 ///////  		
 "<artist>": 	"`getHotttArtists_Cached()`",
-// "<artist>": 	"`getHotttArtists()`",
 
 "<static-artist>": 	"Madonna | Prince | Bono | Salif Keita | Baaba Maal | Femi Kuti ",
 
