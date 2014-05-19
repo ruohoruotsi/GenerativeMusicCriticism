@@ -14,45 +14,45 @@ reviewGrammar = {
 		
 ///////  
 "<artist-action-phrase>": "\
-		The ascendant <ferocity-syn> of <artist> is on display again, showing off <structure-description>, \
+		1 The ascendant <ferocity-syn> of <artist> is on display again, showing off <structure-description>, \
 		<while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
 		\
-		The songwriting <ferocity-syn> <exhibited-syn> by <artist> raises the biggest \
+		2 The songwriting <ferocity-syn> <exhibited-syn> by <artist> raises the biggest \
 		goosebumps, showing off <structure-description>, dwarfing the <structure-description> of many better known artists | \
 		\
-		Few artists are this <adept-syn> at wringing so much <ferocity-syn> from their laptops, yet the <time-adjective> <music-recording-noun> by \
+		3 Few artists are this <adept-syn> at wringing so much <ferocity-syn> from their laptops, yet the <time-adjective> <music-recording-noun> by \
 		<artist> <adverb-terminal> blends <structure-description> and <structure-description> | \
 		\
-		<artist> and <static-artist> take on the <label> crew for another <music-recording-noun>, demonstrating <structure-description> and a \
+		4 <artist> and <static-artist> take on the <label> crew for another <music-recording-noun>, demonstrating <structure-description> and a \
 		<creative-syn> <ferocity-syn> that <verb-phrase-singular>",
 
 ///////  
 "<artist-descriptive-phrase>": "\
 		\
-		The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <artist-description-phrase> | \
+		5 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <artist-description-phrase> | \
 		\
-		The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <genre> with \
+		6 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <genre> with \
 		<structure-description>, <evocative-adjective> of <epoch> music from <city> | \
 		\
-		The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <structure-description> \
+		7 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <structure-description> \
 		with <structure-description>, <evocative-adjective> of <epoch> sounds| \
 		\
-		The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> tenuously welds a growing amalgam of \
+		8 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> tenuously welds a growing amalgam of \
 		contradictions and genre experiments with a veneer of <ferocity-syn>, <ferocity-syn> and Fonzie cool",
 
 ///////  		
 "<music-recording-phrase>": "\
 		\
-		The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>. \
-		It <rocks-syn>, <while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
+		9 The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>. \
+		It <rocks-syn>, <adverb-time-terminal> <gerund-song-phrase> | \
 		\
-		The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
+		10 The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
 		It <song-description-phrase>, yet its essence <song-description-phrase> | \
 		\
-		The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
+		11 The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
 		It <song-description-phrase>, yet its essence is <evocative-adjective> of <epoch> music enjoyed in <city> | \
 		\
-		The <time-adjective> <music-recording-noun> by <artist> taps into a delicate, \
+		12 The <time-adjective> <music-recording-noun> by <artist> taps into a delicate, \
 		<genre-adjective> corner of the musical universe, <while-syn> <adverb-time-terminal> <gerund-song-phrase>",		
 
 ///////  		
@@ -262,7 +262,7 @@ reviewGrammar = {
 							avant-garde chamber instrumentation | \
 							assorted disembodied voices | \
 							bass frequencies turned to jellied slush | \
-							blistering breakbeats gatecrashing your earlobes | \
+							blistering, earlobe gatecrashing breakbeats | \
 							beautifully tempered zones of twilight ambient  | \
 							breakneck tempos | \
 							acid house effusions turned hardcore breakbeat | \
@@ -350,7 +350,8 @@ reviewGrammar = {
 							textural guitar-scapes | \
 							the synth drones of Klaus Schulze | \
 							the wind-chilled electronics of Thomas Köner | \
-							chugging machinations steeped in the traditions of Scandinavian machine music | \
+							chugging machinations | \
+							Scandinavian machine music | \
 							utterly sick digital spasms | \
 							unfathomably complex textures | \
 							uncharacteristically spry tempos | \
