@@ -102,7 +102,7 @@
 								
 		// setup
 		window.onload = setupCached;
-		// window.onmouseup = mouseClicked_Cached;
+		// window.onmouseup = mouseClicked;
 
 		//////////////////////////////////////////////////////////////////////////////////
 		function setupCached()
@@ -112,13 +112,13 @@
 			reviewRiGrammar = new RiGrammar(reviewGrammar);
 			labelyearRiGrammar = new RiGrammar(labelYearGrammar);
 			
-			mouseClicked_Cached();
-			console.log("setupCached completed");
+			mouseClicked();
+			console.log("Setup completed");
 		}
 
 
 		//////////////////////////////////////////////////////////////////////////////////
-		function mouseClicked_Cached()
+		function mouseClicked()
 		{
 			var aReview = reviewRiGrammar.expand();
 			var labelyear = labelyearRiGrammar.expand();
@@ -131,44 +131,42 @@
 			getAlbumName();	
 			getHotttRating();
 			getCurrentArtist();
-			getCurrentArtistImage_Cached();		
-			getCurrentArtistTwitterURL_Cached();
-			getCurrentArtistInfo_Cached();		
+			getCurrentArtistImage();		
+			getCurrentArtistTwitterURL();
+			getCurrentArtistInfo();		
 		}
 		
 		
 		//////////////////////////////////////////////////////////////////////////////////
-		function getHotttArtists_Cached() // get a random Hottt artist
+		function getHotttArtists() // get a random Hottt artist
 		{							
 			var rand = Math.floor((Math.random() * hotttArtistsCache.length));
 			currentArtist.name = hotttArtistsCache[rand].name;
 			currentArtist.index = rand;
 	
 			console.log(currentArtist);
-	
 			return currentArtist.name;	
 		}
 		
 		
 		//////////////////////////////////////////////////////////////////////////////////
-		function getCurrentArtistImage_Cached() 
+		function getCurrentArtistImage() 
 		{			
-			console.log(hotttArtistsCache[currentArtist.index].images);
+			// console.log(hotttArtistsCache[currentArtist.index].images);
 			
 			// random selection from image array
 			var imageList = hotttArtistsCache[currentArtist.index].images;
 			var imageIndex = Math.floor(Math.random() * imageList.length); 
-			console.log(imageIndex);
 			document.getElementById("artistImages").src = imageList[imageIndex].url;
 		}
 
 
 		//////////////////////////////////////////////////////////////////////////////////
-		function getCurrentArtistTwitterURL_Cached() 
+		function getCurrentArtistTwitterURL() 
 		{	
 			// random selection from image array
 			var urlList = hotttArtistsCache[currentArtist.index].URLs;
-			console.log(urlList);
+			// console.log(urlList);
 
 			var a = document.getElementById('artistTwitter');
 
@@ -206,19 +204,16 @@
 
 
 		//////////////////////////////////////////////////////////////////////////////////
-		function getCurrentArtistInfo_Cached() 
+		function getCurrentArtistInfo() 
 		{	
 			// random selection from image array
 			var artistID = hotttArtistsCache[currentArtist.index].id;
-			console.log(artistID);
-
 			var a = document.getElementById('artistInfo');
-			console.log(a);
 
 			if(artistID) {		
 				a.href = "http://static.echonest.com/echotron/?id=" + artistID;
 				a.title = "Echotron";
-				a.innerHTML = "Artist Echotron";
+				a.innerHTML = "Artist Info";
 			}
 		}
 
@@ -324,7 +319,7 @@
 										data-count="none" data-via="chris_camps" data-size="large">Tweet</a> -->
 										
 										
-										<a href="#" class="btn" onclick="mouseClicked_Cached()">Encore!</a>
+										<a href="#" class="btn" onclick="mouseClicked()">Encore!</a>
 									</section>
 							</div>
 						</div>
