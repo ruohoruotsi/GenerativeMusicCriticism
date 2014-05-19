@@ -35,7 +35,7 @@ reviewGrammar = {
 		<structure-description>, <evocative-adjective> of <epoch> music from <city> | \
 		\
 		The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <structure-description> \
-		with <structure-description> <evocative-adjective> of <epoch> sounds| \
+		with <structure-description>, <evocative-adjective> of <epoch> sounds| \
 		\
 		The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> tenuously welds a growing amalgam of \
 		contradictions and genre experiments with a veneer of <ferocity-syn>, <ferocity-syn> and Fonzie cool",
@@ -44,7 +44,7 @@ reviewGrammar = {
 "<music-recording-phrase>": "\
 		\
 		The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>. \
-		It <singular-subject-song-verb> <adverb-terminal>, <adverb-time-terminal> <gerund-song-phrase> | \
+		It <rocks-syn>, <while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
 		\
 		The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
 		It <song-description-phrase>, yet its essence <song-description-phrase> | \
@@ -66,7 +66,7 @@ reviewGrammar = {
 
 "<exhibited-syn>": "exhibited | displayed | manifested | shown | demonstrated | expressed ",
 
-"<while-syn>": "while | whilst | albeit | despite  | all the while ",
+"<while-syn>": "while | whilst | despite | all the while ",
 
 "<creative-syn>":	"sonic | tasteful acoustic | creative | musical | novel musical | fresh melodic | stirring acoustic | visionary sonic | \
 					trendy musical | stylish sonic | refined | magnificent musical",
@@ -79,16 +79,20 @@ reviewGrammar = {
 					effortlessness | affectation | pretentiousness | posturing | \
 					mulishness | recalcitrance | schtick ",
 
+"<plains-syn>": 	"plains | savannahs | steppes | tundras | velds | pastures ",
+
+"<electro-acoustic-syn>":  "electro-acoustic | 8-bit | Illbient | Nintendocore | ambient | shoegazey",
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 "<interjection>": 	"This is a crucial release! | Most excellent! |  Utterly astounding! | Somewhat mind-blowing! | \
 					Jaw-dropping! | Breathtaking! | This is gripping sh*t! | Frankly intoxicating! | \
 					Rousing material! | Electrifying! | Most-definitely heady!! | A modern masterpiece of composition! | \
-					Miss out at your peril! | Seriously? | Wow! | They mean it, maaaan",
+					Miss out at your peril! | Seriously? | Wow! | Bitchin'!",
 
 "<music-recording-noun>":	"12” wax | MP3 | home-made cassette | CD | album | 4-track cartridge | \
 							betamax| laserdisc | DVD-R | EP | ogg-vorbis download | maxi-single | Bandcamp release | \
-							ambisonic release | limited edition | remastered EP | white-label | unofficial release | \
+							ambisonic release | limited edition | remastered EP | white-label | release | \
 							back-to-mine compilation | Soundcloud (teaser clip) | promo | youtube video | 7” vinyl | box set | \
 							Mixcloud set | Myspace track | unplugged session | live webcast | music video",
 
@@ -105,8 +109,8 @@ reviewGrammar = {
 							blurring the boundaries between <structure-description> and <structure-description> | \
 							eschewing the familiar palimpsest of credible <genre> <genre-noun> | \
 							injecting hints of <genre> patterns into <genre> | \
-							letting in shards of light painted through snippets of <genre>, re-painted in sparkling, sumptuous colours | \
-							propelling ethereal glitching rhythms across plains of elaborately fashioned electroacoustic static | \
+							letting in shards of light and sumptuous colours painted through snippets of <genre> | \
+							propelling ethereal glitching rhythms across <plains-syn> of elaborately fashioned <electro-acoustic-syn> static | \
 							wielding Detroit shuffles à la Theo Parrish | \
 							brushing its rhythms with a cool sleight of hand that is still utterly breathtaking | \
 							eschewing the usual formulaic pitfalls | \
@@ -161,13 +165,13 @@ reviewGrammar = {
  	Mento | Merengue | Milongas | Mineras | Minimal techno | Mirolóyia | Modinha | \
  	Motown | Musique concrete | Mutuashi | Muwashshah | Muzak  | Narodna muzika (Serbian Folk Music) | \
  	Neo-Psychedelia | Neo Soul (Nu Soul) | Neue Volksmusik | New Age | New Jack Swing  | \
- 	New Orleans blues | New Orleans jazz | New York House (i.e. US Garage) | Nintendocore | Noise music  | Nordic folk music | \
+ 	New Orleans blues | New Orleans jazz | New York House (i.e. US Garage) | Nintendocore | Noise music  | Nordic folk | \
  	Nortec (Electronic style from Tijuana) | Nu breaks | Oldies | Olonkho (Yakut epic songs) | Opera  |  \
 	Orovela (Eastern Georgian work songs) | Ozwodna | P-Funk | Paisley Underground  | \
  	Palm wine sound  | Panchai baja (Nepalese wedding music) | Panchavadyam (Temple music from Kerala) |  Parisian soukous | \
  	Parranda (Afro-Venezuelan form) | Pennywhistle jive | Peroveta anedia | Phleng luk tung | Piedmont blues | \
  	Pisiq (Greenlandic folk song) | Pixiefunk  | Pleng phua cheewit (Thai protest rock) | Poco-poco  | Polka |  \
-	Pop rai |  Pornocore | Porro (Colombian big band) | Post-grunge | Post-industrial | Post-Traumatic-Stress-Core | \
+	Pop rai |  Pornocore | Porro (Colombian big band) | Post-grunge | Post-Traumatic-Stress-Core | \
  	Power electronics | Progressive house | Protopunk | Psychedelic trance (Psy-trance) | Psychobilly | Psychosomatic trance | \
  	Psych-pop | Punk funk | Punk rock | Qawwali (Sufi religious music) | Raggamuffin (Ragga) | Ragga-soca | \
  	Ragga-zouk | Ragtime | Rai  | Rap | Rave | Reggae | Reggaeton | Rekilaulu (Finnish sleigh songs) | \
@@ -212,7 +216,7 @@ reviewGrammar = {
  	Marimba  | Math rock | Mbalax |	Mbaqanga (Township Jive) | Memphis blues | \
  	Mento | Merengue | Mineras | Minimal techno  | Modinha | Motown | Musique concrete | Muzak  | Narodna muzika (Serbian Folk Music) | \
  	Neo-Psychedelia | Neo Soul (Nu Soul) | Neue Volksmusik | New Age | New Jack Swing  | \
- 	New Orleans blues | New Orleans jazz | New York House (i.e. US Garage) | Nintendocore | Noise music  | Nordic folk music | \
+ 	New Orleans blues | New Orleans jazz | New York House (i.e. US Garage) | Nintendocore | Noise music  | Nordic folk | \
  	Nortec (Electronic style from Tijuana) | Nu breaks | Oldies | Olonkho (Yakut epic songs) | Opera  |  \
 	Orovela (Eastern Georgian work songs) | P-Funk | Paisley Underground  | \
  	Palm wine sound  | Panchai baja (Nepalese wedding music) | Panchavadyam (Temple music from Kerala) |  Parisian soukous | \
@@ -286,7 +290,7 @@ reviewGrammar = {
 							febrile rhythm mechanics | \
 							flickering syncopations | \
 							flanged beats, delayed bleeps | \
-							foggy northern European landscapes |  \
+							foggy northern European drone-scapes |  \
 							flickering electronic rhythm sections | \
 							floppy fringe harmonies | \
 							gloriously wild natural timbres | \
@@ -327,7 +331,7 @@ reviewGrammar = {
 							soft, smoky sax lines | \
 							slinking garage syncopations | \
 							supple subbass push | \
-							sumptuous Chicago reductions | \
+							sumptuous Chicago house reductions | \
 							sea-sick rhythms | \
 							symphonic droning | \
 							stringently reduced techno |  \
@@ -346,7 +350,7 @@ reviewGrammar = {
 							textural guitar-scapes | \
 							the synth drones of Klaus Schulze | \
 							the wind-chilled electronics of Thomas Köner | \
-							the chugging machinations steeped in the traditions of Scandinavian machine music | \
+							chugging machinations steeped in the traditions of Scandinavian machine music | \
 							utterly sick digital spasms | \
 							unfathomably complex textures | \
 							uncharacteristically spry tempos | \
@@ -402,7 +406,7 @@ reviewGrammar = {
 "<song-description-phrase>":	"<adverb> defies categorisation | \
 								slides out a <genre-adjective> groove of immense proportions | \
 								\
-								chugs a long like a malfunctioning mechanical beast | \
+								chugs along like a malfunctioning mechanical beast | \
 								\
 								is an asymmetric, geniusly constructed dancefloor killer | \
 								\
@@ -448,16 +452,16 @@ reviewGrammar = {
 
 "<reverbs-with-phrase>":	"reverberates with | feels like | strikes one with | resonates with | \
 							echoes with | gently throbs with | softly palpitates, with | \
-							<adverb-terminal> <singular-subject-song-verb> with",
+							<adverb-terminal> <rocks-syn> with",
 
 "<verb-phrase-singular>":	"floats in & out of your <consciousness-syn> with a wool-lined ease | \
-							sits deeply in <adverb-terminal> smoky atmospherics | \
+							sits deeply in smoky <genre> style atmospherics  | \
 							is nestled in <a-structure-description> | \
 							drowns out the sound of jaws hitting the <floor-syn>",
 
 "<verb-phrase-plural>":  	"<plural-subject-song-verb> with <structure-description> and <structure-description> | \
 							float in & out of your <consciousness-syn> with a wool-lined ease | \
-							sit deep in <adverb-terminal> smoky atmospherics | \
+							sit deep in the smoky <genre> style atmospherics   \
 							simply drown out the sound of jaws hitting the <floor-syn>", 
 
 "<consciousness-syn>": "consciousness | mental grasp | awareness | attention | cognizance | loaf | mind | perception ",
@@ -469,7 +473,7 @@ reviewGrammar = {
 
 "<plural-subject-song-verb>":  "rock | shine | shimmer | chug | drone | sparkle | unnerve | tremble | surprise | startle | sparkle | scintillate",
 
-"<singular-subject-song-verb>": "rocks | shines | shimmers | chugs | drones | sparkles | unnerves | \
+"<rocks-syn>": "rocks | shines | shimmers | chugs | drones | sparkles | unnerves | \
 								trembles | surprises | startles | sparkles | scintillates"
 
 };
