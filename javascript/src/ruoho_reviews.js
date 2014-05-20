@@ -14,45 +14,52 @@ reviewGrammar = {
 		
 ///////  
 "<artist-action-phrase>": "\
-		1 The ascendant <ferocity-syn> of <artist> is on display again, showing off <structure-description>, \
+		\
+		1 Few artists are this <adept-syn> at wringing so much <ferocity-syn> from their laptops, yet the \
+		<time-adjective> <music-recording-noun> by <artist> <adverb-terminal> blends <structure-description> and <structure-description> | \
+		\
+		2 <artist> and <static-artist> take on the <label> crew for another <music-recording-noun>, demonstrating <structure-description> and a \
+		<creative-syn> <ferocity-syn> that <verb-phrase-singular> | \
+		\
+		3 Your mind is about to be blown by the unearthing of a <year> curio from <artist>, offering a truly <bizarre-syn>, \
+		but ultimately <adept-syn> selection of privately-pressed tracks that sound somewhere between <genre> and <genre> | \
+		\
+		4 Your mind is about to be blown by the unearthing of a <year> curio from <artist>, showing off <structure-description>, \
 		<while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
 		\
-		2 The songwriting <ferocity-syn> <exhibited-syn> by <artist> raises the biggest \
-		goosebumps, showing off <structure-description>, dwarfing the <structure-description> of many better known artists | \
+		5 The songwriting <ferocity-syn> <exhibited-syn> by <artist> <raises-goosebumps-syn>, showing off <structure-description>, \
+		dwarfing the <structure-description> of many better known artists | \
 		\
-		3 Few artists are this <adept-syn> at wringing so much <ferocity-syn> from their laptops, yet the <time-adjective> <music-recording-noun> by \
-		<artist> <adverb-terminal> blends <structure-description> and <structure-description> | \
-		\
-		4 <artist> and <static-artist> take on the <label> crew for another <music-recording-noun>, demonstrating <structure-description> and a \
-		<creative-syn> <ferocity-syn> that <verb-phrase-singular>",
+		6 The ascendant <ferocity-syn> of <artist> is on display again, showing off <structure-description>, \
+		<while-syn> <adverb-time-terminal> <gerund-song-phrase> ",
 
 ///////  
 "<artist-descriptive-phrase>": "\
 		\
-		5 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <artist-description-phrase> | \
+		7 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <artist-description-phrase> | \
 		\
-		6 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <genre> with \
+		8 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <genre> with \
 		<structure-description>, <evocative-adjective> of <epoch> music from <city> | \
 		\
-		7 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <structure-description> \
+		9 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <structure-description> \
 		with <structure-description>, <evocative-adjective> of <epoch> sounds| \
 		\
-		8 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> tenuously welds a growing amalgam of \
+		10 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> tenuously welds a growing amalgam of \
 		contradictions and genre experiments with a veneer of <ferocity-syn>, <ferocity-syn> and Fonzie cool",
 
 ///////  		
 "<music-recording-phrase>": "\
 		\
-		9 The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>. \
+		11 The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>. \
 		It <rocks-syn>, <adverb-time-terminal> <gerund-song-phrase> | \
 		\
-		10 The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
+		12 The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
 		It <song-description-phrase>, yet its essence <song-description-phrase> | \
 		\
-		11 The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
+		13 The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
 		It <song-description-phrase>, yet its essence is <evocative-adjective> of <epoch> music enjoyed in <city> | \
 		\
-		12 The <time-adjective> <music-recording-noun> by <artist> taps into a delicate, \
+		14 The <time-adjective> <music-recording-noun> by <artist> taps into a delicate, \
 		<genre-adjective> corner of the musical universe, <while-syn> <adverb-time-terminal> <gerund-song-phrase>",		
 
 ///////  		
@@ -61,6 +68,23 @@ reviewGrammar = {
 "<static-artist>": 	"Madonna | Prince | Bono | Salif Keita | Baaba Maal | Femi Kuti ",
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+"<raises-goosebumps-syn>": "raises the biggest goosebumps | \
+							raises the biggest gooseflesh | \
+							induces the biggest frissons | \
+							induces the biggest exhilaration | \
+							induces the biggest rush | \
+							generates the biggest rush | \
+							generates the biggest frissons | \
+							generates the biggest frissons | \
+							coaxes out the biggest gooseflesh | \
+							coaxes out the biggest exhilaration | \
+							causes the biggest rush | \
+							produces the biggest rush | \
+							produces the biggest goosebumps | \
+							produces the biggest frissons",
+
+"<bizarre-syn>": "bizarre | odd | offbeat | curious | peculiar | unusual | extraordinary | brilliant ",
 
 "<adept-syn>": "adept | skilled | masterful | deft | dexterous | brilliant ",
 
@@ -87,8 +111,8 @@ reviewGrammar = {
 
 "<interjection>": 	"This is a crucial release! | Most excellent! |  Utterly astounding! | Somewhat mind-blowing! | \
 					Jaw-dropping! | Breathtaking! | This is gripping sh*t! | Frankly intoxicating! | \
-					Rousing material! | Electrifying! | Most-definitely heady!! | A modern masterpiece of composition! | \
-					Miss out at your peril! | Seriously? | Wow! | Bitchin'!",
+					Rousing material! | Electrifying! | Most-definitely heady! | A modern compositional masterpiece! | \
+					Miss out at your peril! | Seriously? | Wow! | Bitchin'! | Hearing is believing! | Yikes! ",
 
 "<music-recording-noun>":	"12” wax | MP3 | home-made cassette | CD | album | 4-track cartridge | \
 							betamax| laserdisc | DVD-R | EP | ogg-vorbis download | maxi-single | Bandcamp release | \
@@ -132,63 +156,6 @@ reviewGrammar = {
 
 "<genre-noun>": "landscapes | ephemera | futurism | classicism | sensibilities",
 
-"<all-genre>": "Future Samba | Fonk Arabic | Digital Zulu | 2-step garage  | 8-bit | A-cappella  | \
- 	Acid Jazz | Acid Rock | Afrobeat  | Nigerian Apala  | Arabesque | Avant-garde jazz  | Avant-garde metal  | \
- 	Avant-punk | Bachata  | Baião  | Baile Funk  | Baisha xiyue  | Bajourou  | Bakou  | Bal-musette  | Balakadri  | \
-	Balinese Gamelan  | Ballet  | Bamboo band  | Bambuco  | Baroque  | Miami bass | Booty bass | Batucada  | \
- 	Beatboxing  | Bebop  | Beiguan  | Bel canto  | Bhangra  | Bhangragga | Bhangramuffin | Big Beat | \
- 	Bluegrass  | Blues  |  Bitpop  | Bocet | Bohemian Dub  | Boi  | Bolero  | Bomba | \
- 	Bombay pop | Bongo  |  Bossa nova |  Breakbeat  | Breakcore  |  Britfunk |  Britpop | Broken beat  | \
- 	Bubblegum pop  |  Bikutsi |  Bulerias | Bunraku  |  Calentanos | Calypso  |  Canto popular  | \
- 	Cantopop  | Capoeira | Carceleras | Carnatic music | Cello rock | Cha-cha-cha | Chamber music | Champeta  | \
- 	Chemical breaks | Chicago house | Chicken scratch | Chillout | Chimurenga | Classical | Clicks 'n' Cuts |  \
-	Compas meringue | Cothoza mfana | Country | Cowpunk | Crunk  | Cueca | Cumbia  |  	Cybergrind | Dancehall | \
- 	Darkcore  | Darkwave | Death metal | Delta blues | Deep house | Detroit techno | Dhamar  | Digital hardcore |  \
-	Disco | Diva house | Djambadon | Dodompa  | Dongjing  | Doo wop | Doom metal | Downtempo | Drone  | Drum and bass | \
-	Dub | Dub Techno | Dubtronica | Dubstep | E-Grind | Easy listening | Electro | Electroclash | Electropop | Muzak | \
- 	Emo | Eurodance | Europop | Experimental noise | Fandango  | Filk | Fjatpangarri | Flamenco  | \
- 	Folk | Folktronica | Forró  | Free jazz | Freestyle | Fuji | Funk | Funky house | G-funk | Gaikyoku | \
- 	Gamelan  | Gangsta rap  | Gavotte | Gharnati | Ghettotech |  Glam punk | Glitch | Gnawa | \
- 	Goa | Gospel | Gothic | Gregorian chant | Grime  | Grunge | Guajira | Gwo ka  | Gyu ke | Habanera  | \
-	Haiducesti | Hungarian-Transylvanian wedding songs (Hajnali) | Happy hardcore | Hard house | Heavy metal | Hi-NRG | \
- 	Highlife | Hiplife | Hip hop | Hip pop | Hindustani classical music | Honky tonk | Horror punk | \
- 	House | Hula | Humppa | Hunguhungu | Hyphy | Illbient | Indietronica | Indie rock | Industrial  | IDM  | \
- 	Iscathamiya | Isolationist | Italo Disco | J-Pop  | Jaipongan  | Jamana kura | Jarana | Jawaiian | \
- 	Jazz | Jesus music | Jitterbug | Jive | Joropo | Jota | Juju | Jumpstyle | Jungle | Junkanoo | \
- 	Jtek | Kamba pop | Karaoke | Kargyraa | Katajjaq  | Balinese monkeychant (Kecak) | \
- 	Hungarian Gypsy dance songs (Khelimaski djili) | Komagaku | Kpanlogo | Krautrock |  Kulning (Swedish folk songs) | \
- 	Kveding (Traditional Norwegian songs) | Kwaito | Kwassa kwassa | Kwela | Laremuna wadauman | Latin jazz  | \
- 	Letkajenkka | Lhamo (Tibetan opera) | Lovers rock | Luhya omutibo | \
-	Luk grung (Popular Thai music from the early 20th century) | Lullaby | Maglaal (tuuli) | \
- 	Makossa | Makossa-soukous | Mambo | Manding swing | Mangulina | Manikay | Marabi | Mariachi | \
- 	Marimba | Marrabenta | Maskanda  | Math rock | Mbalax |	Mbaqanga (Township Jive) | Mbumba | Mejorana | Memphis blues | \
- 	Mento | Merengue | Milongas | Mineras | Minimal techno | Mirolóyia | Modinha | \
- 	Motown | Musique concrete | Mutuashi | Muwashshah | Muzak  | Narodna muzika (Serbian Folk Music) | \
- 	Neo-Psychedelia | Neo Soul (Nu Soul) | Neue Volksmusik | New Age | New Jack Swing  | \
- 	New Orleans blues | New Orleans jazz | New York House (i.e. US Garage) | Nintendocore | Noise music  | Nordic folk | \
- 	Nortec (Electronic style from Tijuana) | Nu breaks | Oldies | Olonkho (Yakut epic songs) | Opera  |  \
-	Orovela (Eastern Georgian work songs) | Ozwodna | P-Funk | Paisley Underground  | \
- 	Palm wine sound  | Panchai baja (Nepalese wedding music) | Panchavadyam (Temple music from Kerala) |  Parisian soukous | \
- 	Parranda (Afro-Venezuelan form) | Pennywhistle jive | Peroveta anedia | Phleng luk tung | Piedmont blues | \
- 	Pisiq (Greenlandic folk song) | Pixiefunk  | Pleng phua cheewit (Thai protest rock) | Poco-poco  | Polka |  \
-	Pop rai |  Pornocore | Porro (Colombian big band) | Post-grunge | Post-Traumatic-Stress-Core | \
- 	Power electronics | Progressive house | Protopunk | Psychedelic trance (Psy-trance) | Psychobilly | Psychosomatic trance | \
- 	Psych-pop | Punk funk | Punk rock | Qawwali (Sufi religious music) | Raggamuffin (Ragga) | Ragga-soca | \
- 	Ragga-zouk | Ragtime | Rai  | Rap | Rave | Reggae | Reggaeton | Rekilaulu (Finnish sleigh songs) | \
- 	Rhapsody | Rhythm & Blues | Rímur (Icelandic heroic epic songs) | Ring Bang (Barbadian Soca) | Riot grrrl | \
- 	Rock | Rock opera | Rockabilly | Rocksteady | Rodeo music | Rokon fada | Rondeaux | Roots reggae | Rumba |  \
-	Yambu (Cuban Rumba) | Guaguanco (Cuban Rumba) | Salsa  | Samba  | Sato kagura | Saya (Bolivia) | Serialism | Shango | \
- 	Shoegaze | Showtunes | Siguiriyas | Ska | Ska punk | Skacore (Third wave of Ska) | Skate punk | Skronk |  \
-	Kihoalu (Hawaian Slack-key guitar) | Smooth jazz | Soca | Soft rock | Soukous | Soul jazz | Southern Gospel | \
- 	Southern rock | Space age pop | Space rock | Speedcore | Speed garage | Spirituals | Stoner metal | Stoner rock | \
- 	Surf rock | Swamp blues | Swing | Sygyt (Tuvan Throat Singing)  | Synthpop | Tango  | Tech House | Techno | Teen pop |  \
-	Texas blues | Thillana (South India) | Thrashcore | Thrash metal | 	Tientos | Tinga | Trance | Tribal house | \
- 	Trikitixa (Basque Accordion music) | Trip-hop | Tumba | Turntablism | Two tone | UK garage | \
- 	Vaudeville | Verbunkos (Hungarian folk music) | Verismo | Vocal house | Waila (Chicken Scratch)  | \
- 	Waltz | Wassoulou | Western swing | Xhosa | Zarzuela (Spanish operetta) | Zeibekiko (Greek Dance 9/8 Rytmus) | \
- 	Ziglibithy | Zolo (Hyper Bitchy rhythms) | Zouglou | Zouk  |  Zydeco",
-
-
 "<genre>": "Future Samba | Fonk Arabic | Digital Zulu | 2-step garage  | 8-bit | A-cappella  | \
  	Acid Jazz | Acid Rock | Afrobeat  | Nigerian Apala  | Arabesque | Avant-garde jazz  | Avant-garde metal  | \
  	Avant-punk | Bachata  | Baile Funk | Balinese Gamelan  | Ballet  | Bambuco  | Baroque  | Miami bass | Booty bass | Batucada  | \
@@ -226,7 +193,7 @@ reviewGrammar = {
  	Power electronics | Progressive house | Protopunk | Psychedelic trance (Psy-trance) | Psychobilly | Psychosomatic trance | \
  	Psych-pop | Punk funk | Punk rock | Qawwali (Sufi religious music) | Raggamuffin (Ragga) | Ragga-soca | \
  	Ragga-zouk | Ragtime | Rai  | Rap | Rave | Reggae | Reggaeton | Rekilaulu (Finnish rhyming sleigh songs) | \
- 	Rhapsody | Rhythm & Blues | Rímur (Icelandic heroic epic songs) | Ring Bang (Barbadian Soca) | Riot grrrl | \
+ 	Rhapsody | Rhythm & Blues | Rímur (Icelandic epic songs) | Ring Bang (Barbadian Soca) | Riot grrrl | \
  	Rock | Rock opera | Rockabilly | Rocksteady | Rodeo music | Rokon fada | Rondeaux | Roots reggae | Rumba |  \
 	Yambu (Cuban Rumba) | Guaguanco (Cuban Rumba) | Salsa  | Samba | Saya (Bolivia) | Serialism | Shango | \
  	Shoegaze | Showtunes | Siguiriyas | Ska | Ska punk | Skacore (Third wave of Ska) | Skate punk | Skronk |  \
@@ -277,7 +244,7 @@ reviewGrammar = {
 							drifting electronica | \
 							dense thickets of digitally applied crackle | \
 							dramatic percussive interjections | \
-							drum machines left to run for days through myriad pattern permutations | \
+							myriad drum machine pattern permutations | \
 							deep, rustic darkness |  \
 							exothermal synthlines | \
 							electronic squiggles | \
@@ -356,7 +323,7 @@ reviewGrammar = {
 							unfathomably complex textures | \
 							uncharacteristically spry tempos | \
 							unfathomably deep, utterly sick, dubwise textures | \
-							vintage radio essences infected with malaria from a pre-digital era | \
+							pre-digital era, malaria-infected, vintage radio essences | \
 							wonderfully shambolic tendencies | \
 							wispily resonant distortion | \
 							wicked ragga-bashment flava |  \
@@ -372,7 +339,7 @@ reviewGrammar = {
 								tries to make sense out of a 3D sonic world using <structure-description> that are <adverb> two-dimensional | \
 								<adverb> hoists up the profile of screeched-out abstract vocals and mournful, desolate lyrics",
 
-"<writhes-syn>":	"writhes | squirms | wriggles | thrashes | merges | flails | tosses and turns",
+"<writhes-syn>":	"writhes | squirms | wriggles | thrashes | flails | tosses and turns",
 
 "<join-phrase>": 	"marries | fuses | blends | marries | merges | mixes | unifies | intermingles | melds | joins",
 
@@ -393,7 +360,10 @@ reviewGrammar = {
 					MTV era | futurist  | modernist  | postmodernist  | nouveau-realist  |  \
 					expressionist  | post-atonal  | atonal  | neo-surrealist  |  \
 					twelve-tone serialist | subversive | avant-gardist",
-					
+
+"<year>": 			"1963 | 1984 | 1945 | 1986 | 2003| 1988 | 1982 | 1971 | \
+					1983 | 1954 |1995 | 1986 | 1987 | 1967 | 1992 | 1962 | 1965 | \
+					1973 | 1994 | 1985 | 1976 | 1999",					
 
 <!--"<adverb>":			"`getSynonyms(<adverb-terminal>, "r");` | <adverb-terminal", -->
 "<adverb>":				"<adverb-terminal> | <adverb-terminal>",
@@ -427,9 +397,9 @@ reviewGrammar = {
 								\
 								has critics and fans alike, queuing up to drape compliments over it's shiny chassis | \
 								\
-								is a deep & dark tech-house number, whose B-side dub remix, takes it even deeper, adding loads of effect throws, percussion solos and dramatic breakdowns | \
+								is a deep & dark tech-house number, whose B-side remix, takes it deeper, adding effect throws, percussion solos and dramatic breakdowns | \
 								\
-								is a deep & dark blues-house number from the <epoch> era. It's ragingly infectious vocals are laced with moody blues guitar riffs, layers upon layers of percussion, hypnotizing filtered  stabs and the obligatory driving bass line | \
+								is a deep & dark blues-house number, whose ragingly infectious vocals are laced with moody blues guitar riffs, layers of percussion, hypnotizing filtered stabs and the obligatory driving bass line | \
 								\
 								is an incredible, <adverb> mesmerising sound that will tempt, allure, petrify and utterly mind-f**k you in equal measure | \
 								\
@@ -475,7 +445,7 @@ reviewGrammar = {
 "<plural-subject-song-verb>":  "rock | shine | shimmer | chug | drone | sparkle | unnerve | tremble | surprise | startle | sparkle | scintillate",
 
 "<rocks-syn>": "rocks | shines | shimmers | chugs | drones | sparkles | unnerves | \
-								trembles | surprises | startles | sparkles | scintillates"
+				trembles | surprises | startles | sparkles | scintillates"
 
 };
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

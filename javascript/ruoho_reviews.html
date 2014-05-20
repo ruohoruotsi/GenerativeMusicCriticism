@@ -157,6 +157,10 @@
 			// random selection from image array
 			var imageList = hotttArtistsCache[currentArtist.index].images;
 			var imageIndex = Math.floor(Math.random() * imageList.length); 
+			
+			// IO HAVOC -- If the image is not there or avail!! then
+			// subsititute a random/generic one!
+			
 			document.getElementById("artistImages").src = imageList[imageIndex].url;
 		}
 
@@ -233,6 +237,26 @@
  			document.getElementById("ruohorating").innerHTML = 
  				"Ruoho Rating:  &nbsp;&nbsp;" + 
  				Math.floor((Math.random()*100)) + "." + Math.floor((Math.random()*10));
+ 				
+			  var canvas = document.getElementById("myCanvas");
+			  var context = canvas.getContext("2d");
+			  var centerX = canvas.width / 2;
+			  var centerY = canvas.height / 2;
+			  var radius = 35;
+
+			  context.beginPath();
+			  context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+			  context.fillStyle = 'white';
+			  context.fill();
+			  context.lineWidth = 5;
+			  context.strokeStyle = '#003300';
+			  context.stroke();
+			  
+            context.font = '28pt Calibri';
+            context.fillStyle = 'black';
+            context.textAlign = 'center';
+            context.fillText("0", 60, 60);
+			  
  		}
 
  		
@@ -281,10 +305,12 @@
 										<ul class="link-list">
 											<li><a href="" id="artistTwitter">Artist Info</a></li>
 											<li><a href="" id="artistInfo">Artist Info</a></li>
-											<li>Play this artist</li>
+											<!-- <li>Play this artist</li> IO HAVOC: Not right now-->
 										</ul>
 
-										<p><h4 id="ruohorating"></h4></p> 
+										<p><h4 id="ruohorating">Ruoho Rating:</h4>
+										    <canvas id="myCanvas" width="80" height="80"></canvas>
+										</p> 
 									</section>		
 							</div>
 							<div class="9u skel-cell-important">
