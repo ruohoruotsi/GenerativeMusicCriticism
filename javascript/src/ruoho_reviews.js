@@ -152,6 +152,7 @@ reviewGrammar = {
 							dripping with endless reverb and delay manipulation | \
 							trawling the depths of vinyl's pockmarked grooves | \
 							collapsing beneath the dead-eyed twinkle of the disco ball | \
+							melting <genre> accordion and Diwali-riddim claps with woozy <electro-acoustic-syn> static |\
 							exhibiting an intensely overbearing darkness, covered by a fuzzy thicket of layered drones",
 
 "<genre-noun>": "landscapes | ephemera | futurism | classicism | sensibilities",
@@ -206,7 +207,7 @@ reviewGrammar = {
  	Waltz | Wassoulou | Western swing | Xhosa | Zarzuela (Spanish operetta) | Zeibekiko (Greek Dance 9/8 Rytmus) | \
  	Ziglibithy | Zolo (Hyper Bitchy rhythms) | Zouglou | Zouk  |  Zydeco",
 
-"<a-structure-description>": 	"a pure, transcendental rave feeling | \
+"<a-structure-description>":   "a pure, transcendental rave feeling | \
 								a bubbly pop appreciation | \
 								a mindblowing dubscape of effects | \
 								a persistent undulating pulse of bass | \
@@ -257,6 +258,7 @@ reviewGrammar = {
 							febrile rhythm mechanics | \
 							flickering syncopations | \
 							flanged beats, delayed bleeps | \
+							forward, phantasmic dub | \
 							foggy northern European drone-scapes |  \
 							flickering electronic rhythm sections | \
 							floppy fringe harmonies | \
@@ -268,6 +270,7 @@ reviewGrammar = {
 							hi-scoring aquakrunk madness | \
 							head-pressurised technohouse vibes	| \
 							hyper-prismic agitated synthlines | \
+							hyper-lean <genre> geometries | \
 							hummable melodies |\
 							heavy rolling dancehall grinders |  \
 							haunted-house analogue tactics |  \
@@ -285,6 +288,8 @@ reviewGrammar = {
 							overheated arcade game melodies | \
 							oblique hi-end processing | \
 							orchestral level pomp & bombast |  \
+							pirouetting blips and arcing sinewaves |\
+							paranoid <genre> mutations | \
 							post-pop slacker tendencies | \
 							psychedelic rhythm manipulation |  \
 							pure Balearic house bliss | \
@@ -297,12 +302,14 @@ reviewGrammar = {
 							sticky, wriggly electro influences | \
 							soft, smoky sax lines | \
 							slinking garage syncopations | \
+							spare, flinty embers salved with lush Detroit chords |\
 							supple subbass push | \
 							sumptuous Chicago house reductions | \
 							sea-sick rhythms | \
 							symphonic droning | \
 							stringently reduced techno |  \
 							sinister Euro-porno soundtracks | \
+							symphony of somnolent, spectrally sifted chorales |\
 							spectrally sifted electronics | \
 							spacious Balearic keys |  \
 							seriously dextrous rhythm section arrangements | \

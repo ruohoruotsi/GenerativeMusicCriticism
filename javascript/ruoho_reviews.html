@@ -54,7 +54,6 @@
 			});
 		*/	
 
-
 		//////////////////////////////////////////////////////////////////////////////////
 		// A Context-Free grammar for Generative Music Criticism by iroro 
 		// V0.1 2009.11.06 (Processing, unreleased)
@@ -64,8 +63,6 @@
 
 		// RiTa.p5Compatible(1);
 		var reviewRiGrammar, labelyearRiGrammar;
-		
-		var echonest; 		
 		var currentArtist = {name:"", index:-1};  //faveArtistsCache
 										
 		var cachedAlbumList = ['Back with Spaces', 'Greatest Hits (1999-2009)', 'The Tropical Side', 
@@ -229,34 +226,58 @@
 			var rand = Math.floor((Math.random()*87));
 			document.getElementById("reviewTitle").innerHTML = cachedAlbumList[rand];
 		}
-			
+		
+		//////////////////////////////////////////////////////////////////////////////////
+ 		function clearContext(context, canvas)
+ 		{	 
+			// Store the current transformation matrix
+			context.save();
+
+			// Use the identity matrix while clearing the canvas
+			context.setTransform(1, 0, 0, 1, 0, 0);
+			context.clearRect(0, 0, canvas.width, canvas.height);
+
+			// Restore the transform
+			context.restore();
+		}
 				
 		//////////////////////////////////////////////////////////////////////////////////
  		function getHotttRating() // get a random Hottt artist rating
  		{	 
- 			document.getElementById("ruohorating").innerHTML = 
- 				"Ruoho Rating:  &nbsp;&nbsp;" + 
- 				Math.floor((Math.random()*100)) + "." + Math.floor((Math.random()*10));
- 				
-			  var canvas = document.getElementById("myCanvas");
-			  var context = canvas.getContext("2d");
-			  var centerX = canvas.width / 2;
-			  var centerY = canvas.height / 2;
-			  var radius = 35;
+ 			var integer = Math.floor((Math.random()*99));
+ 			integer = integer + Math.random();
+ 			
+ 			if(integer < 10) integer = integer.toPrecision(2);
+ 			else integer = integer.toPrecision(3);
+ 			
+ 			var toPrint = integer.toString();
+			console.log(toPrint);
 
-			  context.beginPath();
-			  context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
-			  context.fillStyle = 'white';
-			  context.fill();
-			  context.lineWidth = 5;
-			  context.strokeStyle = '#003300';
-			  context.stroke();
-			  
-            context.font = '28pt Calibri';
-            context.fillStyle = 'black';
-            context.textAlign = 'center';
-            context.fillText("0", 60, 60);
-			  
+			// start drawing
+			var canvas = document.getElementById("ratingCanvas");
+			var context = canvas.getContext("2d");
+			
+			// 
+			clearContext(context, canvas);
+			
+			//
+			var centerX = canvas.width / 2;
+			var centerY = canvas.height / 2;
+			var radius = 25;
+
+			//
+			context.beginPath();
+			context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+			context.fillStyle = 'white';
+			context.fill();
+			context.lineWidth = 3;
+			context.stroke();
+			 
+			// 
+			context.font = '14pt Yanone Kaffeesatz';
+			context.fillStyle = 'black';
+			context.textAlign = 'center';
+			context.fillText(toPrint, 30, 35);
  		}
 
  		
@@ -306,11 +327,10 @@
 											<li><a href="" id="artistTwitter">Artist Info</a></li>
 											<li><a href="" id="artistInfo">Artist Info</a></li>
 											<!-- <li>Play this artist</li> IO HAVOC: Not right now-->
+											<li>	<canvas id="ratingCanvas" width="60" height="60"></canvas>	</li>
 										</ul>
-
-										<p><h4 id="ruohorating">Ruoho Rating:</h4>
-										    <canvas id="myCanvas" width="80" height="80"></canvas>
-										</p> 
+										
+									
 									</section>		
 							</div>
 							<div class="9u skel-cell-important">
