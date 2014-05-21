@@ -248,7 +248,7 @@ reviewGrammar = {
 							drifting electronica | \
 							dense thickets of digitally applied crackle | \
 							dramatic percussive interjections | \
-							myriad drum machine pattern permutations | \
+							myriad drum-machine pattern-permutations | \
 							deep, rustic darkness |  \
 							exothermal synthlines | \
 							electronic squiggles | \
