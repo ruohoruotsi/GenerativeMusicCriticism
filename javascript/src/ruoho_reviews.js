@@ -19,7 +19,7 @@ reviewGrammar = {
 		<time-adjective> <music-recording-noun> by <artist> <adverb-terminal> blends <structure-description> and <structure-description> | \
 		\
 		2 <artist> and <static-artist> take on the <label> crew for another <music-recording-noun>, demonstrating <structure-description> and a \
-		<creative-syn> <ferocity-syn> that <verb-phrase-singular> | \
+		<creative-syn> <ferocity-syn>, that <verb-phrase-singular> | \
 		\
 		3 Your mind is about to be blown by the unearthing of a <year> curio from <artist>, offering a truly <bizarre-syn>, \
 		but ultimately <adept-syn> selection of privately-pressed tracks that sound somewhere between <genre> and <genre> | \
@@ -39,10 +39,10 @@ reviewGrammar = {
 		7 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <artist-description-phrase> | \
 		\
 		8 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <genre> with \
-		<structure-description>, <evocative-adjective> of <epoch> music from <city> | \
+		<structure-description>, <evocative-adjective> of <structure-description> from <city> | \
 		\
 		9 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <structure-description> \
-		with <structure-description>, <evocative-adjective> of <epoch> sounds| \
+		with <structure-description> | \
 		\
 		10 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> tenuously welds a growing amalgam of \
 		contradictions and genre experiments with a veneer of <ferocity-syn>, <ferocity-syn> and Fonzie cool",
@@ -101,7 +101,9 @@ reviewGrammar = {
 					simplicity | accessibility | straightforwardness | comprehensibility | \
 					unpretentiousness | naturalness | clarity | spareness | austerity | \
 					effortlessness | affectation | pretentiousness | posturing | \
-					mulishness | recalcitrance | schtick ",
+					mulishness | recalcitrance ",
+
+// soul-stirring generosity | thick-skulled excess | transcendant drama
 
 "<plains-syn>": 	"plains | savannahs | steppes | tundras | velds | pastures ",
 
@@ -184,7 +186,7 @@ reviewGrammar = {
  	Marimba  | Math rock | Mbalax |	Mbaqanga (Township Jive) | Memphis blues | \
  	Mento | Merengue | Mineras | Minimal techno  | Modinha | Motown | Musique concrete | Muzak  | Narodna muzika (Serbian Folk Music) | \
  	Neo-Psychedelia | Neo Soul (Nu Soul) | Neue Volksmusik | New Age | New Jack Swing  | \
- 	New Orleans blues | New Orleans jazz | New York House (i.e. US Garage) | Nintendocore | Noise music  | Nordic folk | \
+ 	New Orleans blues | New Orleans jazz | US Garage | Nintendocore | Noise music  | Nordic folk | \
  	Nortec (Electronic style from Tijuana) | Nu breaks | Oldies | Olonkho (Yakut epic songs) | Opera  |  \
 	Orovela (Eastern Georgian work songs) | P-Funk | Paisley Underground  | \
  	Palm wine sound  | Panchai baja (Nepalese wedding music) | Panchavadyam (Temple music from Kerala) |  Parisian soukous | \
@@ -227,6 +229,7 @@ reviewGrammar = {
 								an alchemical blend of post-rave <genre> electronics",
 
 "<structure-description>": "alien analogue tones |  \
+							arcing sinewaves | \
 							avant-garde chamber instrumentation | \
 							assorted disembodied voices | \
 							bass frequencies turned to jellied slush | \
@@ -258,7 +261,7 @@ reviewGrammar = {
 							febrile rhythm mechanics | \
 							flickering syncopations | \
 							flanged beats, delayed bleeps | \
-							forward, phantasmic dub | \
+							forward thinking, phantasmic dub | \
 							foggy northern European drone-scapes |  \
 							flickering electronic rhythm sections | \
 							floppy fringe harmonies | \
@@ -279,6 +282,7 @@ reviewGrammar = {
 							inimitably raw, psychedelic wow-and-flutter beats | \
 							layered embers of sound | \
 							layered spaciousness | \
+							lush Detroit chords |\
 							lysergic trumpet lines panned to infinity  |  \
 							modern amorphous psychedelia |	 \
 							magnificently evocative, mercilessly deep, tweaked out, post-rave ecstasy | \
@@ -288,9 +292,9 @@ reviewGrammar = {
 							overheated arcade game melodies | \
 							oblique hi-end processing | \
 							orchestral level pomp & bombast |  \
-							pirouetting blips and arcing sinewaves |\
 							paranoid <genre> mutations | \
 							post-pop slacker tendencies | \
+							pirouetting blips |\
 							psychedelic rhythm manipulation |  \
 							pure Balearic house bliss | \
 							rootsy one-drop dub keys |  \
@@ -302,14 +306,14 @@ reviewGrammar = {
 							sticky, wriggly electro influences | \
 							soft, smoky sax lines | \
 							slinking garage syncopations | \
-							spare, flinty embers salved with lush Detroit chords |\
+							spare, flinty embers  |\
 							supple subbass push | \
 							sumptuous Chicago house reductions | \
 							sea-sick rhythms | \
 							symphonic droning | \
 							stringently reduced techno |  \
 							sinister Euro-porno soundtracks | \
-							symphony of somnolent, spectrally sifted chorales |\
+							somnolent, spectrally sifted chorales |\
 							spectrally sifted electronics | \
 							spacious Balearic keys |  \
 							seriously dextrous rhythm section arrangements | \
