@@ -11,7 +11,7 @@ reviewGrammar = {
 
 ///////  
 "<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
-
+// "<artist-phrase>": "",
 		
 ///////  
 "<artist-action-phrase>": "\
@@ -31,39 +31,42 @@ reviewGrammar = {
 		5 The songwriting <ferocity-syn> <exhibited-syn> by <artist> <raises-goosebumps-syn>, showing off <structure-description>, \
 		dwarfing the <structure-description> of many better known artists | \
 		\
-		6 The ascendant <ferocity-syn> of <artist> is on display again, showing off <structure-description>, \
+		6 The songwriting <ferocity-syn> <exhibited-syn> by <artist> <wrenches-syn> ideas from <genre>, <genre> and <genre>, \
+		crafting sidewinding <derangements-syn> that blend <structure-description> and <structure-description> | \
+		\
+		7 The ascendant <ferocity-syn> of <artist> is on display again, showing off <structure-description>, \
 		<while-syn> <adverb-time-terminal> <gerund-song-phrase>",
 
 ///////  
 "<artist-descriptive-phrase>": "\
 		\
-		7 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <artist-description-phrase> | \
+		8 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <artist-description-phrase> | \
 		\
-		8 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <genre> with \
-		<structure-description>, <evocative-adjective> of <structure-description> | \
+		9 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <genre> with \
+		<structure-description>, <evocative-adjective> of <the-synth-drones-Klaus> | \
 		\
-		9 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <structure-description> \
+		10 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <structure-description> \
 		with <structure-description> | \
 		\
-		10 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> tenuously welds a growing amalgam of \
+		11 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> tenuously welds a growing amalgam of \
 		contradictions and genre experiments with a veneer of <ferocity-syn>, <ferocity-syn> and Fonzie cool",
 
 ///////  		
 "<music-recording-phrase>": "\
 		\
-		11 The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>. \
+		12 The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>. \
 		It <rocks-syn>, <adverb-time-terminal> <gerund-song-phrase> | \
 		\
-		12 The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
+		13 The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
 		It <song-description-phrase>, yet its essence <song-description-phrase> | \
 		\
-		13 The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
+		14 The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
 		It <song-description-phrase>, yet its essence is <evocative-adjective> of <epoch> music enjoyed in <city> | \
 		\
-		14 The <time-adjective> <music-recording-noun> by <artist> taps into a delicate, \
+		15 The <time-adjective> <music-recording-noun> by <artist> taps into a delicate, \
 		<genre-adjective> corner of the musical universe, <while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
 		\
-		15 The <time-adjective> <music-recording-noun> by <artist> is a masterclass in the dark art of <genre>, \
+		16 The <time-adjective> <music-recording-noun> by <artist> is a masterclass in the dark art of <genre>, \
 		showing off <structure-description> <while-syn> <adverb-time-terminal> <gerund-song-phrase>",		
 
 ///////  		
@@ -96,8 +99,12 @@ reviewGrammar = {
 
 "<while-syn>": "while | whilst | despite | all the while",
 
+"<derangements-syn>": "derangements | arrangements",
+
 "<creative-syn>":	"sonic | tasteful acoustic | creative | musical | novel musical | fresh melodic | stirring acoustic | visionary sonic | \
 					trendy musical | stylish sonic | refined | magnificent musical",
+					
+"<wrenches-syn>": "wrenches | plucks | wrests | snatches | prys | pulls | borrows",
 
 "<ferocity-syn>": 	"ferocity | courage | charisma | cowardice | nerve | \
 					stoutheartedness | endowment | dauntlessness | savagery | genius | \
@@ -119,7 +126,7 @@ reviewGrammar = {
 					Jaw-dropping! | Breathtaking! | This is gripping sh*t! | Frankly intoxicating! | \
 					Rousing material! | Electrifying! | Most-definitely heady! | A modern compositional masterpiece! | \
 					Miss out at your peril! | Seriously? | Wow! | Bitchin'! | Hearing is believing! | Yikes! | \
-					A riveting experience! | Simply a vital release! | Solid.",
+					A riveting experience! | Simply a vital release! | Solid. | Happy listening!",
 
 "<music-recording-noun>":	"12” wax | MP3 | home-made cassette | CD | album | 4-track cartridge | \
 							betamax| laserdisc | DVD-R | EP | ogg-vorbis download | maxi-single | Bandcamp release | \
@@ -181,13 +188,13 @@ reviewGrammar = {
  	Folk | Folktronica | Forró  | Free jazz | Freestyle | Fuji | Funk | Funky house | G-funk | Gaikyoku | \
  	Gamelan  | Gangsta rap  | Gavotte | Gharnati | Ghettotech |  Glam punk | Glitch | Gnawa | \
  	Goa | Gospel | Gothic | Gregorian chant | Grime  | Grunge | Habanera  | \
-	| Hungarian-Transylvanian wedding songs (Hajnali) | Happy hardcore | Hard house | Heavy metal | Hi-NRG | \
+	Hungarian-Transylvanian wedding songs (Hajnali) | Happy hardcore | Hard house | Heavy metal | Hi-NRG | \
  	Highlife | Hiplife | Hip hop | Hip pop | Hindustani classical music | Honky tonk | Horror punk | \
- 	House | Hula | Hyphy | Illbient | Indietronica | Indie rock | Industrial  | IDM  | \
- 	| Italo Disco | J-Pop  | Jazz | Jesus music | Jitterbug | Jive | Nigerian Juju | Jumpstyle | Jungle | Kamba pop | Karaoke | Balinese monkeychant (Kecak) | \
+ 	House | Hula | Hyphy | Illbient | Indietronica | Indie rock | Industrial  | IDM  | Italo Disco | \
+ 	J-Pop  | Jazz | Jesus music | Jitterbug | Jive | Nigerian Juju | Jumpstyle | Jungle | Kamba pop | Karaoke | Balinese monkeychant (Kecak) | \
  	Hungarian Gypsy dance songs (Khelimaski djili) | Krautrock |  Kulning (Swedish folk songs) | \
  	Kveding (Traditional Norwegian songs) | Kwaito | Kwassa kwassa | Latin jazz | Lhamo (Tibetan opera) | Lovers rock | Luhya omutibo | \
-	Luk grung (Popular Thai music from the early 20th century) | Lullaby | Makossa | Makossa-soukous | Mambo | Mariachi | \
+	Luk grung (Popular Thai music from the early 20th century) | Makossa | Makossa-soukous | Mambo | Mariachi | \
  	Marimba  | Math rock | Mbalax |	Mbaqanga (Township Jive) | Memphis blues | \
  	Mento | Merengue | Mineras | Minimal techno  | Modinha | Motown | Musique concrete | Muzak  | Narodna muzika (Serbian Folk Music) | \
  	Neo-Psychedelia | Neo Soul | Neue Volksmusik | New Age | New Jack Swing  | \
@@ -201,10 +208,10 @@ reviewGrammar = {
  	Power electronics | Progressive house | Protopunk | Psychedelic trance (Psy-trance) | Psychobilly | Psychosomatic trance | \
  	Psych-pop | Punk funk | Punk rock | Qawwali (Sufi religious music) | Raggamuffin (Ragga) | Ragga-soca | \
  	Ragga-zouk | Ragtime | Rai  | Rap | Rave | Reggae | Reggaeton | Rekilaulu (Finnish rhyming sleigh songs) | \
- 	Rhapsody | Rhythm & Blues | Rímur (Icelandic epic songs) | Ring Bang (Barbadian Soca) | Riot grrrl | \
+ 	Rhythm & Blues | Rímur (Icelandic epic songs) | Ring Bang (Barbadian Soca) | Riot grrrl | \
  	Rock | Rock opera | Rockabilly | Rocksteady | Rodeo music | Rokon fada | Rondeaux | Roots reggae | Rumba |  \
 	Yambu (Cuban Rumba) | Guaguanco (Cuban Rumba) | Salsa  | Samba | Saya (Bolivia) | Serialism | Shango | \
- 	Shoegaze | Showtunes | Siguiriyas | Ska | Ska punk | Skacore (Third wave of Ska) | Skate punk | Skronk |  \
+ 	Shoegaze | Showtunes | Siguiriyas | Ska | Ska punk | Skacore (Third wave) | Skate punk | Skronk |  \
 	Kihoalu (Hawaian Slack-key guitar) | Smooth jazz | Soca | Soft rock | Soukous | Soul jazz | Southern Gospel | \
  	Southern rock | Space age pop | Space rock | Speedcore | Speed garage | Spirituals | Stoner metal | Stoner rock | \
  	Surf rock | Swamp blues | Swing | Sygyt (Tuvan Throat Singing)  | Synthpop | Tango  | Tech House | Techno | Teen pop |  \
@@ -245,7 +252,7 @@ reviewGrammar = {
 							blistering, earlobe gatecrashing breakbeats | \
 							beautifully tempered zones of twilight ambient  | \
 							breakneck tempos | \
-							breathtaking constellation of de-glazed rhythms | \
+							breathtaking constellations of de-glazed rhythms | \
 							acid house effusions turned hardcore breakbeat | \
 							cinematic string samples of the Caretaker variety |  \
 							cassette tape overdubs | \
@@ -260,6 +267,7 @@ reviewGrammar = {
 							drifting electronica | \
 							dense thickets of digitally applied crackle | \
 							dramatic percussive interjections | \
+							dread techno futurism | \
 							myriad drum-machine pattern-permutations | \
 							deep, rustic darkness |  \
 							exothermal synthlines | \
@@ -294,7 +302,7 @@ reviewGrammar = {
 							heavy rolling dancehall grinders |  \
 							haunted-house analogue tactics |  \
 							hazily buoyant, ethereal female vocals | \
-							intricately funked syncopations edging on the territory of Autechre or Alva Noto | \
+							intricately funked syncopations | \
 							inimitably raw, psychedelic wow-and-flutter beats | \
 							kosmische pulsations |\
 							layered embers of sound | \
@@ -358,8 +366,6 @@ reviewGrammar = {
 							tantalising, mercurial motifs |\
 							tortured saxophone emissions | \
 							textural guitar-scapes | \
-							the synth drones of Klaus Schulze | \
-							the wind-chilled electronics of Thomas Köner | \
 							thickets of soupy electronic fog |\
 							tranquil, free-floating chorales |\
 							utterly sick digital spasms | \
@@ -367,12 +373,20 @@ reviewGrammar = {
 							uncharacteristically spry tempos | \
 							unfathomably deep, utterly sick, dubwise textures | \
 							pre-digital era, malaria-infected, vintage radio essences | \
-							vocodered 808s & stuttering 303s |\
+							vocodered 808s paired with acid belching 303s |\
 							wonderfully shambolic tendencies | \
 							wispily resonant distortion | \
 							whinnying ghoulish cries | \
 							wicked ragga-bashment flava |  \
 							waves of static",
+
+"<the-synth-drones-Klaus>": 	"the synth drones of Klaus Schulze | \
+								 the wind-chilled electronics of Thomas Köner |\
+								 the atomised acousmatic embodiments of Bernard Parmegiani |\
+								 the pointillist dynamics associated with Arnold Schoenberg |\
+								 the oneiric dramaturgy of Robert Ashley |\
+								 the disturbingly visceral Klangfarbenmelodie of Hector Berlioz | \
+								 the intricately funked syncopations of Autechre or Alva Noto",
 
 "<artist-description-phrase>": 	"<adverb> defies categorisation | \
 								demonstrates an innate grasp of the sublime qualities of <genre>  | \
