@@ -133,3 +133,10 @@
 		{
 			margin: 0 0 1.25em 0;
 		}
+		
+		/*  IO HAVOC resize images */
+		#content  img 
+		{
+			width: 200px;
+    		height: auto;
+		}

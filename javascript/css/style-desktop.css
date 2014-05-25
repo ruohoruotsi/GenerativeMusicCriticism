@@ -199,6 +199,14 @@
 			margin: 0 0 2em 0;
 		}
 
+		/*  IO HAVOC resize images */
+		#content  img 
+		{
+			width: 200px;
+    		height: auto;
+		}
+
+
 /* Footer */
 
 	#footer
