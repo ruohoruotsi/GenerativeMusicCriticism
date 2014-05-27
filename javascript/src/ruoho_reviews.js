@@ -11,7 +11,7 @@ reviewGrammar = {
 
 ///////  
 "<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
-// "<artist-phrase>": "",
+/// <artist-phrase>": " ",
 		
 ///////  
 "<artist-action-phrase>": "\
@@ -42,31 +42,35 @@ reviewGrammar = {
 		\
 		8 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <artist-description-phrase> | \
 		\
-		9 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <genre> with \
+		9 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <adverb> elevates <genre> sophistication with <genre-adjective> <genre> <genre-noun> | \
+		\
+		10 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <adverb> hoists up the profile of screeched-out <genre> vocals and <structure-description> | \
+		\
+		11 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <genre> with \
 		<structure-description>, <evocative-adjective> of <the-synth-drones-Klaus> | \
 		\
-		10 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <structure-description> \
+		12 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <structure-description> \
 		with <structure-description> | \
 		\
-		11 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> tenuously welds a growing amalgam of \
+		13 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> tenuously welds a growing amalgam of \
 		contradictions and genre experiments with a veneer of <ferocity-syn>, <ferocity-syn> and Fonzie cool",
 
 ///////  		
 "<music-recording-phrase>": "\
 		\
-		12 The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>. \
+		14 The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>. \
 		It <rocks-syn>, <adverb-time-terminal> <gerund-song-phrase> | \
 		\
-		13 The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
+		15 The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
 		It <song-description-phrase>, yet its essence <song-description-phrase> | \
 		\
-		14 The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
+		16 The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
 		It <song-description-phrase>, yet its essence is <evocative-adjective> of <epoch> music enjoyed in <city> | \
 		\
-		15 The <time-adjective> <music-recording-noun> by <artist> taps into a delicate, \
+		17 The <time-adjective> <music-recording-noun> by <artist> taps into a delicate, \
 		<genre-adjective> corner of the musical universe, <while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
 		\
-		16 The <time-adjective> <music-recording-noun> by <artist> is a masterclass in the dark art of <genre>, \
+		18 The <time-adjective> <music-recording-noun> by <artist> is a masterclass in the dark art of <genre>, \
 		showing off <structure-description> <while-syn> <adverb-time-terminal> <gerund-song-phrase>",		
 
 ///////  		
@@ -129,10 +133,10 @@ reviewGrammar = {
 					A riveting experience! | Simply a vital release! | Solid. | Happy listening!",
 
 "<music-recording-noun>":	"12” wax | MP3 | home-made cassette | CD | album | 4-track cartridge | \
-							betamax| laserdisc | DVD-R | EP | ogg-vorbis download | maxi-single | Bandcamp release | \
+							live-stream | laserdisc | DVD-R | EP | ogg-vorbis download | maxi-single | Bandcamp release | \
 							ambisonic release | limited edition | remastered EP | white-label | release | \
 							17-track compilation | Soundcloud (teaser clip) | promo | youtube video | 7” vinyl | box set | \
-							Mixcloud set | Myspace track | unplugged session | live webcast | music video | 27-track anthology",
+							Mixcloud set | Myspace track | unplugged session | live webisode | music video | 27-track anthology",
 
 "<time-adjective>":	"latest | most recent | newest | current | currently charting | recently dropped | forthcoming",
 
@@ -169,7 +173,7 @@ reviewGrammar = {
 							melting <genre> accordion and Diwali-riddim claps with woozy <electro-acoustic-syn> static |\
 							exhibiting an intensely overbearing darkness, covered by a fuzzy thicket of layered drones",
 
-"<genre-noun>": "landscapes | ephemera | futurism | classicism | sensibilities",
+"<genre-noun>": "landscapes | ephemera | futurism | classicism | sensibilities  | sophistication",
 
 "<genre>": "Future Samba | Fonk Arabic | Digital Zulu | 2-step garage  | 8-bit | \
  	Acid Jazz | Acid Rock | Afrobeat  | Nigerian Apala  | Arabesque | Avant-garde jazz  | Avant-garde metal  | \
@@ -242,11 +246,11 @@ reviewGrammar = {
 								a super platter of UK bass dreadnaughts | \
 								an alchemical blend of post-rave <genre> electronics",
 
-"<structure-description>": "adventurous, non-linear constructions |\
-							aerated electronic timbre |\
-							alien analogue tones |  \
+"<structure-description>": "adventurous, non-linear constructions | \
+							aerated electronic timbres | \
+							alien analogue tones | \
 							arcing sinewaves | \
-							avant-garde chamber instrumentation | \
+							avant-garde chamber instrumentations | \
 							assorted disembodied voices | \
 							bass frequencies turned to jellied slush | \
 							blistering, earlobe gatecrashing breakbeats | \
@@ -264,18 +268,17 @@ reviewGrammar = {
 							dancefloor skimming subbass |\
 							distorted crescendos | \
 							dark careening tones from bright, queasy synthesizers | \
-							drifting electronica | \
 							dense thickets of digitally applied crackle | \
 							dramatic percussive interjections | \
-							dread techno futurism | \
+							dread techno futurisms | \
 							myriad drum-machine pattern-permutations | \
 							deep, rustic darkness |  \
 							exothermal synthlines | \
 							electronic squiggles | \
-							expertly manipulated rhythm alchemy  | \
+							expertly manipulated rhythm alchemies  | \
 							early handmade experiments | \
 							endlessly arpeggiated chords | \
-							enigmatic psychedelic studio processing |\
+							enigmatic psychedelics |\
 							enunciated consonants | \
 							European technical execution | \
 							fat skronked basslines under <genre-adjective>, minimal percussion | \
@@ -322,10 +325,9 @@ reviewGrammar = {
 							paranoid <genre> mutations | \
 							post-pop slacker tendencies | \
 							pirouetting blips |\
-							psychedelic rhythm manipulation |  \
+							psychedelic rhythm manipulations |  \
 							pure Balearic house bliss | \
 							relentless raindance drums |\
-							rarified vibes | \
 							rootsy one-drop dub keys |  \
 							rising, haunting strings | \
 							roiling bass |\
@@ -340,7 +342,7 @@ reviewGrammar = {
 							slinking garage syncopations | \
 							slicing guitar stabs  |\
 							spare, flinty embers  |\
-							supple subbass push | \
+							supple subbass wobbles | \
 							subtly plush synth embellishments | \
 							sumptuous Chicago house reductions | \
 							semi-organic gristle |\
@@ -359,6 +361,7 @@ reviewGrammar = {
 							synaesthetic ecstasy |  \
 							shuffling, '60s West Coast sounds | \
 							spleen-crushing bass | \
+							smudged sonic brushstrokes |\
 							steely, speaker-destroying dub techno | \
 							shuddering, breakbeat-fueled <genre> | \
 							Scandinavian machine music | \
@@ -392,11 +395,10 @@ reviewGrammar = {
 								demonstrates an innate grasp of the sublime qualities of <genre>  | \
 								makes for an uncommonly good performance that <verb-phrase-singular> | \
 								compliments credible <genre> <genre-noun> with a mighty doublepack of deadly bass variations that <verb-phrase-singular> | \
-								<adverb> elevates <genre> sophistication with <genre-adjective> <genre> <genre-noun> | \
 								<writhes-syn> <adverb> with overdriven intensity and deeply sinister undercurrents | \
-								tries to solve an inherently under-constrained musical problem with <structure-description> and <structure-description>|\
-								tries to make sense out of a 3D sonic world using <structure-description> that are <adverb> two-dimensional | \
-								<adverb> hoists up the profile of screeched-out abstract vocals and mournful, desolate lyrics",
+								tries to solve an inherently under-constrained musical problem with <structure-description>|\
+								tries to make sense out of a 3D sonic world using <structure-description> that are <adverb> two-dimensional",
+								// mournful, desolate lyrics",
 
 "<writhes-syn>":	"writhes | squirms | wriggles | thrashes | flails | tosses and turns",
 
@@ -472,7 +474,7 @@ reviewGrammar = {
 								\
 								is a schizophrenic composition, <adverb> and without warning cutting between sparse, low-end tension and thumping organ clusters | \
 								\
-								is a <sexy-syn> little stomper, that just keeps on building and building <while-syn> <gerund-song-phrase> | \
+								is a <sexy-syn> little stomper, that yearns to be slowly unravelled, after the witching hour, in private, intimate settings | \
 								\
 								is one of those <epoch> EPs showcasing how versatile <genre> can get | \
 								\
@@ -480,7 +482,7 @@ reviewGrammar = {
 								\
 								does not initially seem to be doing anything special, but the subtlety and intensity eventually worms its way into your heart",
 
-"<reverbs-with-phrase>":	"reverberates with | feels like | strikes one with | resonates with | \
+"<reverbs-with-phrase>":	"reverberates with | feels like | strikes one with | resonates with | resonates beyond | \
 							echoes with | gently throbs with | softly palpitates, with | \
 							<adverb-terminal> <rocks-syn> with",
 
