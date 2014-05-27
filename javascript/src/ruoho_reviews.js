@@ -97,7 +97,7 @@ reviewGrammar = {
 
 "<exhibited-syn>": "exhibited | displayed | manifested | shown | demonstrated | expressed",
 
-"<while-syn>": "while | whilst | despite | all the while",
+"<while-syn>": "while | whilst | all the while",
 
 "<derangements-syn>": "derangements | arrangements",
 
