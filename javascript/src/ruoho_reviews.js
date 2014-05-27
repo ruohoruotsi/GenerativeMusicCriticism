@@ -171,9 +171,9 @@ reviewGrammar = {
 
 "<genre-noun>": "landscapes | ephemera | futurism | classicism | sensibilities",
 
-"<genre>": "Future Samba | Fonk Arabic | Digital Zulu | 2-step garage  | 8-bit | A-cappella  | \
+"<genre>": "Future Samba | Fonk Arabic | Digital Zulu | 2-step garage  | 8-bit | \
  	Acid Jazz | Acid Rock | Afrobeat  | Nigerian Apala  | Arabesque | Avant-garde jazz  | Avant-garde metal  | \
- 	Avant-punk | Bachata  | Baile Funk | Balinese Gamelan  | Ballet  | Bambuco  | Baroque  | Miami bass | Booty bass | Batucada  | \
+ 	Avant-punk | Bachata  | Baile Funk | Balinese Gamelan  | Bambuco  | Baroque  | Miami bass | Booty bass | Batucada  | \
  	Beatboxing  | Bebop  | Bhangra  | Bhangragga | Bhangramuffin | Big Beat | \
  	Bluegrass  | Blues  |  Bitpop  | Bocet | Bohemian Dub  | Boi  | Bolero  | Bomba | \
  	Bombay pop | Bongo  |  Bossa nova |  Breakbeat  | Breakcore  |  Britfunk |  Britpop | Broken beat  | \
