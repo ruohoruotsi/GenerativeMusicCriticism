@@ -283,7 +283,8 @@ body, input, textarea, select
 			font-family: 'Lobster', sans-serif;
 			line-height: 44px;
 		}
-/*
+
+		/* IO HAVOC - to remove the toggle overlay, which we really do not need
 		#titleBar .toggle {
 			position: absolute;
 			left: 0;
@@ -322,7 +323,8 @@ body, input, textarea, select
 			#titleBar .toggle:active:after {
 				background: rgba(255,255,255,0.05);
 			}
-*/
+			*/
+			
 	#navPanel {
 		background: url('images/bg04.jpg');
 		box-shadow: inset -1px 0px 0px 0px rgba(255,255,255,0.25), inset -2px 0px 25px 0px rgba(0,0,0,0.5);
