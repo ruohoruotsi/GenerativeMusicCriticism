@@ -216,7 +216,7 @@ body, input, textarea, select
 		/*  IO HAVOC resize images */
 		#content  img 
 		{
-			width: 250px;
+			width: 4em;
     		height: auto;
 		}
 
