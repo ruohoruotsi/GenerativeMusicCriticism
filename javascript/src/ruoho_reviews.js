@@ -192,7 +192,7 @@ reviewGrammar = {
  	Folk | Folktronica | Forró  | Free jazz | Freestyle | Fuji | Funk | Funky house | G-funk | Gaikyoku | \
  	Gamelan  | Gangsta rap  | Gavotte | Gharnati | Ghettotech |  Glam punk | Glitch | Gnawa | \
  	Goa | Gospel | Gothic | Gregorian chant | Grime  | Grunge | Habanera  | \
-	Hungarian-Transylvanian wedding songs (Hajnali) | Happy hardcore | Hard house | Heavy metal | Hi-NRG | \
+	Transylvanian wedding songs (Hajnali) | Happy hardcore | Hard house | Heavy metal | Hi-NRG | \
  	Highlife | Hiplife | Hip hop | Hip pop | Hindustani classical music | Honky tonk | Horror punk | \
  	House | Hula | Hyphy | Illbient | Indietronica | Indie rock | Industrial  | IDM  | Italo Disco | \
  	J-Pop  | Jazz | Jesus music | Jitterbug | Jive | Nigerian Juju | Jumpstyle | Jungle | Kamba pop | Karaoke | Balinese monkeychant (Kecak) | \
