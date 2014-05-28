@@ -202,7 +202,8 @@
 		/*  IO HAVOC resize images */
 		#content  img 
 		{
-			width: 210px;
+		    max-width:100%;
+			/*  width: 200px;  */
     		height: auto;
 		}
 
