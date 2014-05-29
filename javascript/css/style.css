@@ -372,7 +372,7 @@
 		ul.icons
 		{
 			position: relative;
-			background: rgba(128,128,128,0.05);
+			/* background: rgba(128,128,128,0.05); */ /* IO HAVOC to cleanup icons */
 			border-radius: 4em;
 			display: inline-block;
 			padding: 0.35em 0.75em 0.35em 0.75em;

@@ -101,6 +101,13 @@
 			{
 				font-size: 1.1em;
 			}
+			
+		#header ul
+		{
+			position: absolute;
+			left:75%;
+			bottom:-35px;
+		}		
 
 /* Content */
 
