@@ -102,7 +102,7 @@ reviewGrammar = {
 
 "<retro-syn>": "retro | modern | ",
 
-"<balladry-syn>": "balladry | poetry | lyricism | style emulsions",
+"<balladry-syn>": "balladry | poetry | lyricism",
 
 "<pastiche-syn>": "pastiche | sundries | miscellany | miscellanea | style entanglements | \
 				   detritus | debris | fusion | chaos | flotsam",
@@ -111,7 +111,8 @@ reviewGrammar = {
 
 "<edge-syn>": 	"edge | brink", 
 
-"<reconstruction-syn>": "reconstruction | rewriting |  modulation | rescripting | inflection | commingling ",
+"<reconstruction-syn>": "reconstruction | emulsion |  modulation | inflection | \
+						rewriting | rescripting | commingling ",
 
 
 "<panic-syn>": "panic | terror | lust | horror | hysteria | agitation | dread | malaise | discomfort | unease | discontent",
