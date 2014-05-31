@@ -100,6 +100,11 @@ body, input, textarea, select
 		/* display: none; */ /* IO HAVOC for good mobile layout */
 	}
 
+		#header ul
+		{
+			display: none; /* IO HAVOC for good mobile layout */
+		}	
+		
 	#banner
 	{
 		position: relative;
@@ -238,6 +243,7 @@ body, input, textarea, select
 			font-size: 1.25em;
 			color: #212f35;
 			margin: 0 0 0.75em 0;
+			text-align: center;
 		}
 		
 		#footer a
@@ -249,6 +255,13 @@ body, input, textarea, select
 		{
 			margin: 0 0 30px 0 !important;
 		}
+		
+		#footer ul
+		{
+			border-radius: 0.1em;
+			margin: 0 0 0 0;
+		}	
+		
 
 /* Copyright */
 

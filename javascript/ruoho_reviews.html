@@ -118,8 +118,10 @@
 		function mouseClicked()
 		{
 			var aReview = reviewRiGrammar.expand();
+			// RiString text = new RiString(aReview);
+			console.log(aReview.length);
+
 			var labelyear = labelyearRiGrammar.expand();
-			// console.log(aReview);
 			
 			// Populate html elements
 			document.getElementById("ruohoreviews").innerHTML = aReview;
@@ -251,7 +253,7 @@
  			else integer = integer.toPrecision(3);
  			
  			var toPrint = integer.toString();
-			console.log(toPrint);
+			// console.log(toPrint);
 
 			// start drawing
 			var canvas = document.getElementById("ratingCanvas");
@@ -387,7 +389,15 @@
 						<div class="12u">
 						
 							<!-- About -->
-							<h2>About Ruoho Reviews</h2>
+							<h2>
+								<ul class="icons">
+								<li><a class="fa fa-twitter solo" href="http://twitter.com/ruohoreviews"><span>Twitter</span></a></li>
+								<li><a class="fa fa-youtube solo" href="http://youtube.com/ruohoreviews"><span>Youtube</span></a></li>
+								<li><a class="fa fa-github solo" href="http://github.com/ruohoruotsi"><span>LinkedIn</span></a></li>
+							</ul> <br/>
+							
+								About Ruoho Reviews
+							</h2>
 								<p>
 								First-class criticism deepens your engagement with music. But how do you sustain 
 								the excitement, writing within tight genre circles? How do you reflect the music 
@@ -403,7 +413,7 @@
 								<a href="http://developer.echonest.com/docs/v4/artist.html#top-hottt">charts</a> 
 								pulled down in realtime from <a href="http://developer.echonest.com">The Echo Nest</a>. 
 								Ruoho hopes these reviews will dislodge writer's block, suggest new musical vistas, 
-								creative possibilities, artist collaborations and perhaps garner a few chuckles.
+								creative possibilities, artist collaborations and perhaps garner a few chuckles. For entertainment purposes only.
 								</p>						
 						</div>													
 					</div>

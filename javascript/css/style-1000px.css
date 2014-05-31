@@ -149,3 +149,10 @@
 		    max-width:100%;
     		height: auto;
 		}
+
+/* Footer */
+
+		#footer ul
+		{
+			display: none;
+		}
