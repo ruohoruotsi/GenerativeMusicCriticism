@@ -89,7 +89,7 @@ body, input, textarea, select
 	
 	#footer-wrapper
 	{
-		padding: 40px 15px 15px 15px;
+		padding: 15px 15px 15px 15px;
 		text-shadow: 1px 1px 1px rgba(255,255,255,1);
 	}
 
@@ -260,7 +260,13 @@ body, input, textarea, select
 		{
 			border-radius: 0.1em;
 			margin: 0 0 0 0;
-		}	
+		}
+		
+		#footer p
+		{
+			margin: 0 0 0 0;
+		}
+			
 		
 
 /* Copyright */

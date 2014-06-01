@@ -52,7 +52,7 @@
 	
 	#footer-wrapper
 	{
-		padding: 45px 0 45px 0;
+		padding: 15px 25px 25px 25px;
 		text-shadow: 1px 1px 1px rgba(255,255,255,1);
 	}
 
@@ -165,7 +165,7 @@
 		#content section
 		{
 			background: #fff;
-			padding: 40px 30px 45px 30px;
+			padding: 40px 30px 30px 30px;
 			box-shadow: 2px 2px 2px 1px rgba(128,128,128,0.1);
 			margin: 0 0 10% 0;
 		}
@@ -239,6 +239,11 @@
 			display: none;
 		}	
 
+		#footer p
+		{
+			margin: 0 0 0 0;
+		}
+
 /* Copyright */
 
 	#copyright
@@ -246,7 +251,7 @@
 		border-top: solid 1px #b5bec3;
 		box-shadow: inset 0px 1px 0px 0px #e0e4e7;
 		text-align: center;
-		padding: 45px 0 80px 0;
+		padding: 20px 30px 40px 30px;
 		color: #8d9ca3;
 		text-shadow: 1px 1px 0px rgba(255,255,255,0.5);
 	}
