@@ -12,7 +12,7 @@ reviewGrammar = {
 ///////  
 /// "<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
 "<artist-phrase>": "The <time-adjective> <music-recording-noun> by <artist> is a <retro-syn> <reconstruction-syn> of \
-					<genre> <balladry-syn> that <teeters-syn> on the <edge-syn> of <genre> <pastiche-syn>",
+					<genre> <balladry-syn> that <teeters-syn> <genre> <pastiche-syn>",
 		
 ///////  
 "<artist-action-phrase>": "\
@@ -102,14 +102,20 @@ reviewGrammar = {
 
 "<retro-syn>": "retro | modern | ",
 
-"<balladry-syn>": "balladry | poetry | lyricism",
+"<balladry-syn>": "balladry | poetry | lyricism | fusion",  
 
-"<pastiche-syn>": "pastiche | sundries | miscellany | miscellanea | style entanglements | \
-				   detritus | debris | fusion | chaos | flotsam",
+"<genre-noun>": "landscapes | ephemera | futurism | classicism | sensibilities  | sophistication",
 
-"<teeters-syn>": "teeters",
+"<pastiche-syn>":  "pastiche | sophistication | appropriation | \
+					eclecticism | revivalism | futurism | classicism | polystylism | post-structuralism | \
+					plagiarism | \
+					ephemera | miscellany | miscellanea | style arrangements | \
+				   	detritus | flotsam | chaos | simulacrum",
 
-"<edge-syn>": 	"edge | brink", 
+"<teeters-syn>": "teeters on the <edge-syn> of | \
+				 dabbles in | fiddles with | flirts with",
+
+"<edge-syn>": 	"edge | brink | fringes", 
 
 "<reconstruction-syn>": "reconstruction | emulsion |  modulation | inflection | \
 						rewriting | rescripting | commingling ",
@@ -162,9 +168,9 @@ reviewGrammar = {
 
 "<music-recording-noun>":	"12” wax | MP3 | home-made cassette | CD | album | 4-track cartridge | \
 							live-stream | laserdisc | DVD-R | EP | ogg-vorbis download | maxi-single | Bandcamp release | \
-							ambisonic release | limited edition | remastered EP | white-label | release | \
+							ambisonic release | white-label | release | Spotify exclusive | Beats Music special | Rdio exclusive\
 							17-track compilation | Soundcloud (teaser clip) | promo | youtube video | 7” vinyl | box set | \
-							Mixcloud set | Myspace track | unplugged session | live webisode | music video | 27-track anthology",
+							Mixcloud set | Myspace track | unplugged session | Google Hangout | music video | 27-track anthology",
 
 "<time-adjective>":	"latest | most recent | newest | current | currently charting | recently dropped | forthcoming",
 
@@ -201,13 +207,11 @@ reviewGrammar = {
 							melting <genre> accordion and Diwali-riddim claps with woozy <electro-acoustic-syn> static |\
 							exhibiting an intensely overbearing darkness, covered by a fuzzy thicket of layered drones",
 
-"<genre-noun>": "landscapes | ephemera | futurism | classicism | sensibilities  | sophistication",
-
 "<genre>": "Future Samba | Fonk Arabic | Digital Zulu | 2-step garage  | 8-bit | \
  	Acid Jazz | Acid Rock | Afrobeat  | Nigerian Apala  | Arabesque | Avant-garde jazz  | Avant-garde metal  | \
  	Avant-punk | Bachata  | Baile Funk | Balinese Gamelan  | Bambuco  | Baroque  | Miami bass | Booty bass | Batucada  | \
  	Beatboxing  | Bebop  | Bhangra  | Bhangragga | Bhangramuffin | Big Beat | \
- 	Bluegrass  | Blues  |  Bitpop  | Bocet | Bohemian Dub  | Boi  | Bolero  | Bomba | \
+ 	Bluegrass  | Blues  |  Bitpop  | Bocet | Bohemian Dub | Bolero  | Bomba | \
  	Bombay pop | Bongo  |  Bossa nova |  Breakbeat  | Breakcore  |  Britfunk |  Britpop | Broken-beat  | \
  	Bubblegum pop  |  Bikutsi  | Calypso  |  Canto popular  | \
  	Cantopop  | Capoeira  | Carnatic music | Cello rock | Cha-cha-cha | Chamber music | \
@@ -222,7 +226,7 @@ reviewGrammar = {
  	Goa | Gospel | Gothic | Gregorian chant | Grime  | Grunge | Habanera  | \
 	Transylvanian wedding songs (Hajnali) | Happy hardcore | Hard house | Heavy metal | Hi-NRG | \
  	Highlife | Hiplife | Hip hop | Hip-pop | Hindustani classical music | Honky tonk | Horror punk | \
- 	House | | Hyphy | Illbient | Indietronica | Indie rock | Industrial  | IDM  | Italo Disco | \
+ 	House | Hyphy | Illbient | Indietronica | Indie rock | Industrial  | IDM  | Italo Disco | \
  	J-Pop  | Jazz | Jesus music | Jitterbug | Jive | Nigerian Juju | Jumpstyle | Jungle | Kamba pop | Karaoke | Balinese monkeychant (Kecak) | \
  	Gypsy dance songs (Khelimaski djili) | Krautrock |  Kulning (Swedish folk songs) | \
  	Kveding (Traditional Norwegian songs) | Kwaito | Kwassa kwassa | Latin jazz | Lhamo (Tibetan opera) | Lovers rock | Luhya omutibo | \
@@ -404,7 +408,7 @@ reviewGrammar = {
 							uncharacteristically spry tempos | \
 							unfathomably deep, utterly sick, dubwise textures | \
 							pre-digital era, malaria-infected, vintage radio essences | \
-							vocodered 808s paired with acid belching 303s |\
+							vocodered 808s, paired with acid belching 303s |\
 							wonderfully shambolic tendencies | \
 							wispily resonant distortion | \
 							whinnying ghoulish cries | \
