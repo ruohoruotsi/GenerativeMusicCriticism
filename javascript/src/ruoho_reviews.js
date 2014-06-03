@@ -154,7 +154,7 @@ reviewGrammar = {
 
 // soul-stirring generosity | thick-skulled excess | transcendant drama
 
-"<plains-syn>": 	"plains | savannahs | steppes | tundras | velds | pastures ",
+"<plains-syn>": 	"plains | savannahs | steppes | tundras | velds | pastures | vales",
 
 "<electro-acoustic-syn>":  "electro-acoustic | 8-bit | Illbient | Nintendocore | ambient | shoegazey",
 
