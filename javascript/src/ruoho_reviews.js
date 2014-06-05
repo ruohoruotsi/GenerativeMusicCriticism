@@ -10,9 +10,8 @@ reviewGrammar = {
 "<start>": "<artist-phrase>. | <artist-phrase>. <interjection>",
 
 ///////  
-/// "<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
-"<artist-phrase>": "The <time-adjective> <music-recording-noun> by <artist> is a <retro-syn> <reconstruction-syn> of \
-					<genre> <balladry-syn> that <teeters-syn> <genre> <pastiche-syn>",
+"<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
+/// "<artist-phrase>": " xxx ",
 		
 ///////  
 "<artist-action-phrase>": "\
@@ -75,7 +74,10 @@ reviewGrammar = {
 		<genre-adjective> corner of the musical universe, <while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
 		\
 		19 The <time-adjective> <music-recording-noun> by <artist> is a masterclass in the dark art of <genre>, \
-		showing off <structure-description> <while-syn> <adverb-time-terminal> <gerund-song-phrase>",		
+		showing off <structure-description> <while-syn> <adverb-time-terminal> <gerund-song-phrase> \
+		\
+		20 The <time-adjective> <music-recording-noun> by <artist> is a <retro-syn> <reconstruction-syn> of \
+		<genre> <balladry-syn> that <teeters-syn> <genre> <pastiche-syn>",		
 
 ///////  		
 "<artist>": 	"`getHotttArtists()`",
