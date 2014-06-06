@@ -74,7 +74,7 @@ reviewGrammar = {
 		<genre-adjective> corner of the musical universe, <while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
 		\
 		19 The <time-adjective> <music-recording-noun> by <artist> is a masterclass in the dark art of <genre>, \
-		showing off <structure-description> <while-syn> <adverb-time-terminal> <gerund-song-phrase> \
+		showing off <structure-description> <while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
 		\
 		20 The <time-adjective> <music-recording-noun> by <artist> is a <retro-syn> <reconstruction-syn> of \
 		<genre> <balladry-syn> that <teeters-syn> <genre> <pastiche-syn>",		
@@ -198,7 +198,7 @@ reviewGrammar = {
 							revolving about achingly well-formed shuffle patterns | \
 							whining and squealing like a farmyard animal in the pangs of labour | \
 							ricocheting gunshots off grimy bassline warps | \
-							employing classically staggered harmonic progressions | \
+							employing staggered harmonic progressions | \
 							riding rock hard subbass depth charges | \
 							creating atmospheric pressure drops sharp enough to give lesser experienced divers the bends | \
 							skittering back to post-Autechre beat deconstructions | \
