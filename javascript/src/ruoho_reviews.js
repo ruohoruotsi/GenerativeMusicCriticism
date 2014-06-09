@@ -101,7 +101,6 @@ reviewGrammar = {
 							produces the biggest goosebumps | \
 							produces the biggest frissons",
 
-
 "<retro-syn>": "retro | modern | ",
 
 "<balladry-syn>": "balladry | poetry | lyricism | fusion",  
@@ -141,7 +140,8 @@ reviewGrammar = {
 
 "<derangements-syn>": "derangements | arrangements",
 
-"<creative-syn>":	"sonic | tasteful acoustic | creative | musical | novel musical | fresh melodic | stirring acoustic | visionary sonic | \
+"<creative-syn>":	"sonic | tasteful acoustic | creative | musical | novel musical | \
+					fresh melodic | stirring acoustic | visionary sonic | \
 					trendy musical | stylish sonic | refined | magnificent musical",
 					
 "<wrenches-syn>": "wrenches | plucks | wrests | snatches | prys | pulls | borrows",
