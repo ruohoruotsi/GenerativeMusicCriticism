@@ -1,8 +1,9 @@
 <!DOCTYPE HTML>
 <!--
 	Based on Halcyonic 3.1 by HTML5 UP html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-	
+	Free for personal and commercial use under the CCA 3.0 license
+	(html5up.net/license)
+
 	developed by iroro orife, 2013-2014
 -->
 <html>
@@ -22,7 +23,7 @@
 		<script src="src/ruoho_reviews.js" type="text/javascript"></script>
 		<script src="src/artistMetaData.js" type="text/javascript"></script>
 		<script src="src/jquery.echonest.js" type="text/javascript"></script>
-		
+
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -31,31 +32,32 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 	</head>
-	
-	<body>		
+
+	<body>
 	<script type="text/javascript">
-		
+
 		/*
-		// Twitter integration	
+		// Twitter integration
 		window.twttr = (function (d,s,id) {
 		  var t, js, fjs = d.getElementsByTagName(s)[0];
 		  if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
-		  js.src="https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
-		  return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+		  js.src="https://platform.twitter.com/widgets.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		  return window.twttr || (t = { _e: [], ready:function(f){ t._e.push(f)}});
 		}(document, "script", "twitter-wjs"));
-		
+
 		$(document).ready(function(){
 				$('a[data-text]').each(function(){
 					// console.log($('#reviewArtist').html);
-					
+
 				  $(this).attr('data-text', "This works!");
 				});
 				$.getScript('http://platform.twitter.com/widgets.js');
 			});
-		*/	
+		*/
 
 		//////////////////////////////////////////////////////////////////////////////////
-		// A Context-Free grammar for Generative Music Criticism by iroro 
+		// A Context-Free grammar for Generative Music Criticism by iroro
 		// V0.1 2009.11.06 (Processing, unreleased)
 		// V0.2 2013.01.15 (Javascript)
 		//
@@ -64,39 +66,41 @@
 		// RiTa.p5Compatible(1);
 		var reviewRiGrammar, labelyearRiGrammar;
 		var currentArtist = {name:"", index:-1};  //faveArtistsCache
-										
-		var cachedAlbumList = ['Back with Spaces', 'Greatest Hits (1999-2009)', 'The Tropical Side', 
+
+		var cachedAlbumList = ['Back with Spaces', 'Greatest Hits (1999-2009)',
+								'The Tropical Side',
 								'Dirty Twerking', 'Let\'s Talk', 'Dirty Little Pills',
-								'Afternoon Delighting', 'Cali Music Boxen', 'Gough & Franklin', 
-								'The Dysphoria Blues', 'My Heart', 'The Fornication Tapes', 
+								'Afternoon Delighting', 'Cali Music Boxen', 'Gough & Franklin',
+								'The Dysphoria Blues', 'My Heart', 'The Fornication Tapes',
 								'Good', 'Super Theory',
-								'Sexy Chicas Locas', 'Off Probation', 'Milking Me Softly', 
-								'Give Me My Flowers', 'Against The World', 'Blunted', 
-								'Sweating The Techniques', 'Runaways', '909s & Heartache', 
+								'Sexy Chicas Locas', 'Off Probation', 'Milking Me Softly',
+								'Give Me My Flowers', 'Against The World', 'Blunted',
+								'Sweating The Techniques', 'Runaways', '909s & Heartache',
 								'No Free Rides', 'Tripping on Bath Salts', 'Lies & Counterfeit',
 								'Uprightly Minded', 'Sub Bass Theory', 'Liquid Swords',
 								'Licensed In Chill', 'Twice Removed From Today',
 								'For Mars Above', 'Bridge of Sighs', 'City of Tears',
 								'Caravan To The Edge', 'Midnight On The Edge', 'A Hate Supreme',
-								'Karma Island', 'Crimson Edge', 'Who Came Next', 
+								'Karma Island', 'Crimson Edge', 'Who Came Next',
 								'Highway 101', 'Aeros Over The Sea', 'Miami Calling',
-								'After Tonight', 'Crazy Horse', 'This is Nowhere', 
-								'Under A Groove', 'Down Stroke', 'Clone Soul', 
+								'After Tonight', 'Crazy Horse', 'This is Nowhere',
+								'Under A Groove', 'Down Stroke', 'Clone Soul',
 								'Millions of Rubbers', 'Miseducation Banquet', 'Beggars Hill',
 								'Sticky Changes', 'Exile on Wall St.', 'Closing Time',
 								'Elevation', 'More Songs About Rabbits', 'Cosmic Rising',
-								'Silently Transgender', 'Here Comes The Warm Light', 
+								'Silently Transgender', 'Here Comes The Warm Light',
 								'Your Seduction', 'Closer Now', 'Oceanview', 'Just A Day',
-								'Aurora\'s Eternal Son', 'Things Fall Apart Again', 'The Return',
-								'Unquestionable Doubt', 'Freedom Jazz', 'Postively Leptokurtic',
-								'Bramble Brambles', 'Dolores Tristes', 'Brilliant Deafness',
-								'Unified Fires', 'Astral Minds', 'Being Here', 'Vulgar Ambulance',
-								'Shut The F**k Up', 'Trout Face Paranoia', 'Toys From The Destruction',
+								'Aurora\'s Eternal Son', 'Things Fall Apart Again',
+								'The Return','Unquestionable Doubt', 'Freedom Jazz',
+								'Postively Leptokurtic','Bramble Brambles', 'Dolores Tristes',
+								'Brilliant Deafness','Unified Fires', 'Astral Minds',
+								'Being Here', 'Vulgar Ambulance','Shut The F**k Up',
+								'Trout Face Paranoia','Toys From The Destruction',
 								'Pure Grit', 'Conveniently Dead', 'Fear Of Weasel Flesh',
 								'The Goodfinger Chronicles', 'My White Keyboard', 'Indigo',
 								'Ghost In The Club'];
-											
-								
+
+
 		// setup
 		window.onload = setupCached;
 		// window.onmouseup = mouseClicked;
@@ -104,11 +108,11 @@
 		//////////////////////////////////////////////////////////////////////////////////
 		function setupCached()
 		{
-			// hotttArtistsCache is read, when we included it in artistMetaData.js above 
-			
+			// hotttArtistsCache is read, when we included it in artistMetaData.js above
+
 			reviewRiGrammar = new RiGrammar(reviewGrammar);
 			labelyearRiGrammar = new RiGrammar(labelYearGrammar);
-			
+
 			mouseClicked();
 			console.log("Setup completed");
 		}
@@ -122,51 +126,51 @@
 			console.log(aReview.length);
 
 			var labelyear = labelyearRiGrammar.expand();
-			
+
 			// Populate html elements
 			document.getElementById("ruohoreviews").innerHTML = aReview;
 			document.getElementById("reviewSubtitle").innerHTML = labelyear;
-						
-			getAlbumName();	
+
+			getAlbumName();
 			getHotttRating();
 			getCurrentArtist();
-			getCurrentArtistImage();		
+			getCurrentArtistImage();
 			getCurrentArtistTwitterURL();
-			getCurrentArtistInfo();		
+			getCurrentArtistInfo();
 		}
-		
-		
+
+
 		//////////////////////////////////////////////////////////////////////////////////
 		function getHotttArtists() // get a random Hottt artist
-		{							
+		{
 			var rand = Math.floor((Math.random() * hotttArtistsCache.length));
 			currentArtist.name = hotttArtistsCache[rand].name;
 			currentArtist.index = rand;
-	
+
 			console.log(currentArtist);
-			return currentArtist.name;	
+			return currentArtist.name;
 		}
-		
-		
+
+
 		//////////////////////////////////////////////////////////////////////////////////
-		function getCurrentArtistImage() 
-		{			
+		function getCurrentArtistImage()
+		{
 			// console.log(hotttArtistsCache[currentArtist.index].images);
-			
+
 			// random selection from image array
 			var imageList = hotttArtistsCache[currentArtist.index].images;
-			var imageIndex = Math.floor(Math.random() * imageList.length); 
-			
+			var imageIndex = Math.floor(Math.random() * imageList.length);
+
 			// IO HAVOC -- If the image is not there or avail!! then
 			// subsititute a random/generic one!
-			
+
 			document.getElementById("artistImages").src = imageList[imageIndex].url;
 		}
 
 
 		//////////////////////////////////////////////////////////////////////////////////
-		function getCurrentArtistTwitterURL() 
-		{	
+		function getCurrentArtistTwitterURL()
+		{
 			// random selection from image array
 			var urlList = hotttArtistsCache[currentArtist.index].URLs;
 			// console.log(urlList);
@@ -176,44 +180,44 @@
 			var link = urlList["twitter_url"];
 			a.title = "Twitter";
 			a.innerHTML = "@" + hotttArtistsCache[currentArtist.index].twitter_id;
-		
-			if(!link) {		
+
+			if(!link) {
 				link =  urlList["wikipedia_url"];
 				a.title = "Wikipedia";
 				a.innerHTML = "Wikipedia";
 			}
-			if(!link) {	
+			if(!link) {
 				link =  urlList["myspace_url"];
 				a.title = "Myspace";
-				a.innerHTML = "Myspace";					
+				a.innerHTML = "Myspace";
 			}
-			if(!link) {	
+			if(!link) {
 				link =  urlList["lastfm_url"];
 				a.title = "LastFM";
-				a.innerHTML = "LastFM";										
-			}				
-			if(!link) {	
+				a.innerHTML = "LastFM";
+			}
+			if(!link) {
 				link =  urlList["official_url"];
 				a.title = "Official Website";
-				a.innerHTML = "Official Website";															
-			}							
-			if(!link) {	
-				link =  " ";
-				a.innerHTML = " ";	
+				a.innerHTML = "Official Website";
 			}
-		
+			if(!link) {
+				link =  " ";
+				a.innerHTML = " ";
+			}
+
 			a.href = link;
 		}
 
 
 		//////////////////////////////////////////////////////////////////////////////////
-		function getCurrentArtistInfo() 
-		{	
+		function getCurrentArtistInfo()
+		{
 			// random selection from image array
 			var artistID = hotttArtistsCache[currentArtist.index].id;
 			var a = document.getElementById('artistInfo');
 
-			if(artistID) {		
+			if(artistID) {
 				a.href = "http://static.echonest.com/echotron/?id=" + artistID;
 				a.title = "Echotron";
 				a.innerHTML = "Artist Info";
@@ -222,16 +226,16 @@
 
 
 		//////////////////////////////////////////////////////////////////////////////////
-		function getAlbumName() 
+		function getAlbumName()
 		{
 			// console.log(cachedAlbumList.length);
 			var rand = Math.floor((Math.random()*87));
 			document.getElementById("reviewTitle").innerHTML = cachedAlbumList[rand];
 		}
-		
+
 		//////////////////////////////////////////////////////////////////////////////////
  		function clearContext(context, canvas)
- 		{	 
+ 		{
 			// Store the current transformation matrix
 			context.save();
 
@@ -242,26 +246,26 @@
 			// Restore the transform
 			context.restore();
 		}
-				
+
 		//////////////////////////////////////////////////////////////////////////////////
  		function getHotttRating() // get a random Hottt artist rating
- 		{	 
+ 		{
  			var integer = Math.floor((Math.random()*99));
  			integer = integer + Math.random();
- 			
+
  			if(integer < 10) integer = integer.toPrecision(2);
  			else integer = integer.toPrecision(3);
- 			
+
  			var toPrint = integer.toString();
 			// console.log(toPrint);
 
 			// start drawing
 			var canvas = document.getElementById("ratingCanvas");
 			var context = canvas.getContext("2d");
-			
-			// 
+
+			//
 			clearContext(context, canvas);
-			
+
 			//
 			var centerX = canvas.width / 2;
 			var centerY = canvas.height / 2;
@@ -274,25 +278,25 @@
 			context.fill();
 			context.lineWidth = 3;
 			context.stroke();
-			 
-			// 
+
+			//
 			context.font = '14pt Yanone Kaffeesatz';
 			context.fillStyle = 'black';
 			context.textAlign = 'center';
 			context.fillText(toPrint, 30, 35);
  		}
 
- 		
+
 		//////////////////////////////////////////////////////////////////////////////////
  		function getCurrentArtist() // get current artist
- 		{	 
+ 		{
  			document.getElementById("reviewArtist").innerHTML = currentArtist.name;
  		}
 
 	</script>
 
 
-		
+
 		<!-- Header -->
 			<div id="header-wrapper">
 				<header id="header" class="container">
@@ -301,12 +305,12 @@
 
 							<!-- Logo -->
 								<h1><a href="#" id="logo">ruoho reviews &#8230</a></h1>
-							
+
 							<!-- IO HAVOC turn off nav -->
-							<!-- Nav 
+							<!-- Nav
 								<nav id="nav">
-								</nav> 
-							-->	
+								</nav>
+							-->
 							<ul class="icons">
 								<li><a class="fa fa-twitter solo" href="http://twitter.com/ruohoreviews"><span>Twitter</span></a></li>
 								<li><a class="fa fa-youtube solo" href="http://youtube.com/ruohoreviews"><span>Youtube</span></a></li>
@@ -323,7 +327,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="4u">
-								
+
 								<!-- Sidebar -->
 									<section>
 										<header>
@@ -335,26 +339,29 @@
 											<li><a href="" id="artistTwitter">Artist Info</a></li>
 											<li><a href="" id="artistInfo">Artist Info</a></li>
 											<!-- <li>Play this artist</li> IO HAVOC: Not right now-->
-											<li>	<canvas id="ratingCanvas" width="60" height="60"></canvas>	</li>
+											<li>
+												<canvas id="ratingCanvas" width="60" height="60">
+												</canvas>
+											</li>
 										</ul>
-										
-									
-									</section>	
-										
+
+
+									</section>
+
 							</div>
 							<div class="8u skel-cell-important">
-								
+
 								<!-- Main Content -->
 									<section>
 										<header>
 											<h2 id="reviewTitle">Album Title</h2>
 											<h3 id="reviewSubtitle">Label and year</h3>
 										</header>
-										
-										<p><h4 id="ruohoreviews"></h4></p> 
+
+										<p><h4 id="ruohoreviews"></h4></p>
 
 										<!-- <a id="custom-tweet-button"></a> -->
-										
+
 										<style type="text/css" media="screen">
 										  #custom-tweet-button a {
 											display: block;
@@ -362,18 +369,18 @@
 											background: url('https://twitter.com/favicons/favicon.ico') 1px center no-repeat;
 										  }
 										</style>
- 
+
  										<!--
 										<div id="custom-tweet-button">
 										  <a href="https://twitter.com/intent/tweet">Tweet</a>
 										</div> -->
-										
+
 									<!-- <a href="http://twitter.com/share"
 										class="twitter-share-button"
 										data-text="This is what we want to change dynamically"
 										data-count="none" data-via="chris_camps" data-size="large">Tweet</a> -->
-										
-										
+
+
 										<a href="#" class="btn" onclick="mouseClicked()">Encore!</a>
 									</section>
 							</div>
@@ -387,7 +394,7 @@
 				<footer id="footer" class="container">
 					<div class="row">
 						<div class="12u">
-						
+
 							<!-- About -->
 							<h2>
 								<ul class="icons">
@@ -395,27 +402,27 @@
 								<li><a class="fa fa-youtube solo" href="http://youtube.com/ruohoreviews"><span>Youtube</span></a></li>
 								<li><a class="fa fa-github solo" href="http://github.com/ruohoruotsi"><span>LinkedIn</span></a></li>
 							</ul> <br/>
-							
+
 								about ruoho reviews
 							</h2>
 								<p>
-								First-class criticism deepens your engagement with music. But how do you sustain 
-								the excitement, writing within tight genre circles? How do you reflect the music 
-								without getting snarled by the textual medium? How do you avoid repetition? 
-								How do you keep *ish fresh? 
-								
-								<br/><br/>As a label manager <a href="https://github.com/ruohoruotsi">Ruoho Ruotsi</a> 
-								wrote copy for artist profiles, new releases, music reviews, tweets, onesheets, 
+								First-class criticism deepens your engagement with music. But how do you sustain
+								the excitement, writing within tight genre circles? How do you reflect the music
+								without getting snarled by the textual medium? How do you avoid repetition?
+								How do you keep *ish fresh?
+
+								<br/><br/>As a label manager <a href="https://github.com/ruohoruotsi">Ruoho Ruotsi</a>
+								wrote copy for artist profiles, new releases, music reviews, tweets, onesheets,
 								blog posts & online commentary, creating and collecting a prodigious collection of musical phrases,
-								idiomatic expressions and colourful constructions. These reviews are fashioned using 
-								Ruoho's custom <a href="http://en.wikipedia.org/wiki/Context-free_grammar">context-free grammar</a> 
-								(<a href="https://github.com/dhowe/RiTa/">RiTa</a>) and "hottt" artist 
-								<a href="http://developer.echonest.com/docs/v4/artist.html#top-hottt">charts</a> 
-								pulled down in realtime from <a href="http://developer.echonest.com">The Echo Nest</a>. 
-								Ruoho hopes these reviews will dislodge writer's block, suggest new musical vistas, 
+								idiomatic expressions and colourful constructions. These reviews are fashioned using
+								Ruoho's custom <a href="http://en.wikipedia.org/wiki/Context-free_grammar">context-free grammar</a>
+								(<a href="https://github.com/dhowe/RiTa/">RiTa</a>) and "hottt" artist
+								<a href="http://developer.echonest.com/docs/v4/artist.html#top-hottt">charts</a>
+								pulled down in realtime from <a href="http://developer.echonest.com">The Echo Nest</a>.
+								Ruoho hopes these reviews will dislodge writer's block, suggest new musical vistas,
 								creative possibilities, artist collaborations and perhaps garner a few chuckles. For entertainment purposes only.
-								</p>						
-						</div>													
+								</p>
+						</div>
 					</div>
 				</footer>
 			</div>

@@ -500,7 +500,7 @@ reviewGrammar = {
 								\
 								suddenly explodes into an unrelenting, glistening wall of discordance, sounding like a thousand church organs screeching out | \
 								\
-								has all the claustrophobia of the nastier end of <genre>, though within the unearthly racket, still maintains an uplifting optimism | \
+								has all the claustrophobia of the nastier end of <genre> | \
 								\
 								contains passages of deep melodic beauty. This is unquestionably a journey that is <adverb> rooted in atonal explorations | \
 								\
