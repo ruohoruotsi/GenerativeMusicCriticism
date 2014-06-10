@@ -10,8 +10,8 @@ reviewGrammar = {
 "<start>": "<artist-phrase>. | <artist-phrase>. <interjection>",
 
 ///////  
-"<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
-/// "<artist-phrase>": " xxx ",
+/// "<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
+"<artist-phrase>": "The dark artistry of <artist> casts its spell over fans of <genre>, <roving-syn> from <structure-description> to <structure-description>",
 		
 ///////  
 "<artist-action-phrase>": "\
@@ -101,6 +101,9 @@ reviewGrammar = {
 							produces the biggest goosebumps | \
 							produces the biggest frissons",
 
+"<roving-syn>": "roving | wandering | roaming | drifting | meandering | gallivanting | \
+				 straying | zigzagging | snaking", 
+
 "<retro-syn>": "retro | modern | ",
 
 "<balladry-syn>": "balladry | poetry | lyricism | fusion",  
@@ -162,11 +165,12 @@ reviewGrammar = {
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-"<interjection>": 	"This is a crucial release! | Most excellent! |  Utterly astounding! | Somewhat mind-blowing! | \
-					Jaw-dropping! | Breathtaking! | This is gripping sh*t! | Frankly intoxicating! | \
+"<interjection>": 	"Crucial release! | Most excellent! |  Utterly astounding! | Somewhat mind-blowing! | \
+					Jaw-dropping! | Breathtaking! | This is gripping sh*t! | Frankly intoxicating! | F**kin' nuts! | \
 					Rousing material! | Electrifying! | Most-definitely heady! | A modern compositional masterpiece! | \
 					Miss out at your peril! | Seriously? | Wow! | Bitchin'! | Hearing is believing! | Yikes! | \
-					A riveting experience! | Simply a vital release! | Solid. | Happy listening!",
+					A riveting experience! | Simply a vital release! | Solid. | Wikkid! | Happy listening! | Hella good! | \
+					Don't waste your time. | Drab. | Meh. | Phatness! | Bad*ss! | Dope. | Another excellent transmission!",
 
 "<music-recording-noun>":	"12” wax | MP3 | home-made cassette | CD | album | 4-track cartridge | \
 							live-stream | laserdisc | DVD-R | EP | ogg-vorbis download | maxi-single | Bandcamp release | \
@@ -263,7 +267,10 @@ reviewGrammar = {
 								a bubbly pop appreciation | \
 								a mindblowing dubscape of effects | \
 								a persistent undulating pulse of bass | \
+								a horrifying mess of head-meddling unpleasantness |\
+								a toxic hellstew of glitched-out tapestries |\
 								a cacophany of autistic rhythms | \
+								a gratuitous, pornographic level of lusciousness |\
 								a fragrant, effortless warmth | \
 								a deluge of piano flecked gems | \
 								a veneer of melancholy |  \
@@ -281,28 +288,34 @@ reviewGrammar = {
 								an alchemical blend of post-rave <genre> electronics",
 
 "<structure-description>": "adventurous, non-linear constructions | \
+							abstracted TB-303 residues | \
+							atmospheric kosmische pulsations |\
 							aerated electronic timbres | \
 							alien analogue tones | \
 							arcing sinewaves | \
 							avant-garde chamber instrumentations | \
 							assorted disembodied voices | \
-							bass frequencies turned to jellied slush | \
+							jellied, slushy bass frequencies | \
 							blistering, earlobe gatecrashing breakbeats | \
 							beautifully tempered zones of twilight ambient  | \
-							breakneck tempos | \
 							breathtaking constellations of de-glazed rhythms | \
 							acid house effusions turned hardcore breakbeat | \
+							cinematic dulcimer melodies |\
 							cinematic string samples of the Caretaker variety |  \
+							coke-white pop histrionics|\
 							cassette tape overdubs | \
-							chugging machinations | \
+							chugging harmonic machinations | \
+							charming melodic ephemera |\
 							dense analogue experiments | \
 							digitally dissected orchestral figures | \
 							devastatingly heavy <genre> mutations | \
 							dexterous skanking movements | \
-							dancefloor skimming subbass |\
 							distorted crescendos | \
 							dark careening tones from bright, queasy synthesizers | \
 							dense thickets of digitally applied crackle | \
+							deep-set metallic sonorities | \
+							detached 90's post-modernism |\
+							dextrous rhythm section arrangements | \
 							dramatic percussive interjections | \
 							dread techno futurisms | \
 							myriad drum-machine pattern-permutations | \
@@ -317,17 +330,20 @@ reviewGrammar = {
 							European technical execution | \
 							fat skronked basslines under <genre-adjective>, minimal percussion | \
 							febrile rhythm mechanics | \
-							freaky blips |\
+							flourishes of TR-909 hi-hats |\
+							freaky sequenced blips |\
 							flickering syncopations | \
 							flanged, delayed beats | \
 							forward thinking, phantasmic dub | \
 							foggy northern European drone-scapes |  \
 							flickering electronic rhythm sections | \
+							fluttering J-pop delights |\
 							floppy fringe harmonies | \
 							fuzzy shoegaze psychedelia | \
 							gender-bending vocals | \
 							gloriously wild natural timbres | \
 							grim, crust-laden darkness | \
+							gorgeously fragile electronica |\
 							glacially paced gothic stoner rock | \
 							hazy washes of reverbed harps | \
 							hazy synthetic electronical embellishments |  \
@@ -335,13 +351,15 @@ reviewGrammar = {
 							head-pressurised technohouse vibes	| \
 							hyper-prismic agitated synthlines | \
 							hyper-lean <genre> geometries | \
+							hints of free-roaming Krautrock |\
 							hummable melodies |\
 							heavy rolling dancehall grinders |  \
 							haunted-house analogue tactics |  \
 							hazily buoyant, ethereal female vocals | \
 							intricately funked syncopations | \
 							inimitably raw, psychedelic wow-and-flutter beats | \
-							kosmische pulsations |\
+							loose strands of treated guitar |\
+							lurid hues of neon pink & green |\
 							layered embers of sound | \
 							layered spaciousness | \
 							lush Detroit chords |\
@@ -352,7 +370,7 @@ reviewGrammar = {
 							massively modulated vocal treatments |\
 							mutant fractal loops | \
 							narcotic drag vocals | \
-							narcotic keys |  \
+							narcotic Rhodes keys |  \
 							overheated arcade game melodies | \
 							oblique hi-end processing | \
 							orchestral level pomp & bombast |  \
@@ -361,13 +379,17 @@ reviewGrammar = {
 							pirouetting blips |\
 							psychedelic rhythm manipulations |  \
 							pure Balearic house bliss | \
+							pre-digital era, malaria-infected, vintage radio essences | \
+							psilocybic overgrowths of unstable electronics |\
 							relentless raindance drums |\
 							rootsy one-drop dub keys |  \
 							rising, haunting strings | \
-							roiling bass |\
+							roiling sawtooth bass |\
 							reverberant, quivering sustains | \
 							rousing mini-orchestral swells | \
-							rippling xylophonics | \
+							rippling xylophonic geometries | \
+							succulent bass treatments |\
+							sculpted amplifier hum |\
 							stoned post-punk guitar strokes | \
 							shoegazy opiates |\
 							spherical bell tones | \
@@ -381,20 +403,21 @@ reviewGrammar = {
 							sumptuous Chicago house reductions | \
 							semi-organic gristle |\
 							sea-sick rhythms | \
+							shards of ultra-plastic electro-funk |\
 							symphonic droning | \
 							stringently reduced techno |  \
 							sinister Euro-porno soundtracks | \
 							somnolent, spectrally sifted chorales |\
 							spectrally sifted electronics | \
 							spacious Balearic keys |  \
-							seriously dextrous rhythm section arrangements | \
 							soporific ambiences | \
-							slurred articulations |  \
+							slurred, bladdered articulations |  \
 							swaying basslines |\
 							sculpted rhythm dynamics |\
 							synaesthetic ecstasy |  \
 							shuffling, '60s West Coast sounds | \
 							spleen-crushing bass | \
+							sublime robo-tropical leitmotives |\
 							smudged sonic brushstrokes |\
 							steely, speaker-destroying dub techno | \
 							shuddering, breakbeat-fueled <genre> | \
@@ -403,19 +426,19 @@ reviewGrammar = {
 							tantalising, mercurial motifs |\
 							tortured saxophone emissions | \
 							textural guitar-scapes | \
+							throbbing, gristly synths |\
 							thickets of soupy electronic fog |\
 							tranquil, free-floating chorales |\
 							utterly sick digital spasms | \
 							unfathomably complex textures | \
 							uncharacteristically spry tempos | \
 							unfathomably deep, utterly sick, dubwise textures | \
-							pre-digital era, malaria-infected, vintage radio essences | \
 							vocodered 808s, paired with acid belching 303s |\
 							wonderfully shambolic tendencies | \
 							wispily resonant distortion | \
 							whinnying ghoulish cries | \
 							wicked ragga-bashment flava |  \
-							waves of static",
+							waves of <electro-acoustic-syn> static",
 
 "<the-synth-drones-Klaus>": 	"the synth drones of Klaus Schulze | \
 								 the wind-chilled electronics of Thomas Köner |\
@@ -423,7 +446,9 @@ reviewGrammar = {
 								 the pointillist dynamics associated with Arnold Schoenberg |\
 								 the oneiric dramaturgy of Robert Ashley |\
 								 the disturbingly visceral Klangfarbenmelodie of Hector Berlioz | \
-								 the intricately funked syncopations of Autechre or Alva Noto",
+								 the intricately funked syncopations of Autechre or Alva Noto |\
+								 the isolationist bleeps of Mika Vainio |\
+								 the subdued ferric tones of Kevin Drumm",
 
 "<artist-description-phrase>": 	"<adverb> defies categorisation | \
 								demonstrates an innate grasp of the sublime qualities of <genre>  | \
@@ -447,6 +472,7 @@ reviewGrammar = {
 			Jerusalem | Dakar | Cairo | Kingston | Lagos  | Addis Ababa | Abidjan | Kinshasa | Casablanca | Accra | \
 			Dar es Salaam | Bamako | Ouagadougou | Mogadishu | Cotonou | Harare",
 			
+/// "<label>": 	"`getLabel()`",
 "<label>": 			"Kompakt | Hyperdub | Tongut  | Soul Jazz | Strictly Rhythm | Defected | \
 					  Studio 1 | Nonesuch | Mille-Plateaux  | Force Inc. | Bpitch Control | \
 					  Shitkatapult | Warp | The Leaf | Kranky | Thoughtless Music | Unfoundsound",
@@ -488,7 +514,7 @@ reviewGrammar = {
 								\
 								is pieced together from a plethora of unidentified samples, field recordings and found sounds | \
 								\
-								has critics and fans alike, queuing up to drape compliments over it's shiny chassis | \
+								has critics and fans alike, queuing up to drape compliments over its shiny chassis | \
 								\
 								is a deep & dark tech-house number, whose B-side remix, takes it deeper, adding effect throws, percussion solos and dramatic breakdowns | \
 								\
@@ -561,7 +587,8 @@ labelYearGrammar = {
 					 Revolver Recordings | Thug Records | Component Records | Skunk Records | \
 					 Bugged Out! Recordings | High On Rhythm Records | AM:PM | Southern Fried Records |\
 					 Twisted America Records | Hand On The Plow | Moonshine Music | Trax Records | \
-					 Shitkatapult | Warp | The Leaf | Kranky | Thoughtless Music | Unfoundsound",
+					 Shitkatapult | Warp | The Leaf | Kranky | Thoughtless Music | Unfoundsound | \
+					 Ritornell",
 					  
 "<year>": 			"1984 | 1997 | 1999 | 2001 | 2003| 2008 | 2009 | 2011 | \
 					2013 | 2014 |2014 | 2014 | 2013 | 2014 | 2013 | 2014 | 2014 | \
