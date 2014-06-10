@@ -293,6 +293,14 @@
  			document.getElementById("reviewArtist").innerHTML = currentArtist.name;
  		}
 
+		//////////////////////////////////////////////////////////////////////////////////
+		function showme(id) 
+		{
+			var divid = document.getElementById(id);
+			if (divid.style.display == 'block') divid.style.display = 'none';
+			else divid.style.display = 'block';
+    	}
+
 	</script>
 
 
@@ -409,10 +417,11 @@
 								First-class criticism deepens your engagement with music. But how do you sustain
 								the excitement, writing within tight genre circles? How do you reflect the music
 								without getting snarled by the textual medium? How do you avoid repetition?
-								How do you keep *ish fresh?
+								How do you keep *ish fresh? &nbsp; <a onclick="showme('widget');" style="color: #ED391B;">more/less</a></p>
 
-								<br/><br/>As a label manager <a href="https://github.com/ruohoruotsi">Ruoho Ruotsi</a>
-								wrote copy for artist profiles, new releases, music reviews, tweets, onesheets,
+								<div id="widget" style="display:none;">
+								<p>
+								As a label manager <a href="https://github.com/ruohoruotsi">Ruoho Ruotsi</a> wrote copy for artist profiles, new releases, music reviews, tweets, onesheets,
 								blog posts & online commentary, creating and collecting a prodigious collection of musical phrases,
 								idiomatic expressions and colourful constructions. These reviews are fashioned using
 								Ruoho's custom <a href="http://en.wikipedia.org/wiki/Context-free_grammar">context-free grammar</a>
@@ -428,6 +437,7 @@
 								
 								For entertainment purposes only.
 								</p>
+								</div>
 						</div>
 					</div>
 				</footer>
