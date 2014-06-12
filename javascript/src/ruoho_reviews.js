@@ -207,7 +207,7 @@ reviewGrammar = {
 							eschewing the usual formulaic pitfalls | \
 							spinning a collection of understated string and piano elegies | \
 							veering off on solo tangents of enchanted ambient abstraction | \
-							functioning through the frosted lens of physical Finnish stoicism | \
+							functioning through the frosted lens of physical <Finnish-syn> stoicism | \
 							revolving about achingly well-formed shuffle patterns | \
 							whining and squealing like a farmyard animal in the pangs of labour | \
 							ricocheting gunshots off grimy bassline warps | \
@@ -551,6 +551,9 @@ reviewGrammar = {
 
 "<rocks-syn>": "rocks | shines | shimmers | chugs | drones | sparkles | unnerves | \
 				trembles | surprises | startles | sparkles | scintillates",
+				
+"<Finnish-syn>": "Scandinavian | Nordic | Teutonic | Slavic | Baltic | Turkic | Basque | Gibraltarian | Tatar | Crimean | Uzbek | Gujarati",
+				
 "<genre>": "Future Samba | Fonk Arabic | Digital Zulu | 2-step garage  | 8-bit | \
 			Acid Jazz | Acid Rock | Afrobeat  | Nigerian Apala  | Arabesque | Avant-garde jazz  | Avant-garde metal  | \
 			Avant-punk | Bachata  | Baile Funk | Balinese Gamelan  | Bambuco  | Baroque  | Miami bass | Booty bass | Batucada  | \

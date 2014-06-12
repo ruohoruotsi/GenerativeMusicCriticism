@@ -1,0 +1,1756 @@
+
+
+Music Criticism Phraseology:
+
+Boomkat:
+
+/* WordNet
+Synonyms, Antonyms, Hypernyms, & Hyponyms
+Holonyms, Meronyms, Coordinates, & Similars
+Nominalizations, Verb-Groups, & Derived-terms
+Glosses, See-Alsos, Examples, & Descriptions
+
+Support for Pattern-matching, Soundex, Anagrams, etc.
+*/
+
+
+
+- <song> | <artist> <adverb> defies categorisation
+- <song phrase> chugs a long like a malfunctioning mechanical beast
+- <song> slides out a slippery groove of immense proportions
+demonstrates an innate grasp of the sublime <genre> qualities
+
+<adverb>
+brilliantly
+astutely
+adeptly
+
+<single adjectives before genre or musical structure>
+
+- studied 
+- agile 
+- droney 
+- fragmented 
+- punctured 
+- dark industrial 
+- retro-futuristic 
+- wispy atmospheric 
+- smudged 
+- obscure 
+
+- rawling Detroit shuffles a la Theo Parrish
+- blurring the boundaries
+- Eschewing the familiar palimpsest of 'credible indie rock
+- brushing his rhythms with a cool sleight of hand that's still utterly breathtaking
+- eschewing the formulaic pitfalls
+
+Future Samba
+Fonk Arabic
+Ragga dis'n'dat
+Digital Zulu
+
+#############################################
+#############################################
+#############################################
+
+
+- queuing up to drape compliments over it's shiny chassis. 
+- the inimitably raw and psychedelic wow-and-flutter between the grooves 
+- hold back on the hyperbolics 
+
+- exothermic blend of <genres>
+- <genre> drone epic
+- <genre> futurism
+
+
+- soporific ambience of <song>
+
+- early handmade experiments
+- no sequencing and lots of cassette tape overdubs
+- the arrangements were made on-the-fly or in-the-moment 
+
+- persistent undulating pulse of bass
+- 
+- the synth drones of Klaus Schülze 
+
+- wind-chilled electronics of Thomas Koner
+- a deep, sprawling affair
+- in sumptuous Chicago reductions
+- at the very top of that rather special pile
+
+
+- an asymmetric, geniusly constructed dancefloor killer
+- chugging machinations steeped in the traditions of Scandinavian machine music
+- a return to icy tundras
+- quotidian sensibilities
+
+- a growing amalgam of contradictions
+- relentless and absolutely deadly
+- relentless advancement of bass musics
+- under a banner that's earned the trust of connoisseurs everywhere.
+- an exquisite delight
+
+- those silvery notes hidden deep within
+- robustly exotic
+- a frenzied crescendo of panning stabs and a washed out, chugging backbone that doesn't let-up
+- impossible deep and analogue low-end padding
+- most crucial
+- a sweet-like-tropical blend of garage, house and dubstep
+- the perfect textual environment of snappy, far out aphorisms
+- cultural and psychic revolution
+- alien analog tones 
+- ferric-affected percussion 
+- an assortment of disembodied voices
+- rippling xylophonics
+- Berlin's dub-techno structures
+- a blend of halfstep-swung snares
+- expertly manipulated 
+- rhythm alchemy 
+- beautifully tempered zones of twilight ambient 
+- drifting electronica
+- hazy washes of reverbed harps
+- majestic cloud-like structures of droning synth tones
+- febrile rhythm mechanics
+- wispily resonant distortion 	
+- waves of static
+- spherical bell tones
+- sea-sick rhythms
+- cinematic string samples of the Caretaker variety 
+- head-pressurised technohouse vibes
+- utterly sublime revisions
+- sticky electro influenced wriggler
+- synthline-driven ruff-house killer
+- an alchemical blend of post-rave electronics
+- endlessly arpeggiated chords
+- drum machines left to run through pattern permutations for days
+- dadaist post-pop
+- enunciated consonants and floppy fringe harmonies
+- a fragrant, bubblegum flavoured ditty
+- hummable melody and post-pop slacker tendencies
+- gloriously wild and unkempt harmonised cell
+
+- gloriously wild 
+- reverberant, quivering sustains
+- avant-garde chamber instrumentation
+- natural timbres
+- propelling ethereal glitching rhythms across ambient plains of elaborately fashioned electroacoustic static
+- a symphonic droning quality
+- grim, crust-laden darkness
+- sounds float in and out of your consciousness with a wool-lined ease
+- a veneer of melancholy and a palatable sheen
+- spinning a collection of understated string and piano elegies
+- mellow-headed leftfield
+- a deluge of piano flecked gems
+- rain on mud-caked windows
+- foggy northern European landscapes
+- Faded photographs, distant memories
+- tantalisingly curtailed compositions
+- cooly submerges with a Drexciyan twist
+- fat skronked bassline under fractured, minimal percussion
+- most-direct floor-friendliness and funky abstraction
+- a classic reduction
+- an infinitely effective set opener or closer 
+- slightly psychedelic rhythm manipulation,
+- narcotic keys
+- the frequency plunging and uptempo sub-charge of <song>
+- hazy synthetic electronical embellishments 
+- a heavy heavy digital subbass rhythm
+- a resolutely intransigent aesthetic rooted
+- veering off on solo tangents of enchanted ambient abstraction
+- stringently reduced techno
+- seeing <place> functions through a frosted lens of physical Finnish stoicism
+- revolving about achingly well formed patterns shuffled
+- the dextrous touch of a proper rhythm magician
+- sitting deep in smoky atmospherics
+- skanking movements
+- pure, untarnished, indisputable genius
+- layered spaciousness 
+- richest spacial dub construction ever heard.
+- magnificantly evocative and mercilessly deep
+- yet another indisposable slice of <band> delectability
+- overheated arcade game melodies
+- a sinister metallic night-time creature
+- exothermal synthlines
+- Jaw droppingly smart
+- Utterly sick digital spasms
+- Oblique hi-end processing
+- cacophany of autistic rhythms 
+- unfathomably complex textures
+- poppy experimentalism
+- intricately funked syncopations edging on the territory of Autechre, Alva Noto or CoH 
+- the coarse textures of Yasunao Tone
+- unrelated shards of textured noise dynamically ascend before crashing to point zero
+- austere oscillator experimentation
+- full body tactile effect
+- doom laden 
+- spiritually heavy 
+- subsiding into the crushing sloth-riffage
+- vocals screech out abstract, desolate lyrics
+- a powerful and very kinetic opening statement 
+- tortured saxophone emissions
+- whining and squealing like a farmyard animal in the pangs of labour
+- the slurred articulations of <band>
+- haunted-house analogue tactics employed by <band>
+- a vintage radio infected with malaria and eternally locked into a pre digital era
+- lysergic trumpet lines panned to infinity 
+- a mindblowing dubscape of effects
+- a wicked ragga-bashment flava
+- a heavy rolling dancehall grinders riddim
+- a sticky electro influenced wriggler
+- a synthline-driven ruff-house killer
+- injecting <genre> templates
+- ricocheting gunshots off grimy bassline warps
+- ricocheting gunshots off grimy bassline warps
+- drowned out by the sound of jaws hitting the floor
+- dense thickets of digitally applied crackle
+- a head sweltering version
+- employing classic staggered progressions
+- palette and stylistic shifts
+- rootsy one-drop dub keys 
+- in synaesthetic ecstasy
+- riding rock hard subbass depth charges 
+- while deeply humid atmospheric conditions
+- sinister Euro-porno soundtracks
+- bloopy wobbleboard sounds
+- deep, rustic darkness
+- writhes with overdriven intensity and deeply sinister undercurrents
+- wonderfully shambolic tendencies
+- synth-pop zeitgeist grappling
+- a veritable haberdashery of exquisitely vintage musical textures
+- soft, smoky sax lines
+- flickering electronic rhythm sections 
+- an eighty-minute odyssey into stoner heaven
+- textural guitar-scapes
+- starkly evocative lyrics 
+- a retro reconstruction of Wicker Man-style balladry that teeters on the edge of OTT pastiche
+- full of dramatic percussive interjections 
+- a pleasantly exhausting and disorientating twenty-five minutes
+- a triptych of staggeringly good performances
+- spacious Balearic keys
+- creating atmospheric pressures sharp enough to give lesser experienced divers the bends
+- layered embers of sound
+- dangerous faux-romanticism of orchestral syrup
+- glacially paced gothic stoner rock
+- eerily impeccable falsetto 
+- skittering post-Autechre beat deconstructions
+- modern amorphous psychedelia
+- a dense and effulgent piece of <genre>
+- a fragrant, effortless warmth
+- tearjerking, suckerpunching piano-meets-strings melancholy
+- reverberating woodblock snap
+- dripping with endless reverb and delay manipulation.
+- hyper-prismic agitated synthline
+- spectrally sifted electronics 	
+- a JS Bach-meets-krautrock bassline 
+- a blistering feast of distortion and noise-rock virtuosity
+- sounding like <artist> in a skank off after a canister of nitrous oxide
+- slinking garage syncopations
+- some seriously dextrous rhythm section arrangements
+- hairs on the back of your neck standing up
+- rousing mini-orchestral swells
+- shuffling, '60s West Coast sounds.
+- a kind of hippy-ish, gypsy-like, communal folk idea
+- an orchestral level of pomp and bombast
+- marrying <genre> from the <time> with <description>
+- the distorted crescendos and electronic squiggles 
+- hi-scoring aquakrunk madness
+- raw and old-skool
+- funky functions, 
+- supple subbass push
+- pure, transcendental rave feeling 
+- splices elevated Detroit sophistication with <genre>
+- dense analogue experiments
+- European technical execution 
+- more exotic, balmy territory
+- a bubbly pop appreciation
+- digitally dissected orchestral figures
+- Devastatingly heavy <genre> mutations
+
+
+<genre>
+- chamber-jazz
+- future electronic soul
+- dubstep 
+- house 
+- 2-step 
+- electronics
+- dub 
+- post-rock 
+- techno 
+- drone
+
+
+
+
+
+
+After months of gestation, the EPIC triple CD set from Leyland Kirby is at long last available for public consumption. Containing over 4 hours of music spread across three cd's, each one comes housed in its own slipcase specially designed by painter Ivan Seal and then held in a special outer carrier, protecting its emotionally fragile core. If you've yet to cross paths with this music, prepare yourself for an extended sitting with some of the most absorbing sounds you'll have the pleasure of hearing this year, with strands and echoes reminiscent of David Lynch, Harold Budd, Deathprod, Tomas Koner, Erik Satie, Eno and Badalamenti weaving in and out of eachother for a quietly monumental trip that's in turn immersive, melancholy and relentlessly visceral. It's just a masterpiece of submerged composition - miss out at your peril.
+
+The Trunk label is well-versed in pulling considerable tricks out of its box of musical treats, but the release this week of the original 1979 score to seminal BBC documentary 'Life on Earth' has got to be its most moving and successful endeavour yet. It's really quite hard to believe that this sublime music has been languishing on a shelf somewhere for the last 30 years, so God bless Jonny Trunk for once again stepping in to ensure that we all know whats good and right in the world. If you've been taken-in by the woozy nature film interludes Boards of Canada are so good at, or have a penchant for the Radiophonic Workshop, we implore you to invest.
+
+
+It's an unbelievable week for deep, dark and supremely heavy dancefloor wares, with a mindblowing percussive headcrush from Instra:Mental and a tweaked post-garage-rave-tropical blinder from Untold keeping us gasping for breath, while uber-influential Berlin producer T++ takes on Monolake for a sick double-header. Grievous Angel, meanwhile, unleashes one of the most crucial twelves of the year with his Bubblez alter-ego, Ben Klock and Norman Nodge take on the Sandwell crew for another strictly limited pressing, Scuba presses up a mighty doublepack of deadly bass variations, and production unit Clouds impress once again with a sick little twelve that we particularly like for the frayed, Flying Lotus-style bass reduction on the flip.
+
+It really is another one of those relentlessly heavy weeks, so before we go props/mentions must go to the truly resplendent Elm album on the Digitalis label, Danny Norbury and Library Tapes collaborating under the 'Le Lendemain' moniker, Matias Aguayo's excellent new album for Kompakt, an amazing split LP on Touch from Eleh/Nana April Jun plus releases from Dam Funk, Clubroot, Naphta, Sully, Silkie, Flow Dan, Ikonika, Cold Cave, Greg Davis, Celer, Jesu, Boris and much much more.
+
+
+*AN INCREDIBLE TRIPLE CD PACKAGE CONTAINING OVER 4 HOURS OF MUSIC, HOUSED IN A CUSTOM OUTER CARD SLIPCASE, WITH INDIVIDUALLY PACKAGED CD'S INSIDE FEATURING ORIGINAL ARTWORK BY IVAN SEAL* Finally packaged together for all the non-vinyl believers, or simply those who are too glum to get up and turn the record over, Leyland Kirby's 'Sadly The Future Is No Longer What It Was' triple CD crate-set brings the series to an epic close, or an opening, depending on your perspective. For folk who have followed the arc from The Caretaker through to Leyland Kirby, this series has provided some of the most visceral, absorbing, disturbing, and bleakly beautiful musical journeys of the last few years, making an indelible impression on the sonic psyche of anyone who's stood in its path. In CD form, each disc features new and specially painted artwork from Ivan Seal, and similarly, no tracklistings or liner notes, other than the title. This is partly designed to reinforce the ambient/amnesiac effect of the recordings, and partly to reflect the library record-like anonymity of the music within. As its predecessor - the Caretaker project - started out making use of loops taken from dusty 78's found in a Stockport record shop, both out of a DIY necessity, and a willingness to engage with a forgotten past, the Leyland Kirby series has turned into a very personal project for its creator James Kirby. To give some background to the feelings exposed in this music Kirby himself says "Here we stand, twenty years on from the first CD, and our optimism has been gradually eroded away collectively. 'Tomorrows World' never came. We are lost and isolated, many of us living our lives through social networks as we try to make sense of it all, becoming voyeurs not active participants. Documenting everything. No Mystery. Everything laid bare for all to see". A pessimistic, but brutally honest outlook which he articulates with a very particular accent in his music. For us, there's echoes of Eno, Koner, Deathprod, Debussy, Badalamenti and Lynch executed with a dark yet emotional determination encapsulating the spirit of a Berlin or Manchester nightscape, but it's all open to interpretation and we're sure you'll try and work this one out for yourself. Truly life affirming sounds, and without doubt one of the most important, substantial releases of the year. 
+
+
+
+
+
+
+
+
+
+ 2-step garage
+ 8-bit
+ A cappella 
+ Acid Jazz 
+ Acid Rock
+ Afrobeat 
+ Aleatoric music 
+ Alpine New Wave
+ Americana 
+ Anti-folk 
+ Apala
+ Arabesque 
+ Ars antiqua 
+ Ars nova 
+ Art rock 
+ Ashiq 
+ Avant-garde jazz 
+ Avant-garde metal 
+ Avant-garde music 
+ Avant-punk
+ Axé 
+ Bachata 
+ Baião 
+ Bakersfield sound 
+ Bakshy 
+ Baila 
+ Baile Funk 
+ Baisha xiyue 
+ Bajourou 
+ Bakou 
+ Bal-musette 
+ Balakadri 
+ Balinese Gamelan 
+ Ballad 
+ Ballata 
+ Ballet 
+ Bamboo band 
+ Bambuco 
+ Banda 
+ Bangsawan 
+ Bantowbol
+ Barbershop music 
+ Barndance
+ Baroque 
+ Miami bass
+ Booty bass
+ Batá-rumba 
+ Batcave 
+ Batucada 
+ Batuco
+ Beat 
+ Beatboxing 
+ Bebop 
+ Beiguan 
+ Bel canto 
+ Bend-skin 
+ Benga 
+ Bhajan 
+ Bhangra 
+ Bhangragga
+ Bhangramuffin
+ Big band music 
+ Big Beat 
+ Biguine 
+ Black ambient 
+ Blackened death metal 
+ Black metal 
+ Bluegrass 
+ Blue-eyed soul 
+ Blues 
+ Blues ballad 
+ Blues-rock 
+ Biomusic 
+ Bitpop 
+ Bocet
+ Bohemian Dub 
+ Boi 
+ Bolero 
+ Bomba
+ Bombay pop
+ Bongo 
+ Boogie woogie 
+ Boogaloo 
+ Bossa nova
+ Bothy ballad 
+ Bouncy techno 
+ Boy band
+ Brass band 
+ Brazilian funk
+ Brazilian jazz 
+ Breakbeat 
+ Breakbeat hardcore 
+ Breakcore 
+ Brill Building Pop 
+ Britfunk
+ Britpop
+ British blues
+ British Invasion 
+ Broken beat 
+ Brown-eyed soul 
+ Brukdown 
+ Bubblegum dance
+ Bubblegum pop 
+ Bikutsi
+ Bulerias
+ Bumba-meu-boi
+ Bunraku 
+ Burger-highlife
+ Ca din tulnic
+ Ca pe lunca
+ Ca trù 
+ Cabaret
+ Cadence
+ Cadence-lypso 
+ Cadence rampa
+ Café-aman
+ Cai luong 
+ Cajun music
+ Cakewalk
+ Calenda 
+ Calentanos 
+ Calgia 
+ Calipso 
+ Calypso 
+ Calypso-style baila 
+ Campursari 
+ Campillaneros
+ Caña
+ Canatronic
+ Candombe
+ Canon
+ Canrock
+ Cantata
+ Cante chico
+ Cante jondo
+ Canterbury Scene
+ Cantiñas
+ Cantiga - Portuguese ballad form
+ Cantique
+ Canto popular 
+ Cantopop 
+ Canzone napoletana 
+ Capoeira music
+ Caracoles
+ Carceleras
+ Cardas
+ Carimbó 
+ Cariso
+ Carnatic music
+ Carol
+ Cartageneras
+ Casséy-co
+ Cassette culture
+ Cavacha
+ Ca..Doncaster rovers
+ CCM (Contemporary Christian Music)
+ Celempungan
+ Cello rock
+ Cha-cha-cha
+ Chakacha
+ Chamamé 
+ Chamber jazz
+ Chamber pop
+ Chamber music
+ Champeta 
+ Champloo
+ Chalga
+ Changuí
+ Chanson
+ Chant
+ Charanga
+ Charanga-vallenata 
+ Charikawi
+ Chastushki 
+ Chau van 
+ Chemical breaks
+ Chèo
+ Chicago blues
+ Chicago house
+ Chicago jazz (Dixieland jazz)
+ Chicago soul
+ Chicha 
+ Chicken scratch 
+ Chillout
+ Chimurenga 
+ Chinese music
+ Chinese rock 
+ Chip music
+ Chongak 
+ Chouval bwa
+ Chowtal
+ Cho-kantrum 
+ Chopera 
+ Chorinho
+ Choro 
+ Chylandyk 
+ Chzalni
+ Chumba
+ Chut-kai-pang
+ Chutney 
+ Chutney-soca 
+ Cigányzene
+ Classical
+ Clicks n Cuts
+ Close harmony
+ Club
+ Cocobale
+ Coimbra fado 
+ Coladeira
+ Colombianas
+ Comparsa
+ Compas direct
+ Compas meringue
+ Concerto
+ Concerto grosso
+ Congo 
+ Conjunto
+ Contonbley
+ Contradanza
+ Cool jazz
+ Corrido 
+ Corsican polyphonic song
+ Cothoza mfana
+ Country
+ Coupé-Décalé
+ Couple de sonneurs 
+ Cowpunk
+ Courtney
+ Crag
+ Crunk 
+ Crust punk
+ Csárdás
+ Cuarteto 
+ Cuddlecore
+ Cueca
+ Cumbia 
+ Cybergrind
+ Dabka (Dabke) 
+ Dadra
+ Daina 
+ Daino 
+ Dalauna
+ Dancehall
+ Dangdut 
+ Dansband
+ Danza
+ Danzón
+ Darkcore 
+ Darkwave
+ De codru
+ De dragoste
+ De jale
+ De pahar
+ Deathcore 
+ Deathgrind 
+ Death metal
+ Décima
+ Degung
+ Delta blues
+ Deep house
+ Deep soul
+ Dementia 
+ Detroit blues
+ Detroit techno
+ Dhamar 
+ Dhimotiká 
+ Dhrupad 
+ Dhun
+ Digital hardcore
+ Dirge
+ Dirty rap
+ Disco
+ Diva house
+ Dixieland jazz (Chicago jazz)
+ Djambadon
+ Dodompa 
+ Doina
+ Dombola
+ Dondang sayang 
+ Donegal fiddle tradition
+ Dongjing 
+ Doo wop
+ Doom metal
+ Doomcore
+ Downtempo
+ Dream pop
+ Drone doom (Also known as Drone metal)
+ Drone music
+ Dronology
+ Drum and bass
+ Dub
+ Dub house
+ Dubtronica
+ Dubstep
+ Dutch jazz
+ E-Grind
+ Eastern Tradition of Sephardic music
+ Easy listening
+ Elafrolaïkó
+ Electric blues
+ Electric folk
+ Electro
+ Electro hop
+ Electro punk
+ Electroclash
+ Electrofunk
+ Electronic art music
+ Electronic body music (EBM, also known as industrial dance)
+ Electronica
+ Electropop
+ Muzak
+ Emo
+ Enka 
+ Equdorian Moggadawn Power Stomp
+ Eremwu eu
+ Ethereal wave
+ Ethereal pop
+ Euba
+ Eurobeat
+ Eurodance
+ Euro disco
+ Europop
+ Eurotrance
+ Exotica
+ Experimental music
+ Experimental noise
+ Experimental pop
+ Experimental rock
+ Extreme Metal
+ Ezengileer 
+ Fado 
+ Falak 
+ fandango 
+ Farruca 
+ Filk 
+ Film scores
+ Filmi 
+ Filmi-ghazal 
+ Finger-style
+ Fjatpangarri 
+ Flamenco 
+ Flower power
+ Foaie verde 
+ Fofa
+ Folk
+ Folktronica
+ Forró 
+ Franco-country
+ Freakbeat
+ Freak-folk
+ Free improvisation 
+ Free jazz 
+ Free music
+ Freestyle
+ Frenchcore 
+ Frevo 
+ Fricote 
+ Fuji 
+ Fulia 
+ Funaná
+ Funk 
+ Funkcore
+ Funk metal 
+ Funky house 
+ Furniture music 
+ Fusion jazz 
+
+ G-funk
+ Gaana - Tamil folk/rap from Chennai, India
+ Gabber (also spelled as Gabba)
+ Gagá
+ Gagaku - Japanese classical music derived from ancient court traditions
+ Gaikyoku
+ Gaita - Afro-Venezuelan form of percussion music
+ Galant
+
+ Gamad - Malay-style
+ Gambang kromong - popular, highly-evolved form of kroncong, originally adapted for the theater
+ Game
+ Gamelan - diverse Indonesian classical music, making use of a vast array of melodic percussion
+ Gamelan angklung - Balinese gamelan played for cremations and festivals
+ Gamelan bebonangan - Balinese cymbal-based processional gamelan
+ Gamelan degung - a form of popular Sundanese gamelan
+ Gamelan bang - Balinese sacred gamelan played for cremations
+ Gamelan buh - Balinese form of gamelan
+ Gamelan gede - ceremonial gamelan from the temple of Bator
+ Gamelan kebyar - an energetic form of large Balinese gamelan
+ Gamelan salendro - gamelan dance music from Sunda, known as lower-class music
+ Gamelan selunding - possibly the oldest style of gamelan, played only in the village of Tenganan in Bali gayman
+ Gamelan semar pegulingan - sensual form of gamelan from Bali
+ Gamewave
+ Gammeldans
+ Gandrung - Osing music performed at weddings and other waste of time.
+ Gangsta rap - American form of hip hop music which focuses on underground lifestyles and illegal activities.
+
+ Gar - Tibetan classical music from gabi gishnola
+ Garage rock
+ Garrotin
+ Gavotte
+
+ Gelugpa chanting - form of Tibetan Buddhist chanting, very austere and restrained
+ Gender wayang - Indonesion gamelan that accompanies shadow plays and other puppet plays
+ Gending - a distinct gamelan music from southern Sumatra
+ German Folk Music
+ Gharbi
+ Gharnati
+ Ghazal - vocal form originally Persian but since spread to Central Asia, Iran, Turkey and India
+ Ghazal-song - a modernized version of ghazal influenced by filmi
+ Ghetto house - form of Miami bass influenced by house music which arose in Chicago
+ Ghettotech - form of Miami bass which developed in 1990s Detroit
+ Girl group - Girls singing rock songs
+ Girl Talk
+ Glam metal
+ Glam punk
+ Glam rock
+ Glitch
+ Gnawa
+
+ Go go
+ Goa (also known as Goa trance)
+ Gong-chime music
+ Goombay - Bahamanian percussion music
+ Goregrind
+ Gore Metal
+ Goshu ondo - a form of popularized Okinawan folk music
+ Gospel music
+ Gothenburg Sound
+ Gothic metal
+ Gothic rock
+ Granadinas
+ Grebo
+ Gregorian chant (plainchant)
+ Grime - emerged from East London, dark electronic beats with rapping, related to UK Garage and 2 step
+ Grindcore
+ Groove metal
+ Group Sounds - Japanese pop music from the 1960s, which included Appalachian folk music and psychedelic rock
+ Grunge
+ Grunge funk (also known as Grunk)
+ Grupera - a mixture of Mexican ranchera, norteño and cumbia
+
+ Guaguanbo
+ Guajira
+ Guasca - from Colombia
+ Guitarra baiana - from Pernambuco, Brazil, a style of playing frevo using electric guitars
+ Guitarradas
+ Gumbe
+ Gunchei
+ Gunka - military marches with Japanese influences, created during the Meiji Restoration
+ Guoyue - invented conservatoire style of national Chinese music
+ Gwo ka - Guadeloupan percussion music
+ Gwo ka moderne - modernized gwo ka
+ Gypsy jazz
+ Gypsy punk
+ Gyu ke - form of Tibetan Tantric chanting
+
+ Habanera - Africanized danzón
+ Haiducesti
+ Hajnali - Hungarian-Transylvanian wedding songs
+ Hakka
+ Hambo
+ Hands Up
+ Hapa haole - a mixture of traditional Hawaiian music and English lyrics
+ Happy hardcore
+ Haqibah
+ Hardcore hip hop
+ Hardcore metal
+ Hardcore punk
+ Hardcore techno
+ Hard bop (hard bebop)
+ Hard house
+ Hard rock
+ Hardstyle
+ Hard trance
+ Harepa - harp-based music of Pedi people of South Africa
+ Harmonica blues
+ Hasaposérviko
+
+ Hát chèo - an ancient form of Vietnamese stage opera
+ Hát cãi luong - Vietnamese popular opera
+ Hát chau van - a popular spiritual folk music of Vietnam
+ Hát tuồng (Hát bôi) - Vietnamese operatic music
+
+ Heartland rock
+ Heavy metal
+ Hesher
+ Hi-NRG
+ Highlands
+ Highlife
+ Highlife fusion
+ Hillybilly music
+ Hiplife
+ Hip hop
+ Hip house
+ Hip pop
+ Hindustani classical music
+ Hiragasy
+ Hiva usu - unaccompanied vocal Christian music of Tonga
+ Honky tonk
+ Honkyoku
+ Hora lunga
+ Hornpipes
+ Horrorcore rap
+ Horror punk
+ House music
+
+ Hua'er
+ Huasteco - folk music from Huasteco, Mexico
+ Huaynos - Andean dance music now most widespread in Peru
+ Hula
+ Humppa
+ Hunguhungu
+ Hyangak - Korean court music
+ Hymn
+ Hyphy
+
+
+ Ibiza music
+ Igbo music
+ Ijexá
+ Ilahije
+ Illbient
+ Impressionist music
+ Improvisational
+ Incidental music
+ Indietronica
+ Indie music
+ Indie pop
+ Indie rock
+ Indo jazz - jazz mixed with forms of Indian music
+ Indo rock
+ Indoyíftika
+ Industrial dance (or EBM, electronic body music)
+ Industrial hip-hop
+ Industrial music
+ Industrial musical (also known as corporate musical)
+ Industrial metal
+ Industrial rock (or coldwave)
+ Instrumental rock
+ Intelligent dance music (IDM, also known as intelligent techno, listening techno or art techno)
+ International Latin - pop ballads from various Latin countries, especially Colombia
+ Inuit music - music of the Inuit
+ Irish folk
+ Irish Rebel Music
+ Iscathamiya
+ Isikhwela jo
+ Island - mix of reggae,ska,latin; music sounding from the island
+ Isolationist
+ Italo dance
+ Italo Disco - Italian nightclub music
+ Italo house
+ Itsmeños - folk music of the Zapotecs of Mexico
+ Izvorna bosanska muzika - modernized folk music from Drina, Bosnia
+
+ J-Pop - Japanese pop music
+ J-Rock - Japanese rock music
+
+
+ Jaipongan - unpredictably rhythmic dance music from Sunda, Indonesia
+ Jaliscienses - Folk music of Jalisco, Mexico, and the origin of mariachi
+ Jam band
+ Jam rock
+ Jamana kura
+ Jamrieng samai
+ Jangle pop
+ Japanese pop - Japanese pop music using Western structures
+ Japanese rock - Japanese rock music
+ Jarana
+ Jariang - Cambodian folk narratives
+ Jarochos - folk music from Veracruz, Mexico
+ Jawaiian - Hawaiian reggae
+ Jazz
+ Jazz blues
+ Jazz-funk
+ Jazz fusion
+ Jazz Metal
+ Jazz rap
+ Jegog - Giant Bamboo ensemble of Bali, Indonesia
+ Jenkka
+ Jesus music
+
+ Jesuscore
+ Jibaro
+ Jig
+ Jig punk
+ Jing ping
+ Jingle - form of music used in television commercials
+ Jit
+ Jitterbug
+ Jive
+ Joged - a generic term for various types of dance music all over Indonesia
+ Joged bumbung - a popular form of joged ensemble
+ Joik
+ Joropo
+ Jota
+ J'Ouvert
+ Jug band
+ Juke joint blues
+ Juju
+ Jump blues
+ Jumpstyle
+ Jungle
+ Junkanoo
+ Juré
+ Jtek
+
+ Käng
+ Kaba - Southern Albanian instrumental music
+ Kabuki - lively and popular form of Japanese theater and music
+ Kadans
+ Kagok - Korean aristocratic vocal music accompanied by strings, wind and percussion instruments
+ Kagyupa chanting - form of Tibetan Buddhist chanting
+ Kaiso
+ Kalamatianó
+ Kalattuut - Inuit polka
+ Kalinda (kalenda, ti kannot)
+ Kamba pop
+ Kan ha diskanrapes men
+ Kansas City blues
+ Kantádhes
+ Kantrum
+ Karaoke
+ Kargyraa
+ Karma
+ Kaseko - Surinamese folk music
+ Katcharsee - lively, celebratory Okinawan folk music
+ Katajjaq or Inuit throat singing - competititive duet style
+ Kawachi ondo - a form of modernized Okinawan folk music
+ Kayōkyoku - traditionally-structured Japanese pop music
+
+ Ke-Kh
+
+ Ke-kwe
+ Kebyar - see gamelan gong kebyar above
+ Kecak - Balinese "monkeychant"
+ Kecapi suling - instrumental, improvisation-based music from Java
+ Kélé
+ Kertok - Malaysian xylophone music played in small ensembles
+ Khaleeji - popular folk-based music of the Persian Gulf countries
+ Khap
+ Khplam wai - a type of mor lam with a slow tempo which originated in Luang Prabang, Laos
+ Khelimaski djili - Hungarian Gypsy dance songs
+ Khene
+ Khrung sai - type of Thai classical music
+ Khyal - Hindustani vocal music that is informal, partially improvised and very popular
+ Khoomei
+ Khorovodi - Russian dance music
+
+ Ki-Kp
+
+ Kĩkũyũ pop
+ Kilapanda
+ Kinko
+ Kirtan
+ Kiwi rock
+ Kizomba
+ Klape - Dalmatian male choir music
+ Klasik
+ Kléftiko
+ Klezmer
+ Kliningan
+ Kochare - Armenian folk dance
+ Kolomyjka
+ Komagaku
+ Konpa
+ Koumpaneia - Greek Gypsy music
+ Kpanlogo
+
+ Kr-Kw
+
+ Krakowiak
+ Krautrock
+ Kriti (krithi) - a Hindui hymn
+ Kroncong - popular Indonesian music with strong Portuguese influence
+ Krzesany
+ Kulintang - Traditional gong-chime music of the Philippines, Eastern Indonesia, Eastern Malaysia, Brunei and Timor
+ Kulning - Swedish folk songs
+ Kumina - music (and religion) of the Bongo Nation of Jamaica
+ Kun-borrk
+ Kundere
+ Kundiman - traditional Filipino songs adapted to Western song structure
+ Kussundé
+ Kutumba wake
+ Kvæði
+ Kveding - traditional Norwegian songs
+ Kwaito
+ Kwassa kwassa
+ Kwela
+ korean pop
+
+ La la - Louisianan Creole music
+ Laba laba
+ Laïkó
+ Lai
+ Lam
+ Lam saravane - Laotian ensemble music from a town of the same name in southern Laos
+ Lam sing
+ Lambada - Bolivian and Brazilian dance music which arose from sayas and became internationally popular in the 1980s
+ Lancer
+ Langgam jawa - type of kroncong mixed with gamelan, popular around Solo, Indonesia
+ Latin American music
+ Laremuna wadauman
+ Latin jazz - jazz mixed with Latin musical forms like bossa nova or salsa
+ Lavlu
+ Lavway
+ Lakaluuk
+
+ Le leagan
+ Legényes - Hungarian-Transylvanian men's dance
+ Letkajenkka
+ Lhamo - form of Tibetan opera
+ Lieder
+ Likanos
+ Light Music - 20th Century light orchestral music (mainly British)
+ Light Rock
+ Liquindi
+ Llanera - Venezuelan music
+ Llanto - a flamenco-influenced genre of Panamanian folk music
+ Lo-fi music
+ Loki djili - traditional Hungarian Gypsy songs
+ Long-song - traditional Mongolian slow songs
+ Louisiana blues
+ Lounge music
+ Lovers rock
+ Lowercase - see Lowercase (music)
+
+ Lu
+
+ Lu - unaccompanied Tibetan folk music
+ Lubbock country music
+ Lucknavi thumri - a type of thumri from Lucknow
+ Luhya omutibo
+ Luk grung - Popular Thai music from the early 20th century
+ Lullaby
+ Lundu
+ Lundum
+
+ Madchester
+ Madrigal
+ Mafioso rap
+ Maglaal (tuuli)
+ Magnificat
+ Mahori - type of Thai classical music
+ Makossa
+ Makossa-soukous
+ Malagueñas
+ Malawian jazz
+ Malhun
+ Maloya - traditional music from Réunion
+ Maluf - evolved form of al-andalous classical music which developed in Constantine, Algeria
+ maluka
+ Mambo
+ Manaschi - Kyrgyz folk music made by travelling musicians also called manaschi
+ Mandarin pop - early Taiwanese pop sung in Mandarin and popular with young listeners
+ Manding swing
+ Mangue Bit - African style beat music style from Recife, Pernambuco, Brazil
+ Mangulina
+ Manikay
+ Manila sound - Early 1970s development in Pinoy rock which mixed Tagalog and English lyrics
+ Manouche
+ Manzuma
+ Mapouka
+ Mapouka-serré
+ Marabi
+ Maracatu - African and Portuguese music popular around Recife, Brazil
+ Marga - Indian classical music
+ Mariachi - pop form of son jalisciense
+ Marimba
+ Marrabenta
+ Martial industrial
+ Maskanda - popularized Zulu-traditional music
+ Mass
+ Martinetes
+ Matamuerte
+ Mathcore
+ Math rock
+ Maxixe
+ Mazurka - Martinican Music
+ Mbalax
+ Mbaqanga (township jive)
+ Mbira (Chimurenga)
+ Mbube
+ Mbumba
+ Medh
+ Meditation
+ Medieval folk rock
+ Medieval metal
+ Medieval music
+ Mejorana
+ Melhoun
+ Melhûn
+ Melodicore
+ Melodic black metal
+ Melodic death metal
+ Melodic hardcore
+ Melodic metalcore
+ Melodic music
+ Melodic trance
+ Memphis blues
+ Memphis rap
+ Memphis soul
+ Mento
+ Merengue
+ Merengue típico moderno
+ Merengue-bomba - Puerto Rican fusion of bomba and merengue
+ Méringue
+ Meringue
+ Merseybeat
+ Metalcore
+ Metallic hardcore
+ Mexican son - a broad group of Mexican folk music
+ Meyjana
+ Mezwed
+
+ Mia-Mil
+
+ Miami bass (booty bass) (Bass music)
+ Mini compas
+ Mini-jazz
+ Minuet
+ Milongas
+
+ Min-Mit
+
+ Min'yo - Japanese folk music
+ Mineras
+ Mini-jazz - Caribbean jazz
+ Minimalist music
+ Minimalist trance
+ Minimal techno
+ Minimal wave
+ Minstrel show
+ Minneapolis sound
+ Mirolóyia
+ Modinha
+ Modern classical music
+ Modern Laika
+ Modern Rock
+ Modinha
+ Mohabelo - neo-traditional music from South Africa and Lesotho
+ Mor lam - Laotian and Thai ensemble music for vocals with accompaniment
+ Mor lam sing - popular form of Laotian traditional music developed by Laotians in Thailand
+ Motown
+ Montuno
+ Morna
+ Mozambique
+ MPB (música popular brasileira) - catch-all term for multiple varieties of Brazilian pop music
+ Mugam - classical music of Azerbaijan, featuring sung poetry and instrumental passages
+ Murga - Uruguayan street carnival dance with heavy percussion, also popular in Argentina.
+ Musette
+ Mushroom Jazz
+ Music drama
+ Music Hall
+ Music noir
+ Música campesina - Cuban rural music
+ Música criolla - a coastal Peruvian music from the early 20th century fusions
+ Música de la interior - indigenous folk music from Colombia
+ Música llanera - harp-based form of folk music from Los Llanos, Colombia
+ Música nordestina - Northeast Brazilian popular music, centered around Recife
+ Música tropical - a form of Colombian salsa music
+ Musiqi-e assil - Persian classical music
+ Musique concrète (also known as electroacoustic music)
+ Mutuashi
+ Muwashshah
+ Muzak (or elevator music)
+ Nafratala-Mexican s.x music
+ Na trapeza - Greek-Turkish slow songs
+ Nagauta - Japanese style of shamisen-playing
+ Naghmehs
+ Nakasi - Taiwanese musical form
+ Naked FUNK
+ Nangma - Tibetan dance music
+ Nanguan - Taiwanese instrumental music
+ Narcocorrido - Spanish for "Drug ballad", this Mexican music's theme was equivalent to gangster rap
+ Nardcore - Nardcore is a hardcore punk movement that came out of Southern California in the early 1980s
+ Narodna muzika - Serbian folk music
+ Nasheed - a capella music closely related with Islamic revival in the 20th century
+ Nashville Sound - pop-country music based out of Nashville, Tennessee
+ National Socialist Black Metal - NSBM Nazi black metal
+ Native American gospel - gospel music performed by Native Americans
+ Naturalismo - a term for the 2000s folk movement also referred to as New Weird America or Freak Folk
+ Nederpop - popular music of the Netherlands, especially in the Dutch language
+ Neoclassical (Dark Wave)
+ Neoclassical (New Age)
+ Neoclassical music
+ Neo-classical metal
+ Néo kýma
+ Neofolk - a form of folk music that emerged from European ideals and post-industrial music
+ Neo-Medieval
+ Neo-prog
+ Neo-Psychedelia
+ Neo Soul (Nu Soul) - late 1990s and early 2000s American fusion of contemporary R&B, 1970s style soul music, hip hop music, jazz, and classical music
+ Nerdcore
+ Neue Deutsche Härte
+ Neue Deutsche Welle - a kind of German New Wave music
+ Neue Volksmusik
+ New Age music - numerous varieties of music associated with New Age spirituality and culture, especially including atmospheric and natural sounds
+ New Beat - a downtempo music style from Belgium, contemporary to Chicago House and Detroit Techno.
+ New Instrumental
+ New Jack Swing (New Jack R&B, Swingbeat) - late 1980s and early 1990s American fusion of hip hop music, R&B, doo wop and soul music
+ New Orleans blues - piano and horn-heavy blues from the city of New Orleans, Louisiana
+ New Orleans contemporary brass band
+ New Orleans jazz
+ New Pop
+ New prog
+ New Rave
+ New Romantic - popular British New Wave from the early 1980s
+ New rumba
+ New school hip hop - generic term for hip hop music recorded after about 1989
+ New Taiwanese Song - modern Taiwanese pop music which combines ballads, rock and roll and hip hop
+ New Wave bhangra (Fusion bhangra)
+ New Wave of British heavy metal (NWOBHM) - mid- to late 1970s heavy metal coming out of the United Kingdom
+ New Wave - melodious pop outgrowth of arty punk rock, also used as description of an emerging sound in any genre (e.g. Alpine New Wave)
+ New Wave of New Wave
+ New Weird America - term to defining emerging folk/psychedelia/drone/noize influenced by pre-war country-folk-blues & 1960s counter cultural underground music.
+ New York blues - jazzy, urban blues from the early 20th century
+ New York House (also known as US Garage)
+ NuWave - a genre created by a popular DJ called DJ NuWave
+ Newgrass - progressive bluegrass
+ Nganja
+ Nhąc dân tôc cai biên - modernized forms of Vietnamese folk music which arose in the 1950s
+ Nhac tài tů - Vietnamese chamber music which accompanies cai luong
+ Nha Nac
+ Niche - sub-genre of UK Garage and Bassline House, name derived from the club in Sheffield, that first started putting on regular bassline nights
+ Nintendocore
+ Nisiótika - folk songs of the Greek islands
+ No Wave - avant-garde late 1970s outgrowth of New Wave and punk rock
+ Noh - highly-stylized Japanese theater and music style
+ Noise music - style of avant-garde music, most closely associated with Japan
+ Noise pop - experimental 1990s outgrowth of punk
+ Noise rock - atonal punk rock from the 1980s
+ Nongak - Korean folk music played by 20-30 performers on different kinds of percussion instruments
+ Norae Undong - Korean rock music with socially aware lyrics
+ Nordic folk music
+ Nortec - electronic style from Tijuana, Mexico
+ Norteño (Tex-Mex) - Modernized corridos pop music of Mexico
+ Northern harmony
+ Northern Soul - late 1960s variety of soul music from northern England
+ Northumbrian smallpipe music
+ Nota
+ Nova canção - popular 1950s and 60s fado in Portugal and folk-based singer-songwriters in Spain
+ Novokomponovana narodna muzika - modernized Serbian folk music
+ Nu breaks
+ Nu jazz - fusion of late 1990s jazz and electronic music
+ Nu metal - fusion of heavy metal music with genres such as hip hop, funk, grunge and electronic music
+ Nu-NRG - a harder and faster version of Hi-NRG
+ Nu soul (neo soul) - popular fusion of hip hop music and soul music
+ Nueva canción - Chilean pop-folk music which influenced by native Chilean and Bolivian forms
+ Nyingmapa chanting - form of highly rhythmic and elaborate Tibetan Buddhist chanting
+ Obscuro
+ Oi! - 1980s style of British punk rock
+ Old school hip hop - generic term for hip hop music recorded before approximately 1989
+ Old time country
+ Old-time - archaic term for many different styles that were an outgrowth of Appalachian folk music and fed into country music
+ Oldies
+ Olonkho - Yakut epic songs
+ Oltului
+ Ompa - Music by the Kaizers Orchestra
+ Omutibo
+ Ondo
+ On ikki muqam - Uyghur classical music suite in 12 parts
+ Oom pah band
+ Opera - theatrical performances in which all or most dialogue is sung with musical accompaniment
+ Oratorical calypso
+ Oratorio - similar to opera but without scenery, costumes or acting
+ Orchestra - a large ensemble, especially one used to played European classical music
+ Orchestre
+ Organ trio - a style of jazz from the 1960s that blended blues and jazz (and later "soul jazz") and which was based around the sound of the Hammond organ
+ Organic ambient - often acoustic ambient music which uses instruments and styles borrowed from world music
+ Organic house
+ Organica - A genre music created by SLIPS INTO SPACE in 2007, it is written without predetermining the outcome of the overall sound.This music causes audible hallucinations.
+ Organum - Middle Ages polyphonic music
+ Oriental Foxtrot
+ Oriental metal - a subgenre of folk metal that incorporates elements of traditional Middle Eastern music.
+ Orovela - eastern Georgian work songs
+ Orgel (Organ Orgue) - keyboard instrument with/without pedals
+ Orquestas Tejanas
+ Ottava rima - Italian rhyming stanzas
+ Outlaw country - late 1960s and 70s form of country music with a hard-edged sound and rebellious lyrics
+ Outsider music - generic term for music performed by outsiders
+ Özgün
+ Ozwodna
+ P-Funk - 1970s fusion of funk, heavy metal and psychedelic rock, most closely associated with the bands Funkadelic and Parliament, who shared many members collectively known as P-Funk
+ Padams
+ Pagan rock
+ Pagode - Brazilian style of music which originated in the Rio de Janeiro region
+ Paisley Underground - 1980s style of alternative rock that drew heavily on psychedelia
+ Palm wine - fusion of numerous West African, Latin American and European genres, popular throughout coastal West Africa in the 20th century
+ Palos
+ Panambih - tembang sunda that uses metered poetry
+ Panchai baja - Nepalese wedding music
+ Panchavadyam - Temple music from Kerala, India
+ Pansori - Korean folk music played by a singer and a drummer
+ Paranda - Garifuna form of music
+ Parisian soukous
+ Parranda - Afro-Venezuelan form of music
+ Parody - humorous renditions of various songs
+ Patriotic
+ Payada de contrapunto
+ Pambiche (Merengue estilo yanqui)
+ Paranda - Garifuna music of Belize
+ Parang - Trinidadian Christmas carols
+ Partido alto
+ El pasacalle
+ Paseo (music)
+ Pasillo
+ pcycobilly -hill billy and rock
+ Peace Punk
+ Pedo punk
+ Pelimanni music - Finnish folk dance music
+ Pennywhistle jive
+ Peroveta anedia
+ Petenera
+ Peyote Song - a mixture of gospel and traditional Native American music
+ Philadelphia soul - soft 1970s soul that came out of Philadelphia, Pennsylvania
+ Phleng luk tung
+ punk techno- punk rock with techno beat and SFX
+
+ Piano blues
+ Piano rock
+ Piedmont blues
+ Pineal Polka
+ Pinoy rock - rock and roll sung in Tagalog from the Philippines
+ Pinpeat orchestra
+ Piphat - ancient form of Thai classical ensemble
+ Pirekaus - traditional love songs of the Purépecha of Mexico
+ Pisiq - Greenlandic folk song
+ Pixiefunk - fusion of funk,afrobeat,celtic balad,pop-rock,drum'n'bass and jungle. Usually performed live and free style. Origin:London
+ Piyyutim
+ Plachi - melancholic Russian folk songs
+ Plainchant (Gregorian chant)
+ Plena
+ Pleng phua cheewit - Thai protest rock
+ Pleng Thai sakorn - a Thai interpretation of Western classical music
+ Plunk-Folk - energetic double-bass driven folk, with the 'plunk' of the double bass sound.
+ Poco-poco - Indonesian modern music which fuses disco with eastern Indonesian dance music
+ Polihet
+ Polka
+ Polo
+ Polonaise
+ Pols - Danish fiddle and accordion dance music
+ Polska
+ Pong lang
+ Pop folk
+ Pop-makossa
+ Pop melayu - Malay pop music with dangdut overlay
+ Pop mop - Mongolian pop music
+ Pop music
+ Pop Progressive - Pop accompanied by guitar/bass riffs and speedy drum patterns
+ Pop punk
+ Pop rai
+ Pop rap
+ Pop rock
+ Pop sunda - Sundanese mixture of gamelan degung and pop music structures
+ Pornocore
+ Porro - Colombian big band music
+ Portuguese Shangaan - South African and Mozambiquan mixture of traditional Tsonga and Portuguese music
+ Positive punk
+ Post-disco
+ Post-grunge
+ Post-hardcore- Slite mixture of Hardcore and Punk rock
+ Post-industrial
+ Post-Jam - Next Wave Jambands like the Slip, Lotus, STS9 and The Duo. Electronic and Indie Rock stylings.
+ Post-metal
+ Post-minimalism
+ Post-punk
+ Post-rock
+ Post-romanticism
+ Post-Traumatic-Stress-Core
+ Power electronics
+ Power metal
+ Power noise (or rhythmic noise)
+ Power pop
+ Powerviolence
+ Pow-wow - Native American dance music
+ Ppongtchak - Korean pop music developed during the Japanese occupation
+ Praise song
+ Pre-Computer
+ Primus
+ Program symphony
+ Progressive Acoustic Urban Math Folk
+ Progressive electronic music
+ Progressive folk music
+ Progressive house
+ Progressive industrial beatbox-jambalaya
+ Progressive metal
+ Progressive bluegrass
+ Progressive rock
+ Progressive trance
+ Protopunk
+ Psychedelic music
+ Psych folk or Psychedelic folk
+ Psychedelic rock
+ Psychedelic trance (Psy-trance)
+ Psychobilly
+ Psychosomatic trance
+ Psych-pop
+ Punjabi thumri - a type of thumri from Punjab
+ Punk blues - a US music genre that developed in the 1980s, which mixes elements of blues with the aggressive sound of punk.
+ Punk Cabaret - a fusion of musical theater and cabaret style music with the aggressive, raw nature of punk rock.
+ Punk funk
+ Punk jazz
+ Punk rock
+ Punta
+ Punta rock - 1970s Belizean music
+ Puke-a-Billy - genre created by Nathan Payne in the late 1990s. Mix of rock-a-billy, punk, country, and blues.
+ Quan ho - Vietnamese vocal music which originated in the Red River Delta
+ Qasidah - Epic religious poetry accompanied by percussion and chanting
+ Qasidah modern - Qasidah updated for mainstream audiences
+ Qawwali - Sufi religious music updated for mainstream audiences, was originated in India
+ Quadrille
+ Queercore
+ Quiet Storm
+ Rada
+ Raga rock - Swiss soul, rock and Indian music fusion
+ Ragas
+ Raggamuffin (Ragga)
+ Ragga-chutney
+ Ragga Jungle
+ Ragga-soca
+ Ragga-zouk - a fusion of reggae, dub music and zouk
+ Ragtime
+ Rainbow Rave
+ Rai - Algerian folk music now developed into a popular style
+ Rake-and-scrape - Bahamanian instrumental music
+ Ramkbach
+ Ramvong
+ Ranchera - pop mariachi from 1950s film soundtracks
+ Random dance
+ Rap
+ Rap opera
+ Rap rock
+ Rap metal
+ Rapcore
+ Rapso
+ Rara
+ Rare groove
+ Rasiya
+ Rateliai
+ Rave
+ Rebetiko
+ Rebita
+ reel
+ Reggae
+ Reggae dancehall (see Dancehall)
+ Reggae fusion
+ Reggae highlife
+ Reggaeton
+ Reinlender
+ Rekilaulu - Finnish rhyming sleigh songs
+ Religious
+ Rembetiko
+ Renaissance music
+ Requiem
+ Retro Acoustic Steel Guitar
+ Rhapsody
+ Rhyming spiritual - Bahamanian hymns
+ Rhythm and blues (R&B)
+ Rhythmic noise (or power noise)
+ Ricercar
+ Rímur - Icelandic heroic epic songs
+ Ring Bang - the Barbadian sound of soca
+ Riot grrrl
+ Rock
+ Rock opera
+ Rock and roll
+ Rock en español
+ Rock sureño - 70's Rock from Andalusia with Flamenco influences
+ Rockabilly
+ Rocknoir
+ Rocksteady
+ Rococo
+ Rodeo music
+ Rokon fada
+ Romantic period in music
+ Romeras
+ Rondeaux
+ Ronggeng - a folk music from Malacca, Malaysia
+ Roots reggae
+ Roots rock
+ Roots rock reggae
+ Ruem trosh - Cambodian traditional music
+ Rumba
+     o African Rumba
+     o Cuban Rumba (yambu, columbia, and guaguanco)
+     o Flamenco Rumba also known as Gypsy rumba
+ Rumba gitana - French Gypsy music
+ Runddan
+ Runolaulu - Finnish folk songs
+ Runo-song - Estonian folk music
+ Sabar - drumming style found in Senegal
+ Sacred Harp
+ Sadcore
+ Saibara
+ Salegy
+ Salsa - fusion of multiple Cuban- and Puerto Rican-derived pop genres from immigrants in New York City
+ Salsa erotica - lyrically explicit form of salsa romantica
+ Salsa gorda
+ Salsa romantica - a soft, romantic form of salsa music
+ Saltarello
+ Salve
+ Samba - form of Brazilian popular music
+ Samba-canção - traditional samba in slow tempo and with romantic lyrics. influenced by bolero
+ Samba-reggae - a genre of samba with a choppy, reggae-like rhythm.
+ Sambai
+ Sanjo - Korean instrumental folk music
+ Sato kagura
+ Sawt - urban music from Kuwait and Bahrain
+ Saya - Bolivian music derived from African rhythms
+ Schlager
+ Schottisch
+ Schranz
+ Science Future Vision - Post genome code science punk rock originally started in Hull
+ Scottish Baroque music
+ Scrap (music)
+ Screamo
+ Scrumpy and Western - folk music from West Country of England
+ Sea shanty
+ Sean nós - Sean-nós singing style of Ireland
+ Second Viennese School
+ Sega music
+ Seggae
+ Seis
+ Semba
+ Sephardic music
+ Serialism
+ Set dance
+ Sevdalinka - Bosnian urban popular music
+ Sevillana
+ Shabab
+ Shabad
+ Shalako - Armenian folk dance
+ Shan'ge - Taiwanese Hakka mountain songs
+ Shango
+ Shape note
+ Shibuya-kei
+ Shidaiqu - Hong Kong-based form of traditional music updated for pop audiences and sung in Mandarin
+ Shima uta - a form of Okinawan dance music
+ Shock rock
+ Shoegazing
+ Shoka - Japanese songs written during the Meiji Restoration to bring Western music to Japanese schools
+ Shomyo - Japanese Buddhist chanting
+ Showtunes
+ Sica
+ Siguiriyas
+ Silat - Malaysian mixture of music, dance and martial arts
+ Sinawi - Korean religious music meant for dancing; it is improvised and reminiscent of jazz
+ Singer-songwriter
+ Situational
+ Ska
+ Ska punk
+ Skacore (third wave of ska)
+ Skald
+ Skate punk
+ Skiffle
+ Skronk - popular music originating in Charleston, South Carolina, USA in the late 1990s having elements of ska, rock, and funk.
+ Slack-key guitar (kihoalu) - Hawaiian form invented by retuning open strings on a guitar
+ Slängpolska
+ Slide
+ Slowcore
+ Sludge metal
+ Smooth jazz
+ Soca
+ Soft rock
+ Son-batá (batá rock)
+ Son montuno - Cuban folk music
+ Sonata
+ Songo - a mixture of changuí and son montuno
+ Songo-salsa - a mixture of songo, hip hop and salsa
+ Soukous
+ Soul blues
+ Soul jazz
+ Soul music
+ Soundtrack
+ Southern Gospel
+ Southern Harmony
+ Southern hip hop
+ Southern metal
+ Southern rock
+ Southern soul
+ Space age pop
+ Space music
+ Space rock
+ Spacesynth
+ Spectralism
+ Speedcore
+ Speed garage
+ Speed metal
+ Spirituals
+ Spouge - Barbadian folk music
+ Square dance
+ St. Louis blues
+ Steelband
+ Stoner metal
+ Stoner rock
+ Straight edge
+ Strathspeys
+ Stride
+ String - 1980s Thai pop music
+ String quartet
+ Suite
+ Sunshine pop
+ Suomirock
+ Super Eurobeat
+ Surf ballads
+ Surf instrumental
+ Surf music
+ Surf pop
+ Surf rock
+ Swamp blues
+ Swamp pop
+ Swamp rock
+ Swingbeat (New Jack Swing, New Jack R&B)
+ Swing music
+ Sygyt - type of xoomii (Tuvan throat singing), likened to the sound of whistling
+ Symphonic black metal
+ Symphonic metal
+ Symphonic poem
+ Symphonic rock
+ Symphony
+ Symphusion
+ Synthpop
+ Synthpunk
+ Taarab
+ Tai tu - Vietnamese chamber music
+ Taiwanese pop - early Taiwanese pop music influenced by enka and popular with older listeners
+ Tala - a rhythmic pattern in Indian classical music
+ Talempong - a distinct Minangkabau gamelan music
+ Tambu
+ Tamburitza
+ Tamil Christian keerthanai - Christian devotional lyrics in Tamil
+ Táncház - Hungarian dance music
+ Tango - Argentinian dance music that became internationally popular in the 1920s
+ Tanguk - a form of Korean court music that includes elements of Chinese music
+ Tappa
+ Tarana - form of vocal music from northern India using highly rhythmic nonsense syllables
+ Tarantella
+ Taranto
+ Tech House
+ Tech Trance
+ Technical death metal
+ Technical metal
+ Techno
+ Techno metal
+ Techno rock
+ Technoid
+ Techtonik
+ Teen pop
+ Tejano music or "Tex-Mex", sometimes confused with norteño
+ Tekno
+ Tembang sunda - Sundanese sung free verse poetry
+ Texas blues
+ Thillana - form of vocal music from South India using highly rhythmic nonsense syllables
+ Thrashcore
+ Thrash metal
+ Thresher
+ Thumri - a type of popular Hindustani vocal music
+ Tibetan pop - pop music heavily influenced by Chinese forms, emerging in the 1980s
+ Tientos
+ Timbila - form of folk music in Mozambique
+ Tin Pan Alley
+ Tinga
+ Tinku - traditional music and dance from Potosi Bolivia
+ Toadas - traditional music and dance from Brazil
+ Toeshey - Tibetan dance music
+ Togaku
+ T'ong guitar - acoustic guitar pop music of Korea
+ Traditional pop music
+ Trallalero - Genoese urban songs
+ Trance
+ Travesty
+ Tribal house
+ Trikitixa - Basque accordion music
+ Trip-hop
+ Trip rock
+ Trock - Time Lord Rock, Songs about Doctor Who
+ Trompetenpunk
+ Tropicalia
+ Truck-driving country
+ Tumba
+ Turbo-folk - aggressive form of modernized Serbian music
+ Turntablism
+ Tuvan throat-singing
+ Twee pop
+ Twist (also a dance style, early 1960s)
+ Two tone (second wave of ska)
+ UK garage
+ UK pub rock
+ Unblack metal (also known as Christian black metal)
+ Underground music
+ Unknown[disambiguation needed]
+ Uplifting Trance
+ Urban Cowboy
+ Urban Folk
+ Urban jazz
+ Vallenato - accordion-based Colombian folk music
+ Vaudeville
+ Verbunkos - Hungarian folk music
+ Verismo
+ Video game music - Melodic music as defined by its media.
+ Victoriandustrial - penned by Emilie Autumn
+ Viking metal
+ Villanella - 16th century Neapolitan songs
+ Virelais
+ Visual Kei
+ Visual music
+ Vocal house
+ Vocal jazz
+ Volksmusik
+
+ W
+
+ Waila (chicken scratch) - a Tohono O'odham fusion of polka, norteño and Native American music
+ Waltz
+ Warabe uta
+ Wassoulou
+ Were music
+ West Coast pop
+ Western blues
+ Western swing
+ Wizard rock
+ Women's music or womyn's music, wimmin's music--1970s lesbian/feminist
+ Wong shadow - 1960s Thai pop music
+ Work song
+ Wood Sounds of organic synthesis recorded on organic medium such as tape.
+ Worldbeat
+ World music
+ World fusion music
+ Xoomii (khoomii, hoomii) - a type of Tuvan throat singing
+ Xhosa music
+ Xian rock
+ Yang - form of Tibetan Buddhist chanting
+ Yé-yé
+ Yorubeat Funk and Afrobeat influenced
+ Yo-pop
+ Yodeling
+ Yukar
+ Yule Christmas music
+ Zajal
+ Zapin - derived from ancient Arabic music, zapin is popular throughout Malaysia
+ Zarzuela - a form of Spanish operetta
+ Zeuhl
+ Zeibekiko - Greek Dance 9/8 Rytmus
+ Ziglibithy
+ Zolo - characterized by hyper bitchy rhythms and cacophonous/ harmonious bleeps and bongs
+ Zouglou
+ Zouk - Antillean ( Guadeloupean ) dance music
+ Zouk chouv
+ Zouklove - Guadeloupean Music
+ Zulu music
+ Zydeco - popular Louisianan Creole music
