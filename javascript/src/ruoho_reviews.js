@@ -180,7 +180,7 @@ reviewGrammar = {
 					Miss out at your peril! | Seriously? | Wow! | Bitchin'! | Hearing is believing! | Yikes! | \
 					Riveting! | A vital release! | Solid. | Wikkid! | Happy listening! | Hella good! | \
 					Don't waste your time. | Phatness! | Bad*ss! | Dope. | Sublime. | Another excellent transmission! |\
-					A musical treat",
+					A musical treat. | For connoisseurs only.",
 
 "<music-recording-noun>":	"12” wax | MP3 | home-made cassette | CD | album | 4-track cartridge | \
 							live-stream | laserdisc | DVD-R | EP | ogg-vorbis download | maxi-single | Bandcamp release | \
@@ -198,6 +198,7 @@ reviewGrammar = {
 "<gerund-song-phrase>": 	"marrying <genre> from the <epoch> period with <structure-description> | \
 							meandering around a plucked melody that <verb-phrase-singular> |	\
 							sounding like <static-artist> in a skank off, after inhaling a canister of nitrous oxide | \
+							sounding like <static-artist> jamming with Björk after a remarkably relaxing sauna session | \
 							blurring the boundaries between <structure-description> and <structure-description> | \
 							eschewing the familiar palimpsest of credible <genre> <genre-noun> | \
 							injecting hints of <genre> patterns into <genre> | \
@@ -323,18 +324,21 @@ reviewGrammar = {
 							<struct-adj>, percussive interjections |\
   							<struct-adj>, post-garage noodlings |\
 							<struct-adj>, post-techno ecstasy |\
+							<struct-adj>, prismatic strings |  \
 							<struct-adj>, monochord accompaniments |\
 							<struct-adj>, Rhodes keys |\
 							<struct-adj>, rhythm manipulations |\
 							<struct-adj>, sawtooth basslines |\
 							<struct-adj>, <sexy-syn> blips |\
-							<struct-adj>, string samples |  \
+							<struct-adj>, silvery notes |\
+							<struct-adj>, throat-tearing howls |\
 							<struct-adj>, trumpet lines panned to infinity |\
 							<struct-adj> vocal incantations |\
 							<struct-adj>, West Coast '60s sounds | \
 							<struct-adj>, xylophonic geometries",
 
 "<structure-description-02>": "\
+							austere oscillator experimentations |\
 							adventurous, non-linear constructions |\
 							abstracted TB-303 residues |\
 							aerated electronic timbres |\
