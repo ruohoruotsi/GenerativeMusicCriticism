@@ -46,7 +46,7 @@ reviewGrammar = {
 		\
 		9 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <artist-description-phrase> | \
 		\
-		10 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <adverb> elevates <genre> sophistication with <genre-adjective> <genre> <genre-noun> | \
+		10 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> elevates <genre> sophistication with <genre-adjective> <genre> <genre-noun> | \
 		\
 		11 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <adverb> hoists up the profile of screeched-out <genre> vocals and <structure-description> | \
 		\
@@ -184,7 +184,7 @@ reviewGrammar = {
 
 "<music-recording-noun>":	"12” wax | MP3 | home-made cassette | CD | album | 4-track cartridge | \
 							live-stream | laserdisc | DVD-R | EP | ogg-vorbis download | maxi-single | Bandcamp release | \
-							ambisonic release | white-label | release | Spotify stream | Beats Music special | Rdio exclusive\
+							ambisonic release | white-label | release | Spotify stream | Beats Music special | Rdio exclusive | \
 							17-track compilation | Soundcloud clip | promo | youtube video | 7” vinyl | box set | \
 							Mixcloud set | Myspace track | unplugged session | music video | 27-track anthology",
 
@@ -216,7 +216,7 @@ reviewGrammar = {
 							riding rock hard subbass depth charges | \
 							creating atmospheric pressure drops sharp enough to give lesser experienced divers the bends | \
 							skittering back to post-Autechre beat deconstructions | \
-							exhibiting tearjerking, suckerpunching, piano-meets-strings melancholy | \
+							exhibiting suckerpunching, piano-meets-strings melancholy | \
 							dripping with endless reverb and delay manipulation | \
 							trawling the depths of vinyl's pockmarked grooves | \
 							collapsing beneath the dead-eyed twinkle of the disco ball | \
@@ -224,29 +224,32 @@ reviewGrammar = {
 							exhibiting an intensely overbearing darkness, covered by a fuzzy thicket of layered drones",
 
 
-"<a-structure-description>":   "a pure, transcendental rave feeling | \
+"<a-structure-description>":   "\
+								an alchemical blend of post-rave <genre> electronics |\
+								a blistering feast of distortion | \
 								a bubbly pop appreciation | \
+								a cacophany of autistic rhythms | \
+								a dark, haunted melancholy | \
+								a dense, effulgent piece of faux-romantic orchestral syrup | \
+								a deluge of piano flecked gems | \
+								an eerily impeccable falsetto | \
+								a Flying Lotus-style bass reduction |  \
+								a fragrant, effortless warmth | \
+								a feast of noise-rock virtuosity | \
+								a gratuitous, pornographic level of lusciousness |\
+								a growing amalgam of contradictions |  \
+								a horrifying mess of head-meddling unpleasantness |\
+								an indisposable slice of <genre> delectability | \
+								a low key, grotty jakbeat |\
 								a mindblowing dubscape of effects | \
 								a persistent undulating pulse of bass | \
-								a horrifying mess of head-meddling unpleasantness |\
-								a toxic hellstew of glitched-out tapestries |\
-								a cacophany of autistic rhythms | \
-								a gratuitous, pornographic level of lusciousness |\
-								a fragrant, effortless warmth | \
-								a deluge of piano flecked gems | \
-								a veneer of melancholy |  \
-								a low key, grotty jakbeat |\
-								a growing amalgam of contradictions |  \
-								a blistering feast of distortion | \
-								a feast of noise-rock virtuosity | \
-								a veritable haberdashery of exquisitely vintage musical textures | \
-								a Flying Lotus-style bass reduction |  \
-								a dense, effulgent piece of faux-romantic orchestral syrup | \
-								an indisposable slice of <genre> delectability | \
-								a dark, haunted melancholy | \
-								an eerily impeccable falsetto | \
+								a pure, transcendental rave feeling | \
 								a super platter of UK bass dreadnaughts | \
-								an alchemical blend of post-rave <genre> electronics",
+								a toxic hellstew of glitched-out tapestries |\
+								a vaporous spray of submerged analogue delays |\
+								a veneer of melancholy |\
+								a veritable haberdashery of vintage musical textures |\
+								a wash of tidal rhythms and turbulent crackle",
 
 "<struct-adj>": "\
 				atmospheric |\
@@ -255,6 +258,7 @@ reviewGrammar = {
 				cinematic |\
 				chugging  |\
 				charming  |\
+				churning |\
 				dramatic |\
 				enigmatic |\
 				endothermic |\
@@ -360,7 +364,7 @@ reviewGrammar = {
 							expertly manipulated rhythm alchemies  |\
 							early handmade experiments |\
 							endlessly arpeggiated chords |\
-							enunciated consonants |\
+							enunciated warbling consonants |\
 							European technical execution |\
 							fat skronked basslines under <genre-adjective>, minimal percussion |\
 							febrile rhythm mechanics | \
@@ -441,6 +445,7 @@ reviewGrammar = {
 							thickets of soupy electronic fog |\
 							tranquil, free-floating chorales |\
 							utterly sick digital spasms |\
+							undulating, unstable cadences |\
 							unfathomably complex textures |\
 							uncharacteristically spry tempos |\
 							unfathomably deep, utterly sick, dubwise textures |\
@@ -450,16 +455,20 @@ reviewGrammar = {
 							wicked ragga-bashment flava |\
 							waves of <electro-acoustic-syn> static",
 
-"<the-synth-drones-Klaus>": 	"the synth drones of Klaus Schulze | \
-								 the wind-chilled electronics of Thomas Köner |\
+"<the-synth-drones-Klaus>": 	"\
+								 the ambivalent harmonic parallelism of Claude Debussy |\
 								 the atomised acousmatic embodiments of Bernard Parmegiani |\
-								 the pointillist dynamics associated with Arnold Schoenberg |\
-								 the oneiric dramaturgy of Robert Ashley |\
+								 the hyper-mediated guitar washes worthy of Keith Fullerton Whitman |\
 								 the disturbingly visceral Klangfarbenmelodie of Hector Berlioz | \
+								 the hazy botanical film interludes of Boards of Canada |\
 								 the intricately funked syncopations of Autechre or Alva Noto |\
 								 the isolationist bleeps of Mika Vainio |\
+								 the oneiric dramaturgy of Robert Ashley |\
+								 the pointillist dynamics associated with Arnold Schoenberg |\
+								 the psychedelic ragas reminiscent of Pandit Pran Nath |\
 								 the subdued ferric tones of Kevin Drumm | \
-								 the hazy botanical film interludes of Boards of Canada",
+								 the synth drones of Klaus Schulze | \
+ 								 the wind-chilled electronics of Thomas Köner",
 
 "<artist-description-phrase>": 	"<adverb> defies categorisation | \
 								demonstrates an innate grasp of the sublime qualities of <genre>  | \
