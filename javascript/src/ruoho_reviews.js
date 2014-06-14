@@ -111,7 +111,7 @@ reviewGrammar = {
 				enchant | beguile | gratify | enslave | hook | subdue",
 
 "<roving-syn>": "roving | wandering | ranging | drifting | meandering | gallivanting | \
-				zigzagging | snaking | pivoting ", 
+				zigzagging | moving | pivoting ", 
 
 "<retro-syn>": "retro | modern | ",
 
@@ -134,7 +134,7 @@ reviewGrammar = {
 						rewriting | rescripting | commingling ",
 
 
-"<panic-syn>": "panic | terror | longing | hysteria | agitation | dread | malaise | discomfort | unease | discontent",
+"<panic-syn>": "panic | terror | longing | hysteria | dread | malaise | discomfort | unease | discontent",
 
 "<experimental-syn>": "experimental | avant-garde | new wave | vanguard",
 
@@ -262,6 +262,7 @@ reviewGrammar = {
 				flickering |\
 				fluttering |\
 				hyper-prismic |\
+				hypnagogic |\
 				julienned |\
 				lysergic |\
 				majestic |\
@@ -269,6 +270,7 @@ reviewGrammar = {
 				phantasmic |\
 				pirouetting |\
 				psychedelic |\
+				resplendent |\
 				rising |\
 				roiling |\
 				rousing |\
@@ -279,21 +281,26 @@ reviewGrammar = {
 				shuddering |\
 				somnambulistic |\
 				soporific |\
-				swaying |\
 				symphonic |\
 				synaesthetic |\
 				throbbing |\
+				towering |\
 				tantalising |\
 				whinnying",
 
 "<structure-description>": "<structure-description-01> | <structure-description-02>",
 
 "<structure-description-01>": "\
-							<struct-adj>, West Coast '60s sounds | \
+							<struct-adj>, agitated synthlines |\
+  							<struct-adj>, beat psychedelics |\
 							<struct-adj>, breakbeat-fueled <genre> | \
-							<struct-adj> dulcimer melodies |\
+							<struct-adj> cloud-like structures of droning synth tones |\
 							<struct-adj> constellations of de-glazed rhythms | \
+							<struct-adj>, distorted crescendos |\
+							<struct-adj>, drag vocals |\
+							<struct-adj> dulcimer melodies |\
 							<struct-adj>, earlobe gatecrashing breakbeats | \
+							<struct-adj>, forward-thinking dub |\
 							<struct-adj>, rhythmic collages | \
 							<struct-adj>, garage syncopations | \
 							<struct-adj> guitar riffs  |\
@@ -302,28 +309,26 @@ reviewGrammar = {
 							<struct-adj>, harmonic machinations | \
 							<struct-adj>, haunting strings | \
 							<struct-adj>, <J-pop> delights |\
-							<struct-adj>, <sexy-syn> blips |\
 							<struct-adj>, kosmische pulsations |\
+							<struct-adj>, laminous droning |\
 							<struct-adj>, melodic ephemera |\
 							<struct-adj>, mercurial motifs |\
+							<struct-adj>, mind-quaking ambiences |\
 							<struct-adj>, mini-orchestral swells | \
-							<struct-adj>, sawtooth basslines |\
-							<struct-adj>, string samples |  \
 							<struct-adj>, off-beat syncopations | \
-							<struct-adj>, xylophonic geometries |\
 							<struct-adj>, percussive interjections |\
-							<struct-adj>, forward-thinking dub |\
-							<struct-adj>, agitated synthlines |\
-							<struct-adj>, trumpet lines panned to infinity |\
-							<struct-adj> cloud-like structures of droning synth tones |\
-							<struct-adj>, drag vocals |\
+  							<struct-adj>, post-garage noodlings |\
+							<struct-adj>, post-techno ecstasy |\
+							<struct-adj>, monochord accompaniments |\
 							<struct-adj>, Rhodes keys |\
 							<struct-adj>, rhythm manipulations |\
-  							<struct-adj>, beat psychedelics |\
-  							<struct-adj>, post-garage noodlings |\
-							<struct-adj>, laminous droning |\
-							<struct-adj>, mind-quaking ambiences |\
-							<struct-adj>, post-techno ecstasy",
+							<struct-adj>, sawtooth basslines |\
+							<struct-adj>, <sexy-syn> blips |\
+							<struct-adj>, string samples |  \
+							<struct-adj>, trumpet lines panned to infinity |\
+							<struct-adj> vocal incantations |\
+							<struct-adj>, West Coast '60s sounds | \
+							<struct-adj>, xylophonic geometries",
 
 "<structure-description-02>": "\
 							adventurous, non-linear constructions |\
@@ -343,7 +348,6 @@ reviewGrammar = {
 							digitally dissected orchestral figures |\
 							devastatingly heavy <genre> mutations |\
 							dexterous skanking movements |\
-							distorted crescendos |\
 							dark careening tones from bright, queasy synthesizers |\
 							dense thickets of digitally applied crackle |\
 							deep-set metallic sonorities |\
@@ -369,6 +373,7 @@ reviewGrammar = {
 							gender-bending vocals |\
 							gloriously wild natural timbres |\
 							grim, crust-laden darkness |\
+							grey slabs of doomy atmospherics |\
 							gorgeously fragile electronica |\
 							glacially-paced gothic stoner rock |\
 							hazy washes of reverbed harps |\
@@ -465,6 +470,9 @@ reviewGrammar = {
 								tries to make sense out of a 3D sonic world using <structure-description> that are <adverb> two-dimensional",
 								// mournful, desolate lyrics",
 
+
+"<riffs-syn>": "riffs | noodlings | melodies",
+
 "<writhes-syn>":	"writhes | squirms | wriggles | thrashes | flails | tosses and turns",
 
 "<join-phrase>": 	"marries | fuses | blends | marries | merges | mixes | unifies | intermingles | melds | joins",
@@ -501,6 +509,7 @@ reviewGrammar = {
 							irregularly | intermittently | frequently | repeatedly | recurrently",
 
 "<song-description-phrase>":	"<adverb> defies categorisation | \
+								\
 								slides out a <genre-adjective> groove of immense proportions | \
 								\
 								chugs along like a malfunctioning mechanical beast | \
@@ -541,6 +550,10 @@ reviewGrammar = {
 								\
 								is one of those <epoch> EPs showcasing how versatile <genre> can get | \
 								\
+								is a mundane and shapeless affair of post-<genre> shenaningans | \
+								\
+								dissolves into <lamentable-syn> incoherence, suffused with power and mystery | \
+								\
 								is high grade bass music so intense you can blow-dry your hair right in front of the bass bins | \
 								\
 								does not initially seem to be doing anything special, but the subtlety and intensity eventually worms its way into your heart",
@@ -560,6 +573,8 @@ reviewGrammar = {
 							simply drown out the sound of jaws hitting the <floor-syn>", 
 
 "<consciousness-syn>": "consciousness | mental grasp | awareness | attention | cognizance | loaf | mind | perception ",
+
+"<lamentable-syn>": "lamentable | pleasurable",
 
 "<floor-syn>": "floor | pavement | concrete | ground",
 
