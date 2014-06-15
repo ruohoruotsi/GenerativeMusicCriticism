@@ -251,6 +251,30 @@ reviewGrammar = {
 								a veneer of melancholy |\
 								a veritable haberdashery of vintage musical textures |\
 								a wash of tidal rhythms and turbulent crackle",
+				
+"<structure-description-03>": 	"\
+								<struct-adj-03> oscillator experimentations |\
+								<struct-adj-03>, non-linear constructions |\
+								<struct-adj-03> TB-303 residues |\
+								<struct-adj-03> skanking movements |\
+								<struct-adj-03> iridescent arrangements |\
+						  		<struct-adj-03> rhythm mechanics | \
+						  		<struct-adj-03>, delayed beats |\
+      					  		<struct-adj-03> synthetic embellishments |\
+						   		<struct-adj-03> Detroit chords |\
+						  		<struct-adj-03> fractal loops |\
+						  		<struct-adj-03> game-arcade melodies |\
+						  		<struct-adj-03> <genre> mutations |\
+						  		<struct-adj-03> psilocybic electronics |\
+						  		<struct-adj-03> raindance drums |\
+						  		<struct-adj-03>, quivering sustains |\
+							 	<struct-adj-03> amplifier hum |\
+						   		<struct-adj-03> bell tones |\
+					   			<struct-adj-03> Chicago house reductions |\
+					   			<struct-adj-03> Euro-porno soundtracks |\
+				   				<struct-adj-03> sonic brushstrokes |\
+				   				<struct-adj-03> saxophone emissions",
+
 
 "<struct-adj>": "\
 				atmospheric |\
@@ -291,21 +315,41 @@ reviewGrammar = {
 				throbbing |\
 				towering |\
 				tantalising |\
-				whinnying",
-
-"<structure-description>": "<structure-description-01> | <structure-description-02>",
+				undulating |\
+				whinnying |\
+				\
+				austere |\
+				adventurous|\
+				abstracted |\
+				dexterous |\
+				febrile | \
+				flanged |\
+				hazy |\
+				lush |\
+				mutant |\
+				overheated |\
+				paranoid|\
+				unstable |\
+				relentless  |\
+				reverberant |\
+				sculpted |\
+				spherical|\
+				sumptuous |\
+				sinister |\
+				smudged |\
+				tortured",
 
 "<structure-description-01>": "\
 							<struct-adj>, agitated synthlines |\
   							<struct-adj>, beat psychedelics |\
 							<struct-adj>, breakbeat-fueled <genre> | \
-							<struct-adj> cloud-like structures of droning synth tones |\
+							<struct-adj>, drones of plunging fifths |\
 							<struct-adj> constellations of de-glazed rhythms | \
 							<struct-adj>, distorted crescendos |\
 							<struct-adj>, drag vocals |\
 							<struct-adj> dulcimer melodies |\
 							<struct-adj>, earlobe gatecrashing breakbeats | \
-							<struct-adj>, forward-thinking dub |\
+							<struct-adj>, forward-thinking <genre> |\
 							<struct-adj>, rhythmic collages | \
 							<struct-adj>, garage syncopations | \
 							<struct-adj> guitar riffs  |\
@@ -332,15 +376,34 @@ reviewGrammar = {
 							<struct-adj>, <sexy-syn> blips |\
 							<struct-adj>, silvery notes |\
 							<struct-adj>, throat-tearing howls |\
-							<struct-adj>, trumpet lines panned to infinity |\
+							<struct-adj>, trumpet lines|\
 							<struct-adj> vocal incantations |\
 							<struct-adj>, West Coast '60s sounds | \
-							<struct-adj>, xylophonic geometries",
+							<struct-adj>, xylophonic geometries |\
+							\
+							<struct-adj> oscillator experimentations |\
+							<struct-adj>, non-linear constructions |\
+							<struct-adj> TB-303 residues |\
+							<struct-adj> skanking movements |\
+							<struct-adj> iridescent arrangements |\
+							<struct-adj> rhythm mechanics | \
+							<struct-adj>, delayed beats |\
+							<struct-adj> synthetic embellishments |\
+							<struct-adj> Detroit chords |\
+							<struct-adj> fractal loops |\
+							<struct-adj> game-arcade melodies |\
+							<struct-adj> <genre> mutations |\
+							<struct-adj> psilocybic electronics |\
+							<struct-adj> raindance drums |\
+							<struct-adj>, quivering sustains |\
+							<struct-adj> amplifier hum |\
+							<struct-adj> bell tones |\
+							<struct-adj> Chicago house reductions |\
+							<struct-adj> Euro-porno soundtracks |\
+							<struct-adj> sonic brushstrokes |\
+							<struct-adj> saxophone emissions",
 
 "<structure-description-02>": "\
-							austere oscillator experimentations |\
-							adventurous, non-linear constructions |\
-							abstracted TB-303 residues |\
 							aerated electronic timbres |\
 							alien analogue tones |\
 							arcing sinewaves |\
@@ -355,26 +418,21 @@ reviewGrammar = {
 							dense analogue experiments |\
 							digitally dissected orchestral figures |\
 							devastatingly heavy <genre> mutations |\
-							dexterous skanking movements |\
 							dark careening tones from bright, queasy synthesizers |\
 							dense thickets of digitally applied crackle |\
 							deep-set metallic sonorities |\
 							detached 90's post-modernism |\
-							dextrous rhythm section arrangements |\
 							dread techno futurisms |\
 							myriad drum-machine pattern-permutations |\
 							deep, rustic darkness |\
-							exothermal synthlines |\
 							expertly manipulated rhythm alchemies  |\
 							early handmade experiments |\
 							endlessly arpeggiated chords |\
 							enunciated warbling consonants |\
 							European technical execution |\
 							fat skronked basslines under <genre-adjective>, minimal percussion |\
-							febrile rhythm mechanics | \
 							flourishes of TR-909 hi-hats |\
 							freaky sequenced blips |\
-							flanged, delayed beats |\
 							foggy northern European drone-scapes |\
 							floppy fringe harmonies |\
 							fuzzy shoegaze psychedelia |\
@@ -385,12 +443,11 @@ reviewGrammar = {
 							gorgeously fragile electronica |\
 							glacially-paced gothic stoner rock |\
 							hazy washes of reverbed harps |\
-							hazy synthetic electronical embellishments |\
 							hi-scoring aquakrunk madness |\
 							head-pressurised technohouse vibes	|\
 							hyper-lean <genre> geometries | \
 							hints of free-roaming Krautrock |\
-							hummable melodies |\
+							hummable <genre> melodies |\
 							heavy rolling dancehall grinders |\
 							haunted-house analogue tactics |\
 							hazily buoyant, ethereal female vocals |\
@@ -399,40 +456,29 @@ reviewGrammar = {
 							loose strands of treated guitar |\
 							lurid hues of neon pink & green |\
 							layered embers of sound |\
-							layered spaciousness |\
-							lush Detroit chords |\
+							layered spaciousness, panned to infinity |\
 							modern amorphous psychedelia |\
 							magnificently evocative, mercilessly deep, tweaked out, post-rave ecstasy |\
 							massively modulated vocal treatments |\
-							mutant fractal loops |\
-							overheated arcade game melodies |\
 							oblique hi-end processing |\
 							orchestral level pomp & bombast |\
-							paranoid <genre> mutations |\
 							post-pop slacker tendencies |\
 							pure Balearic house bliss |\
 							pre-digital era, malaria-infected, vintage radio essences |\
-							unstable psilocybic electronics |\
-							relentless raindance drums |\
 							rootsy one-drop dub keys |\
-							reverberant, quivering sustains |\
 							Saharan blues fetishism |\
 							succulent bass treatments |\
-							sculpted amplifier hum |\
 							stoned post-punk guitar strokes |\
 							shoegazy opiates |\
-							spherical bell tones |\
 							sticky, wriggly electro influences |\
 							soft, smoky sax lines |\
 							spare, flinty embers  |\
 							supple subbass wobbles |\
 							subtly plush synth embellishments |\
-							sumptuous Chicago house reductions |\
 							semi-organic gristle |\
 							sea-sick rhythms |\
 							shards of ultra-plastic electro-funk |\
 							stringently reduced techno |\
-							sinister Euro-porno soundtracks |\
 							somnolent, spectrally sifted chorales |\
 							spectrally sifted electronics |\
 							spacious Balearic keys |\
@@ -440,11 +486,9 @@ reviewGrammar = {
 							sculpted rhythm dynamics |\
 							spleen-crushing bass |\
 							sublime robo-tropical leitmotives |\
-							smudged sonic brushstrokes |\
 							steely, speaker-destroying dub techno |\
 							Scandinavian machine music |\
 							<sexy-syn> dancehall minimalism |\
-							tortured saxophone emissions |\
 							textural guitar-scapes |\
 							thickets of soupy electronic fog |\
 							tranquil, free-floating chorales |\
@@ -601,7 +645,7 @@ reviewGrammar = {
 				
 "<Finnish-syn>": "Scandinavian | Nordic | Flemish| Teutonic | Slavic | Baltic | Turkic | Basque | Gibraltarian | Tatar | Crimean | Uzbek | Gujarati",
 
-"<J-pop>": "J-pop | K-pop | Hokkien pop | Cantopop | Mandopop | Pinoy pop | Shibuya-kei",
+"<J-pop>": "J-pop | K-pop | Hokkien-pop | Cantopop | Mandopop | Pinoy-pop | Shibuya-kei",
 
 				
 "<genre>": "Future Samba | Fonk Arabic | Digital Zulu | 2-step garage  | 8-bit | \
