@@ -111,7 +111,7 @@ reviewGrammar = {
 				enchant | beguile | gratify | enslave | hook | subdue",
 
 "<roving-syn>": "roving | wandering | ranging | drifting | meandering | gallivanting | \
-				zigzagging | moving | pivoting ", 
+				zigzagging | moving | pivoting | floating", 
 
 "<retro-syn>": "retro | modern | ",
 
@@ -134,7 +134,7 @@ reviewGrammar = {
 						rewriting | rescripting | commingling ",
 
 
-"<panic-syn>": "panic | terror | longing | hysteria | dread | malaise | discomfort | unease | discontent",
+"<panic-syn>": "panic | terror | longing | hysteria | dread | malaise | discomfort | unease",
 
 "<experimental-syn>": "experimental | avant-garde | new wave | vanguard",
 
@@ -142,7 +142,7 @@ reviewGrammar = {
 
 "<daily-lives-syn>": "daily lives | quotidian | everyday | daily routine | day-to-day",
 
-"<bizarre-syn>": "bizarre | curious | peculiar | unusual | brilliant",
+"<bizarre-syn>": "bizarre | curious | peculiar | unusual",
 
 "<adept-syn>": "adept | skilled | masterful | deft | dexterous | brilliant",
 
@@ -252,30 +252,6 @@ reviewGrammar = {
 								a veritable haberdashery of vintage musical textures |\
 								a wash of tidal rhythms and turbulent crackle",
 				
-"<structure-description-03>": 	"\
-								<struct-adj-03> oscillator experimentations |\
-								<struct-adj-03>, non-linear constructions |\
-								<struct-adj-03> TB-303 residues |\
-								<struct-adj-03> skanking movements |\
-								<struct-adj-03> iridescent arrangements |\
-						  		<struct-adj-03> rhythm mechanics | \
-						  		<struct-adj-03>, delayed beats |\
-      					  		<struct-adj-03> synthetic embellishments |\
-						   		<struct-adj-03> Detroit chords |\
-						  		<struct-adj-03> fractal loops |\
-						  		<struct-adj-03> game-arcade melodies |\
-						  		<struct-adj-03> <genre> mutations |\
-						  		<struct-adj-03> psilocybic electronics |\
-						  		<struct-adj-03> raindance drums |\
-						  		<struct-adj-03>, quivering sustains |\
-							 	<struct-adj-03> amplifier hum |\
-						   		<struct-adj-03> bell tones |\
-					   			<struct-adj-03> Chicago house reductions |\
-					   			<struct-adj-03> Euro-porno soundtracks |\
-				   				<struct-adj-03> sonic brushstrokes |\
-				   				<struct-adj-03> saxophone emissions",
-
-
 "<struct-adj>": "\
 				atmospheric |\
 				blistering | \
