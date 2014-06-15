@@ -343,7 +343,7 @@ reviewGrammar = {
 							<struct-adj>, agitated synthlines |\
   							<struct-adj>, beat psychedelics |\
 							<struct-adj>, breakbeat-fueled <genre> | \
-							<struct-adj>, drones of plunging fifths |\
+							<struct-adj>, plunging fifths |\
 							<struct-adj> constellations of de-glazed rhythms | \
 							<struct-adj>, distorted crescendos |\
 							<struct-adj>, drag vocals |\
@@ -385,7 +385,7 @@ reviewGrammar = {
 							<struct-adj>, non-linear constructions |\
 							<struct-adj> TB-303 residues |\
 							<struct-adj> skanking movements |\
-							<struct-adj> iridescent arrangements |\
+							   <struct-adj> iridescent arrangements |\
 							<struct-adj> rhythm mechanics | \
 							<struct-adj>, delayed beats |\
 							<struct-adj> synthetic embellishments |\
