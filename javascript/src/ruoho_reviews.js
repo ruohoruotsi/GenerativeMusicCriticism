@@ -11,9 +11,8 @@ reviewGrammar = {
 
 ///////  
 /// "<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
-"<artist-phrase>": "The <bizarre-syn> <panic-syn> evoked by <artist> will <spellbind> fans of <genre>, \
-					<roving-syn> from <structure-description-01> to <structure-description-01>",
-		
+"<artist-phrase>": "<Roving-syn> from <structure-description-01> to <structure-description-01>, the \
+					<bizarre-syn> <panic-syn> evoked by <artist> will <spellbind-syn> <fans-syn> of <genre> <genre-noun>",	
 ///////  
 "<artist-action-phrase>": "\
 		\
@@ -59,7 +58,7 @@ reviewGrammar = {
 		14 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> tenuously welds a growing amalgam of \
 		contradictions and genre experiments with a veneer of <ferocity-syn>, <ferocity-syn> and Fonzie cool | \
 		\
-		15 The <bizarre-syn> <panic-syn> evoked by <artist> will <spellbind> fans of <genre>, \
+		15 The <bizarre-syn> <panic-syn> evoked by <artist> will <spellbind-syn> fans of <genre>, \
 		<roving-syn> from <structure-description> to <structure-description>",
 
 ///////  		
@@ -105,13 +104,16 @@ reviewGrammar = {
 							produces the biggest goosebumps | \
 							produces the biggest frissons",
 
+"<fans-syn>": "fans | enthusiasts | devotees | lovers | admirers | zealots | connoisseurs |\
+			   aficionados | addicts | junkies | fanatics",
 
-"<spellbind>": "spellbind | bewitch | enthrall | grip | mesmerize | hypnotize | entrance | \
+
+"<spellbind-syn>": "spellbind | bewitch | enthrall | grip | mesmerize | hypnotize | entrance | \
 				captivate | stupefy | repulse | repel | bedevil | hex | slay | wow |\
 				enchant | beguile | gratify | enslave | hook | subdue",
 
-"<roving-syn>": "roving | wandering | ranging | drifting | meandering | gallivanting | \
-				zigzagging | moving | pivoting | floating", 
+"<Roving-syn>": "Roving | Wandering | Ranging | Drifting | Meandering | Gallivanting | \
+				Zigzagging | Moving | Pivoting | Floating", 
 
 "<retro-syn>": "retro | modern | ",
 
@@ -131,7 +133,7 @@ reviewGrammar = {
 "<edge-syn>": 	"edge | brink | fringes", 
 
 "<reconstruction-syn>": "reconstruction | emulsion |  modulation | inflection | \
-						rewriting | rescripting | commingling ",
+						rewriting | rescripting | commingling",
 
 
 "<panic-syn>": "panic | terror | longing | hysteria | dread | malaise | discomfort | unease",
@@ -366,14 +368,14 @@ reviewGrammar = {
 							<struct-adj>, delayed beats |\
 							<struct-adj> synthetic embellishments |\
 							<struct-adj> Detroit chords |\
-							<struct-adj> fractal loops |\
+							<struct-adj>, fractal loops |\
 							<struct-adj> game-arcade melodies |\
 							<struct-adj> <genre> mutations |\
 							<struct-adj> psilocybic electronics |\
 							<struct-adj> raindance drums |\
 							<struct-adj>, quivering sustains |\
 							<struct-adj> amplifier hum |\
-							<struct-adj> bell tones |\
+							<struct-adj>, bell tones |\
 							<struct-adj> Chicago house reductions |\
 							<struct-adj> Euro-porno soundtracks |\
 							<struct-adj> sonic brushstrokes |\
@@ -490,9 +492,11 @@ reviewGrammar = {
 								 the oneiric dramaturgy of Robert Ashley |\
 								 the pointillist dynamics associated with Arnold Schoenberg |\
 								 the psychedelic ragas reminiscent of Pandit Pran Nath |\
+								 the spiraling acidic basslines of Josh Wink |\
 								 the subdued ferric tones of Kevin Drumm | \
 								 the synth drones of Klaus Schulze | \
  								 the wind-chilled electronics of Thomas Köner",
+
 
 "<artist-description-phrase>": 	"<adverb> defies categorisation | \
 								demonstrates an innate grasp of the sublime qualities of <genre>  | \
