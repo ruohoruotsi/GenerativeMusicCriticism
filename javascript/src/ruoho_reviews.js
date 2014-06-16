@@ -105,7 +105,7 @@ reviewGrammar = {
 							produces the biggest frissons",
 
 "<fans-syn>": "fans | enthusiasts | devotees | lovers | admirers | zealots | connoisseurs |\
-			   aficionados | addicts | junkies | fanatics",
+			   aficionados | addicts | junkies | fanatics | disciples",
 
 
 "<spellbind-syn>": "spellbind | bewitch | enthrall | grip | mesmerize | hypnotize | entrance | \
@@ -119,11 +119,11 @@ reviewGrammar = {
 
 "<balladry-syn>": "balladry | poetry | lyricism | fusion",  
 
-"<genre-noun>": "landscapes | ephemera | futurism | classicism | sensibilities  | sophistication",
-
-"<pastiche-syn>":  "pastiche | sophistication | appropriation | \
-					eclecticism | revivalism | futurism | classicism | polystylism | post-structuralism | \
-					plagiarism | \
+"<genre-noun>": "ephemera | futurism | classicism | sophistication | eclecticism | \
+				revivalism | plagiarism | polystylism | post-structuralism | stoicism |\
+				syncretism",
+					
+"<pastiche-syn>":  "pastiche | sophistication | appropriation | <genre-noun> | \
 					ephemera | miscellany | miscellanea | style arrangements | \
 				   	detritus | flotsam | chaos | simulacrum",
 
@@ -326,7 +326,7 @@ reviewGrammar = {
 							<struct-adj>, distorted crescendos |\
 							<struct-adj>, drag vocals |\
 							<struct-adj> dulcimer melodies |\
-							<struct-adj>, earlobe gatecrashing breakbeats | \
+							<struct-adj>, earlobe-crashing breakbeats | \
 							<struct-adj>, forward-thinking <genre> |\
 							<struct-adj>, rhythmic collages | \
 							<struct-adj>, garage syncopations | \
@@ -355,31 +355,31 @@ reviewGrammar = {
 							<struct-adj>, silvery notes |\
 							<struct-adj>, throat-tearing howls |\
 							<struct-adj>, trumpet lines|\
-							<struct-adj> vocal incantations |\
+							<struct-adj>, vocal incantations |\
 							<struct-adj>, West Coast '60s sounds | \
 							<struct-adj>, xylophonic geometries |\
 							\
 							<struct-adj> oscillator experimentations |\
 							<struct-adj>, non-linear constructions |\
-							<struct-adj> TB-303 residues |\
-							<struct-adj> skanking movements |\
-							   <struct-adj> iridescent arrangements |\
-							<struct-adj> rhythm mechanics | \
+							<struct-adj>, TB-303 residues |\
+							<struct-adj>, skanking movements |\
+							<struct-adj>, iridescent arrangements |\
+							<struct-adj>, rhythm mechanics | \
 							<struct-adj>, delayed beats |\
-							<struct-adj> synthetic embellishments |\
-							<struct-adj> Detroit chords |\
+							<struct-adj>, synthetic embellishments |\
+							<struct-adj>, Detroit chords |\
 							<struct-adj>, fractal loops |\
-							<struct-adj> game-arcade melodies |\
-							<struct-adj> <genre> mutations |\
-							<struct-adj> psilocybic electronics |\
-							<struct-adj> raindance drums |\
+							<struct-adj>, game-arcade melodies |\
+							<struct-adj>, <genre> mutations |\
+							<struct-adj>, psilocybic electronics |\
+							<struct-adj>, raindance drums |\
 							<struct-adj>, quivering sustains |\
-							<struct-adj> amplifier hum |\
+							<struct-adj>, amplifier hum |\
 							<struct-adj>, bell tones |\
-							<struct-adj> Chicago house reductions |\
-							<struct-adj> Euro-porno soundtracks |\
-							<struct-adj> sonic brushstrokes |\
-							<struct-adj> saxophone emissions",
+							<struct-adj>, Chicago house reductions |\
+							<struct-adj>, Europorno soundtracks |\
+							<struct-adj>, sonic brushstrokes |\
+							<struct-adj>, saxophone emissions",
 
 "<structure-description-02>": "\
 							aerated electronic timbres |\
