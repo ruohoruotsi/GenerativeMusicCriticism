@@ -120,8 +120,8 @@ reviewGrammar = {
 "<balladry-syn>": "balladry | poetry | lyricism | fusion",  
 
 "<genre-noun>": "ephemera | futurism | classicism | sophistication | eclecticism | \
-				revivalism | plagiarism | polystylism | post-structuralism | stoicism |\
-				syncretism",
+				revivalism | plagiarism | polystylism | functionalism | stoicism |\
+				syncretism | reductionism",
 					
 "<pastiche-syn>":  "pastiche | sophistication | appropriation | <genre-noun> | \
 					ephemera | miscellany | miscellanea | style arrangements | \
@@ -322,11 +322,11 @@ reviewGrammar = {
   							<struct-adj>, beat psychedelics |\
 							<struct-adj>, breakbeat-fueled <genre> | \
 							<struct-adj>, plunging fifths |\
-							<struct-adj> constellations of de-glazed rhythms | \
+							<struct-adj> constellations of de-glazed rhythms |\
 							<struct-adj>, distorted crescendos |\
 							<struct-adj>, drag vocals |\
 							<struct-adj> dulcimer melodies |\
-							<struct-adj>, earlobe-crashing breakbeats | \
+							<struct-adj>, earlobe-crashing breakbeats |\
 							<struct-adj>, forward-thinking <genre> |\
 							<struct-adj>, rhythmic collages | \
 							<struct-adj>, garage syncopations | \
@@ -627,7 +627,8 @@ reviewGrammar = {
 
 "<J-pop>": "J-pop | K-pop | Hokkien-pop | Cantopop | Mandopop | Pinoy-pop | Shibuya-kei",
 
-				
+"<artist-genre>": 	"`getArtistGenre()` | <genre>",
+			
 "<genre>": "Future Samba | Fonk Arabic | Digital Zulu | 2-step garage  | 8-bit | \
 			Acid Jazz | Acid Rock | Afrobeat  | Nigerian Apala  | Arabesque | Avant-garde jazz  | Avant-garde metal  | \
 			Avant-punk | Bachata  | Baile Funk | Balinese Gamelan  | Bambuco  | Baroque  | Miami bass | Booty bass | Batucada  | \
