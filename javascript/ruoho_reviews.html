@@ -137,6 +137,8 @@
 			getCurrentArtistImage();
 			getCurrentArtistTwitterURL();
 			getCurrentArtistInfo();
+			
+			getCurrentArtistGenre();
 		}
 
 
@@ -161,10 +163,14 @@
 			var imageList = hotttArtistsCache[currentArtist.index].images;
 			var imageIndex = Math.floor(Math.random() * imageList.length);
 
-			// IO HAVOC -- If the image is not there or avail!! then
-			// subsititute a random/generic one!
-
-			document.getElementById("artistImages").src = imageList[imageIndex].url;
+			// If the image is nil then use a generic profile image TBD
+			var img = imageList[imageIndex].url;
+			if(img) {
+				console.log(img);
+				document.getElementById("artistImages").src = img;
+			} else {
+				document.getElementById("artistImages").src = 'anon.png';			
+			}
 		}
 
 
@@ -226,12 +232,30 @@
 
 
 		//////////////////////////////////////////////////////////////////////////////////
+		function getCurrentArtistGenre() // get a current artist terms
+		{
+			// IO HAVOC -- debugging
+			console.log(hotttArtistsCache[currentArtist.index].genres.length);
+			for (i = 0; i < hotttArtistsCache[currentArtist.index].genres.length; i++) { 
+    			console.log(hotttArtistsCache[currentArtist.index].genres[i].name);
+			}	
+		
+			var topArtistTerm = hotttArtistsCache[currentArtist.index].genres[0].name;		
+			if(topArtistTerm) {
+				return topArtistTerm[0].toUpperCase() + topArtistTerm.slice(1);
+			}
+			else return "Future Ruoho";
+		}
+
+
+		//////////////////////////////////////////////////////////////////////////////////
 		function getAlbumName()
 		{
 			// console.log(cachedAlbumList.length);
 			var rand = Math.floor((Math.random()*87));
 			document.getElementById("reviewTitle").innerHTML = cachedAlbumList[rand];
 		}
+
 
 		//////////////////////////////////////////////////////////////////////////////////
  		function clearContext(context, canvas)
@@ -246,6 +270,7 @@
 			// Restore the transform
 			context.restore();
 		}
+
 
 		//////////////////////////////////////////////////////////////////////////////////
  		function getHotttRating() // get a random Hottt artist rating
@@ -292,6 +317,7 @@
  		{
  			document.getElementById("reviewArtist").innerHTML = currentArtist.name;
  		}
+
 
 		//////////////////////////////////////////////////////////////////////////////////
 		function showme(id) 
