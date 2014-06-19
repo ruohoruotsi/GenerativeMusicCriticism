@@ -10,9 +10,10 @@ reviewGrammar = {
 "<start>": "<artist-phrase>. | <artist-phrase>. <interjection>",
 
 ///////  
-/// "<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
-"<artist-phrase>": "<Roving-syn> from <structure-description> to <structure-description>, the \
-					<bizarre-syn> <panic-syn> evoked by <artist> will <spellbind-syn> <fans-syn> of <genre> <genre-noun>",	
+"<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
+/// "<artist-phrase>": " The <bizarre-syn> <panic-syn> evoked by <artist> will <spellbind-syn> fans of <genre>, \
+///	 <roving-syn> from <structure-description> to <structure-description> |",	
+
 ///////  
 "<artist-action-phrase>": "\
 		\
@@ -59,27 +60,30 @@ reviewGrammar = {
 		contradictions and genre experiments with a veneer of <ferocity-syn>, <ferocity-syn> and Fonzie cool | \
 		\
 		15 The <bizarre-syn> <panic-syn> evoked by <artist> will <spellbind-syn> fans of <genre>, \
-		<roving-syn> from <structure-description> to <structure-description>",
+		<roving-syn> from <structure-description> to <structure-description> | \
+		\
+		16 <Roving-syn> from <structure-description> to <structure-description>, the \
+		<bizarre-syn> <panic-syn> evoked by <artist> will <spellbind-syn> <fans-syn> of <genre> <genre-noun>",
 
 ///////  		
 "<music-recording-phrase>": "\
 		\
-		16 The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>. \
+		17 The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>. \
 		It <rocks-syn>, <adverb-time-terminal> <gerund-song-phrase> | \
 		\
-		17 The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
+		18 The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
 		It <song-description-phrase>, yet its essence <song-description-phrase> | \
 		\
-		18 The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
+		19 The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
 		It <song-description-phrase>, yet its essence is <evocative-adjective> of <epoch> music enjoyed in <city> | \
 		\
-		19 The <time-adjective> <music-recording-noun> by <artist> taps into a delicate, \
+		20 The <time-adjective> <music-recording-noun> by <artist> taps into a delicate, \
 		<genre-adjective> corner of the musical universe, <while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
 		\
-		20 The <time-adjective> <music-recording-noun> by <artist> is a masterclass in the dark art of <genre>, \
+		21 The <time-adjective> <music-recording-noun> by <artist> is a masterclass in the dark art of <genre>, \
 		showing off <structure-description> <while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
 		\
-		21 The <time-adjective> <music-recording-noun> by <artist> is a <retro-syn> <reconstruction-syn> of \
+		22 The <time-adjective> <music-recording-noun> by <artist> is a <retro-syn> <reconstruction-syn> of \
 		<genre> <balladry-syn> that <teeters-syn> <genre> <pastiche-syn>",		
 
 ///////  		
@@ -111,6 +115,10 @@ reviewGrammar = {
 "<spellbind-syn>": "spellbind | bewitch | enthrall | grip | mesmerize | hypnotize | entrance | \
 				captivate | stupefy | repulse | repel | bedevil | hex | slay | wow |\
 				enchant | beguile | gratify | enslave | hook | subdue",
+
+////IO HAVOC -- TO FIX -- need toUpper or another elegant solution to avoid duplication
+"<roving-syn>": "roving | wandering | ranging | drifting | meandering | gallivanting | \
+				zigzagging | moving | pivoting | floating", 
 
 "<Roving-syn>": "Roving | Wandering | Ranging | Drifting | Meandering | Gallivanting | \
 				Zigzagging | Moving | Pivoting | Floating", 
@@ -187,7 +195,7 @@ reviewGrammar = {
 "<music-recording-noun>":	"12” wax | MP3 | home-made cassette | CD | album | 4-track cartridge | \
 							live-stream | laserdisc | DVD-R | EP | ogg-vorbis download | maxi-single | Bandcamp release | \
 							ambisonic release | white-label | release | Spotify stream | Beats Music special | Rdio exclusive | \
-							17-track compilation | Soundcloud clip | promo | youtube video | 7” vinyl | box set | \
+							17-track compilation | Soundcloud clip | promo | Youtube video | 7” vinyl | box set | \
 							Mixcloud set | Myspace track | unplugged session | music video | 27-track anthology",
 
 "<time-adjective>":	"latest | most recent | newest | current | currently charting | recently dropped | forthcoming",
