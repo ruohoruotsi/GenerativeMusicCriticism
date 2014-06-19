@@ -163,17 +163,26 @@
 			var imageList = hotttArtistsCache[currentArtist.index].images;
 			var imageIndex = Math.floor(Math.random() * imageList.length);
 
-			// If the image is nil then use a generic profile image TBD
+			// If the image is nil then use imgError in the tag to fetch anon.png
 			var img = imageList[imageIndex].url;
 			if(img) {
-				console.log(img);
 				document.getElementById("artistImages").src = img;
-			} else {
-				document.getElementById("artistImages").src = 'anon.png';			
+			} 
+			else {
+				console.log("RR Error: loading image @ " + img);	
 			}
 		}
 
 
+		//////////////////////////////////////////////////////////////////////////////////
+		function imgError(image)
+		{
+			image.onerror = "";
+			image.src = "anon.jpg";
+			return true;
+		}
+		
+		
 		//////////////////////////////////////////////////////////////////////////////////
 		function getCurrentArtistTwitterURL()
 		{
@@ -367,7 +376,7 @@
 										<header>
 											<h5 id="reviewArtist">Artist</h2>
 										</header>
-										<img id="artistImages" class="image" src=""/>
+										<img id="artistImages" class="image" src="" onerror="imgError(this);"/>
 
 										<ul class="link-list">
 											<li><a href="" id="artistTwitter">Artist Info</a></li>
