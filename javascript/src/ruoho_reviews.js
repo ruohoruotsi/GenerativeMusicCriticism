@@ -11,7 +11,7 @@ reviewGrammar = {
 
 ///////  
 /// "<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
-"<artist-phrase>": "<Roving-syn> from <structure-description-01> to <structure-description-01>, the \
+"<artist-phrase>": "<Roving-syn> from <structure-description> to <structure-description>, the \
 					<bizarre-syn> <panic-syn> evoked by <artist> will <spellbind-syn> <fans-syn> of <genre> <genre-noun>",	
 ///////  
 "<artist-action-phrase>": "\
@@ -359,6 +359,7 @@ reviewGrammar = {
 							<struct-adj>, West Coast '60s sounds | \
 							<struct-adj>, xylophonic geometries |\
 							\
+							<struct-adj>, <struct-adj> lyrics |\
 							<struct-adj> oscillator experimentations |\
 							<struct-adj>, non-linear constructions |\
 							<struct-adj>, TB-303 residues |\
@@ -481,6 +482,8 @@ reviewGrammar = {
 							wicked ragga-bashment flava |\
 							waves of <electro-acoustic-syn> static",
 
+"<structure-description>":  "<structure-description-01> | <structure-description-02>",
+
 "<the-synth-drones-Klaus>": 	"\
 								 the ambivalent harmonic parallelism of Claude Debussy |\
 								 the atomised acousmatic embodiments of Bernard Parmegiani |\
@@ -505,8 +508,6 @@ reviewGrammar = {
 								<writhes-syn> <adverb> with overdriven intensity and deeply sinister undercurrents | \
 								tries to solve an inherently under-constrained musical problem with <structure-description>|\
 								tries to make sense out of a 3D sonic world using <structure-description> that are <adverb> two-dimensional",
-								// mournful, desolate lyrics",
-
 
 "<riffs-syn>": "riffs | noodlings | melodies",
 
@@ -630,7 +631,7 @@ reviewGrammar = {
 "<artist-genre>": 	"`getArtistGenre()` | <genre>",
 			
 "<genre>": "Future Samba | Fonk Arabic | Digital Zulu | 2-step garage  | 8-bit | \
-			Acid Jazz | Acid Rock | Afrobeat  | Nigerian Apala  | Arabesque | Avant-garde jazz  | Avant-garde metal  | \
+			Acid Jazz | Acid Rock | Afrobeat  | Nigerian Apala  | Arabesque | Avant-jazz  | Avant-garde metal  | \
 			Avant-punk | Bachata  | Baile Funk | Balinese Gamelan  | Bambuco  | Baroque  | Miami bass | Booty bass | Batucada  | \
 			Beatboxing  | Bebop  | Bhangra  | Bhangragga | Bhangramuffin | Big Beat | \
 			Bluegrass  | Blues  |  Bitpop  | Bocet | Bohemian Dub | Bolero  | Bomba | \
@@ -649,7 +650,7 @@ reviewGrammar = {
 			Transylvanian wedding songs (Hajnali) | Happy hardcore | Hard house | Heavy metal | Hi-NRG | \
 			Highlife | Hiplife | Hip hop | Hip-pop | Hindustani classical music | Honky tonk | Horror punk | \
 			House | Hyphy | Illbient | Indietronica | Indie rock | Industrial  | IDM  | Italo Disco | \
-			J-Pop  | Jazz | Jesus music | Jitterbug | Jive | Nigerian Juju | Jumpstyle | Jungle | Kamba pop | Karaoke | Balinese monkeychant (Kecak) | \
+			J-Pop  | Jesus music | Jitterbug | Jive | Nigerian Juju | Jumpstyle | Jungle | Kamba pop | Karaoke | Balinese monkeychant (Kecak) | \
 			Gypsy dance songs (Khelimaski djili) | Krautrock |  Kulning (Swedish folk songs) | \
 			Kveding (Traditional Norwegian songs) | Kwaito | Kwassa kwassa | Latin jazz | Lhamo (Tibetan opera) | Lovers rock | Luhya omutibo | \
 			Luk grung (Popular Thai music) | Makossa | Makossa-soukous | Mambo | Mariachi | \
