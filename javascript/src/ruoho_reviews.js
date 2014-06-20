@@ -39,7 +39,7 @@ reviewGrammar = {
 		<while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
 		\
 		8 The musical <ferocity-syn> of <artist> invokes states of psychological <panic-syn> that will resonate \
-		beyond experimental <genre> circles, into the <daily-lives-syn> of <genre> fans",
+		beyond experimental <genre> circles, into the <daily-lives-syn> of <fans-syn> of <genre> ",
 
 ///////  
 "<artist-descriptive-phrase>": "\
@@ -59,7 +59,7 @@ reviewGrammar = {
 		14 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> tenuously welds a growing amalgam of \
 		contradictions and genre experiments with a veneer of <ferocity-syn>, <ferocity-syn> and Fonzie cool | \
 		\
-		15 The <bizarre-syn> <panic-syn> evoked by <artist> will <spellbind-syn> fans of <genre>, \
+		15 The <bizarre-syn> <panic-syn> evoked by <artist> will <spellbind-syn> <fans-syn> of <genre>, \
 		<roving-syn> from <structure-description> to <structure-description> | \
 		\
 		16 <Roving-syn> from <structure-description> to <structure-description>, the \
@@ -198,7 +198,7 @@ reviewGrammar = {
 							17-track compilation | Soundcloud clip | promo | Youtube video | 7” vinyl | box set | \
 							Mixcloud set | Myspace track | unplugged session | music video | 27-track anthology",
 
-"<time-adjective>":	"latest | most recent | newest | current | currently charting | recently dropped | forthcoming",
+"<time-adjective>":	"latest | recent | newest | current | charting | forthcoming | upcoming | trending",
 
 "<genre-adjective>": 	"quotidian | commonplace | slippery | fragmented | punctured | wispy | atmospheric | \
 						smudged | obscure  | delicate | exquisite | silky and sweet | unsteady | fractured | \
@@ -243,7 +243,6 @@ reviewGrammar = {
 								a dark, haunted melancholy | \
 								a dense, effulgent piece of faux-romantic orchestral syrup | \
 								a deluge of piano flecked gems | \
-								an eerily impeccable falsetto | \
 								a Flying Lotus-style bass reduction |  \
 								a fragrant, effortless warmth | \
 								a feast of noise-rock virtuosity | \
@@ -251,7 +250,7 @@ reviewGrammar = {
 								a growing amalgam of contradictions |  \
 								a horrifying mess of head-meddling unpleasantness |\
 								an indisposable slice of <genre> delectability | \
-								a low key, grotty jakbeat |\
+								a low key, grotty Jakbeat |\
 								a mindblowing dubscape of effects | \
 								a persistent undulating pulse of bass | \
 								a pure, transcendental rave feeling | \
@@ -639,7 +638,7 @@ reviewGrammar = {
 "<artist-genre>": 	"`getArtistGenre()` | <genre>",
 			
 "<genre>": "Future Samba | Fonk Arabic | Digital Zulu | 8-bit | \
-			Acid Jazz | Acid Rock | Afrobeat  | Nigerian Apala  | \
+			Acid-jazz | Acid Rock | Afrobeat  | Nigerian Apala  | \
 			Avant-jazz  | Avant-metal | Avant-punk | Bachata  | Baile Funk | \
 			Balinese Gamelan  |  Baroque  | Miami bass | Booty bass | Batucada  | \
 			Bhangragga | Bhangramuffin | Big Beat | Bohemian Dub | \
@@ -652,21 +651,21 @@ reviewGrammar = {
 			Diva house | Doo wop | Downtempo | Drone  | Drum & bass | \
 			Dub Techno | Dubtronica | Dubstep | E-Grind | Electroclash | Electropop | \
 			Emo | Eurodance | Europop | Flamenco  | \
-			Folktronica | Free jazz | Freestyle | Funky house | \
-			Gangsta rap  | Ghettotech |  Glam punk | Glitch | \
+			Folktronica | Free-jazz | Freestyle | Funky house | \
+			Gangsta rap  | Ghettotech |  Glam-punk | Glitch | \
 			Gregorian chant | Grime  | Grunge | \
 			\
 			Transylvanian wedding music | Happy hardcore | Hard house | Hi-NRG | \
-			Highlife | Hiplife | Hip-hop | Hip-pop | Hindustani classical | Honky tonk | Horror punk | \
+			Highlife | Hiplife | Hip-hop | Hip-pop | Hindustani classical | Honky tonk | Horror-punk | \
 		    Hyphy | Illbient | Indietronica | Italo Disco | \
-			J-Pop  | Jesus music | Jitterbug | Jive | Nigerian Juju | Jumpstyle | Jungle | Kamba pop | Karaoke | Balinese monkeychant | \
+			J-Pop  | Jesus-music | Jitterbug | Jive | Nigerian Juju | Jumpstyle | Jungle | Kamba pop | Karaoke | Balinese monkeychant | \
 			Gypsy dance music  | Krautrock |  Swedish folk| \
-			Traditional Norwegian music | Kwaito | Kwassa kwassa | Latin jazz | Tibetan opera | Lovers rock | \
+			Traditional Norwegian music | Kwaito | Kwassa kwassa | Latin-jazz | Tibetan opera | Lovers rock | \
 			Makossa | Makossa-soukous | Mariachi | \
 			Mbalax | Mbaqanga | Memphis blues | \
 			Mento | Merengue | Minimal techno  | Musique concrete | Serbian Folk | \
 			Neo-Psychedelia | Neo Soul | Neue Volksmusik | New Age | New Jack Swing  | \
-			New Orleans blues | New Orleans jazz | US Garage | Nintendocore | Noise music  | Nordic folk | \
+			New Orleans blues | US Garage | Nintendocore | Noise music  | Nordic folk | \
 			Nortec  | Nu breaks | Yakut epic music  |  \
 			Eastern Georgian work music | P-Funk | \
 			Palm wine sound  | Nepalese wedding music | Keralan Panchavadyam | Parisian soukous | \
@@ -674,13 +673,13 @@ reviewGrammar = {
 			Greenlandic folk | Pixiefunk  | Thai protest rock |  \
 			Pornocore | Colombian big band | \
 			Protopunk | Psychedelic trance | Psychobilly | Psychosomatic trance | \
-			Psych-pop | Punk funk | Punk rock | Sufi devotional music | Raggamuffin | \
+			Psych-pop | Punk-funk | Punk-rock | Sufi devotional music | Raggamuffin | \
 			Ragga-zouk | Ragtime | Reggaeton | Finnish Rekilaulu | \
 			Rhythm & Blues | Icelandic Rímur | Barbadian Soca | \
 			Rock opera | Rockabilly | Rocksteady | Rodeo music | Hausa Rokon fada| Roots reggae | Rumba |  \
 			Cuban Rumba | Cuban Rumba | \
-			Ska punk | Skate punk | Skronk | \
-			Hawaian Kihoalu | Smooth jazz | Soukous | Soul jazz | \
+			Ska-punk | Skate-punk | Skronk | \
+			Hawaian Kihoalu | Smooth-jazz | Soukous | Soul-jazz | \
 			Space age pop | Space rock | Speedcore | Speed garage | Stoner rock | \
 			Surf rock | Swamp blues | Tuvan Throat Singing | Synthpop | \
 			Texas blues | Thrashcore | Guinean Tinga | Tribal house | \
