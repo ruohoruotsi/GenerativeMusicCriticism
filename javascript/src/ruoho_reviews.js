@@ -11,35 +11,35 @@ reviewGrammar = {
 
 ///////  
 "<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
-/// "<artist-phrase>": " The <bizarre-syn> <panic-syn> evoked by <artist> will <spellbind-syn> fans of <genre>, \
-///	 <roving-syn> from <structure-description> to <structure-description> |",	
+//// "<artist-phrase>": "2 <artist> and <static-artist> take on the <label> crew for another <music-recording-noun>, demonstrating <structure-description> and a \
+////		              <creative-syn> <ferocity-syn>, that <verb-phrase-singular>",	
 
 ///////  
 "<artist-action-phrase>": "\
 		\
 		1 Few artists are this <adept-syn> at wringing so much <ferocity-syn> from their laptops, yet the \
-		<time-adjective> <music-recording-noun> by <artist> <join-phrase> <structure-description> and <structure-description> | \
+		  <time-adjective> <music-recording-noun> by <artist> <join-phrase> <structure-description> and <structure-description> | \
 		\
 		2 <artist> and <static-artist> take on the <label> crew for another <music-recording-noun>, demonstrating <structure-description> and a \
-		<creative-syn> <ferocity-syn>, that <verb-phrase-singular> | \
+		  <creative-syn> <ferocity-syn>, that <verb-phrase-singular> | \
 		\
 		3 Your mind is about to be blown by the unearthing of a <year> curio from <artist>, offering a truly <bizarre-syn>, \
-		but ultimately <adept-syn> selection of privately-pressed tracks that sound somewhere between <genre> and <genre> | \
+		  but ultimately <adept-syn> selection of privately-pressed tracks that sound somewhere between <genre> and <genre> | \
 		\
 		4 Your mind is about to be blown by the unearthing of a <year> curio from <artist>, showing off <structure-description>, \
-		<while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
+		  <while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
 		\
 		5 The songwriting <ferocity-syn> <exhibited-syn> by <artist> <raises-goosebumps-syn>, showing off <structure-description>, \
-		dwarfing the <structure-description> of many better known artists | \
+		  dwarfing the <structure-description> of many better known artists | \
 		\
 		6 The songwriting <ferocity-syn> <exhibited-syn> by <artist> <wrenches-syn> ideas from <genre>, <genre> and <genre>, \
-		crafting sidewinding <derangements-syn> that blend <structure-description> and <structure-description> | \
+		  crafting sidewinding <derangements-syn> that blend <structure-description> and <structure-description> | \
 		\
 		7 The ascendant <ferocity-syn> of <artist> is on display again, showing off <structure-description>, \
-		<while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
+		  <while-syn> <gerund-song-phrase> | \
 		\
 		8 The musical <ferocity-syn> of <artist> invokes states of psychological <panic-syn> that will resonate \
-		beyond experimental <genre> circles, into the <daily-lives-syn> of <fans-syn> of <genre> ",
+		  beyond experimental <genre> circles, into the <daily-lives-syn> of <fans-syn> of <genre>",
 
 ///////  
 "<artist-descriptive-phrase>": "\
@@ -51,45 +51,47 @@ reviewGrammar = {
 		11 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <adverb> hoists up the profile of screeched-out <genre> vocals and <structure-description> | \
 		\
 		12 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <genre> with \
-		<structure-description>, <evocative-adjective> of <the-synth-drones-Klaus> | \
+		   <structure-description>, <evocative-adjective> of <the-synth-drones-Klaus> | \
 		\
 		13 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <structure-description> \
-		with <structure-description> | \
+		   with <structure-description> | \
 		\
 		14 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> tenuously welds a growing amalgam of \
-		contradictions and genre experiments with a veneer of <ferocity-syn>, <ferocity-syn> and Fonzie cool | \
+		   contradictions and genre experiments with a veneer of <ferocity-syn>, <ferocity-syn> and Fonzie cool | \
 		\
 		15 The <bizarre-syn> <panic-syn> evoked by <artist> will <spellbind-syn> <fans-syn> of <genre>, \
-		<roving-syn> from <structure-description> to <structure-description> | \
+		   <roving-syn> from <structure-description> to <structure-description> | \
 		\
 		16 <Roving-syn> from <structure-description> to <structure-description>, the \
-		<bizarre-syn> <panic-syn> evoked by <artist> will <spellbind-syn> <fans-syn> of <genre> <genre-noun>",
+		   <bizarre-syn> <panic-syn> evoked by <artist> will <spellbind-syn> <fans-syn> of <genre> <genre-noun>",
 
 ///////  		
 "<music-recording-phrase>": "\
 		\
 		17 The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>. \
-		It <rocks-syn>, <adverb-time-terminal> <gerund-song-phrase> | \
+		   It <rocks-syn>, <adverb-time-terminal> <gerund-song-phrase> | \
 		\
-		18 The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
-		It <song-description-phrase>, yet its essence <song-description-phrase> | \
+		18 The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>, \
+		   yet its essence <gerund-song-phrase> <reverbs-with-phrase> | \
 		\
-		19 The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description>. \
-		It <song-description-phrase>, yet its essence is <evocative-adjective> of <epoch> music enjoyed in <city> | \
+		19 The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description> | \
 		\
-		20 The <time-adjective> <music-recording-noun> by <artist> taps into a delicate, \
-		<genre-adjective> corner of the musical universe, <while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
+		20 The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>, \
+		   yet its essence is <evocative-adjective> of <epoch> music enjoyed in <city> | \
 		\
-		21 The <time-adjective> <music-recording-noun> by <artist> is a masterclass in the dark art of <genre>, \
-		showing off <structure-description> <while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
+		21 The <time-adjective> <music-recording-noun> by <artist> taps into a delicate, \
+		   <genre-adjective> corner of the musical universe, <while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
 		\
-		22 The <time-adjective> <music-recording-noun> by <artist> is a <retro-syn> <reconstruction-syn> of \
-		<genre> <balladry-syn> that <teeters-syn> <genre> <pastiche-syn>",		
+		22 The <time-adjective> <music-recording-noun> by <artist> is a masterclass in the dark art of <genre>, \
+		   showing off <structure-description> <while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
+		\
+		23 The <time-adjective> <music-recording-noun> by <artist> is a <retro-syn> <reconstruction-syn> of \
+		   <genre> <balladry-syn> that <teeters-syn> <genre> <pastiche-syn>",		
 
 ///////  		
 "<artist>": 	"`getHotttArtists()`",
 
-"<static-artist>": 	"Madonna | Prince | Bono | Salif Keita | Baaba Maal | Femi Kuti ",
+"<static-artist>": 	"Madonna | Prince | Bono | Salif Keita | Baaba Maal | Femi Kuti",
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -199,11 +201,6 @@ reviewGrammar = {
 							Mixcloud set | Myspace track | unplugged session | music video | 27-track anthology",
 
 "<time-adjective>":	"latest | recent | newest | current | charting | forthcoming | upcoming | trending",
-
-"<genre-adjective>": 	"quotidian | commonplace | slippery | fragmented | punctured | wispy | atmospheric | \
-						smudged | obscure  | delicate | exquisite | silky and sweet | unsteady | fractured | \
-						mangled | indifferent | shattered | otherworldly | disenchanted | sadder and wiser | \
-						sophisticated",
 						
 "<gerund-song-phrase>": 	"marrying <genre> from the <epoch> period with <structure-description> | \
 							meandering around a plucked melody that <verb-phrase-singular> |	\
@@ -257,10 +254,15 @@ reviewGrammar = {
 								a super platter of UK bass dreadnaughts | \
 								a toxic hellstew of glitched-out tapestries |\
 								a vaporous spray of submerged analogue delays |\
-								a veneer of melancholy |\
+								an idiosyncratic veneer of melancholy |\
 								a veritable haberdashery of vintage musical textures |\
 								a wash of tidal rhythms and turbulent crackle",
 				
+"<genre-adjective>": 	"quotidian | slippery | fragmented | punctured | wispy | atmospheric | \
+						smudged | obscure  | delicate | exquisite | silky |  sweet | unsteady | fractured | \
+						mangled | indifferent | shattered | otherworldly | disenchanted | sadder | wiser | \
+						sophisticated",
+
 "<struct-adj>": "\
 				atmospheric |\
 				blistering | \
@@ -501,7 +503,7 @@ reviewGrammar = {
 								 the isolationist bleeps of Mika Vainio |\
 								 the oneiric dramaturgy of Robert Ashley |\
 								 the pointillist dynamics associated with Arnold Schoenberg |\
-								 the psychedelic ragas reminiscent of Pandit Pran Nath |\
+								 the psychedelic ragas of Pandit Pran Nath |\
 								 the spiraling acidic basslines of Josh Wink |\
 								 the subdued ferric tones of Kevin Drumm | \
 								 the synth drones of Klaus Schulze | \
@@ -555,10 +557,6 @@ reviewGrammar = {
 
 "<song-description-phrase>":	"<adverb> defies categorisation | \
 								\
-								slides out a <genre-adjective> groove of immense proportions | \
-								\
-								chugs along like a malfunctioning mechanical beast | \
-								\
 								is an asymmetric, geniusly constructed dancefloor killer | \
 								\
 								is one of the richest spacial dub constructions ever heard | \
@@ -573,8 +571,6 @@ reviewGrammar = {
 								\
 								is pieced together from a plethora of unidentified samples, field recordings and found sounds | \
 								\
-								has critics and fans alike, queuing up to drape compliments over its shiny chassis | \
-								\
 								is a deep tech-house number, laced with effect throws, percussion solos and dramatic breakdowns | \
 								\
 								is a dark vocal-house number, laced with moody guitar riffs, layers of percussion and hypnotizing filtered stabs | \
@@ -582,12 +578,6 @@ reviewGrammar = {
 								is an incredible, <adverb> mesmerising sound that will tempt, allure, petrify and utterly mind-f**k you in equal measure | \
 								\
 								is an uneasy listening experience, <adverb> catapulting the listener with irrepressible spirited contrasts | \
-								\
-								suddenly explodes into an unrelenting, glistening wall of discordance, sounding like a thousand church organs screeching out | \
-								\
-								has all the claustrophobia of the nastier end of <genre> | \
-								\
-								contains passages of deep melodic beauty. This is unquestionably a journey that is <adverb> rooted in atonal explorations | \
 								\
 								is a schizophrenic composition, <adverb> and without warning cutting between sparse, low-end tension and thumping organ clusters | \
 								\
@@ -597,27 +587,35 @@ reviewGrammar = {
 								\
 								is a mundane and shapeless affair of post-<genre> shenaningans | \
 								\
-								dissolves into <lamentable-syn> incoherence, suffused with power and mystery | \
-								\
 								is high grade bass music so intense you can blow-dry your hair right in front of the bass bins | \
 								\
-								does not initially seem to be doing anything special, but the subtlety and intensity eventually worms its way into your heart",
+								slides out a <genre-adjective> groove of immense proportions | \
+								\
+								chugs along like a malfunctioning mechanical beast | \
+								\
+								has critics and fans alike, queuing up to drape compliments over its shiny chassis | \
+								\
+								has all the claustrophobia of the nastier end of <genre> | \
+								\
+								suddenly explodes into an unrelenting, glistening wall of discordance, sounding like a thousand church organs screeching out | \
+								\
+								contains passages of deep melodic beauty. This is unquestionably a journey that is <adverb> rooted in atonal explorations | \
+								\
+								dissolves into <lamentable-syn> incoherence, suffused with power and mystery | \
+								\
+								does not seem to be doing anything special, but the subtlety and intensity eventually worms its way into your heart",
 
 "<reverbs-with-phrase>":	"reverberates with | feels like | strikes one with | resonates with | resonates beyond | \
 							echoes with | gently throbs with | softly palpitates, with | \
-							<adverb-terminal> <rocks-syn> with",
+							<rocks-syn> <adverb-terminal> with",
 
 "<verb-phrase-singular>":	"floats in & out of your <consciousness-syn> with a wool-lined ease | \
 							sits deeply in smoky <genre> style atmospherics  | \
 							is nestled in <a-structure-description> | \
-							drowns out the sound of jaws hitting the <floor-syn>",
+							drowns out the sound of jaws hitting the <floor-syn> | \
+							<teeters-syn> <genre> <pastiche-syn>",
 
-"<verb-phrase-plural>":  	"<plural-subject-song-verb> with <structure-description> and <structure-description> | \
-							float in & out of your <consciousness-syn> with a wool-lined ease | \
-							sit deep in the smoky <genre> style atmospherics   \
-							simply drown out the sound of jaws hitting the <floor-syn>", 
-
-"<consciousness-syn>": "consciousness | mental grasp | awareness | attention | cognizance | loaf | mind | perception ",
+"<consciousness-syn>": "consciousness | mental grasp | awareness | attention | cognizance | loaf | mind | perception",
 
 "<lamentable-syn>": "lamentable | pleasurable",
 
@@ -625,8 +623,6 @@ reviewGrammar = {
 
 "<sexy-syn>": "sexy | groovy | kinky | alluring | sultry | slinky | provocative | tantalizing | nubile | bootylicious | erotic |\
 				titillating | racy | naughty | X-rated | pornographic | crude | lewd | raunchy | steamy | horny | slick",
-
-"<plural-subject-song-verb>":  "rock | shine | shimmer | chug | drone | sparkle | unnerve | tremble | surprise | startle | sparkle | scintillate",
 
 "<rocks-syn>": "rocks | shines | shimmers | chugs | drones | sparkles | unnerves | \
 				trembles | surprises | startles | sparkles | scintillates",
