@@ -11,8 +11,8 @@ reviewGrammar = {
 
 ///////  
 "<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
-//// "<artist-phrase>": "2 <artist> and <static-artist> take on the <label> crew for another <music-recording-noun>, demonstrating <structure-description> and a \
-////		              <creative-syn> <ferocity-syn>, that <verb-phrase-singular>",	
+//// "<artist-phrase>": "18 The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>; \
+////					its <essence-syn> <raises-goosebumps-syn>, <gerund-song-phrase>",	
 
 ///////  
 "<artist-action-phrase>": "\
@@ -71,13 +71,13 @@ reviewGrammar = {
 		17 The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>. \
 		   It <rocks-syn>, <adverb-time-terminal> <gerund-song-phrase> | \
 		\
-		18 The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>, \
-		   yet its essence <gerund-song-phrase> <reverbs-with-phrase> | \
+		18 The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>; \
+		   its <essence-syn> <raises-goosebumps-syn>, <gerund-song-phrase> | \
 		\
 		19 The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description> | \
 		\
 		20 The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>, \
-		   yet its essence is <evocative-adjective> of <epoch> music enjoyed in <city> | \
+		   yet its <essence-syn> is <evocative-adjective> of <epoch> music enjoyed in <city> | \
 		\
 		21 The <time-adjective> <music-recording-noun> by <artist> taps into a delicate, \
 		   <genre-adjective> corner of the musical universe, <while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
@@ -91,7 +91,12 @@ reviewGrammar = {
 ///////  		
 "<artist>": 	"`getHotttArtists()`",
 
-"<static-artist>": 	"Madonna | Prince | Bono | Salif Keita | Baaba Maal | Femi Kuti",
+///// Famous artists, permanently in the cultural subconscious
+"<static-artist>": 	"Madonna | Prince | Bono | Luciano Pavarotti | Diana Ross | Julio Iglesias | Ray Charles | Bob Marley |\
+					 Las Ketchup | Cee Lo Green | Tupac Shakur | Celine Dion | Ravi Shankar | Fats Waller | Al Green |\
+					 Billie Holiday | Willie Nelson | Elvis Costello | Sam Cooke | James Brown | The Police | \
+					 Little Richard | Jimi Hendrix | Aretha Franklin | Notorious B.I.G. | Caetano Veloso | Gilberto Gil | \
+					 Miles Davis | Fela Kuti | William Hung",
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -126,6 +131,9 @@ reviewGrammar = {
 				Zigzagging | Moving | Pivoting | Floating", 
 
 "<retro-syn>": "retro | modern | ",
+
+"<essence-syn>": "essence | quintessence | finale | culmination | climax | persona | \
+				  apotheosis | zenith | resolution | epilogue  | coda | conclusion | denouement",
 
 "<balladry-syn>": "balladry | poetry | lyricism | fusion",  
 
@@ -201,8 +209,16 @@ reviewGrammar = {
 							Mixcloud set | Myspace track | unplugged session | music video | 27-track anthology",
 
 "<time-adjective>":	"latest | recent | newest | current | charting | forthcoming | upcoming | trending",
+
+"<artist-description-phrase>": 	"<adverb> defies categorisation | \
+								demonstrates an innate grasp of the sublime qualities of <genre>  | \
+								makes for an uncommonly good performance that <verb-phrase-singular> | \
+								compliments credible <genre> <genre-noun> with a mighty doublepack of deadly bass variations that <verb-phrase-singular> | \
+								<writhes-syn> <adverb> with overdriven intensity and deeply sinister undercurrents | \
+								tries to solve an inherently under-constrained musical problem with <structure-description>|\
+								tries to make sense out of a 3D sonic world using <structure-description> that are <adverb> two-dimensional",
 						
-"<gerund-song-phrase>": 	"marrying <genre> from the <epoch> period with <structure-description> | \
+"<gerund-song-phrase>": 	"marrying <genre> with <structure-description> | \
 							meandering around a plucked melody that <verb-phrase-singular> |	\
 							sounding like <static-artist> in a skank off, after inhaling a canister of nitrous oxide | \
 							sounding like <static-artist> jamming with Björk after a remarkably relaxing sauna session | \
@@ -211,25 +227,24 @@ reviewGrammar = {
 							injecting hints of <genre> patterns into <genre> | \
 							letting in shards of light and sumptuous colours painted through snippets of <genre> | \
 							propelling ethereal glitching rhythms across <plains-syn> of elaborately fashioned <electro-acoustic-syn> static | \
-							wielding Detroit shuffles à la Theo Parrish | \
-							brushing its rhythms with a cool sleight of hand that is still utterly breathtaking | \
-							eschewing the usual formulaic pitfalls | \
-							spinning a collection of understated string and piano elegies | \
-							veering off on solo tangents of enchanted ambient abstraction | \
-							functioning through the frosted lens of physical <Finnish-syn> stoicism | \
+							wielding <struct-adj> Detroit shuffles à la Theo Parrish | \
+							brushing its rhythms with a breathtaking sleight of hand | \
+							spinning a collection of <struct-adj> piano elegies | \
+							veering off on solo tangents of enchanted <electro-acoustic-syn> abstraction | \
+							functioning through the frosted lens of <Finnish-syn> stoicism | \
 							revolving about achingly well-formed shuffle patterns | \
 							whining and squealing like a farmyard animal in the pangs of labour | \
-							ricocheting gunshots off grimy bassline warps | \
-							employing staggered harmonic progressions | \
+							ricocheting 'verbed out gunshots off grimy bassline warps | \
+							employing <struct-adj>, staggered harmonic progressions | \
 							riding rock hard subbass depth charges | \
 							creating atmospheric pressure drops sharp enough to give lesser experienced divers the bends | \
-							skittering back to post-Autechre beat deconstructions | \
-							exhibiting suckerpunching, piano-meets-strings melancholy | \
+							skittering back to <struct-adj>, post-Autechre beat deconstructions | \
+							exhibiting <a-structure-description> and piano-meets-strings melancholy | \
 							dripping with endless reverb and delay manipulation | \
-							trawling the depths of vinyl's pockmarked grooves | \
-							collapsing beneath the dead-eyed twinkle of the disco ball | \
+							trawling the depths of vinyl's pockmarked grooves for <the-synth-drones-Klaus> | \
+							collapsing beneath <a-structure-description> | \
 							melting <genre> accordion and Diwali-riddim claps with woozy <electro-acoustic-syn> static |\
-							exhibiting an intensely overbearing darkness, covered by a fuzzy thicket of layered drones",
+							exhibiting <a-structure-description>",
 
 
 "<a-structure-description>":   "\
@@ -246,12 +261,13 @@ reviewGrammar = {
 								a gratuitous, pornographic level of lusciousness |\
 								a growing amalgam of contradictions |  \
 								a horrifying mess of head-meddling unpleasantness |\
+								an overbearing darkness, covered by a fuzzy thicket of layered drones |\
 								an indisposable slice of <genre> delectability | \
 								a low key, grotty Jakbeat |\
 								a mindblowing dubscape of effects | \
 								a persistent undulating pulse of bass | \
 								a pure, transcendental rave feeling | \
-								a super platter of UK bass dreadnaughts | \
+								a super platter of UK bass deployments | \
 								a toxic hellstew of glitched-out tapestries |\
 								a vaporous spray of submerged analogue delays |\
 								an idiosyncratic veneer of melancholy |\
@@ -509,52 +525,6 @@ reviewGrammar = {
 								 the synth drones of Klaus Schulze | \
  								 the wind-chilled electronics of Thomas Köner",
 
-
-"<artist-description-phrase>": 	"<adverb> defies categorisation | \
-								demonstrates an innate grasp of the sublime qualities of <genre>  | \
-								makes for an uncommonly good performance that <verb-phrase-singular> | \
-								compliments credible <genre> <genre-noun> with a mighty doublepack of deadly bass variations that <verb-phrase-singular> | \
-								<writhes-syn> <adverb> with overdriven intensity and deeply sinister undercurrents | \
-								tries to solve an inherently under-constrained musical problem with <structure-description>|\
-								tries to make sense out of a 3D sonic world using <structure-description> that are <adverb> two-dimensional",
-
-"<riffs-syn>": "riffs | noodlings | melodies",
-
-"<writhes-syn>":	"writhes | squirms | wriggles | thrashes | flails | tosses and turns",
-
-"<join-phrase>": 	"marries | fuses | blends | marries | merges | mixes | unifies | intermingles | melds | joins",
-
-"<evocative-adjective>":	"evocative | suggestive | reminiscent",
-						
-"<city>": 	"Berlin | London | Paris | Oslo | Moscow | Dublin | Vienna | Budapest | Prague | Istanbul | Athens | Lisbon | \
-			New York | Memphis | Los Angeles | Miami | Austin | San Francisco | Montréal | Vancouver | Seattle | Rio | \
-			Buenos Aires | Montevideo | Tokyo | Seoul | Ulan Bator | Manila | Bangkok | Kuala Lumpur | Jakarta | Kabul | \
-			Jerusalem | Dakar | Cairo | Kingston | Lagos  | Addis Ababa | Abidjan | Kinshasa | Casablanca | Accra | \
-			Dar es Salaam | Bamako | Ouagadougou | Mogadishu | Cotonou | Harare",
-			
-/// "<label>": 	"`getLabel()`",
-"<label>": 			"Kompakt | Hyperdub | Tongut  | Soul Jazz | Strictly Rhythm | Defected | \
-					  Studio 1 | Nonesuch | Mille-Plateaux  | Force Inc. | Bpitch Control | \
-					  Shitkatapult | Warp | The Leaf | Kranky | Thoughtless Music | Unfoundsound",
-
-"<epoch>": 			"British Invasion era | New Wave era | Motown era | Stax/Volt era | \
-					MTV era | futurist  | modernist  | postmodernist  | nouveau-realist  |  \
-					expressionist  | post-atonal  | atonal  | neo-surrealist  |  \
-					twelve-tone serialist | subversive | avant-gardist",
-
-"<year>": 			"1963 | 1984 | 1945 | 1986 | 2003| 1988 | 1982 | 1971 | \
-					1983 | 1954 |1995 | 1986 | 1987 | 1967 | 1992 | 1962 | 1965 | \
-					1973 | 1994 | 1985 | 1976 | 1999",					
-
-<!--"<adverb>":			"`getSynonyms(<adverb-terminal>, "r");` | <adverb-terminal", -->
-"<adverb>":				"<adverb-terminal> | <adverb-terminal>",
-
-"<adverb-terminal>":	"brilliantly | astutely | adeptly | robustly | amazingly | carefully | \
-						inadequately | abstractly | absurdly | accidentally  | brightly | breathtakingly",
-
-"<adverb-time-terminal>":	"occasionally | sporadically | infrequently | periodically | \
-							irregularly | intermittently | frequently | repeatedly | recurrently",
-
 "<song-description-phrase>":	"<adverb> defies categorisation | \
 								\
 								is an asymmetric, geniusly constructed dancefloor killer | \
@@ -614,6 +584,43 @@ reviewGrammar = {
 							is nestled in <a-structure-description> | \
 							drowns out the sound of jaws hitting the <floor-syn> | \
 							<teeters-syn> <genre> <pastiche-syn>",
+
+"<riffs-syn>": "riffs | noodlings | melodies",
+
+"<writhes-syn>":	"writhes | squirms | wriggles | thrashes | flails | tosses and turns",
+
+"<join-phrase>": 	"marries | fuses | blends | marries | merges | mixes | unifies | intermingles | melds | joins",
+
+"<evocative-adjective>":	"evocative | suggestive | reminiscent",
+						
+"<city>": 	"Berlin | London | Paris | Oslo | Moscow | Dublin | Vienna | Budapest | Prague | Istanbul | Athens | Lisbon | \
+			New York | Memphis | Los Angeles | Miami | Austin | San Francisco | Montréal | Vancouver | Seattle | Rio | \
+			Buenos Aires | Montevideo | Tokyo | Seoul | Ulan Bator | Manila | Bangkok | Kuala Lumpur | Jakarta | Kabul | \
+			Jerusalem | Dakar | Cairo | Kingston | Lagos  | Addis Ababa | Abidjan | Kinshasa | Casablanca | Accra | \
+			Dar es Salaam | Bamako | Ouagadougou | Mogadishu | Cotonou | Harare",
+			
+/// "<label>": 	"`getLabel()`",
+"<label>": 			"Kompakt | Hyperdub | Tongut  | Soul Jazz | Strictly Rhythm | Defected | \
+					  Studio 1 | Nonesuch | Mille-Plateaux  | Force Inc. | Bpitch Control | \
+					  Shitkatapult | Warp | The Leaf | Kranky | Thoughtless Music | Unfoundsound",
+
+"<epoch>": 			"British Invasion era | New Wave era | Motown era | Stax/Volt era | \
+					MTV era | futurist  | modernist  | postmodernist  | nouveau-realist  |  \
+					expressionist  | post-atonal  | atonal  | neo-surrealist  |  \
+					twelve-tone serialist | subversive | avant-gardist",
+
+"<year>": 			"1963 | 1984 | 1945 | 1986 | 2003| 1988 | 1982 | 1971 | \
+					1983 | 1954 |1995 | 1986 | 1987 | 1967 | 1992 | 1962 | 1965 | \
+					1973 | 1994 | 1985 | 1976 | 1999",					
+
+<!--"<adverb>":			"`getSynonyms(<adverb-terminal>, "r");` | <adverb-terminal", -->
+"<adverb>":				"<adverb-terminal> | <adverb-terminal>",
+
+"<adverb-terminal>":	"brilliantly | astutely | adeptly | robustly | amazingly | carefully | \
+						inadequately | abstractly | absurdly | accidentally  | brightly | breathtakingly",
+
+"<adverb-time-terminal>":	"occasionally | sporadically | infrequently | periodically | \
+							irregularly | intermittently | frequently | repeatedly | recurrently",
 
 "<consciousness-syn>": "consciousness | mental grasp | awareness | attention | cognizance | loaf | mind | perception",
 
