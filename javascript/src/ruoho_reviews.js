@@ -48,7 +48,8 @@ reviewGrammar = {
 		\
 		10 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> elevates <genre> sophistication with <genre-adjective> <genre> <genre-noun> | \
 		\
-		11 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <adverb> hoists up the profile of screeched-out <genre> vocals and <structure-description> | \
+		11 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> hoists up the profile \
+		   of <structure-description> and screeched-out <genre> vocals | \
 		\
 		12 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <genre> with \
 		   <structure-description>, <evocative-adjective> of <the-synth-drones-Klaus> | \
@@ -69,18 +70,16 @@ reviewGrammar = {
 "<music-recording-phrase>": "\
 		\
 		17 The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>. \
-		   It <rocks-syn>, <adverb-time-terminal> <gerund-song-phrase> | \
+		   It <rocks-syn> with <a-structure-description>, <adverb-time-terminal> <gerund-song-phrase> | \
 		\
-		18 The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>; \
-		   its <essence-syn> <raises-goosebumps-syn>, <gerund-song-phrase> | \
+		18 The <time-adjective> <music-recording-noun> by <artist> <raises-goosebumps-syn>, <gerund-song-phrase> | \
 		\
 		19 The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description> | \
 		\
-		20 The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase>, \
-		   yet its <essence-syn> is <evocative-adjective> of <epoch> music enjoyed in <city> | \
+		20 The <time-adjective> <music-recording-noun> by <artist> encapsulates the zeitgeist of the <genre> scene with pinpoint accuracy |\
 		\
 		21 The <time-adjective> <music-recording-noun> by <artist> taps into a delicate, \
-		   <genre-adjective> corner of the musical universe, <while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
+		   <genre-adjective> corner of the musical universe, <while-syn> <gerund-song-phrase> | \
 		\
 		22 The <time-adjective> <music-recording-noun> by <artist> is a masterclass in the dark art of <genre>, \
 		   showing off <structure-description> <while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
@@ -575,7 +574,7 @@ reviewGrammar = {
 								\
 								does not seem to be doing anything special, but the subtlety and intensity eventually worms its way into your heart",
 
-"<reverbs-with-phrase>":	"reverberates with | feels like | strikes one with | resonates with | resonates beyond | \
+"<reverbs-with-phrase>":	"reverberates with | feels like | strikes one with | resonates with | conjures up  | \
 							echoes with | gently throbs with | softly palpitates, with | \
 							<rocks-syn> <adverb-terminal> with",
 
@@ -663,7 +662,7 @@ reviewGrammar = {
 		    Hyphy | Illbient | Indietronica | Italo Disco | \
 			J-Pop  | Jesus-music | Jitterbug | Jive | Nigerian Juju | Jumpstyle | Jungle | Kamba pop | Karaoke | Balinese monkeychant | \
 			Gypsy dance music  | Krautrock |  Swedish folk| \
-			Traditional Norwegian music | Kwaito | Kwassa kwassa | Latin-jazz | Tibetan opera | Lovers rock | \
+			Kwaito | Kwassa kwassa | Latin-jazz | Tibetan opera | Lovers rock | \
 			Makossa | Makossa-soukous | Mariachi | \
 			Mbalax | Mbaqanga | Memphis blues | \
 			Mento | Merengue | Minimal techno  | Musique concrete | Serbian Folk | \
