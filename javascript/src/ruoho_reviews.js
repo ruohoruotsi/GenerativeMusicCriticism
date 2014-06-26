@@ -90,12 +90,10 @@ reviewGrammar = {
 ///////  		
 "<artist>": 	"`getHotttArtists()`",
 
-///// Famous artists, permanently in the cultural subconscious
-"<static-artist>": 	"Madonna | Prince | Bono | Luciano Pavarotti | Diana Ross | Julio Iglesias | Ray Charles | Bob Marley |\
-					 Las Ketchup | Cee Lo Green | Tupac Shakur | Celine Dion | Ravi Shankar | Fats Waller | Al Green |\
-					 Billie Holiday | Willie Nelson | Elvis Costello | Sam Cooke | James Brown | The Police | \
-					 Little Richard | Jimi Hendrix | Aretha Franklin | Notorious B.I.G. | Caetano Veloso | Gilberto Gil | \
-					 Miles Davis | Fela Kuti | William Hung",
+///// List of famous, living producers that would able to collaborate
+"<static-artist>": 	"Timbaland | J Dilla | William Hung | Dr. Dre | Rick Rubin | RZA | Steve Albini | \
+					Baauer | Max Martin | The Smeezingtons | Jeff Bhasker | T-Bone Burnett | The Neptunes | \
+					Jimmy Jam | Terry Lewis",
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -215,12 +213,12 @@ reviewGrammar = {
 								compliments credible <genre> <genre-noun> with a mighty doublepack of deadly bass variations that <verb-phrase-singular> | \
 								<writhes-syn> <adverb> with overdriven intensity and deeply sinister undercurrents | \
 								tries to solve an inherently under-constrained musical problem with <structure-description>|\
-								tries to make sense out of a 3D sonic world using <structure-description> that are <adverb> two-dimensional",
+								tries to make sense out of a 3D sonic world using two-dimensional <structure-description>",
 						
 "<gerund-song-phrase>": 	"marrying <genre> with <structure-description> | \
 							meandering around a plucked melody that <verb-phrase-singular> |	\
 							sounding like <static-artist> in a skank off, after inhaling a canister of nitrous oxide | \
-							sounding like <static-artist> jamming with Björk after a remarkably relaxing sauna session | \
+							sounding like Björk jamming with <static-artist> after a relaxing sauna session | \
 							blurring the boundaries between <structure-description> and <structure-description> | \
 							eschewing the familiar palimpsest of credible <genre> <genre-noun> | \
 							injecting hints of <genre> patterns into <genre> | \
@@ -233,14 +231,14 @@ reviewGrammar = {
 							functioning through the frosted lens of <Finnish-syn> stoicism | \
 							revolving about achingly well-formed shuffle patterns | \
 							whining and squealing like a farmyard animal in the pangs of labour | \
-							ricocheting 'verbed out gunshots off grimy bassline warps | \
+							ricocheting reverbed-out gunshots off grimy bassline warps | \
 							employing <struct-adj>, staggered harmonic progressions | \
 							riding rock hard subbass depth charges | \
 							creating atmospheric pressure drops sharp enough to give lesser experienced divers the bends | \
 							skittering back to <struct-adj>, post-Autechre beat deconstructions | \
 							exhibiting <a-structure-description> and piano-meets-strings melancholy | \
 							dripping with endless reverb and delay manipulation | \
-							trawling the depths of vinyl's pockmarked grooves for <the-synth-drones-Klaus> | \
+							trawling the depths of vinyl's pockmarked grooves for <a-structure-description> | \
 							collapsing beneath <a-structure-description> | \
 							melting <genre> accordion and Diwali-riddim claps with woozy <electro-acoustic-syn> static |\
 							exhibiting <a-structure-description>",
@@ -677,7 +675,7 @@ reviewGrammar = {
 			Protopunk | Psychedelic trance | Psychobilly | Psychosomatic trance | \
 			Psych-pop | Punk-funk | Punk-rock | Sufi devotional music | Raggamuffin | \
 			Ragga-zouk | Ragtime | Reggaeton | Finnish Rekilaulu | \
-			Rhythm & Blues | Icelandic Rímur | Barbadian Soca | \
+			Rhythm & Blues | Icelandic Rímur | Bajan Soca | \
 			Rock opera | Rockabilly | Rocksteady | Rodeo music | Hausa Rokon fada| Roots reggae | Rumba |  \
 			Cuban Rumba | Cuban Rumba | \
 			Ska-punk | Skate-punk | Skronk | \
