@@ -180,7 +180,7 @@ reviewGrammar = {
 "<ferocity-syn>": 	"ferocity | artistry | courage | charisma | cowardice | nerve | \
 					stoutheartedness | endowment | dauntlessness | savagery | genius | \
 					furiousness | violence |  wildness | severeness | \
-					simplicity | accessibility | straightforwardness | comprehensibility | \
+					simplicity | accessibility | straightforwardness | \
 					unpretentiousness | naturalness | clarity | spareness | austerity | \
 					effortlessness | affectation | pretentiousness | posturing | \
 					mulishness | recalcitrance",
@@ -201,7 +201,7 @@ reviewGrammar = {
 					Don't waste your time. | Phatness! | Bad*ss! | Dope. | Sublime. | Another excellent transmission! |\
 					A musical treat. | For connoisseurs only.",
 
-"<music-recording-noun>":	"12” wax | MP3 | home-made cassette | CD | album | 4-track cartridge | \
+"<music-recording-noun>":	"12” wax | MP3 | cassette | CD | album | 4-track cartridge | \
 							live-stream | laserdisc | DVD-R | EP | ogg-vorbis download | maxi-single | Bandcamp release | \
 							ambisonic release | white-label | release | Spotify stream | Beats Music special | Rdio exclusive | \
 							17-track compilation | Soundcloud clip | promo | Youtube video | 7” vinyl | box set | \
@@ -568,7 +568,7 @@ reviewGrammar = {
 								\
 								suddenly explodes into an unrelenting, glistening wall of discordance, sounding like a thousand church organs screeching out | \
 								\
-								contains passages of deep melodic beauty. This is unquestionably a journey that is <adverb> rooted in atonal explorations | \
+								contains passages of deep melodic beauty. This is unquestionably a journey that is rooted in <J-pop> explorations | \
 								\
 								dissolves into <lamentable-syn> incoherence, suffused with power and mystery | \
 								\
@@ -665,7 +665,7 @@ reviewGrammar = {
 			Kwaito | Kwassa kwassa | Latin-jazz | Tibetan opera | Lovers rock | \
 			Makossa | Makossa-soukous | Mariachi | \
 			Mbalax | Mbaqanga | Memphis blues | \
-			Mento | Merengue | Minimal techno  | Musique concrete | Serbian Folk | \
+			Mento | Minimal techno  | Musique concrete | Serbian Folk | \
 			Neo-Psychedelia | Neo Soul | Neue Volksmusik | New Age | New Jack Swing  | \
 			New Orleans blues | US Garage | Nintendocore | Noise music  | Nordic folk | \
 			Nortec  | Nu breaks | Yakut epic music  |  \
