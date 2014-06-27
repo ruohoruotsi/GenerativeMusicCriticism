@@ -21,7 +21,7 @@ reviewGrammar = {
 		  <time-adjective> <music-recording-noun> by <artist> <join-phrase> <structure-description> and <structure-description> | \
 		\
 		2 <artist> and <static-artist> take on the <label> crew for another <music-recording-noun>, demonstrating <structure-description> and a \
-		  <creative-syn> <ferocity-syn>, that <verb-phrase-singular> | \
+		  <creative-syn> <ferocity-syn>, <verb-phrase-singular> | \
 		\
 		3 Your mind is about to be blown by the unearthing of a <year> curio from <artist>, offering a truly <bizarre-syn>, \
 		  but ultimately <adept-syn> selection of privately-pressed tracks that sound somewhere between <genre> and <genre> | \
@@ -85,7 +85,7 @@ reviewGrammar = {
 		   showing off <structure-description> <while-syn> <adverb-time-terminal> <gerund-song-phrase> | \
 		\
 		23 The <time-adjective> <music-recording-noun> by <artist> is a <retro-syn> <reconstruction-syn> of \
-		   <genre> <balladry-syn> that <teeters-syn> <genre> <pastiche-syn>",		
+		   <genre> <balladry-syn> <verb-phrase-singular>",		
 
 ///////  		
 "<artist>": 	"`getHotttArtists()`",
@@ -209,14 +209,14 @@ reviewGrammar = {
 
 "<artist-description-phrase>": 	"<adverb> defies categorisation | \
 								demonstrates an innate grasp of the sublime qualities of <genre>  | \
-								makes for an uncommonly good performance that <verb-phrase-singular> | \
-								compliments credible <genre> <genre-noun> with a mighty doublepack of deadly bass variations that <verb-phrase-singular> | \
+								makes for an uncommonly good performance <verb-phrase-singular> | \
+								compliments credible <genre> <genre-noun> with a mighty doublepack of deadly bass variations <verb-phrase-singular> | \
 								<writhes-syn> <adverb> with overdriven intensity and deeply sinister undercurrents | \
 								tries to solve an inherently under-constrained musical problem with <structure-description>|\
 								tries to make sense out of a 3D sonic world using two-dimensional <structure-description>",
 						
 "<gerund-song-phrase>": 	"marrying <genre> with <structure-description> | \
-							meandering around a plucked melody that <verb-phrase-singular> |	\
+							meandering around a plucked melody <verb-phrase-singular> |	\
 							sounding like <static-artist> in a skank off, after inhaling a canister of nitrous oxide | \
 							sounding like Björk jamming with <static-artist> after a relaxing sauna session | \
 							blurring the boundaries between <structure-description> and <structure-description> | \
@@ -255,21 +255,25 @@ reviewGrammar = {
 								a Flying Lotus-style bass reduction |  \
 								a fragrant, effortless warmth | \
 								a feast of noise-rock virtuosity | \
+								a fuzz-drenched gateway to eternity |\
 								a gratuitous, pornographic level of lusciousness |\
 								a growing amalgam of contradictions |  \
 								a horrifying mess of head-meddling unpleasantness |\
 								an overbearing darkness, covered by a fuzzy thicket of layered drones |\
 								an indisposable slice of <genre> delectability | \
 								a low key, grotty Jakbeat |\
+								a morally inflamatory, skronking bassline | \
+								a multicoloured blast of intoxicating feedback |\
 								a mindblowing dubscape of effects | \
-								a persistent undulating pulse of bass | \
 								a pure, transcendental rave feeling | \
 								a super platter of UK bass deployments | \
+								a timeless, primal yearning for volume and repetition |\
 								a toxic hellstew of glitched-out tapestries |\
 								a vaporous spray of submerged analogue delays |\
 								an idiosyncratic veneer of melancholy |\
 								a veritable haberdashery of vintage musical textures |\
-								a wash of tidal rhythms and turbulent crackle",
+								a wash of tidal rhythms and turbulent crackle |\
+								a <struct-adj>, Warrior Queen gunman lyric",
 				
 "<genre-adjective>": 	"quotidian | slippery | fragmented | punctured | wispy | atmospheric | \
 						smudged | obscure  | delicate | exquisite | silky |  sweet | unsteady | fractured | \
@@ -408,6 +412,7 @@ reviewGrammar = {
 							aerated electronic timbres |\
 							alien analogue tones |\
 							arcing sinewaves |\
+							austere cadence of <genre> <genre-noun> |\
 							avant-garde chamber instrumentations |\
 							assorted disembodied voices |\
 							jellied, slushy bass frequencies |\
@@ -448,6 +453,7 @@ reviewGrammar = {
 							head-pressurised technohouse vibes	|\
 							hyper-lean <genre> geometries | \
 							hints of free-roaming Krautrock |\
+							harmonics-drenched white noise |\
 							hummable <genre> melodies |\
 							heavy rolling dancehall grinders |\
 							haunted-house analogue tactics |\
@@ -576,11 +582,12 @@ reviewGrammar = {
 							echoes with | gently throbs with | softly palpitates, with | \
 							<rocks-syn> <adverb-terminal> with",
 
-"<verb-phrase-singular>":	"floats in & out of your <consciousness-syn> with a wool-lined ease | \
-							sits deeply in smoky <genre> style atmospherics  | \
-							is nestled in <a-structure-description> | \
-							drowns out the sound of jaws hitting the <floor-syn> | \
-							<teeters-syn> <genre> <pastiche-syn>",
+"<verb-phrase-singular>":	"that floats in & out of your <consciousness-syn> with a wool-lined ease | \
+							that sits deeply in smoky <genre> style atmospherics  | \
+							nestled in <a-structure-description> | \
+							that drowns out the sound of jaws hitting the <floor-syn> | \
+							that <teeters-syn> <genre> <pastiche-syn> | \
+							that loiters with intent around <structure-description>",
 
 "<riffs-syn>": "riffs | noodlings | melodies",
 
