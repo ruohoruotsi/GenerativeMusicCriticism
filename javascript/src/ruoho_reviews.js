@@ -252,12 +252,14 @@ reviewGrammar = {
 								a dark, haunted melancholy | \
 								a dense, effulgent piece of faux-romantic orchestral syrup | \
 								a deluge of piano flecked gems | \
+								an endless session of experimentation and reverie |\
 								a Flying Lotus-style bass reduction |  \
 								a fragrant, effortless warmth | \
 								a feast of noise-rock virtuosity | \
 								a fuzz-drenched gateway to eternity |\
 								a gratuitous, pornographic level of lusciousness |\
 								a growing amalgam of contradictions |  \
+								a hard, hectic music strafing stacatto |\
 								a horrifying mess of head-meddling unpleasantness |\
 								an overbearing darkness, covered by a fuzzy thicket of layered drones |\
 								an indisposable slice of <genre> delectability | \
@@ -265,6 +267,7 @@ reviewGrammar = {
 								a morally inflamatory, skronking bassline | \
 								a multicoloured blast of intoxicating feedback |\
 								a mindblowing dubscape of effects | \
+								a provacative Steely & Clevie produced riddim |\
 								a pure, transcendental rave feeling | \
 								a super platter of UK bass deployments | \
 								a timeless, primal yearning for volume and repetition |\
@@ -289,6 +292,7 @@ reviewGrammar = {
 				charming  |\
 				churning |\
 				dramatic |\
+				eroded | \
 				enigmatic |\
 				endothermic |\
 				exothermic |\
@@ -308,6 +312,7 @@ reviewGrammar = {
 				roiling |\
 				rousing |\
 				rippling |\
+				sensual |\
 				slinking |\
 				shimmering |\
 				shuffling |\
@@ -349,6 +354,7 @@ reviewGrammar = {
 							<struct-adj>, breakbeat-fueled <genre> | \
 							<struct-adj>, plunging fifths |\
 							<struct-adj> constellations of de-glazed rhythms |\
+							<struct-adj> Caribbean pulses |\
 							<struct-adj>, distorted crescendos |\
 							<struct-adj>, drag vocals |\
 							<struct-adj> dulcimer melodies |\
@@ -361,6 +367,7 @@ reviewGrammar = {
 							<struct-adj>, ghoulish cries | \
 							<struct-adj>, harmonic machinations | \
 							<struct-adj>, haunting strings | \
+							<struct-adj>, incandescent lyrics | \
 							<struct-adj>, <J-pop> delights |\
 							<struct-adj>, kosmische pulsations |\
 							<struct-adj>, laminous droning |\
@@ -372,6 +379,7 @@ reviewGrammar = {
 							<struct-adj>, percussive interjections |\
   							<struct-adj>, post-garage noodlings |\
 							<struct-adj>, post-techno ecstasy |\
+							<struct-adj>, powdery effects |\
 							<struct-adj>, prismatic strings |  \
 							<struct-adj>, monochord accompaniments |\
 							<struct-adj>, Rhodes keys |\
@@ -379,11 +387,13 @@ reviewGrammar = {
 							<struct-adj>, sawtooth basslines |\
 							<struct-adj>, <sexy-syn> blips |\
 							<struct-adj>, silvery notes |\
+							<struct-adj>, stoic minimalisms |\
 							<struct-adj>, throat-tearing howls |\
 							<struct-adj>, trumpet lines|\
 							<struct-adj>, vocal incantations |\
 							<struct-adj>, West Coast '60s sounds | \
 							<struct-adj>, xylophonic geometries |\
+							<struct-adj>, zombie-like chants | \
 							\
 							<struct-adj>, <struct-adj> lyrics |\
 							<struct-adj> oscillator experimentations |\
@@ -415,7 +425,7 @@ reviewGrammar = {
 							austere cadence of <genre> <genre-noun> |\
 							avant-garde chamber instrumentations |\
 							assorted disembodied voices |\
-							jellied, slushy bass frequencies |\
+							blissfully uncluttered aesthetics | \
 							beautifully tempered zones of twilight ambient  |\
 							acid-house breakbeat effusions |\
 							coke-white pop histrionics|\
@@ -429,7 +439,6 @@ reviewGrammar = {
 							deep-set metallic sonorities |\
 							detached 90's post-modernism |\
 							dread techno futurisms |\
-							myriad drum-machine pattern-permutations |\
 							deep, rustic darkness |\
 							expertly manipulated rhythm alchemies  |\
 							early handmade experiments |\
@@ -443,12 +452,15 @@ reviewGrammar = {
 							floppy fringe harmonies |\
 							fuzzy shoegaze psychedelia |\
 							gender-bending vocals |\
+							gentle, forlorn 8-bit bleeps | \
 							gloriously wild natural timbres |\
 							grim, crust-laden darkness |\
 							grey slabs of doomy atmospherics |\
 							gorgeously fragile electronica |\
+							gorgeous, platitudinous nonsense |\
 							glacially-paced gothic stoner rock |\
 							hazy washes of reverbed harps |\
+							hazy, spun out blues |\
 							hi-scoring aquakrunk madness |\
 							head-pressurised technohouse vibes	|\
 							hyper-lean <genre> geometries | \
@@ -460,6 +472,7 @@ reviewGrammar = {
 							hazily buoyant, ethereal female vocals |\
 							intricately funked syncopations |\
 							inimitably raw, psychedelic wow-and-flutter beats |\
+							jellied, slushy bass frequencies |\
 							loose strands of treated guitar |\
 							lurid hues of neon pink & green |\
 							layered embers of sound |\
@@ -467,11 +480,13 @@ reviewGrammar = {
 							modern amorphous psychedelia |\
 							magnificently evocative, mercilessly deep, tweaked out, post-rave ecstasy |\
 							massively modulated vocal treatments |\
+							myriad drum-machine pattern-permutations |\
 							oblique hi-end processing |\
 							orchestral level pomp & bombast |\
 							post-pop slacker tendencies |\
 							pure Balearic house bliss |\
 							pre-digital era, malaria-infected, vintage radio essences |\
+							reptilian distress cries |\
 							rootsy one-drop dub keys |\
 							Saharan blues fetishism |\
 							succulent bass treatments |\
@@ -499,12 +514,14 @@ reviewGrammar = {
 							textural guitar-scapes |\
 							thickets of soupy electronic fog |\
 							tranquil, free-floating chorales |\
+							testosterone-fuelled, urban mutations | \
 							utterly sick digital spasms |\
 							undulating, unstable cadences |\
 							unfathomably complex textures |\
 							uncharacteristically spry tempos |\
 							unfathomably deep, utterly sick, dubwise textures |\
 							vocodered 808s, paired with acid belching 303s |\
+							vein-melting, improvised freakery |\
 							wonderfully shambolic tendencies |\
 							wispily resonant distortion |\
 							wicked ragga-bashment flava |\
