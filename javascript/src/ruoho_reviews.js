@@ -229,7 +229,6 @@ reviewGrammar = {
 							spinning a collection of <struct-adj> piano elegies | \
 							veering off on solo tangents of enchanted <electro-acoustic-syn> abstraction | \
 							functioning through the frosted lens of <Finnish-syn> stoicism | \
-							revolving about achingly well-formed shuffle patterns | \
 							whining and squealing like a farmyard animal in the pangs of labour | \
 							ricocheting reverbed-out gunshots off grimy bassline warps | \
 							employing <struct-adj>, staggered harmonic progressions | \
@@ -241,6 +240,7 @@ reviewGrammar = {
 							trawling the depths of vinyl's pockmarked grooves for <a-structure-description> | \
 							collapsing beneath <a-structure-description> | \
 							melting <genre> accordion and Diwali-riddim claps with woozy <electro-acoustic-syn> static |\
+							ploughing furrous of unresolved chord changes, stretching towards the horizon |\
 							exhibiting <a-structure-description>",
 
 
@@ -577,6 +577,12 @@ reviewGrammar = {
 								\
 								is a mundane and shapeless affair of post-<genre> shenaningans | \
 								\
+								is a faultless four-part harmony, neatly modulated into <structure-description> | \
+								\
+								is tired, boring and bereft of ideas | \
+								\
+								is a <sexy-syn> deployment into a knee-jerk consumerist purgatory | \
+								\
 								is high grade bass music so intense you can blow-dry your hair right in front of the bass bins | \
 								\
 								slides out a <genre-adjective> groove of immense proportions | \
@@ -591,6 +597,8 @@ reviewGrammar = {
 								\
 								contains passages of deep melodic beauty. This is unquestionably a journey that is rooted in <J-pop> explorations | \
 								\
+								functions at the intersection of <structure-description> and <genre> <genre-noun> |\
+								\
 								dissolves into <lamentable-syn> incoherence, suffused with power and mystery | \
 								\
 								does not seem to be doing anything special, but the subtlety and intensity eventually worms its way into your heart",
@@ -604,7 +612,7 @@ reviewGrammar = {
 							nestled in <a-structure-description> | \
 							that drowns out the sound of jaws hitting the <floor-syn> | \
 							that <teeters-syn> <genre> <pastiche-syn> | \
-							that loiters with intent around <structure-description>",
+							that intentionally loiters around <structure-description>",
 
 "<riffs-syn>": "riffs | noodlings | melodies",
 
@@ -655,7 +663,7 @@ reviewGrammar = {
 "<rocks-syn>": "rocks | shines | shimmers | chugs | drones | sparkles | unnerves | \
 				trembles | surprises | startles | sparkles | scintillates",
 				
-"<Finnish-syn>": "Scandinavian | Nordic | Flemish| Teutonic | Slavic | Baltic | Turkic | Basque | Gibraltarian | Tatar | Crimean | Uzbek | Gujarati",
+"<Finnish-syn>": "Scandinavian | Nordic | Flemish| Teutonic | Slavic | Baltic | Turkic | Basque | Gibraltarian | Crimean | Uzbek | Gujarati",
 
 "<J-pop>": "J-pop | K-pop | Hokkien-pop | Cantopop | Mandopop | Pinoy-pop | Shibuya-kei",
 
