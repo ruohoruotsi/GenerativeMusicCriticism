@@ -252,7 +252,7 @@ reviewGrammar = {
 								a dark, haunted melancholy | \
 								a dense, effulgent piece of faux-romantic orchestral syrup | \
 								a deluge of piano flecked gems | \
-								an endless session of experimentation and reverie |\
+								an ambivalent reverie and unending sessions of experimentation |\
 								a Flying Lotus-style bass reduction |  \
 								a fragrant, effortless warmth | \
 								a feast of noise-rock virtuosity | \
@@ -279,7 +279,7 @@ reviewGrammar = {
 								a <struct-adj>, Warrior Queen gunman lyric",
 				
 "<genre-adjective>": 	"quotidian | slippery | fragmented | punctured | wispy | atmospheric | \
-						smudged | obscure  | delicate | exquisite | silky |  sweet | unsteady | fractured | \
+						smudged | obscure  | delicate | silky |  sweet | unsteady | fractured | \
 						mangled | indifferent | shattered | otherworldly | disenchanted | sadder | wiser | \
 						sophisticated",
 
