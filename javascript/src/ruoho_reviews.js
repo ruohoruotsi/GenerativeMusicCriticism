@@ -252,13 +252,12 @@ reviewGrammar = {
 							riding rock hard subbass depth charges | \
 							creating atmospheric pressure drops sharp enough to give lesser divers the bends | \
 							skittering back to <struct-adj>, post-Autechre beat deconstructions | \
-							exhibiting <a-structure-description> and piano-meets-strings melancholy | \
 							dripping with endless reverb and delay manipulation | \
 							trawling the depths of vinyl's pockmarked grooves for <a-structure-description> | \
 							before collapsing beneath <a-structure-description> | \
 							melting <genre> accordion and Diwali-riddim claps with woozy <electro-acoustic-syn> static |\
 							ploughing furrows of unresolved chord changes, stretching out to infinity |\
-							exhibiting <a-structure-description>",
+							exhibiting <a-structure-description> <evocative-adjective> of <the-synth-drones-Klaus>",
 
 
 "<a-structure-description>":   "\
@@ -276,7 +275,7 @@ reviewGrammar = {
 								a gratuitous, pornographic level of lusciousness |\
 								a growing amalgam of motivic contradictions |  \
 								a horrifying mess of head-meddling unpleasantness |\
-								an overbearing darkness, covered by fuzzy thickets of layered drones |\
+								an overbearingly fuzzy thicket of layered drones |\
 								an indisposable slice of <genre> delectability | \
 								a low key, grotty Jakbeat |\
 								a morally inflamatory, skronking bassline | \
@@ -637,7 +636,9 @@ reviewGrammar = {
 /// "<label>": 	"`getLabel()`",
 "<label>": 			"Kompakt | Hyperdub | Tongut  | Soul Jazz | Strictly Rhythm | Defected | \
 					  Studio 1 | Nonesuch | Mille-Plateaux  | Force Inc. | Bpitch Control | \
-					  Shitkatapult | Warp | The Leaf | Kranky | Thoughtless Music | Unfoundsound",
+					  Shitkatapult | Warp | The Leaf | Kranky | Thoughtless Music | Sub Pop | \
+					  Brainfeeder | Ninja Tune | Def Jux | XL | Cheeky Records | Mute | \
+					  Wax Trax! | Planet Mu | Rephlex | Merck",
 
 "<epoch>": 			"British Invasion era | New Wave era | Motown era | Stax/Volt era | \
 					MTV era | futurist  | modernist  | postmodernist  | nouveau-realist  |  \
