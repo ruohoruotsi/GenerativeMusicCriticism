@@ -84,7 +84,10 @@ reviewGrammar = {
 		   showing off <structure-description>, <gerund-song-phrase> | \
 		\
 		23 The <time-adjective> <music-recording-noun> by <artist> is a <retro-syn> <reconstruction-syn> of \
-		   <genre> <balladry-syn> <verb-phrase-singular>",		
+		   <genre> <balladry-syn> <verb-phrase-singular> | \
+		\
+		24 Ping-ponging from <structure-description> to <structure-description>, the music of <artist> draws \
+		   on everything from <genre> to <genre> and <latino> reggaetón",		
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -208,6 +211,8 @@ reviewGrammar = {
 "<plains-syn>": 	"plains | savannahs | steppes | tundras | velds | pastures | vales",
 
 "<electro-acoustic-syn>":  "electro-acoustic | 8-bit | Illbient | Nintendocore | ambient | shoegazey",
+
+"<latino>": "Panamanian | Puerto Rican | Cuban | Dominican | Colombian | Costa Rican",
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -556,6 +561,7 @@ reviewGrammar = {
 								 the hyper-mediated guitar washes worthy of Keith Fullerton Whitman |\
 								 the disturbingly visceral Klangfarbenmelodie of Hector Berlioz | \
 								 the hazy botanical film interludes of Boards of Canada |\
+								 the hypnotic minimalism of Terry Riley | \
 								 the intricately funked syncopations of Autechre or Alva Noto |\
 								 the isolationist bleeps of Mika Vainio |\
 								 the oneiric dramaturgy of Robert Ashley |\
@@ -646,7 +652,7 @@ reviewGrammar = {
 					  Studio 1 | Nonesuch | Mille-Plateaux  | Force Inc. | Bpitch Control | \
 					  Shitkatapult | Warp | The Leaf | Kranky | Thoughtless Music | Sub Pop | \
 					  Brainfeeder | Ninja Tune | Def Jux | XL | Cheeky Records | Mute | \
-					  Wax Trax! | Planet Mu | Rephlex | Merck",
+					  Wax Trax! | Planet Mu | Rephlex | Merck | Traum Schallplatten",
 
 "<epoch>": 			"British Invasion era | New Wave era | Motown era | Stax/Volt era | \
 					MTV era | futurist  | modernist  | postmodernist  | nouveau-realist  |  \
