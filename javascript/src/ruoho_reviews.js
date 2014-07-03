@@ -45,7 +45,7 @@ reviewGrammar = {
 		\
 		9 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <artist-description-phrase> | \
 		\
-		10 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> elevates <genre> sophistication with <genre-adjective> <genre> <genre-noun> | \
+		10 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <elevates-syn> <genre> with <genre-adjective> <genre> <genre-noun> | \
 		\
 		11 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> hoists up the profile \
 		   of <structure-description> and screeched-out <genre> vocals | \
@@ -136,14 +136,17 @@ reviewGrammar = {
 
 "<musical-universe-syn>": "musical universe | collective subconscious",
 
+"<elevates-syn>": "elevates | modulates",
+
 "<essence-syn>": "essence | quintessence | finale | culmination | climax | persona | \
 				  apotheosis | zenith | resolution | epilogue  | coda | conclusion | denouement",
 
 "<balladry-syn>": "balladry | poetry | lyricism | fusion",  
 
 "<genre-noun>": "ephemera | futurism | classicism | sophistication | eclecticism | \
-				revivalism | plagiarism | polystylism | functionalism | stoicism |\
-				syncretism | reductionism",
+				 plagiarism | functionalism | stoicism | modernism | \
+				 reductionism | minimalism | syncretism | polystylism | \
+				 anti-intellectualism | formalism | expressionism",
 					
 "<pastiche-syn>":  "pastiche | sophistication | appropriation | <genre-noun> | \
 					ephemera | miscellany | miscellanea | style arrangements | \
@@ -161,7 +164,7 @@ reviewGrammar = {
 
 "<panic-syn>": "panic | terror | longing | hysteria | dread | malaise | discomfort | unease",
 
-"<experimental-syn>": "experimental | avant-garde | new wave | vanguard",
+"<experimental-syn>": "experimental | avant-garde | new-wave | vanguard",
 
 "<circles-syn>": "circles | milieux | spaces | settings",
 
@@ -177,7 +180,7 @@ reviewGrammar = {
 
 "<derangements-syn>": "derangements | arrangements",
 
-"<zeitgeist-syn>": "zeitgeist | spirit | mood | character | tone | direction | course | trend",
+"<zeitgeist-syn>": "zeitgeist | spirit | current mood | current character | tone | trending course | future",
 
 "<creative-syn>":	"sonic | tasteful acoustic | creative | musical | novel musical | \
 					fresh melodic | stirring acoustic | visionary sonic | \
@@ -191,8 +194,8 @@ reviewGrammar = {
 					simplicity | accessibility | straightforwardness | \
 					unpretentiousness | naturalness | clarity | spareness | austerity | \
 					effortlessness | affectation | pretentiousness | posturing | \
-					mulishness | recalcitrance | soul-stirring generosity | \
-					thick-skulled excess | transcendant drama",
+					mulishness | recalcitrance | generosity | \
+					excess | drama | gutsiness",
 
 "<riffs-syn>": "riffs | noodlings | melodies",
 
@@ -230,7 +233,7 @@ reviewGrammar = {
 								compliments credible <genre> <genre-noun> with a mighty doublepack of deadly bass variations <verb-phrase-singular> | \
 								<writhes-syn> <adverb> with overdriven intensity and deeply sinister undercurrents | \
 								tries to solve an inherently under-constrained musical problem with <structure-description>|\
-								tries to make sense out of a 3D sonic world using two-dimensional <structure-description>",
+								tries to make sense out of a 3D sonic world using inadequate two-dimensional projections",
 						
 "<gerund-song-phrase>": 	"marrying <genre> with <structure-description> | \
 							meandering around a plucked melody <verb-phrase-singular> |	\
@@ -270,7 +273,7 @@ reviewGrammar = {
 								a deluge of piano flecked gems | \
 								an ambivalent reverie, rising from elaborated voice-leading constructions |\
 								a banquet of Flying Lotus-style bass arpeggiations |  \
-								a fragrant, effortless harmonic series | \
+								a series of shamanic, trance-state mutterings | \
 								a feast of noise-rock virtuosity | \
 								a gratuitous, pornographic level of lusciousness |\
 								a growing amalgam of motivic contradictions |  \
@@ -293,8 +296,11 @@ reviewGrammar = {
 								an obscure, Warrior Queen gunman lyric",
 				
 "<genre-adjective>": 	"quotidian | slippery | fragmented | punctured | wispy | \
-						smudged | delicate | silky |  sweet | steady | fractured | \
+						smudged | delicate | silky |  sweet | fractured | \
 						mangled | shattered | graceful | disenchanted",
+
+
+"<atmospherics-syn>": 	"atmospherics | ambiences | tonalities",
 
 "<struct-adj>": "\
 				atmospheric |\
@@ -435,7 +441,8 @@ reviewGrammar = {
 							aerated electronic timbres |\
 							alien analogue tones |\
 							arcing sinewaves |\
-							austere cadences of <genre> <genre-noun> |\
+							austere <genre> <genre-noun> |\
+							austere <genre> cadences |\
 							avant-garde chamber instrumentations |\
 							assorted disembodied voices |\
 							blissfully uncluttered aesthetics | \
@@ -444,6 +451,7 @@ reviewGrammar = {
 							coke-white pop histrionics|\
 							classical omnidirectional yodeling |\
 							cassette tape overdubs |\
+							Cambodian folk narratives |\
 							dense analogue experiments |\
 							digitally dissected orchestral figures |\
 							devastatingly heavy <genre> mutations |\
@@ -468,7 +476,7 @@ reviewGrammar = {
 							gentle, forlorn 8-bit bleeps | \
 							gloriously wild natural timbres |\
 							grim, crust-laden darkness |\
-							grey slabs of doomy atmospherics |\
+							grey slabs of doomy <atmospherics-syn> |\
 							gorgeously fragile electronica |\
 							gorgeous, platitudinous nonsense |\
 							glacially-paced gothic stoner rock |\
@@ -490,6 +498,7 @@ reviewGrammar = {
 							lurid hues of neon pink & green |\
 							layered embers of sound |\
 							layered spaciousness, panned to infinity |\
+							malaria-infected, vintage radio essences |\
 							modern amorphous psychedelia |\
 							magnificently evocative, mercilessly deep, tweaked out, post-rave ecstasy |\
 							massively modulated vocal treatments |\
@@ -498,7 +507,6 @@ reviewGrammar = {
 							orchestral level pomp & bombast |\
 							post-pop slacker tendencies |\
 							pure Balearic house bliss |\
-							pre-digital era, malaria-infected, vintage radio essences |\
 							reptilian distress cries |\
 							rootsy one-drop dub keys |\
 							Saharan blues fetishism |\
@@ -533,7 +541,7 @@ reviewGrammar = {
 							unfathomably complex textures |\
 							uncharacteristically spry tempos |\
 							unfathomably deep, utterly sick, dubwise textures |\
-							vocodered 808s, paired with acid belching 303s |\
+							vocodered, acid belching TB-303s |\
 							vein-melting, improvised freakery |\
 							wonderfully shambolic tendencies |\
 							wispily resonant distortion |\
@@ -621,7 +629,7 @@ reviewGrammar = {
 							<rocks-syn> <adverb-terminal> with",
 
 "<verb-phrase-singular>":	"that floats in & out of your <consciousness-syn> with a wool-lined ease | \
-							that sits deeply in smoky <genre> style atmospherics  | \
+							that sits deeply in smoky <genre> style <atmospherics-syn>  | \
 							nestled in <a-structure-description> | \
 							that drowns out the sound of jaws hitting the <floor-syn> | \
 							that <teeters-syn> <genre> <pastiche-syn> | \
@@ -645,9 +653,10 @@ reviewGrammar = {
 					expressionist  | post-atonal  | atonal  | neo-surrealist  |  \
 					twelve-tone serialist | subversive | avant-gardist",
 
-"<year>": 			"1963 | 1984 | 1945 | 1986 | 2003| 1988 | 1982 | 1971 | \
-					1983 | 1954 |1995 | 1986 | 1987 | 1967 | 1992 | 1962 | 1965 | \
-					1973 | 1994 | 1985 | 1976 | 1999",					
+"<year>": 			"1963 | 1969 | 1973 | 1975 | 1977 | 1979 | 1982 | 1984 | \
+					1985 | 1986 |1987 | 1988 | 1989 | 1990 | 1991 | 1992 | 1993 | \
+					1994 | 1995 | 1995 | 1996 | 1997 | 1998 | 1999 | 2000 | 2001 | \
+					2002 | 2003 | 2004",					
 
 <!--"<adverb>":			"`getSynonyms(<adverb-terminal>, "r");` | <adverb-terminal", -->
 "<adverb>":				"<adverb-terminal> | <adverb-terminal>",
@@ -658,7 +667,7 @@ reviewGrammar = {
 "<adverb-time-terminal>":	"occasionally | sporadically | infrequently | periodically | \
 							irregularly | intermittently | frequently | repeatedly | recurrently",
 
-"<consciousness-syn>": "consciousness | mental grasp | awareness | attention | cognizance | loaf | mind | perception",
+"<consciousness-syn>": "consciousness | mental grasp | attention | cognizance | loaf | mind | perception",
 
 "<lamentable-syn>": "lamentable | pleasurable",
 
@@ -721,7 +730,7 @@ reviewGrammar = {
 			Space age pop | Space rock | Speedcore | Speed garage | Stoner rock | \
 			Surf rock | Swamp blues | Tuvan Throat Singing | Synthpop | \
 			Texas blues | Thrashcore | Guinean Tinga | Tribal house | \
-			Basque Accordion music | Trip-hop | Tumba | Turntablism | Two tone | UK garage | \
+			Basque Accordion music | Trip-hop | Tumba | Turntablism | Two-tone | UK garage | \
 			Vaudeville | Hungarian Verbunkos  | Vocal house | \
 			Wassoulou | Spanish operetta | Greek Zeibekiko  | \
 			Ziglibithy | Zouglou | Zouk | Zydeco"
