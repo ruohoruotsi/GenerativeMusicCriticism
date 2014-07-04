@@ -588,13 +588,19 @@
 		  color: #ed1d1d;
 		  font-size: 1.25em;
 		  background: #f0eceb;
-		  padding: 0.35em 1.5em 0.35em 1.5em;
+		  /* padding: 0.35em 1.5em 0.35em 1.5em; */
 		  text-decoration: none;
+		  
+		  width: 60px;
+    	  height: 60px;
+		  background:url('images/reload.png') no-repeat left center;
+		   opacity: 0.75;
+		   filter: alpha(opacity=75); /* For IE8 and earlier */
 		}
 
 		.btn:hover {
-		  background: #e0e0e0;
-		  text-decoration: none;
+		
+		 background:url('images/reload-hover.png') no-repeat left center;
 		}
 			
 	/* Posts */
