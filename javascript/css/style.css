@@ -599,9 +599,13 @@
 		}
 
 		.btn:hover {
-		
-		 background:url('images/reload-hover.png') no-repeat left center;
+			background:url('images/reload-hover.png') no-repeat left center;
 		}
+		
+		.btn:active {
+			background:url('images/reload-hover.png') no-repeat left center;
+		}
+			
 			
 	/* Posts */
 
