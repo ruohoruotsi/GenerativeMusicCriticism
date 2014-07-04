@@ -578,12 +578,10 @@
 		 position: relative;
 		 display: inline-block;
 		 text-align: center;
-		 /* border: 1;
-		 outline: 1; */
 		 cursor: pointer;
 		 
 		 border:2px solid #f0eceb;;
-		 /* outline:green dotted thick; */
+		 /* outline:red solid thin; */
 			
 		  -webkit-border-radius: 6;
 		  -moz-border-radius: 6;
@@ -604,8 +602,8 @@
 		}
 		
 		.btn:hover {
-			background: url('images/iconmonstr-refresh-3-icon.svg') no-repeat center;
-  		    background-size: 61px 61px;
+			/* background: url('images/iconmonstr-refresh-3-icon.svg') no-repeat center;
+  		    background-size: 61px 61px; */
 		}
 			
 	/* Posts */
