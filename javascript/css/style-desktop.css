@@ -262,7 +262,10 @@
 			color: #8d9ca3;
 		}
 
-/* IO HAVOC Buttons 	
+/* IO HAVOC Buttons */
+
 .btn:hover {
-} */
+   opacity: 0.85;
+   filter: alpha(opacity=85); /* For IE8 and earlier */
+}
 			
