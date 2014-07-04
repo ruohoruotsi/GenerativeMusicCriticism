@@ -578,9 +578,12 @@
 		 position: relative;
 		 display: inline-block;
 		 text-align: center;
-		 border: 0;
+		 /* border: 1;
+		 outline: 1; */
 		 cursor: pointer;
-		 outline: 0;
+		 
+		 border:2px solid #f0eceb;;
+		 /* outline:green dotted thick; */
 			
 		  -webkit-border-radius: 6;
 		  -moz-border-radius: 6;
@@ -593,17 +596,13 @@
 		  
 		  width: 60px;
     	  height: 60px;
-		  background:url('images/reload.png') no-repeat left center;
+		  background:url('images/reload.png') no-repeat center;
 		   opacity: 0.75;
 		   filter: alpha(opacity=75); /* For IE8 and earlier */
 		}
 
 		.btn:hover {
-			background:url('images/reload-hover.png') no-repeat left center;
-		}
-		
-		.btn:active {
-			background:url('images/reload-hover.png') no-repeat left center;
+			background:url('images/reload-hover.png') no-repeat center;
 		}
 			
 			

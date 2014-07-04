@@ -53,6 +53,37 @@ body, input, textarea, select
 		padding: 10px 35px 10px 35px;
 	}
 	
+		/* IO HAVOC Buttons */			
+		.btn {
+		
+		/*
+		 position: relative;
+		 display: inline-block;
+		 text-align: center;
+		 cursor: pointer;
+		 
+		 border:2px solid #f0eceb;;
+		 outline:green dotted thick;
+			
+		  -webkit-border-radius: 6;
+		  -moz-border-radius: 6;
+		  border-radius: 0.5em;
+		  color: #ed1d1d;
+		  font-size: 1.25em;
+		  background: #f0eceb;
+		  text-decoration: none;
+		  
+		  width: 60px;
+    	  height: 60px;
+		  background:url('images/reload.png') no-repeat center;
+		   opacity: 0.75;
+		   filter: alpha(opacity=75); // For IE8 and earlier */
+		}
+
+		.btn:hover {
+		}
+	
+	
 /* Wrappers */
 
 	#header-wrapper
