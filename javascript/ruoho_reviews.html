@@ -98,8 +98,11 @@
 								'Trout Face Paranoia','Toys From The Destruction',
 								'Pure Grit', 'Conveniently Dead', 'Fear Of Weasel Flesh',
 								'The Goodfinger Chronicles', 'My White Keyboard', 'Indigo',
-								'Ghost In The Club'];
-
+								'Ghost In The Club', 'Langues', 'A Crimsom Tale', 
+								'The Western Sky', 'Words On The Floor', 'Mescalyne',
+								'Race of Abel', 'Bottomless Vales', 'Dumb Supper',
+								'Sounds Are Missing', 'Pieces For Hidden Prayers', 
+								'Mord Und Totsclag', 'We Share A Pain', 'A Glass Darkly'];
 
 		// setup
 		window.onload = setupCached;
@@ -261,7 +264,7 @@
 		function getAlbumName()
 		{
 			// console.log(cachedAlbumList.length);
-			var rand = Math.floor((Math.random()*87));
+			var rand = Math.floor((Math.random()*cachedAlbumList.length));
 			document.getElementById("reviewTitle").innerHTML = cachedAlbumList[rand];
 		}
 

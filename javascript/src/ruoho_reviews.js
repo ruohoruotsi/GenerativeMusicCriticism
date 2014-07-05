@@ -11,7 +11,7 @@ reviewGrammar = {
 
 ///////  
 "<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
-//// "<artist-phrase>": "",	
+////  "<artist-phrase>": "",	
 
 ///////  
 "<artist-action-phrase>": "\
@@ -224,7 +224,7 @@ reviewGrammar = {
 					Don't waste your time. | Phatness! | Bad*ss! | Dope. | Sublime. | Another excellent transmission! |\
 					A musical treat. | For connoisseurs only.",
 
-"<music-recording-noun>":	"12” wax | MP3 | cassette | CD | album | 4-track cartridge | \
+"<music-recording-noun>":	"12” vinyl | MP3 | cassette | CD | album | 4-track cartridge | \
 							live-stream | laserdisc | DVD-R | EP | ogg-vorbis download | maxi-single | Bandcamp release | \
 							ambisonic release | white-label | release | Spotify stream | Beats Music special | Rdio exclusive | \
 							17-track compilation | Soundcloud clip | promo | Youtube video | 7” vinyl | box set | \
@@ -244,6 +244,11 @@ reviewGrammar = {
 							meandering around a plucked melody <verb-phrase-singular> |	\
 							sounding like <skank-artist> in a skank off, after inhaling a canister of nitrous oxide | \
 							sounding like Björk jamming with <static-artist> after a relaxing sauna session | \
+							sounding like Richie Hawtin DJ-ing in vast gasometer |\
+							sounding like perfectly formed, oblique melodic miniature mobiles |\
+							sounding like a bombardment of freeform consonants in a nuclear particle accelerator |\
+							sounding like a locust storm of kaleidoscopic, obsidian distortion |\
+							sounding like an accomplished and arresting tribute to the melancholia of childhood |\
 							blurring the boundaries between <structure-description> and <structure-description> | \
 							eschewing the familiar palimpsest of credible <genre> <genre-noun> | \
 							injecting hints of <genre> patterns into <genre> | \
@@ -276,7 +281,7 @@ reviewGrammar = {
 								a haunted melancholic incantation, curling ineffably upwards | \
 								a dense, effulgent piece of faux-romantic orchestral syrup | \
 								a deluge of piano flecked gems | \
-								an ambivalent reverie, rising from elaborated voice-leading constructions |\
+								an ambivalent reverie, emerging from elaborated voice-leading constructions |\
 								a banquet of Flying Lotus-style bass arpeggiations |  \
 								a series of shamanic, trance-state mutterings | \
 								a feast of noise-rock virtuosity | \
@@ -565,8 +570,9 @@ reviewGrammar = {
 								 the intricately funked syncopations of Autechre or Alva Noto |\
 								 the isolationist bleeps of Mika Vainio |\
 								 the oneiric dramaturgy of Robert Ashley |\
-								 the pointillist dynamics associated with Arnold Schoenberg |\
+								 the pointillist dynamics of Arnold Schoenberg |\
 								 the psychedelic ragas of Pandit Pran Nath |\
+								 the moodier zones of Aphex Twin's Selected Ambient Works Vol. 2 |\
 								 the spiraling acidic basslines of Josh Wink |\
 								 the subdued ferric tones of Kevin Drumm | \
 								 the synth drones of Klaus Schulze | \
@@ -763,7 +769,7 @@ labelYearGrammar = {
 					 Bugged Out! Recordings | High On Rhythm Records | AM:PM | Southern Fried Records |\
 					 Twisted America Records | Hand On The Plow | Moonshine Music | Trax Records | \
 					 Shitkatapult | Warp | The Leaf | Kranky | Thoughtless Music | Unfoundsound | \
-					 Ritornell",
+					 Ritornell | Raster-Norton",
 					  
 "<year>": 			"1984 | 1997 | 1999 | 2001 | 2003| 2008 | 2009 | 2011 | \
 					2013 | 2014 |2014 | 2014 | 2013 | 2014 | 2013 | 2014 | 2014 | \
