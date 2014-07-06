@@ -11,7 +11,7 @@ reviewGrammar = {
 
 ///////  
 "<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
-////  "<artist-phrase>": "",	
+//// "<artist-phrase>": "",	
 
 ///////  
 "<artist-action-phrase>": "\
@@ -26,7 +26,7 @@ reviewGrammar = {
 		  but ultimately <adept-syn> selection of privately-pressed tracks that sound somewhere between <genre> and <genre> | \
 		\
 		4 Your mind is about to be blown by the unearthing of a <year> curio from <artist>, showing off <structure-description>, \
-		  <gerund-song-phrase> | \
+		  <present-participle-phrase> | \
 		\
 		5 The songwriting <ferocity-syn> <exhibited-syn> by <artist> <raises-goosebumps-syn>, showing off <structure-description>, \
 		  dwarfing the <structure-description> of many better known artists | \
@@ -35,7 +35,7 @@ reviewGrammar = {
 		  crafting sidewinding <derangements-syn> that blend <structure-description> and <structure-description> | \
 		\
 		7 The ascendant <ferocity-syn> of <artist> is on display again, showing off <structure-description>, \
-		  <gerund-song-phrase> | \
+		  <present-participle-phrase> | \
 		\
 		8 The musical <ferocity-syn> of <artist> invokes states of psychological <panic-syn> that will resonate \
 		  beyond <experimental-syn> <genre> <circles-syn>, into the <daily-lives-syn> of <fans-syn> of <genre>",
@@ -70,7 +70,7 @@ reviewGrammar = {
 		\
 		17 The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase> | \
 		\
-		18 The <time-adjective> <music-recording-noun> by <artist> <raises-goosebumps-syn>, <gerund-song-phrase> | \
+		18 The <time-adjective> <music-recording-noun> by <artist> <raises-goosebumps-syn>, <present-participle-phrase> | \
 		\
 		19 The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description> | \
 		\
@@ -78,10 +78,10 @@ reviewGrammar = {
 		<genre> scene with pinpoint accuracy |\
 		\
 		21 The <time-adjective> <music-recording-noun> by <artist> taps into a delicate, \
-		   <genre-adjective> corner of the <musical-universe-syn>, <gerund-song-phrase> | \
+		   <genre-adjective> corner of the <musical-universe-syn>, <present-participle-phrase> | \
 		\
 		22 The <time-adjective> <music-recording-noun> by <artist> is a masterclass in the dark <art-syn> of <genre>, \
-		   showing off <structure-description>, <gerund-song-phrase> | \
+		   showing off <structure-description>, <present-participle-phrase> | \
 		\
 		23 The <time-adjective> <music-recording-noun> by <artist> is a <retro-syn> <reconstruction-syn> of \
 		   <genre> <balladry-syn> <verb-phrase-singular> | \
@@ -239,38 +239,41 @@ reviewGrammar = {
 								<writhes-syn> <adverb> with overdriven intensity and deeply sinister undercurrents | \
 								tries to solve an inherently under-constrained musical problem with <structure-description>|\
 								tries to make sense out of a 3D sonic world using inadequate two-dimensional projections",
-						
-"<gerund-song-phrase>": 	"marrying <genre> with <structure-description> | \
-							meandering around a plucked melody <verb-phrase-singular> |	\
-							sounding like <skank-artist> in a skank off, after inhaling a canister of nitrous oxide | \
-							sounding like Björk jamming with <static-artist> after a relaxing sauna session | \
-							sounding like Richie Hawtin DJ-ing in vast gasometer |\
-							sounding like perfectly formed, oblique melodic miniature mobiles |\
-							sounding like a bombardment of freeform consonants in a nuclear particle accelerator |\
-							sounding like a locust storm of kaleidoscopic, obsidian distortion |\
-							sounding like an accomplished and arresting tribute to the melancholia of childhood |\
-							blurring the boundaries between <structure-description> and <structure-description> | \
-							eschewing the familiar palimpsest of credible <genre> <genre-noun> | \
-							injecting hints of <genre> patterns into <genre> | \
-							letting in shards of light and sumptuous colours painted through snippets of <genre> | \
-							propelling ethereal glitching rhythms across <plains-syn> of elaborately fashioned <electro-acoustic-syn> static | \
-							wielding <struct-adj> Detroit shuffles à la Theo Parrish | \
-							brushing its rhythms with a breathtaking sleight of hand | \
-							spinning a collection of <struct-adj> piano elegies | \
-							veering off on solo tangents of enchanted <electro-acoustic-syn> abstraction | \
-							functioning through the frosted lens of <Finnish-syn> stoicism | \
-							whining and squealing like a farmyard animal in the pangs of labour | \
-							ricocheting reverbed-out gunshots off grimy bassline warps | \
-							employing <struct-adj>, staggered harmonic progressions | \
-							riding rock hard subbass depth charges | \
-							creating atmospheric pressure drops sharp enough to give lesser divers the bends | \
-							skittering back to <struct-adj>, post-Autechre beat deconstructions | \
-							dripping with endless reverb and delay manipulation | \
-							trawling the depths of vinyl's pockmarked grooves for <a-structure-description> | \
-							before collapsing beneath <a-structure-description> | \
-							melting <genre> accordion and Diwali-riddim claps with woozy <electro-acoustic-syn> static |\
-							ploughing furrows of unresolved chord changes, stretching out to infinity |\
-							exhibiting <a-structure-description> <evocative-adjective> of <the-synth-drones-Klaus>",
+											
+"<present-participle-phrase>": 	"\
+								before collapsing beneath <a-structure-description> | \
+								before skittering back to <struct-adj>, post-Autechre beat deconstructions | \
+								before spinning a collection of <struct-adj> piano elegies | \
+								before veering off on solo tangents of enchanted <electro-acoustic-syn> abstraction | \
+								while functioning through the frosted lens of <Finnish-syn> stoicism | \
+								while ricocheting reverbed-out gunshots off grimy bassline warps | \
+								while injecting hints of <genre> patterns into <genre> | \
+								while wielding <struct-adj> Detroit shuffles à la Theo Parrish | \
+								\
+								\
+								blurring the boundaries between <structure-description> and <structure-description> | \
+								brushing its rhythms with a breathtaking sleight of hand | \
+								creating atmospheric pressure drops sharp enough to give lesser divers the bends | \
+								dripping with endless reverb and delay manipulation | \
+								employing <struct-adj>, staggered harmonic progressions | \
+								eschewing the familiar palimpsest of credible <genre> <genre-noun> | \
+								exhibiting <a-structure-description> <evocative-adjective> of <the-synth-drones-Klaus> |\
+								letting in shards of light and sumptuous colours painted through snippets of <genre> | \
+								marrying <genre> with <structure-description> | \
+								meandering around a plucked melody <verb-phrase-singular> |	\
+								melting <genre> accordion and Diwali-riddim claps with woozy <electro-acoustic-syn> static |\
+								ploughing furrows of unresolved chord changes, stretching out to infinity |\
+								propelling ethereal glitching rhythms across <plains-syn> of elaborately fashioned <electro-acoustic-syn> static | \
+								resounding like Richie Hawtin DJ-ing in vast gasometer |\
+								resonating like perfectly formed, oblique melodic miniature mobiles |\
+								reverberating like a bombardment of freeform consonants in a nuclear particle accelerator |\
+								riding rock hard subbass depth charges | \
+								sounding like <skank-artist> in a skank off, after inhaling a canister of nitrous oxide | \
+								sounding like Björk jamming with <static-artist> after a relaxing sauna session | \
+								swarming like a locust storm of kaleidoscopic, obsidian distortion |\
+								sounding like an accomplished and arresting tribute to the melancholia of childhood |\
+								trawling the depths of vinyl's pockmarked grooves for <a-structure-description> | \
+								whining and squealing like a farmyard animal in the pangs of labour",
 
 
 "<a-structure-description>":   "\
