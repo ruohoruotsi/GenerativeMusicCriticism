@@ -10,8 +10,9 @@ reviewGrammar = {
 "<start>": "<artist-phrase>. | <artist-phrase>. <interjection>",
 
 ///////  
-"<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
-//// "<artist-phrase>": "",	
+////  "<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
+"<artist-phrase>": "25 The <ferocity-syn> of <artist> has a simplicity and warmth that sidesteps \
+				 	the <structure-description> that <blight-syn> the lesser moments of <genre> <balladry-syn>",	
 
 ///////  
 "<artist-action-phrase>": "\
@@ -140,6 +141,7 @@ reviewGrammar = {
 "<musical-universe-syn>": "musical universe | collective subconscious",
 
 "<elevates-syn>": "elevates | modulates",
+"<blight-syn>": "blight | plague | bedevil | frustrate | disrupt | beleaguer",
 
 "<essence-syn>": "essence | quintessence | finale | culmination | climax | persona | \
 				  apotheosis | zenith | resolution | epilogue  | coda | conclusion | denouement",
@@ -187,13 +189,13 @@ reviewGrammar = {
 
 "<creative-syn>":	"sonic | tasteful acoustic | creative | musical | novel musical | \
 					fresh melodic | stirring acoustic | visionary sonic | \
-					trendy musical | stylish sonic | refined | magnificent musical",
+					trendy musical | stylish sonic | refined | magnificent musical | poetic",
 					
 "<wrenches-syn>": "wrenches | plucks | wrests | snatches | prys | pulls | borrows",
 
 "<ferocity-syn>": 	"ferocity | artistry | courage | charisma | cowardice | nerve | \
-					stoutheartedness | endowment | dauntlessness | savagery | genius | \
-					furiousness | violence |  wildness | severeness | \
+					auteurist brillance | stoutheartedness | dauntlessness | savagery | \
+					genius | furiousness | violence |  wildness | severeness | \
 					simplicity | accessibility | straightforwardness | \
 					unpretentiousness | naturalness | clarity | spareness | austerity | \
 					effortlessness | affectation | pretentiousness | posturing | \
@@ -278,35 +280,40 @@ reviewGrammar = {
 
 "<a-structure-description>":   "\
 								an alchemical blend of post-rave <genre> electronics |\
-								a blistering feast of two-chord distortion | \
-								a bubbly <J-pop> appreciation | \
-								a cacophany of autistic rhythms | \
-								a haunted melancholic incantation, curling ineffably upwards | \
+								a blistering feast of two-chord distortion |\
+								a bubbly <J-pop> appreciation |\
+								a cacophany of autistic rhythms |\
+								a contrarily upbeat melancholy |\
 								a dense, effulgent piece of faux-romantic orchestral syrup | \
-								a deluge of piano flecked gems | \
+								a deluge of piano flecked gems |\
+								a droll homage to post-<genre> <genre-noun> |\
 								an ambivalent reverie, emerging from elaborated voice-leading constructions |\
-								a banquet of Flying Lotus-style bass arpeggiations |  \
-								a series of shamanic, trance-state mutterings | \
-								a feast of noise-rock virtuosity | \
+								a banquet of Flying Lotus-style bass arpeggiations |\
+								an idiosyncratic veneer of melancholy |\
+								a feast of noise-rock virtuosity |\
+								a flirtatious pop sensibility |\
 								a gratuitous, pornographic level of lusciousness |\
-								a growing amalgam of motivic contradictions |  \
+								a growing amalgam of motivic contradictions |\
+								a haunted melancholic incantation, curling ineffably upwards |\
 								a horrifying mess of head-meddling unpleasantness |\
-								an overbearingly fuzzy thicket of layered drones |\
-								an indisposable slice of <genre> delectability | \
+								an indisposable slice of <genre> delectability |\
 								a low key, grotty Jakbeat |\
-								a morally inflamatory, skronking bassline | \
+								a lush electronic lamentation |\
+								a morally inflamatory, skronking bassline |\
 								a multicoloured blast of intoxicating feedback |\
-								a mindblowing dubscape of effects | \
+								a mindblowing dubscape of effects |\
+								an overbearingly fuzzy thicket of layered drones |\
+								an obscure, Warrior Queen gunman lyric |\
 								a provacative Steely & Clevie produced riddim |\
-								a pure, transcendental rave feeling | \
-								a super platter of UK bass installments | \
+								a propensity for hoary, hedonistic synth-knob tweaking |\
+								a pure, transcendental rave feeling |\
+								a super platter of UK bass installments |\
+								a series of shamanic, trance-state mutterings |\
 								a timeless, primal yearning for volume and repetition |\
 								a toxic hellstew of glitched-out tapestries |\
 								a vaporous spray of submerged analogue delays |\
-								an idiosyncratic veneer of melancholy |\
 								a veritable haberdashery of vintage musical textures |\
-								a wash of tidal rhythms and turbulent crackle |\
-								an obscure, Warrior Queen gunman lyric",
+								a wash of tidal rhythms and turbulent crackle",
 				
 "<genre-adjective>": 	"quotidian | slippery | fragmented | punctured | wispy | \
 						smudged | delicate | silky |  sweet | fractured | \
@@ -382,6 +389,7 @@ reviewGrammar = {
 
 "<structure-description-01>": "\
 							<struct-adj>, agitated synthlines |\
+  							<struct-adj>, angular melodies |\
   							<struct-adj>, beat psychedelics |\
 							<struct-adj>, breakbeat-fueled <genre> | \
 							<struct-adj>, plunging fifths |\
@@ -410,7 +418,7 @@ reviewGrammar = {
 							<struct-adj>, off-beat syncopations | \
 							<struct-adj>, percussive interjections |\
   							<struct-adj>, post-garage noodlings |\
-							<struct-adj>, post-techno ecstasy |\
+							<struct-adj>, post-techno ecstasies |\
 							<struct-adj>, powdery effects |\
 							<struct-adj>, prismatic strings |  \
 							<struct-adj>, monochord accompaniments |\
@@ -419,6 +427,7 @@ reviewGrammar = {
 							<struct-adj>, sawtooth basslines |\
 							<struct-adj>, <sexy-syn> blips |\
 							<struct-adj>, silvery notes |\
+							<struct-adj>, speaker-taxing noises |\
 							<struct-adj>, stoic minimalisms |\
 							<struct-adj>, throat-tearing howls |\
 							<struct-adj>, trumpet lines|\
@@ -443,7 +452,7 @@ reviewGrammar = {
 							<struct-adj>, psilocybic electronics |\
 							<struct-adj>, raindance drums |\
 							<struct-adj>, quivering sustains |\
-							<struct-adj>, amplifier hum |\
+							<struct-adj>, amplifier hums |\
 							<struct-adj>, bell tones |\
 							<struct-adj>, Chicago house reductions |\
 							<struct-adj>, Europorno soundtracks |\
@@ -454,7 +463,6 @@ reviewGrammar = {
 							aerated electronic timbres |\
 							alien analogue tones |\
 							arcing sinewaves |\
-							austere <genre> <genre-noun> |\
 							austere <genre> cadences |\
 							avant-garde chamber instrumentations |\
 							assorted disembodied voices |\
@@ -471,7 +479,7 @@ reviewGrammar = {
 							dark careening tones from bright, queasy synthesizers |\
 							dense thickets of digitally applied crackle |\
 							deep-set metallic sonorities |\
-							detached 90's post-modernism |\
+							detached 90's post-modernisms |\
 							dread techno futurisms |\
 							deep, rustic darkness |\
 							expertly manipulated rhythm alchemies  |\
@@ -487,6 +495,7 @@ reviewGrammar = {
 							fuzzy shoegaze psychedelia |\
 							gender-bending vocals |\
 							gentle, forlorn 8-bit bleeps | \
+							globular, filtered basslines |\
 							gloriously wild natural timbres |\
 							grim, crust-laden darkness |\
 							grey slabs of doomy <atmospherics-syn> |\
@@ -512,11 +521,12 @@ reviewGrammar = {
 							layered embers of sound |\
 							layered spaciousness, panned to infinity |\
 							malaria-infected, vintage radio essences |\
-							modern amorphous psychedelia |\
+							modern amorphous platitudes |\
 							magnificently evocative, mercilessly deep, tweaked out, post-rave ecstasy |\
 							massively modulated vocal treatments |\
 							myriad drum-machine pattern-permutations |\
 							oblique hi-end processing |\
+							open-ended, improvisational structures |\
 							orchestral level pomp & bombast |\
 							post-pop slacker tendencies |\
 							pure Balearic house bliss |\
@@ -736,7 +746,7 @@ reviewGrammar = {
 			Pornocore | Colombian big band | \
 			Protopunk | Psychedelic trance | Psychobilly | Psychosomatic trance | \
 			Psych-pop | Punk-funk | Punk-rock | Sufi devotional music | Raggamuffin | \
-			Ragga-zouk | Ragtime | Reggaeton | Finnish Rekilaulu | \
+			Ragga-zouk | Ragtime | Reggaetón | Finnish Rekilaulu | \
 			Rhythm & Blues | Icelandic Rímur | Bajan Soca | \
 			Rock opera | Rockabilly | Rocksteady | Rodeo music | Hausa Rokon fada| Roots reggae | Rumba |  \
 			Cuban Rumba | Cuban Rumba | \
