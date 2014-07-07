@@ -117,7 +117,7 @@
 			labelyearRiGrammar = new RiGrammar(labelYearGrammar);
 
 			mouseClicked();
-			console.log("Setup completed");
+			console.log("Setup completed. Great Success");
 		}
 
 
@@ -126,7 +126,7 @@
 		{
 			var aReview = reviewRiGrammar.expand();
 			// RiString text = new RiString(aReview);
-			console.log(aReview.length);
+			console.log("Review length: " + aReview.length);
 
 			var labelyear = labelyearRiGrammar.expand();
 
@@ -247,10 +247,10 @@
 		function getCurrentArtistGenre() // get a current artist terms
 		{
 			// IO HAVOC -- debugging
-			console.log(hotttArtistsCache[currentArtist.index].genres.length);
-			for (i = 0; i < hotttArtistsCache[currentArtist.index].genres.length; i++) { 
-    			console.log(hotttArtistsCache[currentArtist.index].genres[i].name);
-			}	
+			// console.log(hotttArtistsCache[currentArtist.index].genres.length);
+			// for (i = 0; i < hotttArtistsCache[currentArtist.index].genres.length; i++) { 
+    		//	console.log(hotttArtistsCache[currentArtist.index].genres[i].name);
+			// }	
 		
 			var topArtistTerm = hotttArtistsCache[currentArtist.index].genres[0].name;		
 			if(topArtistTerm) {
