@@ -470,7 +470,7 @@ reviewGrammar = {
 							beautifully tempered zones of twilight ambient  |\
 							acid-house breakbeat effusions |\
 							coke-white pop histrionics|\
-							classical omnidirectional yodeling |\
+							classical omnidirectional yodelings |\
 							cassette tape overdubs |\
 							Cambodian folk narratives |\
 							dense analogue experiments |\
@@ -499,7 +499,7 @@ reviewGrammar = {
 							gloriously wild natural timbres |\
 							grim, crust-laden darkness |\
 							grey slabs of doomy <atmospherics-syn> |\
-							gorgeously fragile electronica |\
+							gorgeously fragile utterances |\
 							gorgeous, platitudinous nonsense |\
 							glacially-paced gothic stoner rock |\
 							hazy washes of reverbed harps |\
@@ -508,7 +508,7 @@ reviewGrammar = {
 							head-pressurised technohouse vibes	|\
 							hyper-lean <genre> geometries | \
 							hints of free-roaming Krautrock |\
-							harmonics-drenched white noise |\
+							harmonics-drenched interludes |\
 							hummable <genre> melodies |\
 							heavy rolling dancehall grinders |\
 							haunted-house analogue tactics |\
@@ -525,7 +525,7 @@ reviewGrammar = {
 							magnificently evocative, mercilessly deep, tweaked out, post-rave ecstasy |\
 							massively modulated vocal treatments |\
 							myriad drum-machine pattern-permutations |\
-							oblique hi-end processing |\
+							oblique plaintive yowls |\
 							open-ended, improvisational structures |\
 							orchestral level pomp & bombast |\
 							post-pop slacker tendencies |\
@@ -554,7 +554,7 @@ reviewGrammar = {
 							sublime robo-tropical leitmotives |\
 							steely, speaker-destroying dub techno |\
 							Scandinavian machine music |\
-							<sexy-syn> dancehall minimalism |\
+							<sexy-syn> dancehall minimalisms |\
 							soupy electronic fog |\
 							textural guitar-scapes |\
 							tranquil, free-floating chorales |\
@@ -567,8 +567,8 @@ reviewGrammar = {
 							vocodered, acid belching TB-303s |\
 							vein-melting, improvised freakery |\
 							wonderfully shambolic tendencies |\
-							wispily resonant distortion |\
-							wicked ragga-bashment flava |\
+							wispily resonant distortions |\
+							wicked ragga-bashment flavas |\
 							waves of <electro-acoustic-syn> static",
 
 "<structure-description>":  "<structure-description-01> | <structure-description-02>",
