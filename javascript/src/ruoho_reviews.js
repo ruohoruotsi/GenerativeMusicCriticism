@@ -10,9 +10,8 @@ reviewGrammar = {
 "<start>": "<artist-phrase>. | <artist-phrase>. <interjection>",
 
 ///////  
-////  "<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
-"<artist-phrase>": "25 The <ferocity-syn> of <artist> has a simplicity and warmth that sidesteps \
-				 	the <structure-description> that <blight-syn> the <lesser-syn> moments of <genre> <balladry-syn>",	
+"<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
+//// "<artist-phrase>": "",	
 
 ///////  
 "<artist-action-phrase>": "\
@@ -88,7 +87,10 @@ reviewGrammar = {
 		   <genre> <balladry-syn> <verb-phrase-singular> | \
 		\
 		24 Ping-ponging from <structure-description> to <structure-description>, the music of <artist> draws \
-		   on everything from <genre> to <genre> and <latino> reggaetón",		
+		   on everything from <genre> to <genre> and <latino> reggaetón |\
+		\
+		25 The <ferocity-syn> of <artist> has a simplicity and warmth that sidesteps \
+		   the <structure-description> that <blight-syn> the <lesser-syn> moments of <genre> <balladry-syn>",		
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
