@@ -196,9 +196,9 @@ reviewGrammar = {
 "<ferocity-syn>": 	"ferocity | artistry | courage | charisma | cowardice | nerve | \
 					auteurist brillance | stoutheartedness | dauntlessness | savagery | \
 					genius | furiousness | violence |  wildness | severeness | \
-					simplicity | accessibility | straightforwardness | \
-					unpretentiousness | naturalness | clarity | spareness | austerity | \
-					effortlessness | affectation | pretentiousness | posturing | \
+					accessibility | straightforwardness | \
+					unpretentiousness | naturalness | spareness | austerity | \
+					effortlessness | pretentiousness | posturing | \
 					mulishness | recalcitrance | generosity | \
 					excess | drama | gutsiness",
 
@@ -523,7 +523,6 @@ reviewGrammar = {
 							loose strands of treated guitar |\
 							lurid hues of neon pink & green |\
 							layered embers of sound |\
-							layered spaciousness, panned to infinity |\
 							malaria-infected, vintage radio essences |\
 							modern amorphous platitudes |\
 							magnificently evocative, mercilessly deep, tweaked out, post-rave ecstasy |\
