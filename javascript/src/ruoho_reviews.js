@@ -12,7 +12,7 @@ reviewGrammar = {
 ///////  
 ////  "<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
 "<artist-phrase>": "25 The <ferocity-syn> of <artist> has a simplicity and warmth that sidesteps \
-				 	the <structure-description> that <blight-syn> the lesser moments of <genre> <balladry-syn>",	
+				 	the <structure-description> that <blight-syn> the <lesser-syn> moments of <genre> <balladry-syn>",	
 
 ///////  
 "<artist-action-phrase>": "\
@@ -205,6 +205,10 @@ reviewGrammar = {
 "<riffs-syn>": "riffs | noodlings | melodies",
 
 "<writhes-syn>":	"writhes | squirms | wriggles | thrashes | flails | tosses and turns",
+
+"<lesser-syn>": "lesser | smaller | duller | hazier | foggier | dimmer |\
+				 murkier | darker | weaker | feebler | paler |\
+				 more obscure | more subdued", 
 
 "<join-phrase>": 	"marries | fuses | blends | marries | merges | mixes | unifies | intermingles | melds | joins",
 
@@ -737,7 +741,7 @@ reviewGrammar = {
 			Makossa | Makossa-soukous | Mariachi | \
 			Mbalax | Mbaqanga | Memphis blues | \
 			Mento | Minimal techno  | Musique concrete | Serbian Folk | \
-			Neo-Psychedelia | Neo Soul | Neue Volksmusik | New Age | New Jack Swing  | \
+			Neo-Soul | Neue-Volksmusik | New Age | New Jack Swing  | \
 			New Orleans blues | US Garage | Nintendocore | Noise music  | Nordic folk | \
 			Nortec  | Nu breaks | Yakut epic music | P-Funk | \
 			Palm wine sound  | Nepalese wedding music | Keralan Panchavadyam | Parisian soukous | \
