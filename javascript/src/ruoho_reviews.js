@@ -157,7 +157,7 @@ reviewGrammar = {
 					
 "<pastiche-syn>":  "pastiche | sophistication | appropriation | <genre-noun> | \
 					ephemera | miscellany | miscellanea | style arrangements | \
-				   	detritus | flotsam | chaos | simulacrum",
+				   	detritus | flotsam | chaos | simulacrum | adjacencies",
 
 "<teeters-syn>": "teeters on the <edge-syn> of | \
 				 dabbles in | fiddles with | flirts with",
@@ -717,7 +717,7 @@ reviewGrammar = {
 			
 "<genre>": "Future Samba | Fonk Arabic | Digital Zulu | \
 			Acid-jazz | Acid Rock | Afrobeat  | Nigerian Apala  | \
-			Avant-jazz  | Avant-metal | Avant-punk | Bachata  | Baile Funk | \
+			Avant-jazz  | Avant-metal | Avant-punk | Azonto | Bachata  | Baile Funk | \
 			Balinese Gamelan  | Miami bass | Booty bass | Batucada  | \
 			Bhangragga | Bhangramuffin | Big Beat | Bohemian Dub | \
 			Bossa nova |  Breakbeat  | Breakcore  |  Britfunk | Britpop | Broken-beat  | \
@@ -730,7 +730,7 @@ reviewGrammar = {
 			Dub Techno | Dubtronica | Dubstep | E-Grind | Electroclash | Electropop | \
 			Emo | Eurodance | Europop | Flamenco  | \
 			Folktronica | Free-jazz | Freestyle | Funky house | \
-			Gangsta rap  | Ghettotech |  Glam-punk | Glitch | \
+			Gangsta rap  | Ghanaian Kpanlogo | Ghettotech |  Glam-punk | Glitch | \
 			Gregorian chant | Grime  | Grunge | \
 			\
 			Transylvanian wedding music | Happy hardcore | Hard house | Hi-NRG | \
@@ -740,7 +740,7 @@ reviewGrammar = {
 			Gypsy dance music  | Krautrock |  Swedish folk| \
 			Kwaito | Kwassa kwassa | Latin-jazz | Tibetan opera | Lovers rock | \
 			Makossa | Makossa-soukous | Mariachi | \
-			Mbalax | Mbaqanga | Memphis blues | \
+			Mbalax | Mbaqanga | Memphis blues | Moombahton | Moombahcore | Moombahstep | \
 			Mento | Minimal techno  | Musique concrete | Serbian Folk | \
 			Neo-Soul | Neue-Volksmusik | New Age | New Jack Swing  | \
 			New Orleans blues | US Garage | Nintendocore | Noise music  | Nordic folk | \
@@ -756,7 +756,7 @@ reviewGrammar = {
 			Rock opera | Rockabilly | Rocksteady | Rodeo music | Hausa Rokon fada| Roots reggae | Rumba |  \
 			Cuban Rumba | Cuban Rumba | \
 			Ska-punk | Skate-punk | Skronk | \
-			Hawaian Kihoalu | Smooth-jazz | Soukous | Soul-jazz | \
+			Hawaian Kihoalu | Slängpolska | Smooth-jazz | Soukous | Soul-jazz | \
 			Space age pop | Space rock | Speedcore | Speed garage | Stoner rock | \
 			Surf rock | Swamp blues | Tuvan Throat Singing | Synthpop | \
 			Texas blues | Thrashcore | Guinean Tinga | Tribal house | \
