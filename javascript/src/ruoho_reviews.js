@@ -347,6 +347,7 @@ reviewGrammar = {
 				hypnagogic |\
 				julienned |\
 				lysergic |\
+				liturgical | \
 				majestic |\
 				narcotic |\
 				phantasmic |\
@@ -366,6 +367,7 @@ reviewGrammar = {
 				soporific |\
 				symphonic |\
 				synaesthetic |\
+				syllabic |\
 				throbbing |\
 				towering |\
 				tantalising |\
@@ -414,9 +416,11 @@ reviewGrammar = {
 							<struct-adj>, harmonic machinations | \
 							<struct-adj>, haunting strings | \
 							<struct-adj>, incandescent lyrics | \
+							<struct-adj>, intervallic ornamentations |\
 							<struct-adj>, <J-pop> delights |\
 							<struct-adj>, kosmische pulsations |\
 							<struct-adj>, laminous droning |\
+							<struct-adj>, melismatic ornamentations |\
 							<struct-adj>, melodic ephemera |\
 							<struct-adj>, mercurial motifs |\
 							<struct-adj>, mind-quaking ambiences |\
@@ -466,115 +470,115 @@ reviewGrammar = {
 							<struct-adj>, saxophone emissions",
 
 "<structure-description-02>": "\
-							aerated electronic timbres |\
-							alien analogue tones |\
-							arcing sinewaves |\
-							austere <genre> cadences |\
-							avant-garde chamber instrumentations |\
-							assorted disembodied voices |\
-							blissfully uncluttered aesthetics | \
-							beautifully tempered zones of twilight ambient  |\
-							acid-house breakbeat effusions |\
-							coke-white pop histrionics|\
-							classical omnidirectional yodelings |\
-							cassette tape overdubs |\
-							Cambodian folk narratives |\
-							dense analogue experiments |\
-							digitally dissected orchestral figures |\
-							devastatingly heavy <genre> mutations |\
-							dark careening tones from bright, queasy synthesizers |\
-							dense thickets of digitally applied crackle |\
-							deep-set metallic sonorities |\
-							detached 90's post-modernisms |\
-							dread techno futurisms |\
-							deep, rustic darkness |\
-							expertly manipulated rhythm alchemies  |\
-							early handmade experiments |\
-							endlessly arpeggiated chords |\
-							enunciated warbling consonants |\
-							European technical execution |\
-							fat skronked basslines under <genre-adjective>, minimal percussion |\
-							flourishes of TR-909 hi-hats |\
-							freaky sequenced blips |\
-							foggy northern European drone-scapes |\
-							floppy fringe harmonies |\
-							fuzzy shoegaze psychedelia |\
-							gender-bending vocals |\
-							gentle, forlorn 8-bit bleeps | \
-							globular, filtered basslines |\
-							gloriously wild natural timbres |\
-							grim, crust-laden darkness |\
-							grey slabs of doomy <atmospherics-syn> |\
-							gorgeously fragile utterances |\
-							gorgeous, platitudinous nonsense |\
-							glacially-paced gothic stoner rock |\
-							hazy washes of reverbed harps |\
-							hazy, spun out blues |\
-							hi-scoring aquakrunk madness |\
-							head-pressurised technohouse vibes	|\
-							hyper-lean <genre> geometries | \
-							hints of free-roaming Krautrock |\
-							harmonics-drenched interludes |\
-							hummable <genre> melodies |\
-							heavy rolling dancehall grinders |\
-							haunted-house analogue tactics |\
-							hazily buoyant, ethereal female vocals |\
-							intricately funked syncopations |\
-							inimitably raw, psychedelic wow-and-flutter beats |\
-							jellied, slushy bass frequencies |\
-							loose strands of treated guitar |\
-							lurid hues of neon pink & green |\
-							layered embers of sound |\
-							malaria-infected, vintage radio essences |\
-							modern amorphous platitudes |\
-							magnificently evocative, mercilessly deep, tweaked out, post-rave ecstasy |\
-							massively modulated vocal treatments |\
-							myriad drum-machine pattern-permutations |\
-							oblique plaintive yowls |\
-							open-ended, improvisational structures |\
-							orchestral level pomp & bombast |\
-							post-pop slacker tendencies |\
-							pure Balearic house bliss |\
-							reptilian distress cries |\
-							rootsy one-drop dub keys |\
-							Saharan blues fetishism |\
-							succulent bass treatments |\
-							stoned post-punk guitar strokes |\
-							shoegazy opiates |\
-							sticky, wriggly electro influences |\
-							soft, smoky sax lines |\
-							spare, flinty embers  |\
-							supple subbass wobbles |\
-							subtly plush synth embellishments |\
-							semi-organic gristle |\
-							sea-sick rhythms |\
-							shards of ultra-plastic electro-funk |\
-							stringently reduced techno |\
-							somnolent, spectrally sifted chorales |\
-							spectrally sifted electronics |\
-							spacious Balearic keys |\
-							slurred, bladdered articulations |\
-							sculpted rhythm dynamics |\
-							spleen-crushing bass |\
-							sublime robo-tropical leitmotives |\
-							steely, speaker-destroying dub techno |\
-							Scandinavian machine music |\
-							<sexy-syn> dancehall minimalisms |\
-							soupy electronic fog |\
-							textural guitar-scapes |\
-							tranquil, free-floating chorales |\
-							testosterone-fuelled, urban mutations | \
-							utterly sick digital spasms |\
-							undulating, unstable cadences |\
-							unfathomably complex textures |\
-							uncharacteristically spry tempos |\
-							unfathomably deep, utterly sick, dubwise textures |\
-							vocodered, acid belching TB-303s |\
-							vein-melting, improvised freakery |\
-							wonderfully shambolic tendencies |\
-							wispily resonant distortions |\
-							wicked ragga-bashment flavas |\
-							waves of <electro-acoustic-syn> static",
+								aerated electronic timbres | \
+								acid-house breakbeat effusions |\
+								alien analogue tones |\
+								arcing sinewaves |\
+								assorted disembodied voices |\
+								austere <genre> cadences |\
+								avant-garde chamber instrumentations |\
+								beautifully tempered zones of twilight ambient  |\
+								blissfully uncluttered aesthetics | \
+								Cambodian folk narratives |\
+								cassette tape overdubs |\
+								classical omnidirectional yodelings |\
+								coke-white pop histrionics|\
+								dark careening tones from bright, queasy synthesizers |\
+								deep-set metallic sonorities |\
+								deep, rustic darkness |\
+								dense analogue experiments |\
+								dense thickets of digitally applied crackle |\
+								detached 90's post-modernisms |\
+								devastatingly heavy <genre> mutations |\
+								digitally dissected orchestral figures |\
+								dread techno futurisms |\
+								early handmade experiments |\
+								endlessly arpeggiated chords |\
+								enunciated warbling consonants |\
+								European technical execution |\
+								expertly manipulated rhythm alchemies  |\
+								fat skronked basslines under <genre-adjective>, minimal percussion |\
+								floppy fringe harmonies |\
+								flourishes of TR-909 hi-hats |\
+								foggy northern European drone-scapes |\
+								freaky sequenced blips |\
+								fuzzy shoegaze psychedelia |\
+								gender-bending vocals |\
+								gentle, forlorn 8-bit bleeps | \
+								glacially-paced gothic stoner rock |\
+								globular, filtered basslines |\
+								gloriously wild natural timbres |\
+								gorgeous, platitudinous nonsense |\
+								gorgeously fragile utterances |\
+								grey slabs of doomy <atmospherics-syn> |\
+								grim, crust-laden darkness |\
+								harmonics-drenched interludes |\
+								haunted-house analogue tactics |\
+								hazily buoyant, ethereal female vocals |\
+								hazy washes of reverbed harps |\
+								hazy, spun out blues |\
+								head-pressurised technohouse vibes	|\
+								heavy rolling dancehall grinders |\
+								hi-scoring aquakrunk madness |\
+								hints of free-roaming Krautrock |\
+								hummable <genre> melodies |\
+								hyper-lean <genre> geometries | \
+								inimitably raw, psychedelic wow-and-flutter beats |\
+								intricately funked syncopations |\
+								jellied, slushy bass frequencies |\
+								layered embers of sound |\
+								loose strands of treated guitar |\
+								lurid hues of neon pink & green |\
+								magnificently evocative, mercilessly deep, tweaked out, post-rave ecstasy |\
+								malaria-infected, vintage radio essences |\
+								massively modulated vocal treatments |\
+								modern amorphous platitudes |\
+								myriad drum-machine pattern-permutations |\
+								oblique plaintive yowls |\
+								open-ended, improvisational structures |\
+								orchestral level pomp & bombast |\
+								post-pop slacker tendencies |\
+								pure Balearic house bliss |\
+								reptilian distress cries |\
+								rootsy one-drop dub keys |\
+								<sexy-syn> dancehall minimalisms |\
+								Saharan blues fetishism |\
+								Scandinavian machine music |\
+								sculpted rhythm dynamics |\
+								sea-sick rhythms |\
+								semi-organic gristle |\
+								shards of ultra-plastic electro-funk |\
+								shoegazy opiates |\
+								slurred, bladdered articulations |\
+								soft, smoky sax lines |\
+								somnolent, spectrally sifted chorales |\
+								soupy electronic fog |\
+								spacious Balearic keys |\
+								spare, flinty embers  |\
+								spectrally sifted electronics |\
+								spleen-crushing bass |\
+								steely, speaker-destroying dub techno |\
+								sticky, wriggly electro influences |\
+								stoned post-punk guitar strokes |\
+								stringently reduced techno |\
+								sublime robo-tropical leitmotives |\
+								subtly plush synth embellishments |\
+								succulent bass treatments |\
+								supple subbass wobbles |\
+								testosterone-fuelled, urban mutations | \
+								textural guitar-scapes |\
+								tranquil, free-floating chorales |\
+								uncharacteristically spry tempos |\
+								undulating, unstable cadences |\
+								unfathomably complex textures |\
+								unfathomably deep, utterly sick, dubwise textures |\
+								utterly sick digital spasms |\
+								vein-melting, improvised freakery |\
+								vocodered, acid belching TB-303s |\
+								waves of <electro-acoustic-syn> static | \
+								wicked ragga-bashment flavas |\
+								wispily resonant distortions |\
+								wonderfully shambolic tendencies",
 
 "<structure-description>":  "<structure-description-01> | <structure-description-02>",
 
@@ -692,7 +696,7 @@ reviewGrammar = {
 "<adverb>":				"<adverb-terminal> | <adverb-terminal>",
 
 "<adverb-terminal>":	"brilliantly | astutely | adeptly | robustly | amazingly | carefully | \
-						inadequately | abstractly | absurdly | accidentally  | brightly | breathtakingly",
+						abstractly | absurdly | accidentally  | brightly | breathtakingly",
 
 "<adverb-time-terminal>":	"occasionally | sporadically | infrequently | periodically | \
 							irregularly | intermittently | frequently | repeatedly | recurrently",
