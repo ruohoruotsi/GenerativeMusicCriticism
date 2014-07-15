@@ -23,7 +23,7 @@ reviewGrammar = {
 		  <creative-syn> <ferocity-syn>, <verb-phrase-singular> | \
 		\
 		3 Your mind is about to be blown by the unearthing of a <year> curio from <artist>, offering a truly <bizarre-syn>, \
-		  but ultimately <adept-syn> selection of privately-pressed tracks that sound somewhere between <genre> and <genre> | \
+		  but ultimately <adept-syn> selection of privately-pressed tracks that sound somewhere between <genre> and <folk-genre> | \
 		\
 		4 Your mind is about to be blown by the unearthing of a <year> curio from <artist>, showing off <structure-description>, \
 		  <present-participle-phrase> | \
@@ -31,7 +31,7 @@ reviewGrammar = {
 		5 The songwriting <ferocity-syn> <exhibited-syn> by <artist> <raises-goosebumps-syn>, showing off <structure-description>, \
 		  dwarfing the <structure-description> of many better known artists | \
 		\
-		6 The songwriting <ferocity-syn> <exhibited-syn> by <artist> <wrenches-syn> ideas from <genre>, <genre> and <genre>, \
+		6 The songwriting <ferocity-syn> <exhibited-syn> by <artist> <wrenches-syn> ideas from <genre>, <genre> and <folk-genre>, \
 		  crafting sidewinding <derangements-syn> that blend <structure-description> and <structure-description> | \
 		\
 		7 The ascendant <ferocity-syn> of <artist> is on display again, showing off <structure-description>, \
@@ -220,7 +220,7 @@ reviewGrammar = {
 
 "<electro-acoustic-syn>":  "electro-acoustic | 8-bit | Illbient | Nintendocore | ambient | shoegazey",
 
-"<latino>": "Panamanian | Puerto Rican | Cuban | Dominican | Colombian | Costa Rican",
+"<latino>": "Panamanian | Puerto Rican | Dominican | Colombian | Costa Rican",
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -241,7 +241,7 @@ reviewGrammar = {
 "<time-adjective>":	"latest | recent | newest | current | charting | forthcoming | upcoming | trending",
 
 "<artist-description-phrase>": 	"<adverb> defies categorisation | \
-								demonstrates an innate grasp of the sublime qualities of <genre>  | \
+								demonstrates an innate grasp of the sublime qualities of <genre> | \
 								makes for an uncommonly good performance <verb-phrase-singular> | \
 								compliments credible <genre> <genre-noun> with a mighty doublepack of deadly bass variations <verb-phrase-singular> | \
 								<writhes-syn> <adverb> with overdriven intensity and deeply sinister undercurrents | \
@@ -255,7 +255,7 @@ reviewGrammar = {
 								before veering off on solo tangents of enchanted <electro-acoustic-syn> abstraction | \
 								while functioning through the frosted lens of <Finnish-syn> stoicism | \
 								while ricocheting reverbed-out gunshots off grimy bassline warps | \
-								while injecting hints of <genre> patterns into <genre> | \
+								while injecting hints of <genre> patterns into <folk-genre> | \
 								while wielding <struct-adj> Detroit shuffles à la Theo Parrish | \
 								\
 								\
@@ -714,57 +714,79 @@ reviewGrammar = {
 "<J-pop>": "J-pop | K-pop | Hokkien-pop | Cantopop | Mandopop | Pinoy-pop | Shibuya-kei",
 
 "<artist-genre>": 	"`getArtistGenre()` | <genre>",
+
+"<genre>": "<pop-genre>",
+		
+"<folk-genre>":    "Afro-Brazilian Maracatu de nação | Afro-Venezuelan Gaita | \
+					Afro-Venezuelan Parranda | Greenlandic folk | Colombian big band | \
+					Ghanaian Azonto | Guinean Tinga | Swedish Slängpolska | Bajan Soca | \
+					Yorùbá Apala | Ghanaian Kpanlogo | Nigerian Jùjú | Balinese monkeychant | \
+					Sufi devotional music | Hausa Rokon fada | Hawaian Kihoalu | \
+					Swedish folk| Tibetan opera |  Keralan Panchavadyam | Parisian soukous |\
+					Thai protest rock | Ivorian Ziglibithy | Ivorian Zouglou | \
+					Tuvan Throat Singing | Hungarian Verbunkos | Greek Zeibekiko | Afro-Bolivian Saya | \
+ 					Algerian Raï | Armenian Kochari | Armenian Shalako | \
+ 					Bahamanian Goombay | Bahraini Sawt | Balinese Gamelan | Basque Trikitixa | \
+ 					Belizean Gunchei | Béninois Palm wine sound |  Betawi Gambang kromong | \
+ 					Bolivian Tinku | Bosniak Sevdalinka | Brasileira música pop | Brazilian Baião | \
+ 					Brazilian Carimbó |  Brazilian Forró  | Brazilian Samba-canção | Cameroonian Bantowbol | \
+ 					Cameroonian Bikutsi | \
+ 					Catalan Sarsuela | Chinese Guoyue | Colombian Caña | Colombian Cañatronic | \
+ 					Colombian Vallenato | Creole Zydeco | Cuba Batá-rumba | Cuban Changüí | \
+ 					Cuban Guaguancó | Cuban Guajira | Cuban Yambú | Estonian Regilaul | Finnish Pelimanni | \
+ 					Finnish Rekilaulu | Greek Dhimotiká  | Greenlandic Pisiq | Guadeloupean Gwo ka | \
+ 					Guadeloupean Zouk béton | Guinea-Bissauan Gumbe | Hindustani Dhrupad | \
+ 					Hindustani Khayal | Hungarian Legényes | Hungarian Táncház | Icelandic Rímur | \
+ 					Inuit Katajjaq | Irish Sean-nós | Ivorian Coupé-Décalé | Japanese Gagaku  | \
+ 					Japanese Gaikyoku | Javanese Gandrung | Javanese Ronggeng | \
+ 					Kuwaiti Khaliji | Kyrgyz Manaschi | Malay Bangsawan | Malay Gamad | Malay Kertok | \
+ 					Malay Zapin | Malian Wassoulou | Martinican Mazurka | Moroccan Gnawa | \
+ 					Okinawan Goshu Ondo | Okinawan Shima-uta | \
+ 					Panamanian Llanto | Parisian Techtonik | Persian Ghazal | Pinoy rock | \
+ 					Portuguese Shangaan | Puerto Rican Méringue | Réunionese Maloya | \
+ 					Senegalese Djambadon | Senegalese Sabar | \
+ 					South African Mohabelo | Spanish Bulerías | Sumatran Gender wayang | \
+ 					Sundanese Gamelan | Surinamese Kaseko | Taiwanese Shan'ge | Texan Norteño | \
+ 					Tibetan Gelugpa chanting | Uruguayan Murga | Vietnamese Cai luong | \
+ 					Yirrkalan Fjatpangarri | Zulu Iscathamiya | Zulu Maskanda",
 			
-"<genre>": "Future Samba | Fonk Arabic | Digital Zulu | \
-			Acid-jazz | Acid Rock | Afrobeat  | Nigerian Apala  | \
-			Avant-jazz  | Avant-metal | Avant-punk | Azonto | Bachata  | Baile Funk | \
-			Balinese Gamelan  | Miami bass | Booty bass | Batucada  | \
-			Bhangragga | Bhangramuffin | Big Beat | Bohemian Dub | \
-			Bossa nova |  Breakbeat  | Breakcore  |  Britfunk | Britpop | Broken-beat  | \
-			Bubblegum pop  |  Bikutsi  |  Canto popular  | Chiptune |\
-			Cantopop  | Capoeira  | Carnatic music | Cello rock | \
-			Chemical breaks | Chicago house | Chimurenga | Clicks 'n' Cuts |  \
-			Compas meringue  | Cumbia  | Cybergrind | Dancehall | \
-			Darkcore  | Darkwave | Delta blues | Deep house | Detroit techno  | Digital hardcore |  \
-			Diva house | Doo wop | Downtempo | Drone  | Drum & bass | \
-			Dub Techno | Dubtronica | Dubstep | E-Grind | Electroclash | Electropop | \
-			Emo | Eurodance | Europop | Flamenco  | \
-			Folktronica | Free-jazz | Freestyle | Funky house | \
-			Gangsta rap  | Ghanaian Kpanlogo | Ghettotech |  Glam-punk | Glitch | \
-			Gregorian chant | Grime  | Grunge | \
-			\
-			Transylvanian wedding music | Happy hardcore | Hard house | Hi-NRG | \
-			Highlife | Hiplife | Hip-hop | Hip-pop | Hindustani classical | Honky tonk | Horror-punk | \
-		    Hyphy | Illbient | Indietronica | Italo Disco | \
-			J-Pop  | Jesus-music | Jitterbug | Jive | Nigerian Juju | Jumpstyle | Jungle | Kamba pop | Karaoke | Balinese monkeychant | \
-			Gypsy dance music  | Krautrock |  Swedish folk| \
-			Kwaito | Kwassa kwassa | Latin-jazz | Tibetan opera | Lovers rock | \
-			Makossa | Makossa-soukous | Mariachi | \
-			Mbalax | Mbaqanga | Memphis blues | Moombahton | Moombahcore | Moombahstep | \
-			Mento | Minimal techno  | Musique concrete | Serbian Folk | \
-			Neo-Soul | Neue-Volksmusik | New Age | New Jack Swing  | \
-			New Orleans blues | US Garage | Nintendocore | Noise music  | Nordic folk | \
-			Nortec  | Nu breaks | Yakut epic music | P-Funk | \
-			Palm wine sound  | Nepalese wedding music | Keralan Panchavadyam | Parisian soukous | \
-			Afro-Venezuelan Parranda | Pennywhistle jive | \
-			Greenlandic folk | Pixiefunk  | Thai protest rock |  \
-			Pornocore | Colombian big band | \
-			Protopunk | Psychedelic trance | Psychobilly | Psychosomatic trance | \
-			Psych-pop | Punk-funk | Punk-rock | Sufi devotional music | Raggamuffin | \
-			Ragga-zouk | Ragtime | Reggaetón | Finnish Rekilaulu | \
-			Rhythm & Blues | Icelandic Rímur | Bajan Soca | \
-			Rock opera | Rockabilly | Rocksteady | Rodeo music | Hausa Rokon fada| Roots reggae | Rumba |  \
-			Cuban Rumba | Cuban Rumba | \
-			Ska-punk | Skate-punk | Skronk | \
-			Hawaian Kihoalu | Slängpolska | Smooth-jazz | Soukous | Soul-jazz | \
-			Space age pop | Space rock | Speedcore | Speed garage | Stoner rock | \
-			Surf rock | Swamp blues | Tuvan Throat Singing | Synthpop | \
-			Texas blues | Thrashcore | Guinean Tinga | Tribal house | \
-			Basque Accordion music | Trip-hop | Tumba | Turntablism | Two-tone | UK garage | \
-			Vaudeville | Hungarian Verbunkos  | Vocal house | \
-			Wassoulou | Spanish operetta | Greek Zeibekiko  | \
-			Ziglibithy | Zouglou | Zouk | Zydeco"
-			
+"<pop-genre>": "Acid-jazz | Acid Rock | Afrobeat  | \
+				Avant-jazz  | Avant-metal | Avant-punk | Bachata  | Baile Funk | \
+				Bhangragga | Bhangramuffin | Big Beat | Bohemian Dub | \
+				Bossa nova |  Breakbeat  | Breakcore  |  Britfunk | Britpop | \
+				Broken-beat | Bubblegum pop  |  Canto popular  | Chiptune | \
+				Cantopop  | Capoeira  | Cello rock | Chemical breaks | Chicago house | \
+				Chimurenga | Clicks 'n' Cuts | Cumbia  | Cybergrind | Dancehall | \
+				Darkcore  | Darkwave | Delta blues | Deep house | Detroit techno | \
+				Digital hardcore | Diva house | Doo wop | Downtempo | Drone  | Drum & bass | \
+				Dub Techno | Dubtronica | Dubstep | E-Grind | Electroclash | Electropop | \
+				Emo | Eurodance | Europop | Flamenco  | Folktronica | Free-jazz | \
+				Freestyle | Funky house | Future Samba | Fonk Arabic | Digital Zulu | \
+				Gangsta rap  | Ghettotech |  Glam-punk | Glitch | \
+				Gregorian chant | Grime | Grunge | Gypsy dance music  | Krautrock |  \
+				Happy hardcore | Hard house | Hi-NRG | \
+				Highlife | Hiplife | Hip-hop | Hip-pop | Honky tonk | Horror-punk | \
+				Hyphy | Illbient | Indietronica | Italo Disco | \
+				J-Pop  | Jesus-music | Jitterbug | Jive |  Jumpstyle | \
+				Jungle | Kamba pop | Karaoke | Kwaito | Kwassa kwassa | \
+				Latin-jazz | Lovers rock | Makossa | Makossa-soukous | Mariachi | \
+				Mbalax | Mbaqanga | Memphis blues | Moombahton | Moombahcore | Moombahstep | \
+				Mento | Minimal techno  | Musique concrete | \
+				Miami bass | Booty bass | Batucada | Neo-Soul | Neue-Volksmusik | \
+				New Age | New Jack Swing | New Orleans blues | US Garage | \
+				Nintendocore | Noise music | Nortec | Nu breaks | P-Funk | \
+				Pennywhistle jive | Pixiefunk | Freak-folk | Cuddlecore | \
+				Merengue típico moderno | Pornocore | Protopunk | Psychedelic trance | \
+				Psychobilly | Psychosomatic trance | Psych-pop | Punk-funk | \
+				Punk-rock |Raggamuffin | Ragga-zouk | Ragtime | Reggaetón | \
+				Rhythm & Blues | Rock opera | Rockabilly | Rocksteady | \
+				Rodeo music |  Roots reggae | Rumba | Cubatón | Ska-punk | \
+				Skate-punk | Skronk | Smooth-jazz | Soukous | Soul-jazz | \
+				Space age pop | Space rock | Speedcore | Speed garage | \
+				Stoner rock | Surf rock | Swamp blues | Synthpop | \
+				Texas blues | Thrashcore | Tribal house | \
+				Trip-hop | Tumba | Turntablism | Two-tone | UK garage | \
+				Vaudeville |  Vocal house | Spanish operetta | Zouk | Zydeco"
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
