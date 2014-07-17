@@ -102,7 +102,7 @@ reviewGrammar = {
 					Baauer | Max Martin | The Smeezingtons | Jeff Bhasker | T-Bone Burnett | The Neptunes",
 					
 ///// Special skanky artists
-"<skank-artist>": "Las Ketchup | Ricky Martin | Gloria Estefan |  Céline Dion | Delta Goodrem | \
+"<skank-artist>": "Las Ketchup | Ricky Martin | Gloria Estefan | Céline Dion | Delta Goodrem | \
 					Baby Spice | Robbie Williams | Kylie Minogue | Sophie Ellis-Bextor | Gwen Stefani |\
 					The Pussycat Dolls | Nelly Furtado",
 
@@ -252,6 +252,7 @@ reviewGrammar = {
 								before collapsing beneath <a-structure-description> | \
 								before skittering back to <struct-adj>, post-Autechre beat deconstructions | \
 								before spinning a collection of <struct-adj> piano elegies | \
+								before dissolving into a smoggy smattering of analogue delay | \
 								before veering off on solo tangents of enchanted <electro-acoustic-syn> abstraction | \
 								while functioning through the frosted lens of <Finnish-syn> stoicism | \
 								while ricocheting reverbed-out gunshots off grimy bassline warps | \
@@ -365,6 +366,7 @@ reviewGrammar = {
 				shuddering |\
 				somnambulistic |\
 				soporific |\
+				sprawling | \
 				symphonic |\
 				synaesthetic |\
 				syllabic |\
@@ -491,6 +493,8 @@ reviewGrammar = {
 								detached 90's post-modernisms |\
 								devastatingly heavy <genre> mutations |\
 								digitally dissected orchestral figures |\
+								disjointed, guitar strummings |\
+								disheveled, dampened drums |\
 								dread techno futurisms |\
 								early handmade experiments |\
 								endlessly arpeggiated chords |\
@@ -503,6 +507,7 @@ reviewGrammar = {
 								foggy northern European drone-scapes |\
 								freaky sequenced blips |\
 								fuzzy shoegaze psychedelia |\
+								gasesous spurts of phonetic fragments | \
 								gender-bending vocals |\
 								gentle, forlorn 8-bit bleeps | \
 								glacially-paced gothic stoner rock |\
@@ -510,6 +515,7 @@ reviewGrammar = {
 								gloriously wild natural timbres |\
 								gorgeous, platitudinous nonsense |\
 								gorgeously fragile utterances |\
+								grainy, muffled kicks |\
 								grey slabs of doomy <atmospherics-syn> |\
 								grim, crust-laden darkness |\
 								harmonics-drenched interludes |\
@@ -525,6 +531,7 @@ reviewGrammar = {
 								hyper-lean <genre> geometries | \
 								inimitably raw, psychedelic wow-and-flutter beats |\
 								intricately funked syncopations |\
+								jazzy, bass pluckings |\
 								jellied, slushy bass frequencies |\
 								layered embers of sound |\
 								loose strands of treated guitar |\
@@ -541,6 +548,7 @@ reviewGrammar = {
 								pure Balearic house bliss |\
 								reptilian distress cries |\
 								rootsy one-drop dub keys |\
+								round, toothless syllables | \
 								<sexy-syn> dancehall minimalisms |\
 								Saharan blues fetishism |\
 								Scandinavian machine music |\
@@ -556,6 +564,7 @@ reviewGrammar = {
 								spacious Balearic keys |\
 								spare, flinty embers  |\
 								spectrally sifted electronics |\
+								splintered, beat matrices |\
 								spleen-crushing bass |\
 								steely, speaker-destroying dub techno |\
 								sticky, wriggly electro influences |\
@@ -565,6 +574,7 @@ reviewGrammar = {
 								subtly plush synth embellishments |\
 								succulent bass treatments |\
 								supple subbass wobbles |\
+								suspended, fluid textures |\
 								testosterone-fuelled, urban mutations | \
 								textural guitar-scapes |\
 								tranquil, free-floating chorales |\
@@ -572,6 +582,7 @@ reviewGrammar = {
 								undulating, unstable cadences |\
 								unfathomably complex textures |\
 								unfathomably deep, utterly sick, dubwise textures |\
+								unresolved minor keys and microtonal passages |\
 								utterly sick digital spasms |\
 								vein-melting, improvised freakery |\
 								vocodered, acid belching TB-303s |\
