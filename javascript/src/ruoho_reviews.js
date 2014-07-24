@@ -102,9 +102,12 @@ reviewGrammar = {
 					Baauer | Max Martin | The Smeezingtons | Jeff Bhasker | T-Bone Burnett | The Neptunes",
 					
 ///// Special skanky artists
-"<skank-artist>": "Las Ketchup | Ricky Martin | Gloria Estefan | Céline Dion | Delta Goodrem | \
+"<skank-artist>":  "Ricky Martin | Gloria Estefan | Céline Dion | Delta Goodrem | \
 					Baby Spice | Robbie Williams | Kylie Minogue | Sophie Ellis-Bextor | Gwen Stefani |\
-					The Pussycat Dolls | Nelly Furtado",
+					The Pussycat Dolls | Nelly Furtado | Amy Winehouse | Alanis Morissette |\
+					Janet Jackson | Lauryn Hill | Erykah Badu | Macy Gray | India.Arie |\
+					Jill Scott | D'Angelo | John Legend | Janelle Monáe | Cee Lo Green |\
+					Christina Aguilera | Jennifer Hudson | ",
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -598,7 +601,7 @@ reviewGrammar = {
 								 the atomised acousmatic embodiments of Bernard Parmegiani |\
 								 the hyper-mediated guitar washes worthy of Keith Fullerton Whitman |\
 								 the disturbingly visceral Klangfarbenmelodie of Hector Berlioz | \
-								 the hazy botanical film interludes of Boards of Canada |\
+								 the hazy botanical film interludes by Boards of Canada |\
 								 the hypnotic minimalism of Terry Riley | \
 								 the intricately funked syncopations of Autechre or Alva Noto |\
 								 the isolationist bleeps of Mika Vainio |\
