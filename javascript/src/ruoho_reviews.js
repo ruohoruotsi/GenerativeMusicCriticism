@@ -102,12 +102,12 @@ reviewGrammar = {
 					Baauer | Max Martin | The Smeezingtons | Jeff Bhasker | T-Bone Burnett | The Neptunes",
 					
 ///// Special skanky artists
-"<skank-artist>":  "Ricky Martin | Gloria Estefan | Céline Dion | Delta Goodrem | \
+"<skank-artist>":  "Ricky Martin | Gloria Estefan | Céline Dion | Delta Goodrem |\
 					Baby Spice | Robbie Williams | Kylie Minogue | Sophie Ellis-Bextor | Gwen Stefani |\
 					The Pussycat Dolls | Nelly Furtado | Amy Winehouse | Alanis Morissette |\
 					Janet Jackson | Lauryn Hill | Erykah Badu | Macy Gray | India.Arie |\
 					Jill Scott | D'Angelo | John Legend | Janelle Monáe | Cee Lo Green |\
-					Christina Aguilera | Jennifer Hudson | ",
+					Christina Aguilera | Jennifer Hudson",
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
