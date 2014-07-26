@@ -16,81 +16,81 @@ reviewGrammar = {
 ///////  
 "<artist-action-phrase>": "\
 		\
-		1 Few artists are this <adept-syn> at wringing so much <ferocity-syn> from their laptops, yet the \
+		  Few artists are this <adept-syn> at wringing so much <ferocity-syn> from their laptops, yet the \
 		  <time-adjective> <music-recording-noun> by <artist> <join-phrase> <structure-description> and <structure-description> | \
 		\
-		2 <artist> and <static-artist> take on the <label> crew for another <music-recording-noun>, demonstrating <structure-description> and a \
+		  <artist> and <static-artist> take on the <label> crew for another <music-recording-noun>, demonstrating <structure-description> and a \
 		  <creative-syn> <ferocity-syn>, <verb-phrase-singular> | \
 		\
-		3 Your mind is about to be blown by the unearthing of a <year> curio from <artist>, offering a truly <bizarre-syn>, \
+		  Your mind is about to be blown by the unearthing of a <year> curio from <artist>, offering a truly <bizarre-syn>, \
 		  but ultimately <adept-syn> selection of privately-pressed tracks that sound somewhere between <genre> and <folk-genre> | \
 		\
-		4 Your mind is about to be blown by the unearthing of a <year> curio from <artist>, showing off <structure-description>, \
+		  Your mind is about to be blown by the unearthing of a <year> curio from <artist>, showing off <structure-description>, \
 		  <present-participle-phrase> | \
 		\
-		5 The songwriting <ferocity-syn> <exhibited-syn> by <artist> <raises-goosebumps-syn>, showing off <structure-description>, \
+		  The songwriting <ferocity-syn> <exhibited-syn> by <artist> <raises-goosebumps-syn>, showing off <structure-description>, \
 		  dwarfing the <structure-description> of many better known artists | \
 		\
-		6 The songwriting <ferocity-syn> <exhibited-syn> by <artist> <wrenches-syn> ideas from <genre>, <genre> and <folk-genre>, \
+		  The songwriting <ferocity-syn> <exhibited-syn> by <artist> <wrenches-syn> ideas from <genre>, <genre> and <folk-genre>, \
 		  crafting sidewinding <derangements-syn> that blend <structure-description> and <structure-description> | \
 		\
-		7 The ascendant <ferocity-syn> of <artist> is on display again, showing off <structure-description>, \
+		  The ascendant <ferocity-syn> of <artist> is on display again, showing off <structure-description>, \
 		  <present-participle-phrase> | \
 		\
-		8 The musical <ferocity-syn> of <artist> invokes states of psychological <panic-syn> that will resonate \
+		  The musical <ferocity-syn> of <artist> invokes states of psychological <panic-syn> that will resonate \
 		  beyond <experimental-syn> <genre> <circles-syn>, into the <daily-lives-syn> of <fans-syn> of <genre>",
 
 ///////  
 "<artist-descriptive-phrase>": "\
 		\
-		9 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <artist-description-phrase> | \
+		  The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <artist-description-phrase> | \
 		\
-		10 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <elevates-syn> <genre> with <genre-adjective> <genre> <genre-noun> | \
+		  The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <elevates-syn> <genre> with <genre-adjective> <genre> <genre-noun> | \
 		\
-		11 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> hoists up the profile \
-		   of <structure-description> and screeched-out <genre> vocals | \
+		  The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> hoists up the profile \
+		  of <structure-description> and screeched-out <genre> vocals | \
 		\
-		12 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <genre> with \
-		   <structure-description>, <evocative-adjective> of <the-synth-drones-Klaus> | \
+		  The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <genre> with \
+		  <structure-description>, <evocative-adjective> of <the-synth-drones-Klaus> | \
 		\
-		13 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <structure-description> \
-		   with <structure-description> | \
+		  The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <join-phrase> <structure-description> \
+		  with <structure-description> | \
 		\
-		14 The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> tenuously welds a growing amalgam of \
-		   genre experiments with a veneer of <ferocity-syn>, <ferocity-syn> and Fonzie cool | \
+		  The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> tenuously welds a growing amalgam of \
+		  genre experiments with a veneer of <ferocity-syn>, <ferocity-syn> and Fonzie cool | \
 		\
-		15 The <bizarre-syn> <panic-syn> evoked by <artist> will <spellbind-syn> <fans-syn> of <genre>, \
-		   <roving-syn> from <structure-description> to <structure-description> | \
+		  The <bizarre-syn> <panic-syn> evoked by <artist> will <spellbind-syn> <fans-syn> of <genre>, \
+		  <roving-syn> from <structure-description> to <structure-description> | \
 		\
-		16 <Roving-syn> from <structure-description> to <structure-description>, the \
-		   <bizarre-syn> <panic-syn> evoked by <artist> will <spellbind-syn> <fans-syn> of <genre> <genre-noun>",
+		  <Roving-syn> from <structure-description> to <structure-description>, the \
+		  <bizarre-syn> <panic-syn> evoked by <artist> will <spellbind-syn> <fans-syn> of <genre> <genre-noun>",
 
 ///////  		
 "<music-recording-phrase>": "\
 		\
-		17 The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase> | \
+		  The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase> | \
 		\
-		18 The <time-adjective> <music-recording-noun> by <artist> <raises-goosebumps-syn>, <present-participle-phrase> | \
+		  The <time-adjective> <music-recording-noun> by <artist> <raises-goosebumps-syn>, <present-participle-phrase> | \
 		\
-		19 The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description> | \
+		  The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description> | \
 		\
-		20 The <time-adjective> <music-recording-noun> by <artist> encapsulates the <zeitgeist-syn> of the \
-		<genre> scene with pinpoint accuracy |\
+		  The <time-adjective> <music-recording-noun> by <artist> encapsulates the <zeitgeist-syn> of the \
+		  <genre> scene with pinpoint accuracy |\
 		\
-		21 The <time-adjective> <music-recording-noun> by <artist> taps into a delicate, \
-		   <genre-adjective> corner of the <musical-universe-syn>, <present-participle-phrase> | \
+		  The <time-adjective> <music-recording-noun> by <artist> taps into a delicate, \
+		  <genre-adjective> corner of the <musical-universe-syn>, <present-participle-phrase> | \
 		\
-		22 The <time-adjective> <music-recording-noun> by <artist> is a masterclass in the dark <art-syn> of <genre>, \
-		   showing off <structure-description>, <present-participle-phrase> | \
+		  The <time-adjective> <music-recording-noun> by <artist> is a masterclass in the dark <art-syn> of <genre>, \
+		  showing off <structure-description>, <present-participle-phrase> | \
 		\
-		23 The <time-adjective> <music-recording-noun> by <artist> is a <retro-syn> <reconstruction-syn> of \
-		   <genre> <balladry-syn> <verb-phrase-singular> | \
+		  The <time-adjective> <music-recording-noun> by <artist> is a <retro-syn> <reconstruction-syn> of \
+		  <genre> <balladry-syn> <verb-phrase-singular> | \
 		\
-		24 Ping-ponging from <structure-description> to <structure-description>, the music of <artist> draws \
-		   on everything from <genre> to <genre> and <latino> reggaetón |\
+		  Ping-ponging from <structure-description> to <structure-description>, the music of <artist> draws \
+		  on everything from <genre> to <genre> and <latino> reggaetón |\
 		\
-		25 The <ferocity-syn> of <artist> has a simplicity and warmth that sidesteps \
-		   the <structure-description> that <blight-syn> the <lesser-syn> moments of <genre> <balladry-syn>",		
+		  The <ferocity-syn> of <artist> has a simplicity and warmth that sidesteps \
+		  the <structure-description> that <blight-syn> the <lesser-syn> moments of <genre> <balladry-syn>",		
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
