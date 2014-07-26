@@ -290,6 +290,8 @@ reviewGrammar = {
 
 "<a-structure-description>":   "\
 								an alchemical blend of post-rave <genre> electronics |\
+								an ambivalent reverie |\
+								a banquet of Flying Lotus-style bass arpeggiations |\
 								a blistering feast of two-chord distortion |\
 								a bubbly <J-pop> appreciation |\
 								a cacophany of autistic rhythms |\
@@ -297,9 +299,7 @@ reviewGrammar = {
 								a dense, effulgent piece of faux-romantic orchestral syrup | \
 								a deluge of piano flecked gems |\
 								a droll homage to post-<genre> <genre-noun> |\
-								an ambivalent reverie, emerging from elaborated voice-leading constructions |\
-								a banquet of Flying Lotus-style bass arpeggiations |\
-								an idiosyncratic veneer of melancholy |\
+								an elaborated voice-leading construction |\
 								a feast of noise-rock virtuosity |\
 								a flirtatious pop sensibility |\
 								a gratuitous, pornographic level of lusciousness |\
@@ -307,6 +307,7 @@ reviewGrammar = {
 								a haunted melancholic incantation, curling ineffably upwards |\
 								a horrifying mess of head-meddling unpleasantness |\
 								an indisposable slice of <genre> delectability |\
+								an idiosyncratic veneer of melancholy |\
 								a low key, grotty Jakbeat |\
 								a lush electronic lamentation |\
 								a morally inflamatory, skronking bassline |\
@@ -789,7 +790,7 @@ reviewGrammar = {
 				Jungle | Kamba pop | Karaoke | Kwaito | Kwassa kwassa | \
 				Latin-jazz | Lovers rock | Makossa | Makossa-soukous | Mariachi | \
 				Mbalax | Mbaqanga | Memphis blues | Moombahton | Moombahcore | Moombahstep | \
-				Mento | Minimal techno  | Musique concrete | \
+				Mento | Minimal techno  | Musique concrète | \
 				Miami bass | Booty bass | Batucada | Neo-Soul | Neue-Volksmusik | \
 				New Age | New Jack Swing | New Orleans blues | US Garage | \
 				Nintendocore | Noise music | Nortec | Nu breaks | P-Funk | \
