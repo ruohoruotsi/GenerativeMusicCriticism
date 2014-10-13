@@ -7,7 +7,7 @@
 
 reviewGrammar = { 
 
-"<start>": "<artist-phrase>. | <artist-phrase>. <interjection>",
+"<start>": "<artist-phrase>. [3] | <artist-phrase>. <interjection>",
 
 ///////  
 "<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
