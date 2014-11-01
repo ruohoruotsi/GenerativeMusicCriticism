@@ -194,12 +194,13 @@ reviewGrammar = {
 
 "<creative-syn>":	"sonic | tasteful acoustic | creative | musical | novel musical | \
 					fresh melodic | stirring acoustic | visionary sonic | \
-					trendy musical | stylish sonic | refined | magnificent musical | poetic",
+					trendy musical | stylish sonic | refined | auteurist | \
+					magnificent musical | poetic",
 					
 "<wrenches-syn>": "wrenches | plucks | wrests | snatches | prys | pulls | borrows",
 
 "<ferocity-syn>": 	"ferocity | artistry | courage | charisma | cowardice | nerve | \
-					auteurist brillance | stoutheartedness | dauntlessness | savagery | \
+					brillance | stoutheartedness | dauntlessness | savagery | \
 					genius | furiousness | violence |  wildness | severeness | \
 					accessibility | straightforwardness | \
 					unpretentiousness | naturalness | spareness | austerity | \
@@ -237,11 +238,11 @@ reviewGrammar = {
 
 "<music-recording-noun>":	"12” vinyl | MP3 | cassette | CD | album | 4-track cartridge | \
 							live-stream | laserdisc | DVD-R | EP | ogg-vorbis download | maxi-single | Bandcamp release | \
-							ambisonic release | white-label | release | Spotify stream | Beats Music special | Rdio exclusive | \
+							ambisonic release | white-label | Spotify stream | Beats Music special | Rdio exclusive | \
 							17-track compilation | Soundcloud clip | promo | Youtube video | 7” vinyl | box set | \
 							Mixcloud set | Myspace track | unplugged session | music video | 27-track anthology",
 
-"<time-adjective>":	"latest | recent | newest | current | charting | forthcoming | upcoming | trending",
+"<time-adjective>":	"latest | recent | newest | charting | forthcoming | upcoming | trending",
 
 "<artist-description-phrase>": 	"<adverb> defies categorisation | \
 								demonstrates an innate grasp of the sublime qualities of <genre> | \
@@ -555,7 +556,6 @@ reviewGrammar = {
 								round, toothless syllables | \
 								<sexy-syn> dancehall minimalisms |\
 								Saharan blues fetishism |\
-								Scandinavian machine music |\
 								sculpted rhythm dynamics |\
 								sea-sick rhythms |\
 								semi-organic gristle |\
