@@ -135,10 +135,11 @@
 			document.getElementById("ruohoreviews").innerHTML = aReview;
 			document.getElementById("reviewSubtitle").innerHTML = labelyear;
 
-			getAlbumName();
 			getHotttRating();
-			getCurrentArtist();
 			getCurrentArtistImage();
+
+			getAlbumName();
+			getCurrentArtist();
 			getCurrentArtistTwitterURL();
 			getCurrentArtistInfo();
 			
@@ -161,19 +162,19 @@
 		//////////////////////////////////////////////////////////////////////////////////
 		function getCurrentArtistImage()
 		{
-			// console.log(hotttArtistsCache[currentArtist.index].images);
+			console.log(hotttArtistsCache[currentArtist.index].images.length);
+			// document.getElementById("artistImages").src = "";
 
 			// random selection from image array
 			var imageList = hotttArtistsCache[currentArtist.index].images;
 			var imageIndex = Math.floor(Math.random() * imageList.length);
 
 			// If the image is nil then use imgError in the tag to fetch anon.png
-			var img = imageList[imageIndex].url;
-			if(img) {
-				document.getElementById("artistImages").src = img;
+			if(imageList[imageIndex].url) {
+				document.getElementById("artistImages").src = imageList[imageIndex].url;
 			} 
 			else {
-				console.log("RR Error: loading image @ " + img);	
+				console.log("RR Error: loading image @ " + imageList[imageIndex].url);	
 			}
 		}
 
@@ -486,7 +487,7 @@
 
 		<!-- Copyright -->
 			<div id="copyright">
-				&copy; 2013-2014 iroro orife. &nbsp;All rights reserved. &nbsp;|&nbsp; Design: &nbsp;<a href="http://html5up.net">HTML5 UP</a>
+				&copy; 2014-2015 iroro orife. &nbsp;All rights reserved. &nbsp;|&nbsp; Design: &nbsp;<a href="http://html5up.net">HTML5 UP</a>
 			</div>
 
 
