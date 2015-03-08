@@ -20,6 +20,7 @@
 
 		<script src="src/rita_dict.js" type="text/javascript"></script>
 		<script src="src/rita.js" type="text/javascript"></script>
+		<script src="src/Queue.js" type="text/javascript"></script>
 		<script src="src/ruoho_reviews.js" type="text/javascript"></script>
 		<script src="src/artistMetaData.js" type="text/javascript"></script>
 		<script src="src/jquery.echonest.js" type="text/javascript"></script>
@@ -65,8 +66,9 @@
 
 		// RiTa.p5Compatible(1);
 		var reviewRiGrammar, labelyearRiGrammar;
-		var currentArtist = {name:"", index:-1};  //faveArtistsCache
-
+		var currentArtistQ = new Queue();
+		var imageCache;
+		
 		var cachedAlbumList = ['Back with Spaces', 'Greatest Hits (1999-2009)',
 								'The Tropical Side',
 								'Dirty Twerking', 'Let\'s Talk', 'Dirty Little Pills',
@@ -143,39 +145,78 @@
 			getCurrentArtistTwitterURL();
 			getCurrentArtistInfo();
 			
-			getCurrentArtistGenre();
+			//getCurrentArtistGenre();
 		}
 
+		//////////////////////////////////////////////////////////////////////////////////
+		function enQueueANewArtist() // helper 
+		{
+			var currentArtist = {name:"", index:-1, imageIndex:-1};
+			var rand = Math.floor((Math.random() * hotttArtistsCache.length));
+			currentArtist.name = hotttArtistsCache[rand].name;
+			currentArtist.index = rand;
+			var imageList = hotttArtistsCache[currentArtist.index].images;
+			currentArtist.imageIndex = Math.floor(Math.random() * imageList.length);
+			currentArtistQ.enqueue(currentArtist);
+			console.log(currentArtist.name);
+
+			// Cache images
+// 			if(typeof imageList[currentArtist.imageIndex].url != "undefined" && 
+// 			   imageList[currentArtist.imageIndex].url != null ) {
+// 			   	imageCache = new Image();
+// 				imageCache.src = imageList[currentArtist.imageIndex].url;
+// 			   }
+		}
 
 		//////////////////////////////////////////////////////////////////////////////////
 		function getHotttArtists() // get a random Hottt artist
 		{
-			var rand = Math.floor((Math.random() * hotttArtistsCache.length));
-			currentArtist.name = hotttArtistsCache[rand].name;
-			currentArtist.index = rand;
+			console.log("\n\n Queue length: " + currentArtistQ.getLength());
+			if(typeof currentArtistQ != "undefined" && 
+			   currentArtistQ != null && 
+			   currentArtistQ.getLength() > 0 ) {
+			   
+					console.log("enQueueNewArtists");
+					enQueueANewArtist();
+										
+					// dequeue top item
+					currentArtistQ.dequeue();
 
-			console.log(currentArtist);
-			return currentArtist.name;
+			} else { // empty Q, add 2 elements
+			
+					console.log("Initial getHotttArtists");
+					enQueueANewArtist();
+					enQueueANewArtist();
+			}
+			
+			// console.log(currentArtistQ.peek().name);
+			return currentArtistQ.peek().name;
 		}
 
 
 		//////////////////////////////////////////////////////////////////////////////////
 		function getCurrentArtistImage()
 		{
-			console.log(hotttArtistsCache[currentArtist.index].images.length);
-			// document.getElementById("artistImages").src = "";
+			console.log("Artist Image list " + 
+			hotttArtistsCache[currentArtistQ.peek().index].images.length);
 
-			// random selection from image array
-			var imageList = hotttArtistsCache[currentArtist.index].images;
-			var imageIndex = Math.floor(Math.random() * imageList.length);
+			if (hotttArtistsCache[currentArtistQ.peek().index].images.length > 0) {
+				// random selection from image array
+				var imageList = hotttArtistsCache[currentArtistQ.peek().index].images;
+				var imageIndex = currentArtistQ.peek().imageIndex
 
-			// If the image is nil then use imgError in the tag to fetch anon.png
-			if(imageList[imageIndex].url) {
-				document.getElementById("artistImages").src = imageList[imageIndex].url;
-			} 
-			else {
-				console.log("RR Error: loading image @ " + imageList[imageIndex].url);	
-			}
+				// If the image is nil then use imgError in the tag to fetch anon.png
+				if(imageList[imageIndex].url) {
+					document.getElementById("artistImages").src = imageList[imageIndex].url;
+				} else {
+					document.getElementById("artistImages").src = "anon.jpg";
+					console.log("RR Error: loading image @ " + imageList[imageIndex].url);	
+				}
+			} else {
+					document.getElementById("artistImages").src = "anon.jpg";
+					console.log("RR Error: image list length == " + 
+					hotttArtistsCache[currentArtistQ.peek().index].images.length);	
+				}
 		}
 
 
@@ -192,14 +233,14 @@
 		function getCurrentArtistTwitterURL()
 		{
 			// random selection from image array
-			var urlList = hotttArtistsCache[currentArtist.index].URLs;
+			var urlList = hotttArtistsCache[currentArtistQ.peek().index].URLs;
 			// console.log(urlList);
 
 			var a = document.getElementById('artistTwitter');
 
 			var link = urlList["twitter_url"];
 			a.title = "Twitter";
-			a.innerHTML = "@" + hotttArtistsCache[currentArtist.index].twitter_id;
+			a.innerHTML = "@" + hotttArtistsCache[currentArtistQ.peek().index].twitter_id;
 
 			if(!link) {
 				link =  urlList["wikipedia_url"];
@@ -234,7 +275,7 @@
 		function getCurrentArtistInfo()
 		{
 			// random selection from image array
-			var artistID = hotttArtistsCache[currentArtist.index].id;
+			var artistID = hotttArtistsCache[currentArtistQ.peek().index].id;
 			var a = document.getElementById('artistInfo');
 
 			if(artistID) {
@@ -254,7 +295,7 @@
     		//	console.log(hotttArtistsCache[currentArtist.index].genres[i].name);
 			// }	
 		
-			var topArtistTerm = hotttArtistsCache[currentArtist.index].genres[0].name;		
+			var topArtistTerm = hotttArtistsCache[currentArtistQ.peek().index].genres[0].name;		
 			if(topArtistTerm) {
 				return topArtistTerm[0].toUpperCase() + topArtistTerm.slice(1);
 			}
@@ -329,7 +370,7 @@
 		//////////////////////////////////////////////////////////////////////////////////
  		function getCurrentArtist() // get current artist
  		{
- 			document.getElementById("reviewArtist").innerHTML = currentArtist.name;
+ 			document.getElementById("reviewArtist").innerHTML = currentArtistQ.peek().name;
  		}
 
 
@@ -449,7 +490,7 @@
 								<ul class="icons">
 								<li><a class="fa fa-twitter solo" href="http://twitter.com/ruohoreviews"><span>Twitter</span></a></li>
 								<li><a class="fa fa-youtube solo" href="http://youtube.com/ruohoreviews"><span>Youtube</span></a></li>
-								<li><a class="fa fa-github solo" href="http://github.com/ruohoruotsi"><span>LinkedIn</span></a></li>
+								<li><a class="fa fa-github solo" href="http://github.com/ruohoruotsi"><span>GitHub</span></a></li>
 							</ul> <br/>
 
 								about ruoho reviews
