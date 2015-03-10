@@ -160,12 +160,28 @@
 			currentArtistQ.enqueue(currentArtist);
 			console.log(currentArtist.name);
 
+			try {
+
 			// Cache images
-// 			if(typeof imageList[currentArtist.imageIndex].url != "undefined" && 
-// 			   imageList[currentArtist.imageIndex].url != null ) {
-// 			   	imageCache = new Image();
-// 				imageCache.src = imageList[currentArtist.imageIndex].url;
-// 			   }
+			if(typeof imageList[currentArtist.imageIndex].url != "undefined" && 
+			   imageList[currentArtist.imageIndex].url != null ) {
+
+			   	console.log("Caching images ... ");
+			   	imageCache = new Image();
+				imageCache.src = imageList[currentArtist.imageIndex].url;
+
+			   }
+			} catch (err) {
+			  if (err.name === 'TypeError')
+			  {
+				console.log("TypeError: ");
+			  }
+			  else
+			  {
+				console.log("Unknown error");
+			  }
+			}
+
 		}
 
 		//////////////////////////////////////////////////////////////////////////////////
