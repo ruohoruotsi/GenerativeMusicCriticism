@@ -152,9 +152,13 @@
 		function enQueueANewArtist() // helper 
 		{
 			var currentArtist = {name:"", index:-1, imageIndex:-1};
-			var rand = Math.floor((Math.random() * hotttArtistsCache.length));
+			var rand = Math.floor((Math.random() * hotttArtistsCache.length));						
 			currentArtist.name = hotttArtistsCache[rand].name;
 			currentArtist.index = rand;
+			
+			console.log("[DEBUG] currentArtist.index ==" + rand);
+			console.log("[DEBUG] currentArtist.name ==" + currentArtist.name);
+
 			var imageList = hotttArtistsCache[currentArtist.index].images;
 			currentArtist.imageIndex = Math.floor(Math.random() * imageList.length);
 			currentArtistQ.enqueue(currentArtist);

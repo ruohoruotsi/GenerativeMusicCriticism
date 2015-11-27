@@ -238,7 +238,7 @@ reviewGrammar = {
 
 "<music-recording-noun>":	"12” vinyl | MP3 | cassette | CD | album | 4-track cartridge | \
 							live-stream | laserdisc | DVD-R | EP | ogg-vorbis download | maxi-single | Bandcamp release | \
-							ambisonic release | white-label | Spotify stream | Beats Music special | Rdio exclusive | \
+							ambisonic release | white-label | Spotify stream | Apple Music special | Pandora exclusive | \
 							17-track compilation | Soundcloud clip | promo | Youtube video | 7” vinyl | box set | \
 							Mixcloud set | Myspace track | unplugged session | music video | 27-track anthology",
 
