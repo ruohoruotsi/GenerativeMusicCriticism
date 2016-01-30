@@ -14,7 +14,7 @@ import io
 ###################################
 def handle_artist(_, artist):
     str = artist['name'] + " \n"
-    print str
+    print(str)
     global artistsFile
     artistsFile.write(str)
     return True
@@ -28,10 +28,13 @@ def handle_artist(_, artist):
 ###################################
 def handle_label(_, label):
     str = label['name'] + " \n"
-    print str
+    print(str)
     global labelsFile
     labelsFile.write(str)
     return True
 
+#
+# grab data from http://data.discogs.com
+#
 labelsFile = io.open('labels.txt', 'w', encoding='utf8')
 xmltodict.parse(gzip.GzipFile('discogs_20150201_labels.xml.gz'), item_depth=2, item_callback=handle_label)
