@@ -64,6 +64,14 @@
 		position: relative;
 	}
 
+	#header img
+	{
+		content:url("images/247.png");	
+		width: 120px;
+    	height: 120px;	
+	}
+
+
 		#header h1
 		{
 			position: absolute;

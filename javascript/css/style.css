@@ -395,7 +395,7 @@
 					text-align: center;
 					border-radius: 100%;
 					border: 0;
-					color: inherit;
+					color: #fff; /* IO HAVOC - recolor icons */ /* color: inherit; */
 				}
 				
 					ul.icons li a:hover

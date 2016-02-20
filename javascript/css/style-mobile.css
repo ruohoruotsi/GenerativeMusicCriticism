@@ -62,7 +62,7 @@ body, input, textarea, select
 
 	#header-wrapper
 	{
-		background: #3B4346 url('images/bg01.jpg') top center;
+		background: url('images/bg04.jpg');
 		box-shadow: inset 0px -1px 0px 0px #272d30, inset 0px -2px 0px 0px #51575a;
 		text-shadow: -1px -1px 1px rgba(0,0,0,0.75);
 	}
@@ -83,7 +83,7 @@ body, input, textarea, select
 	
 	#content-wrapper
 	{
-		background: #f7f7f7 url('images/bg04.png');
+	       	background: #f7f7f7 url('images/bg04.png');
 		padding: 5px;
 	}
 
@@ -102,13 +102,25 @@ body, input, textarea, select
 
 	#header
 	{
-		/* display: none; */ /* IO HAVOC for good mobile layout */
+		/* display: none; */
+		min-height: 60px;
+		position: relative;
+		
+		/* IO HAVOC for good mobile layout */
 	}
-
+	
 		#header ul
 		{
 			display: none; /* IO HAVOC for good mobile layout */
 		}	
+		
+		#header img
+		{
+			content:url("images/247.png");	
+			width: 60px;
+    		height: 60px;	
+    		position: relative;
+		}
 		
 	#banner
 	{
@@ -294,11 +306,11 @@ body, input, textarea, select
 		}
 
 /* MobileUI */
+/* 
 
 	#titleBar {
 		color: #fff;
-		background: url('images/bg04.jpg');
-		box-shadow: inset 0px -20px 70px 0px rgba(200,220,245,0.1), inset 0px -1px 0px 0px rgba(255,255,255,0.1), 0px 1px 7px 0px rgba(0,0,0,0.6);
+     background: url('images/bg04.jpg');		box-shadow: inset 0px -20px 70px 0px rgba(200,220,245,0.1), inset 0px -1px 0px 0px rgba(255,255,255,0.1), 0px 1px 7px 0px rgba(0,0,0,0.6);
 		text-shadow: -1px -1px 1px rgba(0,0,0,0.75);
 	}
 
@@ -309,6 +321,7 @@ body, input, textarea, select
 			font-family: 'Lobster', sans-serif;
 			line-height: 44px;
 		}
+ */
 
 		/* IO HAVOC - to remove the toggle overlay, which we really do not need
 		#titleBar .toggle {
