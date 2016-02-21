@@ -105,13 +105,19 @@ body, input, textarea, select
 		/* display: none; */
 		min-height: 60px;
 		position: relative;
-		
-		/* IO HAVOC for good mobile layout */
 	}
 	
 		#header ul
 		{
-			display: none; /* IO HAVOC for good mobile layout */
+			/* display: none;  IO HAVOC for good mobile layout */
+			left:60%;
+			position: absolute;
+			border-radius: 1em;
+			display: inline-block;
+			padding: 0.15em 0.55em 0.15em 0.55em;
+			font-size: 1.0em;
+			margin: 0 0 0 0;
+			bottom:5%;
 		}	
 		
 		#header img
