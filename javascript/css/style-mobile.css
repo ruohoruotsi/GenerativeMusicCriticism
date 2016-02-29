@@ -114,7 +114,7 @@ body, input, textarea, select
 			position: absolute;
 			border-radius: 1em;
 			display: inline-block;
-			padding: 0.15em 0.55em 0.15em 0.55em;
+			padding: 0.15em 0em 0.15em 0.55em;
 			font-size: 1.0em;
 			margin: 0 0 0 0;
 			bottom:5%;
