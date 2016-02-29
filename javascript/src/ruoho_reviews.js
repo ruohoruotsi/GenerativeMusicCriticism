@@ -809,30 +809,3 @@ reviewGrammar = {
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-labelYearGrammar = { 
-
-"<start>": "<label>, <year>",
-			
-"<label>": 			"Kompakt | Hyperdub | Tongut  | Soul Jazz | Strictly Rhythm | Defected | \
-					 Studio 1 | Nonesuch | Mille-Plateaux  | Force Inc. | Bpitch Control | \
-					 Silent Season | Zero G Sounds | 12k | Hefty Records | Echocord | \
-					 Smallfish | Modern Love | Modelisme Records | Styrax Leaves | echospace [detroit] | \
-					 Fatsouls Records | Native State Records | Leena Music | Kesh Recordings | \
-					 Ghost Sounds | ~scape | Karloff | Cadenza | Background Records | Epsilonlab | \
-					 Dispensation Records | Skor Records | Noir Music | Renaissance Infinity Recordings | \
-					 Nau | Compost Records | Argon | Dub Police | Not On Label | Adjunct Digital | \
-					 Headinghome Recordings | Archipel | Trapez | Orac Recordings | Deep Night Essentials | \
-					 Poker Flat Recordings | Spectral Sound | Morris / Audio | Logistic Records | \
-					 Revolver Recordings | Thug Records | Component Records | Skunk Records | \
-					 Bugged Out! Recordings | High On Rhythm Records | AM:PM | Southern Fried Records |\
-					 Twisted America Records | Hand On The Plow | Moonshine Music | Trax Records | \
-					 Shitkatapult | Warp | The Leaf | Kranky | Thoughtless Music | Unfoundsound | \
-					 Ritornell | Raster-Norton",
-					  
-"<year>": 			"1984 | 1997 | 1999 | 2001 | 2003| 2008 | 2009 | 2011 | \
-					2013 | 2014 |2014 | 2014 | 2013 | 2014 | 2013 | 2014 | 2014 | \
-					2013 | 2014 | 2015 | 2015 | 2014"
-};
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
