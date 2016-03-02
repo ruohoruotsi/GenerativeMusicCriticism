@@ -96,9 +96,9 @@
 			// reviewRiGrammar.print();
 
 			var randomLabel = Math.floor((Math.random() * labelsCache.length));
-			var lower = 1990;
-			var upper = 2017;
-			releaseYear = Math.floor(lower + (Math.random() * (upper - lower + 1)));
+			var lower = 1999;
+			var upper = 2022;
+			var releaseYear = Math.floor(lower + (Math.random() * (upper - lower + 1)));
 			// console.log("random releaseYear " + releaseYear);
 
 			// Populate html elements
@@ -191,7 +191,7 @@
 			if (hotttArtistsCache[currentArtistQ.peek().index].images.length > 0) {
 				// random selection from image array
 				var imageList = hotttArtistsCache[currentArtistQ.peek().index].images;
-				var imageIndex = currentArtistQ.peek().imageIndex
+				var imageIndex = currentArtistQ.peek().imageIndex;
 
 				// If the image is nil then use imgError in the tag to fetch anon.png
 				if(imageList[imageIndex].url) {
@@ -382,7 +382,7 @@
 							<!-- Logo -->
 								<!-- <h1><a href="#" id="logo">ruoho reviews &#8230</a></h1> -->
 								
-								 <img class="ss"/>
+								 <img src="" class="ss"/>
 
 							<!-- IO HAVOC turn off nav -->
 							<!-- Nav
@@ -411,7 +411,7 @@
 								<!-- Sidebar -->
 									<section>
 										<header>
-											<h5 id="reviewArtist">Artist</h2>
+											<h5 id="reviewArtist">Artist</h5>
 										</header>
 										<img id="artistImages" class="image" src="" onerror="imgError(this);"/>
 
@@ -438,7 +438,7 @@
 											<h3 id="reviewSubtitle">Label and year</h3>
 										</header>
 
-										<p><h4 id="ruohoreviews"></h4></p>
+										<p><h4 id="ruohoreviews"></h4>
 
 										<!-- <a id="custom-tweet-button"></a> -->
 
