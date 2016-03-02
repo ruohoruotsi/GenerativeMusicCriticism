@@ -112,7 +112,8 @@
 		#header ul
 		{
 			position: absolute;
-			left:80%;
+			/* left:80%; */
+			right: 0%;
 			bottom:-35px;
 		}	
 

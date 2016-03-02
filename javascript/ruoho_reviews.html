@@ -23,6 +23,7 @@
 		<script src="src/Queue.js" type="text/javascript"></script>
 		<script src="src/ruoho_reviews.js" type="text/javascript"></script>
 		<script src="src/labelsCache.js" type="text/javascript"></script>
+		<script src="src/releasesCache.js" type="text/javascript"></script>
 		<script src="src/artistMetaData.js" type="text/javascript"></script>
 		<script src="src/jquery.echonest.js" type="text/javascript"></script>
 
@@ -69,43 +70,6 @@
 		var reviewRiGrammar;
 		var currentArtistQ = new Queue();
 		var imageCache;
-		
-		var cachedAlbumList = ['Back with Spaces', 'Greatest Hits (1999-2009)',
-								'The Tropical Side',
-								'Dirty Twerking', 'Let\'s Talk', 'Dirty Little Pills',
-								'Afternoon Delighting', 'Cali Music Boxen', 'Gough & Franklin',
-								'The Dysphoria Blues', 'My Heart', 'The Fornication Tapes',
-								'Good', 'Super Theory',
-								'Sexy Chicas Locas', 'Off Probation', 'Milking Me Softly',
-								'Give Me My Flowers', 'Against The World', 'Blunted',
-								'Sweating The Techniques', 'Runaways', '909s & Heartache',
-								'No Free Rides', 'Tripping on Bath Salts', 'Lies & Counterfeit',
-								'Uprightly Minded', 'Sub Bass Theory', 'Liquid Swords',
-								'Licensed In Chill', 'Twice Removed From Today',
-								'For Mars Above', 'Bridge of Sighs', 'City of Tears',
-								'Caravan To The Edge', 'Midnight On The Edge', 'A Hate Supreme',
-								'Karma Island', 'Crimson Edge', 'Who Came Next',
-								'Highway 101', 'Aeros Over The Sea', 'Miami Calling',
-								'After Tonight', 'Crazy Horse', 'This is Nowhere',
-								'Under A Groove', 'Down Stroke', 'Clone Soul',
-								'Millions of Rubbers', 'Miseducation Banquet', 'Beggars Hill',
-								'Sticky Changes', 'Exile on Wall St.', 'Closing Time',
-								'Elevation', 'More Songs About Rabbits', 'Cosmic Rising',
-								'Silently Transgender', 'Here Comes The Warm Light',
-								'Your Seduction', 'Closer Now', 'Oceanview', 'Just A Day',
-								'Aurora\'s Eternal Son', 'Things Fall Apart Again',
-								'The Return','Unquestionable Doubt', 'Freedom Jazz',
-								'Postively Leptokurtic','Bramble Brambles', 'Dolores Tristes',
-								'Brilliant Deafness','Unified Fires', 'Astral Minds',
-								'Being Here', 'Vulgar Ambulance','Shut The F**k Up',
-								'Trout Face Paranoia','Toys From The Destruction',
-								'Pure Grit', 'Conveniently Dead', 'Fear Of Weasel Flesh',
-								'The Goodfinger Chronicles', 'My White Keyboard', 'Indigo',
-								'Ghost In The Club', 'Langues', 'A Crimsom Tale', 
-								'The Western Sky', 'Words On The Floor', 'Mescalyne',
-								'Race of Abel', 'Bottomless Vales', 'Dumb Supper',
-								'Sounds Are Missing', 'Pieces For Hidden Prayers', 
-								'Mord Und Totsclag', 'We Share A Pain', 'A Glass Darkly'];
 
 		// setup
 		window.onload = setupCached;
@@ -330,9 +294,9 @@
 		//////////////////////////////////////////////////////////////////////////////////
 		function getAlbumName()
 		{
-			// console.log(cachedAlbumList.length);
-			var rand = Math.floor((Math.random()*cachedAlbumList.length));
-			document.getElementById("reviewTitle").innerHTML = cachedAlbumList[rand];
+            // console.log(releasesCache.length);
+			var randReleaseTitleIndex = Math.floor((Math.random()*releasesCache.length));
+			document.getElementById("reviewTitle").innerHTML = releasesCache[randReleaseTitleIndex];
 		}
 
 

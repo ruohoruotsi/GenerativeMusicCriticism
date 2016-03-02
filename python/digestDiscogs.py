@@ -40,30 +40,39 @@ def handle_label(_, label):
 #
 # grab data from http://data.discogs.com
 #
-count = 0
-labelsCache = []
-labelsFile = io.open('labels.txt', 'w', encoding='utf8')
-xmltodict.parse(gzip.GzipFile('discogs_20160101_labels.xml.gz'), item_depth=2, item_callback=handle_label)
-with open('labelsCache.js', 'w') as outfile:
-    outfile.write("var labelsCache = ")
-    json.dump(labelsCache, outfile)
-    outfile.write(";")
-    outfile.close()
+# count = 0
+# labelsCache = []
+# labelsFile = io.open('labels.txt', 'w', encoding='utf8')
+# xmltodict.parse(gzip.GzipFile('discogs_20160101_labels.xml.gz'), item_depth=2, item_callback=handle_label)
+# with open('labelsCache.js', 'w') as outfile:
+#     outfile.write("var labelsCache = ")
+#     json.dump(labelsCache, outfile)
+#     outfile.write(";")
+#     outfile.close()
 
 ######################################################################
-# release
+# release title
 ###################################
 def handle_release(_, release):
-    str = release['title'] + " \n"
-    print(str)
+    str = release['title']
+    global count, releasesCache, latch
+    if(count < 500 and str.find("-") == -1 and random.choice([True, False])):
+        releasesCache.append(str)
+        count = count + 1
+        print(count, str)
+
+    # write the file since we got enough titles
+    if(count >= 500 and latch == False):
+        with open('releasesCache.js', 'w') as outfile:
+            outfile.write("var releasesCache = ")
+            json.dump(releasesCache, outfile)
+            outfile.write(";")
+            outfile.close()
+            latch = True
     return True
-#     global count
-#     if(count < 300 and str.find("Records") != -1 and str.find("(") == -1 and random.choice([True, False])):
-#     	global labelsFile
-#     	labelsFile.write(str)
-#     	count = count + 1
-#     return True
-# count = 0
-# releasesFile = io.open('release.txt', 'w', encoding='utf8')
-# xmltodict.parse(gzip.GzipFile('discogs_20160101_releases.xml.gz'), item_depth=2, item_callback=handle_release)
-#
+
+count = 0
+latch = False
+releasesCache = []
+xmltodict.parse(gzip.GzipFile('discogs_20160101_releases.xml.gz'), item_depth=2, item_callback=handle_release)
+

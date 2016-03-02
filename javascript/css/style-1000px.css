@@ -105,7 +105,8 @@
 		#header ul
 		{
 			position: absolute;
-			left:75%;
+			/* left:75%; */
+			right: 0%;
 			bottom:-35px;
 		}		
 
