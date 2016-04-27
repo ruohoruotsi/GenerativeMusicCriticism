@@ -7,11 +7,10 @@
 
 reviewGrammar = { 
 
-"<start>": "<artist-phrase>. [3] | <artist-phrase>. <interjection>",
+"<start>": "<artist-phrase>. | <artist-phrase>. <interjection>",
 
 ///////  
 "<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
-//// "<artist-phrase>": "",	
 
 ///////  
 "<artist-action-phrase>": "\
@@ -34,7 +33,7 @@ reviewGrammar = {
 		  The songwriting <ferocity-syn> <exhibited-syn> by <artist> <wrenches-syn> ideas from <genre>, <genre> and <folk-genre>, \
 		  crafting sidewinding <derangements-syn> that blend <structure-description> and <structure-description> | \
 		\
-		  The ascendant <ferocity-syn> of <artist> is on display again, showing off <structure-description>, \
+		  The <creative-syn> <ferocity-syn> of <artist> is on display again, showing off <structure-description>, \
 		  <present-participle-phrase> | \
 		\
 		  The musical <ferocity-syn> of <artist> invokes states of psychological <panic-syn> that will resonate \
@@ -47,6 +46,9 @@ reviewGrammar = {
 		\
 		  The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <elevates-syn> <genre> with <genre-adjective> <genre> <genre-noun> | \
 		\
+		  The <creative-syn> <panic-syn> <exhibited-syn> by <artist> clearly dips into   \
+		  a past reservoir of maximalism, <present-participle-phrase>    | \
+        \
 		  The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> hoists up the profile \
 		  of <structure-description> and screeched-out <genre> vocals | \
 		\
@@ -97,7 +99,7 @@ reviewGrammar = {
 		
 "<artist>":  "`getHotttArtists()`",
 
-///// List of famous, living producers that would able to collaborate
+///// List of famous or living producers that would able to collaborate
 "<static-artist>": 	"Timbaland | J Dilla | William Hung | Dr. Dre | Rick Rubin | RZA | Steve Albini | \
 					Baauer | Max Martin | The Smeezingtons | Jeff Bhasker | T-Bone Burnett | The Neptunes",
 					
@@ -153,7 +155,7 @@ reviewGrammar = {
 
 "<balladry-syn>": "balladry | poetry | lyricism | fusion",  
 
-"<genre-noun>": "ephemera | futurism | classicism | sophistication | eclecticism | \
+"<genre-noun>": "ephemera | futurism | classicism | eclecticism | \
 				 plagiarism | functionalism | stoicism | modernism | \
 				 reductionism | minimalism | syncretism | polystylism | \
 				 anti-intellectualism | formalism | expressionism",
@@ -192,10 +194,10 @@ reviewGrammar = {
 
 "<zeitgeist-syn>": "zeitgeist | spirit | current mood | current character | tone | trending course | future",
 
-"<creative-syn>":	"sonic | tasteful acoustic | creative | musical | novel musical | \
-					fresh melodic | stirring acoustic | visionary sonic | \
-					trendy musical | stylish sonic | refined | auteurist | \
-					magnificent musical | poetic",
+"<creative-syn>":	"sonic | tasteful | creative | musical | novel | \
+					fresh melodic | stirring acoustic | visionary | \
+					trendy | stylish | refined | auteurist | \
+					magnificent | poetic",
 					
 "<wrenches-syn>": "wrenches | plucks | wrests | snatches | prys | pulls | borrows",
 
@@ -233,14 +235,18 @@ reviewGrammar = {
 					Rousing material! | Electrifying! | Most-definitely heady! | A modern compositional masterpiece! | \
 					Miss out at your peril! | Seriously? | Wow! | Bitchin'! | Hearing is believing! | Yikes! | \
 					Riveting! | A vital release! | Solid. | Wikkid! | Happy listening! | Hella good! | \
-					Don't waste your time. | Phatness! | Bad*ss! | Dope. | Sublime. | Another excellent transmission! |\
-					A musical treat. | For connoisseurs only.",
+					Don't waste your time. | Phatness! | Bad*ss! | Dope. | Sublime. | Another excellent transmission! | \
+					A musical treat. | For connoisseurs only. | Zing! | Gesundheit! | Anyhoo ... | Meh. | Encore! | \
+					Oops! | Totally awesomesauce! | Marinating in lamesauce. | Drowning. In. Weaksauce. | Budgeree! | \
+					Supernacular! | Topgallant! | Bonzer! | Immense! | A triumph! | The. Dog's. Bollocks. | Rollicking! | \
+					Original gangsta! | Popping Fresh! | Sicknasty! | Sugar Honey Ice Tea!! | Just plain rancid! | \
+					Greasy sweet! | Tickety-boo! ",
 
-"<music-recording-noun>":	"12” vinyl | MP3 | cassette | CD | album | 4-track cartridge | \
-							live-stream | laserdisc | DVD-R | EP | ogg-vorbis download | maxi-single | Bandcamp release | \
+"<music-recording-noun>":	"12” vinyl | cassette | 4-track cartridge | instrumental fantasia | \
+							live-stream | laserdisc | DVD-R | EP | ogg-vorbis download | maxi-single | \
 							ambisonic release | white-label | Spotify stream | Apple Music special | Pandora exclusive | \
-							17-track compilation | Soundcloud clip | promo | Youtube video | 7” vinyl | box set | \
-							Mixcloud set | Myspace track | unplugged session | music video | 27-track anthology",
+							17-track compilation | Soundcloud clip | YouTube clip | 7” vinyl | trending iHeartRadio exclusive | \
+							Mixcloud set | unplugged session | Super 8 mm video | 27-track anthology",
 
 "<time-adjective>":	"latest | recent | newest | charting | forthcoming | upcoming | trending",
 
@@ -258,7 +264,8 @@ reviewGrammar = {
 								before spinning a collection of <struct-adj> piano elegies | \
 								before dissolving into a smoggy smattering of analogue delay | \
 								before veering off on solo tangents of enchanted <electro-acoustic-syn> abstraction | \
-								while functioning through the frosted lens of <Finnish-syn> stoicism | \
+								before veering off into nostalgic <Finnish-syn> <genre-noun> | \
+								while functioning through the frosted lens of <Finnish-syn> <genre-noun> | \
 								while ricocheting reverbed-out gunshots off grimy bassline warps | \
 								while injecting hints of <genre> patterns into <folk-genre> | \
 								while wielding <struct-adj> Detroit shuffles à la Theo Parrish | \
@@ -281,6 +288,7 @@ reviewGrammar = {
 								resonating like perfectly formed, oblique melodic miniature mobiles |\
 								reverberating like a bombardment of freeform consonants in a nuclear particle accelerator |\
 								riding rock hard subbass depth charges | \
+								shimmering muted strings like late-afternoon sunlight on a placid lake | \
 								sounding like <skank-artist> in a skank off, after inhaling a canister of nitrous oxide | \
 								sounding like Björk jamming with <static-artist> after a relaxing sauna session | \
 								swarming like a locust storm of kaleidoscopic, obsidian distortion |\
@@ -380,6 +388,7 @@ reviewGrammar = {
 				tantalising |\
 				undulating |\
 				whinnying |\
+				woozy |\
 				\
 				austere |\
 				adventurous|\
@@ -411,10 +420,12 @@ reviewGrammar = {
 							<struct-adj> constellations of de-glazed rhythms |\
 							<struct-adj> Caribbean pulses |\
 							<struct-adj>, distorted crescendos |\
-							<struct-adj>, drag vocals |\
+							<struct-adj>, Balearic drag vocals |\
+							<struct-adj>, aching vocals |\
 							<struct-adj> dulcimer melodies |\
 							<struct-adj>, earlobe-crashing breakbeats |\
 							<struct-adj>, forward-thinking <genre> |\
+							<struct-adj>, feathery breakbeats |\
 							<struct-adj>, rhythmic collages | \
 							<struct-adj>, garage syncopations | \
 							<struct-adj> guitar riffs  |\
@@ -489,6 +500,7 @@ reviewGrammar = {
 								Cambodian folk narratives |\
 								cassette tape overdubs |\
 								classical omnidirectional yodelings |\
+								clattering drum machine grooves |\
 								coke-white pop histrionics|\
 								dark careening tones from bright, queasy synthesizers |\
 								deep-set metallic sonorities |\
@@ -501,6 +513,7 @@ reviewGrammar = {
 								disjointed, guitar strummings |\
 								disheveled, dampened drums |\
 								dread techno futurisms |\
+								dubby slow-mo chuggings |\
 								early handmade experiments |\
 								endlessly arpeggiated chords |\
 								enunciated warbling consonants |\
@@ -615,7 +628,7 @@ reviewGrammar = {
 								 the synth drones of Klaus Schulze | \
  								 the wind-chilled electronics of Thomas Köner",
 
-"<song-description-phrase>":	"<adverb> defies categorisation | \
+"<song-description-phrase>":	"<adverb> defies categorisation with <structure-description-01>| \
 								\
 								is an asymmetric, geniusly constructed dancefloor killer | \
 								\
