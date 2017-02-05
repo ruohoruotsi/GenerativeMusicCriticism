@@ -1,25 +1,25 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// A Context-Free grammar for Generative Music Criticism by iroro 
+// A Context-Free grammar for Generative Music Criticism by iroro
 // V0.1 2009.11.06 (Processing, unreleased)
 // V0.2 2013.01.15 (Javascript)
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-reviewGrammar = { 
+reviewGrammar = {
 
 "<start>": "<artist-phrase>. | <artist-phrase>. <interjection>",
 
-///////  
-"<artist-phrase>": " <artist-descriptive-phrase> | <music-recording-phrase> | <artist-action-phrase>",
+///////
+"<artist-phrase>": " <artist-action-phrase> | <artist-descriptive-phrase> | <music-recording-phrase> ",
 
-///////  
-"<artist-action-phrase>": "\
+///////
+"<artist-action-phrase>": " \
 		\
 		  Few artists are this <adept-syn> at wringing so much <ferocity-syn> from their laptops, yet the \
 		  <time-adjective> <music-recording-noun> by <artist> <join-phrase> <structure-description> and <structure-description> | \
 		\
-		  <artist> and <static-artist> take on the <label> crew for another <music-recording-noun>, demonstrating <structure-description> and a \
-		  <creative-syn> <ferocity-syn>, <verb-phrase-singular> | \
+		  <artist> and <static-artist> take on the <label> crew for another <music-recording-noun>, \
+			demonstrating <structure-description> and a <creative-syn> <ferocity-syn>, <verb-phrase-singular> | \
 		\
 		  Your mind is about to be blown by the unearthing of a <year> curio from <artist>, offering a truly <bizarre-syn>, \
 		  but ultimately <adept-syn> selection of privately-pressed tracks that sound somewhere between <genre> and <folk-genre> | \
@@ -39,12 +39,13 @@ reviewGrammar = {
 		  The musical <ferocity-syn> of <artist> invokes states of psychological <panic-syn> that will resonate \
 		  beyond <experimental-syn> <genre> <circles-syn>, into the <daily-lives-syn> of <fans-syn> of <genre>",
 
-///////  
-"<artist-descriptive-phrase>": "\
+///////
+"<artist-descriptive-phrase>": " \
 		\
 		  The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <artist-description-phrase> | \
 		\
-		  The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <elevates-syn> <genre> with <genre-adjective> <genre> <genre-noun> | \
+		  The <creative-syn> <ferocity-syn> <exhibited-syn> by <artist> <elevates-syn> <genre> with \
+			<genre-adjective> <genre> <genre-noun> | \
 		\
 		  The <creative-syn> <panic-syn> <exhibited-syn> by <artist> clearly dips into   \
 		  a past reservoir of maximalism, <present-participle-phrase>    | \
@@ -64,11 +65,58 @@ reviewGrammar = {
 		  The <bizarre-syn> <panic-syn> evoked by <artist> will <spellbind-syn> <fans-syn> of <genre>, \
 		  <roving-syn> from <structure-description> to <structure-description> | \
 		\
-		  <Roving-syn> from <structure-description> to <structure-description>, the \
-		  <bizarre-syn> <panic-syn> evoked by <artist> will <spellbind-syn> <fans-syn> of <genre> <genre-noun>",
+		  The sound and style of <genre>, closely identified with the music of <artist>, \
+      serves as both a metaphor — culture that breaks free of oppressive structure — and, \
+      through its sound, a direct expression of pain, anger, and redemption | \
+    \
+      The music of <artist> <join-phrase> alternated catchy, sing-song melodies inspired by \
+      European folk songs and propulsive army-band marches, with highly textured and \
+      high-energy abstract playing almost completely divorced from form. It was an unusual mix \
+      of the cerebral, highly technical and the nakedly emotional | \
+    \
+			Draped in robotic vocal hooks, the music of <artist> will be a shock to many listeners expecting \
+			simply more of the same, but in many ways it continued and elevated the message \
+			of its predecessor | \
+		\
+			The righteous, the political, the expression of black Jamaican consciousness that comes \
+			from JA’s vocal and rocksteady traditions is ignored, no-one wanting to sound like \
+			they ‘identify’, no-one wanting to be the worse kind of white dread |\
+		\
+		 	When music rags publish their list of the greatest albums of all time, two of them were \
+			reggae albums and they were both by Bob Marley. This is the way forgetting, driven by  \
+			class and race, becomes cumulative, drives out the detail, the shades and shadow |\
+		\
+		 Again and again, what you find is that because white critique is wary, timid and uncomfortable \
+		 with attempting to understand or interrogate Jamaican music what is clung to as a value is a \
+		 kind of otherness and oddity, a vanishing into the pure pleasure of sonics to avert any \
+		 apprehension of the politics or meaning of what black Jamaican people were making. It’s akin to \
+		 the avoidance of complexity and the reduction to western precepts and expectations (esp. that which is \
+		 amenable to Western ‘experiment’), in most appraisal of Bollywood music, as I talked about in Eastern Spring. |\
+	 \
+		 But to sum up Jamaican music, particularly from the year 1976, into Super Ape criminally overlooks the \
+		 truly important artefacts of that year, three albums with no dubs, deeply lyrical, sweetly recorded, \
+		 absolutely drenched in harmony and melody and pop, that together form a triumvirate of roots reggae \
+		 classics and a snapshot of the Island’s turmoil in 76 better than most studio-spun dub confections could manage |\
+	\
+		The music of <artist> is an elasticated jumble of jittering phrases and toppling vignettes, \
+		alternately hypnotising and hernia-inducing | \
+	\
+	 The music of <artist> is seven minutes and 40 seconds of <city>-infused disco house that also sounds like a game of air \
+	 hockey being conducted inside a spring-reverb unit | \
+	\
+		Melding the bassy abstractions of Nicolai and Bender with less purified dub, \
+		techno, ‘step and pop/rock vocabularies (and, again, vocals), it takes the Pan-Sonic-meets-Pangaea \
+		concrète jungle of the earlier Pruitt Igoe EP on an psychedelic trip into the late-capitalist peaks, \
+		questing through widescreen landscapes as it steadily builds, climaxes, resets and repeats | \
+	\
+		The sound of <artist> explores beat-science at the intersection of ‘fucked up’ and ‘groovy’, mixing \
+		dark bass pressure and samples inspired by Blackspoitation soundtracks and orchestrated K-pop | \
+	\
+		<Roving-syn> from <structure-description> to <structure-description>, the \
+		<bizarre-syn> <panic-syn> evoked by <artist> will <spellbind-syn> <fans-syn> of <genre> <genre-noun>",
 
-///////  		
-"<music-recording-phrase>": "\
+///////
+"<music-recording-phrase>": " \
 		\
 		  The <time-adjective> <music-recording-noun> by <artist> <song-description-phrase> | \
 		\
@@ -77,7 +125,7 @@ reviewGrammar = {
 		  The <time-adjective> <music-recording-noun> by <artist> <reverbs-with-phrase> <a-structure-description> | \
 		\
 		  The <time-adjective> <music-recording-noun> by <artist> encapsulates the <zeitgeist-syn> of the \
-		  <genre> scene with pinpoint accuracy |\
+		  <genre> scene with pinpoint accuracy | \
 		\
 		  The <time-adjective> <music-recording-noun> by <artist> taps into a delicate, \
 		  <genre-adjective> corner of the <musical-universe-syn>, <present-participle-phrase> | \
@@ -89,26 +137,26 @@ reviewGrammar = {
 		  <genre> <balladry-syn> <verb-phrase-singular> | \
 		\
 		  Ping-ponging from <structure-description> to <structure-description>, the music of <artist> draws \
-		  on everything from <genre> to <genre> and <latino> reggaetón |\
+		  on everything from <genre> to <genre> and <latino> reggaetón | \
 		\
 		  The <ferocity-syn> of <artist> has a simplicity and warmth that sidesteps \
-		  the <structure-description> that <blight-syn> the <lesser-syn> moments of <genre> <balladry-syn>",		
+		  the <structure-description> that <blight-syn> the <lesser-syn> moments of <genre> <balladry-syn>",
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-		
+
 "<artist>":  "`getHotttArtists()`",
 
 ///// List of famous or living producers that would able to collaborate
 "<static-artist>": 	"Timbaland | J Dilla | William Hung | Dr. Dre | Rick Rubin | RZA | Steve Albini | \
 					Baauer | Max Martin | The Smeezingtons | Jeff Bhasker | T-Bone Burnett | The Neptunes",
-					
+
 ///// Special skanky artists
-"<skank-artist>":  "Ricky Martin | Gloria Estefan | Céline Dion | Delta Goodrem |\
-					Baby Spice | Robbie Williams | Kylie Minogue | Sophie Ellis-Bextor | Gwen Stefani |\
-					The Pussycat Dolls | Nelly Furtado | Amy Winehouse | Alanis Morissette |\
-					Janet Jackson | Lauryn Hill | Erykah Badu | Macy Gray | India.Arie |\
-					Jill Scott | D'Angelo | John Legend | Janelle Monáe | Cee Lo Green |\
+"<skank-artist>":  "Ricky Martin | Gloria Estefan | Céline Dion | Delta Goodrem | \
+					Baby Spice | Robbie Williams | Kylie Minogue | Sophie Ellis-Bextor | Gwen Stefani | \
+					The Pussycat Dolls | Nelly Furtado | Amy Winehouse | Alanis Morissette | \
+					Janet Jackson | Lauryn Hill | Erykah Badu | Macy Gray | India.Arie | \
+					Jill Scott | D'Angelo | John Legend | Janelle Monáe | Cee Lo Green | \
 					Christina Aguilera | Jennifer Hudson",
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -128,20 +176,20 @@ reviewGrammar = {
 							produces the biggest goosebumps | \
 							produces the biggest frissons",
 
-"<fans-syn>": "fans | enthusiasts | devotees | lovers | admirers | zealots | connoisseurs |\
+"<fans-syn>": "fans | enthusiasts | devotees | lovers | admirers | zealots | connoisseurs | \
 			   aficionados | addicts | junkies | fanatics | disciples",
 
 
 "<spellbind-syn>": "spellbind | bewitch | enthrall | grip | mesmerize | hypnotize | entrance | \
-				captivate | stupefy | repulse | repel | bedevil | hex | slay | wow |\
+				captivate | stupefy | repulse | repel | bedevil | hex | slay | wow | \
 				enchant | beguile | gratify | enslave | hook | subdue",
 
 ////IO HAVOC -- TO FIX -- need toUpper or another elegant solution to avoid duplication
 "<roving-syn>": "roving | wandering | ranging | drifting | meandering | gallivanting | \
-				zigzagging | moving | pivoting | floating", 
+				zigzagging | moving | pivoting | floating",
 
 "<Roving-syn>": "Roving | Wandering | Ranging | Drifting | Meandering | Gallivanting | \
-				Zigzagging | Moving | Pivoting | Floating", 
+				Zigzagging | Moving | Pivoting | Floating",
 
 "<retro-syn>": "retro | modern | ",
 
@@ -153,13 +201,13 @@ reviewGrammar = {
 "<essence-syn>": "essence | quintessence | finale | culmination | climax | persona | \
 				  apotheosis | zenith | resolution | epilogue  | coda | conclusion | denouement",
 
-"<balladry-syn>": "balladry | poetry | lyricism | fusion",  
+"<balladry-syn>": "balladry | poetry | lyricism | fusion",
 
 "<genre-noun>": "ephemera | futurism | classicism | eclecticism | \
 				 plagiarism | functionalism | stoicism | modernism | \
 				 reductionism | minimalism | syncretism | polystylism | \
 				 anti-intellectualism | formalism | expressionism",
-					
+
 "<pastiche-syn>":  "pastiche | sophistication | appropriation | <genre-noun> | \
 					ephemera | miscellany | miscellanea | style arrangements | \
 				   	detritus | flotsam | chaos | simulacrum | adjacencies",
@@ -167,9 +215,9 @@ reviewGrammar = {
 "<teeters-syn>": "teeters on the <edge-syn> of | \
 				 dabbles in | fiddles with | flirts with",
 
-"<edge-syn>": 	"edge | brink | fringes", 
+"<edge-syn>": 	"edge | brink | fringes",
 
-"<art-syn>": 	"art | craft", 
+"<art-syn>": 	"art | craft",
 
 "<reconstruction-syn>": "reconstruction | emulsion |  modulation | inflection | \
 						rewriting | rescripting | commingling",
@@ -197,12 +245,12 @@ reviewGrammar = {
 "<creative-syn>":	"sonic | tasteful | creative | musical | novel | \
 					fresh melodic | stirring acoustic | visionary | \
 					trendy | stylish | refined | auteurist | \
-					magnificent | poetic",
-					
+					magnificent | poetic | fizzling ",
+
 "<wrenches-syn>": "wrenches | plucks | wrests | snatches | prys | pulls | borrows",
 
 "<ferocity-syn>": 	"ferocity | artistry | courage | charisma | cowardice | nerve | \
-					brillance | stoutheartedness | dauntlessness | savagery | \
+					brillance | stoutheartedness | dauntlessness | savagery | brutality | \
 					genius | furiousness | violence |  wildness | severeness | \
 					accessibility | straightforwardness | \
 					unpretentiousness | naturalness | spareness | austerity | \
@@ -214,9 +262,9 @@ reviewGrammar = {
 
 "<writhes-syn>":	"writhes | squirms | wriggles | thrashes | flails | tosses and turns",
 
-"<lesser-syn>": "lesser | smaller | duller | hazier | foggier | dimmer |\
-				 murkier | darker | weaker | feebler | paler |\
-				 more obscure | more subdued", 
+"<lesser-syn>": "lesser | smaller | duller | hazier | foggier | dimmer | \
+				 murkier | darker | weaker | feebler | paler | \
+				 more obscure | more subdued",
 
 "<join-phrase>": 	"marries | fuses | blends | marries | merges | mixes | unifies | intermingles | melds | joins",
 
@@ -255,9 +303,9 @@ reviewGrammar = {
 								makes for an uncommonly good performance <verb-phrase-singular> | \
 								compliments credible <genre> <genre-noun> with a mighty doublepack of deadly bass variations <verb-phrase-singular> | \
 								<writhes-syn> <adverb> with overdriven intensity and deeply sinister undercurrents | \
-								tries to solve an inherently under-constrained musical problem with <structure-description>|\
+								tries to solve an inherently under-constrained musical problem with <structure-description>| \
 								tries to make sense out of a 3D sonic world using inadequate two-dimensional projections",
-											
+
 "<present-participle-phrase>": 	"\
 								before collapsing beneath <a-structure-description> | \
 								before skittering back to <struct-adj>, post-Autechre beat deconstructions | \
@@ -265,6 +313,8 @@ reviewGrammar = {
 								before dissolving into a smoggy smattering of analogue delay | \
 								before veering off on solo tangents of enchanted <electro-acoustic-syn> abstraction | \
 								before veering off into nostalgic <Finnish-syn> <genre-noun> | \
+								before dispering off into various strains of kraut, wave and <pop-genre>, hosed down \
+								 with 'ardcore breakbeat and baked dry in a modified dot-matrix printer | \
 								while functioning through the frosted lens of <Finnish-syn> <genre-noun> | \
 								while ricocheting reverbed-out gunshots off grimy bassline warps | \
 								while injecting hints of <genre> patterns into <folk-genre> | \
@@ -277,64 +327,67 @@ reviewGrammar = {
 								dripping with endless reverb and delay manipulation | \
 								employing <struct-adj>, staggered harmonic progressions | \
 								eschewing the familiar palimpsest of credible <genre> <genre-noun> | \
-								exhibiting <a-structure-description> <evocative-adjective> of <the-synth-drones-Klaus> |\
+								exhibiting <a-structure-description> <evocative-adjective> of <the-synth-drones-Klaus> | \
 								letting in shards of light and sumptuous colours painted through snippets of <genre> | \
 								marrying <genre> with <structure-description> | \
 								meandering around a plucked melody <verb-phrase-singular> |	\
-								melting <genre> accordion and Diwali-riddim claps with woozy <electro-acoustic-syn> static |\
-								ploughing furrows of unresolved chord changes, stretching out to infinity |\
+								melting <genre> accordion and Diwali-riddim claps with woozy <electro-acoustic-syn> static | \
+								ploughing furrows of unresolved chord changes, stretching out to infinity | \
 								propelling ethereal glitching rhythms across <plains-syn> of elaborately fashioned <electro-acoustic-syn> static | \
-								resounding like Richie Hawtin DJ-ing in vast gasometer |\
-								resonating like perfectly formed, oblique melodic miniature mobiles |\
-								reverberating like a bombardment of freeform consonants in a nuclear particle accelerator |\
+								resounding like Richie Hawtin and <skank-artist> DJ-ing in vast gasometer | \
+								resonating like perfectly formed, oblique melodic miniature mobiles | \
+								reverberating like a bombardment of freeform consonants in a nuclear particle accelerator | \
 								riding rock hard subbass depth charges | \
 								shimmering muted strings like late-afternoon sunlight on a placid lake | \
 								sounding like <skank-artist> in a skank off, after inhaling a canister of nitrous oxide | \
+								sounding like Vladislav Delay and <skank-artist> sipping cocktails near a Funktion-One | \
+								sounding like of Plastikman, Fela Kuti and <skank-artist> dropping 12″s at a Kraftwerk afterparty | \
+								sounding like <skank-artist>, Ilpo Väisänen and feral dogs baking to death in a white Econoline van
 								sounding like Björk jamming with <static-artist> after a relaxing sauna session | \
-								swarming like a locust storm of kaleidoscopic, obsidian distortion |\
-								sounding like an accomplished and arresting tribute to the melancholia of childhood |\
+								swarming like a locust storm of kaleidoscopic, obsidian distortion | \
+								sounding like an accomplished and arresting tribute to the melancholia of childhood | \
 								trawling the depths of vinyl's pockmarked grooves for <a-structure-description> | \
 								whining and squealing like a farmyard animal in the pangs of labour",
 
 
 "<a-structure-description>":   "\
-								an alchemical blend of post-rave <genre> electronics |\
-								an ambivalent reverie |\
-								a banquet of Flying Lotus-style bass arpeggiations |\
-								a blistering feast of two-chord distortion |\
-								a bubbly <J-pop> appreciation |\
-								a cacophany of autistic rhythms |\
-								a contrarily upbeat melancholy |\
+								an alchemical blend of post-rave <genre> electronics | \
+								an ambivalent reverie | \
+								a banquet of Flying Lotus-style bass arpeggiations | \
+								a blistering feast of two-chord distortion | \
+								a bubbly <J-pop> appreciation | \
+								a cacophany of autistic rhythms | \
+								a contrarily upbeat melancholy | \
 								a dense, effulgent piece of faux-romantic orchestral syrup | \
-								a deluge of piano flecked gems |\
-								a droll homage to post-<genre> <genre-noun> |\
-								an elaborated voice-leading construction |\
-								a feast of noise-rock virtuosity |\
-								a flirtatious pop sensibility |\
-								a gratuitous, pornographic level of lusciousness |\
-								a growing amalgam of motivic contradictions |\
-								a haunted melancholic incantation, curling ineffably upwards |\
-								a horrifying mess of head-meddling unpleasantness |\
-								an indisposable slice of <genre> delectability |\
-								an idiosyncratic veneer of melancholy |\
-								a low key, grotty Jakbeat |\
-								a lush electronic lamentation |\
-								a morally inflamatory, skronking bassline |\
-								a multicoloured blast of intoxicating feedback |\
-								a mindblowing dubscape of effects |\
-								an overbearingly fuzzy thicket of layered drones |\
-								an obscure, Warrior Queen gunman lyric |\
-								a provacative Steely & Clevie produced riddim |\
-								a propensity for hoary, hedonistic synth-knob tweaking |\
-								a pure, transcendental rave feeling |\
-								a super platter of UK bass installments |\
-								a series of shamanic, trance-state mutterings |\
-								a timeless, primal yearning for volume and repetition |\
-								a toxic hellstew of glitched-out tapestries |\
-								a vaporous spray of submerged analogue delays |\
-								a veritable haberdashery of vintage musical textures |\
+								a deluge of piano flecked gems | \
+								a droll homage to post-<genre> <genre-noun> | \
+								an elaborated voice-leading construction | \
+								a feast of noise-rock virtuosity | \
+								a flirtatious pop sensibility | \
+								a gratuitous, pornographic level of lusciousness | \
+								a growing amalgam of motivic contradictions | \
+								a haunted melancholic incantation, curling ineffably upwards | \
+								a horrifying mess of head-meddling unpleasantness | \
+								an indisposable slice of <genre> delectability | \
+								an idiosyncratic veneer of melancholy | \
+								a low key, grotty Jakbeat | \
+								a lush electronic lamentation | \
+								a morally inflamatory, skronking bassline | \
+								a multicoloured blast of intoxicating feedback | \
+								a mindblowing dubscape of effects | \
+								an overbearingly fuzzy thicket of layered drones | \
+								an obscure, Warrior Queen gunman lyric | \
+								a provacative Steely & Clevie produced riddim | \
+								a propensity for hoary, hedonistic synth-knob tweaking | \
+								a pure, transcendental rave feeling | \
+								a super platter of UK bass installments | \
+								a series of shamanic, trance-state mutterings | \
+								a timeless, primal yearning for volume and repetition | \
+								a toxic hellstew of glitched-out tapestries | \
+								a vaporous spray of submerged analogue delays | \
+								a veritable haberdashery of vintage musical textures | \
 								a wash of tidal rhythms and turbulent crackle",
-				
+
 "<genre-adjective>": 	"quotidian | slippery | fragmented | punctured | wispy | \
 						smudged | delicate | silky |  sweet | fractured | \
 						mangled | shattered | graceful | disenchanted",
@@ -343,300 +396,306 @@ reviewGrammar = {
 "<atmospherics-syn>": 	"atmospherics | ambiences | tonalities",
 
 "<struct-adj>": "\
-				atmospheric |\
+				atmospheric | \
 				blistering | \
-				breathtaking |\
-				cinematic |\
-				chugging  |\
-				charming  |\
-				churning |\
-				dramatic |\
+				breathtaking | \
+				cinematic | \
+				chugging  | \
+				charming  | \
+				churning | \
+				dramatic | \
 				eroded | \
-				enigmatic |\
-				endothermic |\
-				exothermic |\
-				flickering |\
-				fluttering |\
-				hyper-prismic |\
-				hypnagogic |\
-				julienned |\
-				lysergic |\
+				enigmatic | \
+				endothermic | \
+				exothermic | \
+				flickering | \
+				fluttering | \
+				hyper-prismic | \
+				hypnagogic | \
+				julienned | \
+				lysergic | \
 				liturgical | \
-				majestic |\
-				narcotic |\
-				phantasmic |\
-				pirouetting |\
-				psychedelic |\
-				resplendent |\
-				rising |\
-				roiling |\
-				rousing |\
-				rippling |\
-				sensual |\
-				slinking |\
-				shimmering |\
-				shuffling |\
-				shuddering |\
-				somnambulistic |\
-				soporific |\
+				majestic | \
+				narcotic | \
+				phantasmic | \
+				pirouetting | \
+				psychedelic | \
+				resplendent | \
+				rising | \
+				roiling | \
+				rousing | \
+				rippling | \
+				sensual | \
+				slinking | \
+				shimmering | \
+				shuffling | \
+				shuddering | \
+				somnambulistic | \
+				soporific | \
 				sprawling | \
-				symphonic |\
-				synaesthetic |\
-				syllabic |\
-				throbbing |\
-				towering |\
-				tantalising |\
-				undulating |\
-				whinnying |\
-				woozy |\
+				symphonic | \
+				synaesthetic | \
+				syllabic | \
+				throbbing | \
+				towering | \
+				tantalising | \
+				undulating | \
+				whinnying | \
+				woozy | \
 				\
-				austere |\
-				adventurous|\
-				abstracted |\
-				dexterous |\
+				austere | \
+				adventurous| \
+				abstracted | \
+				dexterous | \
 				febrile | \
-				flanged |\
-				hazy |\
-				lush |\
-				mutant |\
-				overheated |\
-				paranoid|\
-				unstable |\
-				relentless  |\
-				reverberant |\
-				sculpted |\
-				spherical|\
-				sumptuous |\
-				sinister |\
-				smudged |\
+				flanged | \
+				hazy | \
+				lush | \
+				mutant | \
+				overheated | \
+				paranoid| \
+				unstable | \
+				relentless  | \
+				reverberant | \
+				sculpted | \
+				spherical| \
+				sumptuous | \
+				sinister | \
+				smudged | \
 				tortured",
 
 "<structure-description-01>": "\
-							<struct-adj>, agitated synthlines |\
-  							<struct-adj>, angular melodies |\
-  							<struct-adj>, beat psychedelics |\
+							<struct-adj>, agitated synthlines | \
+  							<struct-adj>, angular melodies | \
+  							<struct-adj>, beat psychedelics | \
 							<struct-adj>, breakbeat-fueled <genre> | \
-							<struct-adj>, plunging fifths |\
-							<struct-adj> constellations of de-glazed rhythms |\
-							<struct-adj> Caribbean pulses |\
-							<struct-adj>, distorted crescendos |\
-							<struct-adj>, Balearic drag vocals |\
-							<struct-adj>, aching vocals |\
-							<struct-adj> dulcimer melodies |\
-							<struct-adj>, earlobe-crashing breakbeats |\
-							<struct-adj>, forward-thinking <genre> |\
-							<struct-adj>, feathery breakbeats |\
+							<struct-adj>, plunging fifths | \
+							<struct-adj> constellations of de-glazed rhythms | \
+							<struct-adj> Caribbean pulses | \
+							<struct-adj>, distorted crescendos | \
+							<struct-adj>, Balearic drag vocals | \
+							<struct-adj>, aching vocals | \
+							<struct-adj> dulcimer melodies | \
+							<struct-adj>, earlobe-crashing breakbeats | \
+							<struct-adj>, forward-thinking <genre> | \
+							<struct-adj>, feathery breakbeats | \
 							<struct-adj>, rhythmic collages | \
 							<struct-adj>, garage syncopations | \
-							<struct-adj> guitar riffs  |\
-							<struct-adj>, gristly synths |\
+							<struct-adj> guitar riffs  | \
+							<struct-adj>, gristly synths | \
 							<struct-adj>, ghoulish cries | \
 							<struct-adj>, harmonic machinations | \
 							<struct-adj>, haunting strings | \
 							<struct-adj>, incandescent lyrics | \
-							<struct-adj>, intervallic ornamentations |\
-							<struct-adj>, <J-pop> delights |\
-							<struct-adj>, kosmische pulsations |\
-							<struct-adj>, laminous droning |\
-							<struct-adj>, melismatic ornamentations |\
-							<struct-adj>, melodic ephemera |\
-							<struct-adj>, mercurial motifs |\
-							<struct-adj>, mind-quaking ambiences |\
+							<struct-adj>, intervallic ornamentations | \
+							<struct-adj>, <J-pop> delights | \
+							<struct-adj>, kosmische pulsations | \
+							<struct-adj>, laminous droning | \
+							<struct-adj>, melismatic ornamentations | \
+							<struct-adj>, melodic ephemera | \
+							<struct-adj>, mercurial motifs | \
+							<struct-adj>, mind-quaking ambiences | \
 							<struct-adj>, mini-orchestral swells | \
 							<struct-adj>, off-beat syncopations | \
-							<struct-adj>, percussive interjections |\
-  							<struct-adj>, post-garage noodlings |\
-							<struct-adj>, post-techno ecstasies |\
-							<struct-adj>, powdery effects |\
+							<struct-adj>, percussive interjections | \
+  							<struct-adj>, post-garage noodlings | \
+							<struct-adj>, post-techno ecstasies | \
+							<struct-adj>, powdery effects | \
 							<struct-adj>, prismatic strings |  \
-							<struct-adj>, monochord accompaniments |\
-							<struct-adj>, Rhodes keys |\
-							<struct-adj>, rhythm manipulations |\
-							<struct-adj>, sawtooth basslines |\
-							<struct-adj>, <sexy-syn> blips |\
-							<struct-adj>, silvery notes |\
-							<struct-adj>, speaker-taxing noises |\
-							<struct-adj>, stoic minimalisms |\
-							<struct-adj>, throat-tearing howls |\
-							<struct-adj>, trumpet lines|\
-							<struct-adj>, vocal incantations |\
+							<struct-adj>, monochord accompaniments | \
+							<struct-adj>, Rhodes keys | \
+							<struct-adj>, rhythm manipulations | \
+							<struct-adj>, sawtooth basslines | \
+							<struct-adj>, <sexy-syn> blips | \
+							<struct-adj>, silvery notes | \
+							<struct-adj>, speaker-taxing noises | \
+							<struct-adj>, stoic minimalisms | \
+							<struct-adj>, throat-tearing howls | \
+							<struct-adj>, trumpet lines| \
+							<struct-adj>, vocal incantations | \
 							<struct-adj>, West Coast '60s sounds | \
-							<struct-adj>, xylophonic geometries |\
+							<struct-adj>, xylophonic geometries | \
 							<struct-adj>, zombie-like chants | \
 							\
-							<struct-adj>, <struct-adj> lyrics |\
-							<struct-adj> oscillator experimentations |\
-							<struct-adj>, non-linear constructions |\
-							<struct-adj>, TB-303 residues |\
-							<struct-adj>, skanking movements |\
-							<struct-adj>, iridescent arrangements |\
+							<struct-adj>, <struct-adj> lyrics | \
+							<struct-adj> oscillator experimentations | \
+							<struct-adj>, non-linear constructions | \
+							<struct-adj>, TB-303 residues | \
+							<struct-adj>, skanking movements | \
+							<struct-adj>, iridescent arrangements | \
 							<struct-adj>, rhythm mechanics | \
-							<struct-adj>, delayed beats |\
-							<struct-adj>, synthetic embellishments |\
-							<struct-adj>, Detroit chords |\
-							<struct-adj>, fractal loops |\
-							<struct-adj>, game-arcade melodies |\
-							<struct-adj>, <genre> mutations |\
-							<struct-adj>, psilocybic electronics |\
-							<struct-adj>, raindance drums |\
-							<struct-adj>, quivering sustains |\
-							<struct-adj>, amplifier hums |\
-							<struct-adj>, bell tones |\
-							<struct-adj>, Chicago house reductions |\
-							<struct-adj>, Europorno soundtracks |\
-							<struct-adj>, sonic brushstrokes |\
+							<struct-adj>, delayed beats | \
+							<struct-adj>, synthetic embellishments | \
+							<struct-adj>, Detroit chords | \
+							<struct-adj>, fractal loops | \
+							<struct-adj>, game-arcade melodies | \
+							<struct-adj>, <genre> mutations | \
+							<struct-adj>, psilocybic electronics | \
+							<struct-adj>, raindance drums | \
+							<struct-adj>, quivering sustains | \
+							<struct-adj>, amplifier hums | \
+							<struct-adj>, bell tones | \
+							<struct-adj>, Chicago house reductions | \
+							<struct-adj>, Europorno soundtracks | \
+							<struct-adj>, sonic brushstrokes | \
 							<struct-adj>, saxophone emissions",
 
 "<structure-description-02>": "\
 								aerated electronic timbres | \
-								acid-house breakbeat effusions |\
-								alien analogue tones |\
-								arcing sinewaves |\
-								assorted disembodied voices |\
-								austere <genre> cadences |\
-								avant-garde chamber instrumentations |\
-								beautifully tempered zones of twilight ambient  |\
+								acid-house breakbeat effusions | \
+								alien analogue tones | \
+								arcing sinewaves | \
+								assorted disembodied voices | \
+								austere <genre> cadences | \
+								avant-garde chamber instrumentations | \
+								beautifully tempered zones of twilight ambient  | \
 								blissfully uncluttered aesthetics | \
-								Cambodian folk narratives |\
-								cassette tape overdubs |\
-								classical omnidirectional yodelings |\
-								clattering drum machine grooves |\
-								coke-white pop histrionics|\
-								dark careening tones from bright, queasy synthesizers |\
-								deep-set metallic sonorities |\
-								deep, rustic darkness |\
-								dense analogue experiments |\
-								dense thickets of digitally applied crackle |\
-								detached 90's post-modernisms |\
-								devastatingly heavy <genre> mutations |\
-								digitally dissected orchestral figures |\
-								disjointed, guitar strummings |\
-								disheveled, dampened drums |\
-								dread techno futurisms |\
-								dubby slow-mo chuggings |\
-								early handmade experiments |\
-								endlessly arpeggiated chords |\
-								enunciated warbling consonants |\
-								European technical execution |\
-								expertly manipulated rhythm alchemies  |\
-								fat skronked basslines under <genre-adjective>, minimal percussion |\
-								floppy fringe harmonies |\
-								flourishes of TR-909 hi-hats |\
-								foggy northern European drone-scapes |\
-								freaky sequenced blips |\
-								fuzzy shoegaze psychedelia |\
+								Cambodian folk narratives | \
+								cassette tape overdubs | \
+								classical omnidirectional yodelings | \
+								clattering drum machine grooves | \
+								coke-white pop histrionics| \
+								dark careening tones from bright, queasy synthesizers | \
+								deep-set metallic sonorities | \
+								deep, rustic darkness | \
+								dense analogue experiments | \
+								dense thickets of digitally applied crackle | \
+								detached 90's post-modernisms | \
+								devastatingly heavy <genre> mutations | \
+								digitally dissected orchestral figures | \
+								disjointed, guitar strummings | \
+								disheveled, dampened drums | \
+								dread techno futurisms | \
+								dubby slow-mo chuggings | \
+								early handmade experiments | \
+								endlessly arpeggiated chords | \
+								enunciated warbling consonants | \
+								European technical execution | \
+								expertly manipulated rhythm alchemies  | \
+								fat skronked basslines under <genre-adjective>, minimal percussion | \
+								floppy fringe harmonies | \
+								flourishes of TR-909 hi-hats | \
+								foggy northern European drone-scapes | \
+								freaky sequenced blips | \
+								fried, fraggy digital feedback | \
+								fuzzy shoegaze psychedelia | \
 								gasesous spurts of phonetic fragments | \
-								gender-bending vocals |\
+								gender-bending vocals | \
 								gentle, forlorn 8-bit bleeps | \
-								glacially-paced gothic stoner rock |\
-								globular, filtered basslines |\
-								gloriously wild natural timbres |\
-								gorgeous, platitudinous nonsense |\
-								gorgeously fragile utterances |\
-								grainy, muffled kicks |\
-								grey slabs of doomy <atmospherics-syn> |\
-								grim, crust-laden darkness |\
-								harmonics-drenched interludes |\
-								haunted-house analogue tactics |\
-								hazily buoyant, ethereal female vocals |\
-								hazy washes of reverbed harps |\
-								hazy, spun out blues |\
-								head-pressurised technohouse vibes	|\
-								heavy rolling dancehall grinders |\
-								hi-scoring aquakrunk madness |\
-								hints of free-roaming Krautrock |\
-								hummable <genre> melodies |\
+								glacially-paced gothic stoner rock | \
+								globular, filtered basslines | \
+								gloriously wild natural timbres | \
+								glorious nuggets of sinewy, intermingling synths | \
+								gorgeous, platitudinous nonsense | \
+								gorgeously fragile utterances | \
+								grainy, muffled kicks | \
+								grey slabs of doomy <atmospherics-syn> | \
+								grim, crust-laden darkness | \
+								harmonics-drenched interludes | \
+								haunted-house analogue tactics | \
+								hazily buoyant, ethereal female vocals | \
+								hazy washes of reverbed harps | \
+								hazy, spun out blues | \
+								head-pressurised technohouse vibes	| \
+								heavy rolling dancehall grinders | \
+								hi-scoring aquakrunk madness | \
+								hints of free-roaming Krautrock | \
+								hummable <genre> melodies | \
 								hyper-lean <genre> geometries | \
-								inimitably raw, psychedelic wow-and-flutter beats |\
-								intricately funked syncopations |\
-								jazzy, bass pluckings |\
-								jellied, slushy bass frequencies |\
-								layered embers of sound |\
-								loose strands of treated guitar |\
-								lurid hues of neon pink & green |\
-								magnificently evocative, mercilessly deep, tweaked out, post-rave ecstasy |\
-								malaria-infected, vintage radio essences |\
-								massively modulated vocal treatments |\
-								modern amorphous platitudes |\
-								myriad drum-machine pattern-permutations |\
-								oblique plaintive yowls |\
-								open-ended, improvisational structures |\
-								orchestral level pomp & bombast |\
-								post-pop slacker tendencies |\
-								pure Balearic house bliss |\
-								reptilian distress cries |\
-								rootsy one-drop dub keys |\
+								inimitably raw, psychedelic wow-and-flutter beats | \
+								intricately funked syncopations | \
+								insectoid clicks | \
+								jazzy, bass pluckings | \
+								jellied, slushy bass frequencies | \
+								layered embers of sound | \
+								loose strands of treated guitar | \
+								lurid hues of neon pink & green | \
+								magnificently evocative, mercilessly deep, tweaked out, post-rave ecstasy | \
+								malaria-infected, vintage radio essences | \
+								malevolent techno reductions | \
+								massively modulated vocal treatments | \
+								modern amorphous platitudes | \
+								myriad drum-machine pattern-permutations | \
+								oblique plaintive yowls | \
+								open-ended, improvisational structures | \
+								orchestral level pomp & bombast | \
+								post-pop slacker tendencies | \
+								processed orchestral drone | \
+								pure Balearic house bliss | \
+								reptilian distress cries | \
+								rootsy one-drop dub keys | \
 								round, toothless syllables | \
-								<sexy-syn> dancehall minimalisms |\
-								Saharan blues fetishism |\
-								sculpted rhythm dynamics |\
-								sea-sick rhythms |\
-								semi-organic gristle |\
-								shards of ultra-plastic electro-funk |\
-								shoegazy opiates |\
-								slurred, bladdered articulations |\
-								soft, smoky sax lines |\
-								somnolent, spectrally sifted chorales |\
-								soupy electronic fog |\
-								spacious Balearic keys |\
-								spare, flinty embers  |\
-								spectrally sifted electronics |\
-								splintered, beat matrices |\
-								spleen-crushing bass |\
-								steely, speaker-destroying dub techno |\
-								sticky, wriggly electro influences |\
-								stoned post-punk guitar strokes |\
-								stringently reduced techno |\
-								sublime robo-tropical leitmotives |\
-								subtly plush synth embellishments |\
-								succulent bass treatments |\
-								supple subbass wobbles |\
-								suspended, fluid textures |\
+								<sexy-syn> dancehall minimalisms | \
+								Saharan blues fetishism | \
+								sculpted rhythm dynamics | \
+								sea-sick rhythms | \
+								semi-organic gristle | \
+								shards of ultra-plastic electro-funk | \
+								shoegazy opiates | \
+								slurred, bladdered articulations | \
+								soft, smoky sax lines | \
+								somnolent, spectrally sifted chorales | \
+								soupy electronic fog | \
+								spacious Balearic keys | \
+								spare, flinty embers  | \
+								spectrally sifted electronics | \
+								splintered, beat matrices | \
+								spleen-crushing bass | \
+								steely, speaker-destroying dub techno | \
+								sticky, wriggly electro influences | \
+								stoned post-punk guitar strokes | \
+								stringently reduced techno | \
+								sublime robo-tropical leitmotives | \
+								subtly plush synth embellishments | \
+								succulent bass treatments | \
+								supple subbass wobbles | \
+								suspended, fluid textures | \
 								testosterone-fuelled, urban mutations | \
-								textural guitar-scapes |\
-								tranquil, free-floating chorales |\
-								uncharacteristically spry tempos |\
-								undulating, unstable cadences |\
-								unfathomably complex textures |\
-								unfathomably deep, utterly sick, dubwise textures |\
-								unresolved minor keys and microtonal passages |\
-								utterly sick digital spasms |\
-								vein-melting, improvised freakery |\
-								vocodered, acid belching TB-303s |\
+								textural guitar-scapes | \
+								tranquil, free-floating chorales | \
+								uncharacteristically spry tempos | \
+								undulating, unstable cadences | \
+								unfathomably complex textures | \
+								unfathomably deep, utterly sick, dubwise textures | \
+								unresolved minor keys and microtonal passages | \
+								utterly sick digital spasms | \
+								vein-melting, improvised freakery | \
+								vocodered, acid belching TB-303s | \
 								waves of <electro-acoustic-syn> static | \
-								wicked ragga-bashment flavas |\
-								wispily resonant distortions |\
+								wicked ragga-bashment flavas | \
+								wispily resonant distortions | \
 								wonderfully shambolic tendencies",
 
 "<structure-description>":  "<structure-description-01> | <structure-description-02>",
 
 "<the-synth-drones-Klaus>": 	"\
-								 the ambivalent harmonic parallelism of Claude Debussy |\
-								 the atomised acousmatic embodiments of Bernard Parmegiani |\
-								 the hyper-mediated guitar washes worthy of Keith Fullerton Whitman |\
+								 the ambivalent harmonic parallelism of Claude Debussy | \
+								 the atomised acousmatic embodiments of Bernard Parmegiani | \
+								 the hyper-mediated guitar washes worthy of Keith Fullerton Whitman | \
 								 the disturbingly visceral Klangfarbenmelodie of Hector Berlioz | \
-								 the hazy botanical film interludes by Boards of Canada |\
+								 the hazy botanical film interludes by Boards of Canada | \
 								 the hypnotic minimalism of Terry Riley | \
-								 the intricately funked syncopations of Autechre or Alva Noto |\
-								 the isolationist bleeps of Mika Vainio |\
-								 the oneiric dramaturgy of Robert Ashley |\
-								 the pointillist dynamics of Arnold Schoenberg |\
-								 the psychedelic ragas of Pandit Pran Nath |\
-								 the moodier zones of Aphex Twin's Selected Ambient Works Vol. 2 |\
-								 the spiraling acidic basslines of Josh Wink |\
+								 the intricately funked syncopations of Autechre or Alva Noto | \
+
+								 the isolationist bleeps of Mika Vainio | \
+								 the oneiric dramaturgy of Robert Ashley | \
+								 the pointillist dynamics of Arnold Schoenberg | \
+								 the psychedelic ragas of Pandit Pran Nath | \
+								 the moodier zones of Aphex Twin's Selected Ambient Works Vol. 2 | \
+								 the spiraling acidic basslines of Josh Wink | \
 								 the subdued ferric tones of Kevin Drumm | \
 								 the synth drones of Klaus Schulze | \
  								 the wind-chilled electronics of Thomas Köner",
 
-"<song-description-phrase>":	"<adverb> defies categorisation with <structure-description-01>| \
+"<song-description-phrase>":	"<adverb> defies categorisation with <structure-description-01> | \
 								\
 								is an asymmetric, geniusly constructed dancefloor killer | \
 								\
-								is one of the richest spacial dub constructions ever heard | \
+								is one of the richest spacial <pop-genre> constructions ever heard | \
 								\
 								is a frenzied crescendo of panning stabs and a washed out, chugging backbone that doesn't let up | \
 								\
-								is a sweet-like-tropical blend of <genre>, <genre> and dubstep | \
+								is a sweet-like-tropical blend of <pop-genre>, <genre> and dubstep | \
 								\
 								is an 20 minute odyssey into stoner heaven | \
 								\
@@ -648,13 +707,16 @@ reviewGrammar = {
 								\
 								is a dark vocal-house number, laced with moody guitar riffs, layers of percussion and hypnotizing filtered stabs | \
 								\
-								is an incredible, <adverb> mesmerising sound that will tempt, allure, petrify and utterly mind-f**k you in equal measure | \
+								is an incredible, <adverb> mesmerising sound that will tempt, allure, petrify and \
+								utterly mind-f**k you in equal measure | \
 								\
 								is an uneasy listening experience, <adverb> catapulting the listener with irrepressible spirited contrasts | \
 								\
-								is a schizophrenic composition, <adverb> and without warning cutting between sparse, low-end tension and thumping organ clusters | \
+								is a schizophrenic composition, <adverb> and without warning cutting between sparse, low-end tension \
+								and thumping organ clusters | \
 								\
-								is a <sexy-syn> little stomper, yearning to be slowly unravelled, in private, intimate settings after the witching hour | \
+								is a <sexy-syn> little stomper, yearning to be slowly unravelled, in private, intimate settings after \
+								the witching hour | \
 								\
 								is one of those <epoch> EPs showcasing how versatile <genre> can get | \
 								\
@@ -676,15 +738,18 @@ reviewGrammar = {
 								\
 								has all the claustrophobia of the nastier end of <genre> | \
 								\
-								suddenly explodes into an unrelenting, glistening wall of discordance, sounding like a thousand church organs screeching out | \
+								suddenly explodes into an unrelenting, glistening wall of discordance, sounding \
+								like a thousand church organs screeching out | \
 								\
-								contains passages of deep melodic beauty. This is unquestionably a journey that is rooted in <J-pop> explorations | \
+								contains passages of deep melodic beauty. This is unquestionably a journey that is \
+								rooted in <J-pop> explorations | \
 								\
-								functions at the intersection of <structure-description> and <genre> <genre-noun> |\
+								functions at the intersection of <structure-description> and <genre> <genre-noun> | \
 								\
 								dissolves into <lamentable-syn> incoherence, suffused with power and mystery | \
 								\
-								does not seem to be doing anything special, but the subtlety and intensity eventually worms its way into your heart",
+								does not seem to be doing anything special, but the subtlety and intensity  \
+								eventually worms its way into your heart",
 
 "<reverbs-with-phrase>":	"reverberates with | feels like | strikes one with | resonates with | conjures up  | \
 							echoes with | gently throbs with | softly palpitates, with | \
@@ -696,16 +761,16 @@ reviewGrammar = {
 							that drowns out the sound of jaws hitting the <floor-syn> | \
 							that <teeters-syn> <genre> <pastiche-syn> | \
 							that intentionally loiters around <structure-description>",
-						
+
 "<city>": 	"Berlin | London | Paris | Oslo | Moscow | Dublin | Vienna | Budapest | Prague | Istanbul | Athens | Lisbon | \
 			New York | Memphis | Los Angeles | Miami | Austin | San Francisco | Montréal | Vancouver | Seattle | Rio | \
 			Buenos Aires | Montevideo | Tokyo | Seoul | Ulan Bator | Manila | Bangkok | Kuala Lumpur | Jakarta | Kabul | \
 			Jerusalem | Dakar | Cairo | Kingston | Lagos  | Addis Ababa | Abidjan | Kinshasa | Casablanca | Accra | \
 			Dar es Salaam | Bamako | Ouagadougou | Mogadishu | Cotonou | Harare",
-			
+
 /// "<label>": 	"`getLabel()`",
 "<label>": 			"Kompakt | Hyperdub | Tongut  | Soul Jazz | Strictly Rhythm | Defected | \
-					  Studio 1 | Nonesuch | Mille-Plateaux  | Force Inc. | Bpitch Control | \
+					  Studio 1 | Nonesuch | Mille-Plateaux  | Force Inc. | Bpitch Control | Raster-Noton | \
 					  Shitkatapult | Warp | The Leaf | Kranky | Thoughtless Music | Sub Pop | \
 					  Brainfeeder | Ninja Tune | Def Jux | XL | Cheeky Records | Mute | \
 					  Wax Trax! | Planet Mu | Rephlex | Merck | Traum Schallplatten",
@@ -718,7 +783,7 @@ reviewGrammar = {
 "<year>": 			"1963 | 1969 | 1973 | 1975 | 1977 | 1979 | 1982 | 1984 | \
 					1985 | 1986 |1987 | 1988 | 1989 | 1990 | 1991 | 1992 | 1993 | \
 					1994 | 1995 | 1995 | 1996 | 1997 | 1998 | 1999 | 2000 | 2001 | \
-					2002 | 2003 | 2004",					
+					2002 | 2003 | 2004",
 
 <!--"<adverb>":			"`getSynonyms(<adverb-terminal>, "r");` | <adverb-terminal", -->
 "<adverb>":				"<adverb-terminal> | <adverb-terminal>",
@@ -735,12 +800,12 @@ reviewGrammar = {
 
 "<floor-syn>": "floor | pavement | concrete | ground",
 
-"<sexy-syn>": "sexy | groovy | kinky | alluring | sultry | slinky | provocative | tantalizing | nubile | bootylicious | erotic |\
+"<sexy-syn>": "sexy | groovy | kinky | alluring | sultry | slinky | provocative | tantalizing | nubile | bootylicious | erotic | \
 				titillating | racy | naughty | X-rated | pornographic | crude | lewd | raunchy | steamy | horny | slick",
 
 "<rocks-syn>": "rocks | shines | shimmers | chugs | drones | sparkles | unnerves | \
 				trembles | surprises | startles | sparkles | scintillates",
-				
+
 "<Finnish-syn>": "Scandinavian | Nordic | Flemish| Teutonic | Slavic | Baltic | Turkic | Basque | Crimean | Uzbek",
 
 "<J-pop>": "J-pop | K-pop | Hokkien-pop | Cantopop | Mandopop | Pinoy-pop | Shibuya-kei",
@@ -748,13 +813,13 @@ reviewGrammar = {
 "<artist-genre>": 	"`getArtistGenre()` | <genre>",
 
 "<genre>": "<pop-genre>",
-		
+
 "<folk-genre>":    "Afro-Brazilian Maracatu de nação | Afro-Venezuelan Gaita | \
 					Afro-Venezuelan Parranda | Greenlandic folk | Colombian big band | \
 					Ghanaian Azonto | Guinean Tinga | Swedish Slängpolska | Bajan Soca | \
 					Yorùbá Apala | Ghanaian Kpanlogo | Nigerian Jùjú | Balinese monkeychant | \
 					Sufi devotional music | Hausa Rokon fada | Hawaian Kihoalu | \
-					Swedish folk| Tibetan opera |  Keralan Panchavadyam | Parisian soukous |\
+					Swedish folk| Tibetan opera |  Keralan Panchavadyam | Parisian soukous | \
 					Thai protest rock | Ivorian Ziglibithy | Ivorian Zouglou | \
 					Tuvan Throat Singing | Hungarian Verbunkos | Greek Zeibekiko | Afro-Bolivian Saya | \
  					Algerian Raï | Armenian Kochari | Armenian Shalako | \
@@ -781,7 +846,7 @@ reviewGrammar = {
  					Sundanese Gamelan | Surinamese Kaseko | Taiwanese Shan'ge | Texan Norteño | \
  					Tibetan Gelugpa chanting | Uruguayan Murga | Vietnamese Cai luong | \
  					Yirrkalan Fjatpangarri | Zulu Iscathamiya | Zulu Maskanda",
-			
+
 "<pop-genre>": "Acid-jazz | Acid Rock | Afrobeat  | \
 				Avant-jazz  | Avant-metal | Avant-punk | Bachata  | Baile Funk | \
 				Bhangragga | Bhangramuffin | Big Beat | Bohemian Dub | \
@@ -807,7 +872,7 @@ reviewGrammar = {
 				Miami bass | Booty bass | Batucada | Neo-Soul | Neue-Volksmusik | \
 				New Age | New Jack Swing | New Orleans blues | US Garage | \
 				Nintendocore | Noise music | Nortec | Nu breaks | P-Funk | \
-				Pennywhistle jive | Pixiefunk | Freak-folk | Cuddlecore | \
+				Pennywhistle jive | Pixiefunk | Freak-folk | Freak-ass pop | Cuddlecore | \
 				Merengue típico moderno | Pornocore | Protopunk | Psychedelic trance | \
 				Psychobilly | Psychosomatic trance | Psych-pop | Punk-funk | \
 				Punk-rock |Raggamuffin | Ragga-zouk | Ragtime | Reggaetón | \
