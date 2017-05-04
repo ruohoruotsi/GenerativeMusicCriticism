@@ -10,7 +10,7 @@ reviewGrammar = {
 "<start>": "<artist-phrase>. | <artist-phrase>. <interjection>",
 
 ///////
-"<artist-phrase>": " <artist-action-phrase> | <artist-descriptive-phrase> | <music-recording-phrase> ",
+"<artist-phrase>": "<artist-action-phrase> | <artist-descriptive-phrase> [2] | <music-recording-phrase>",
 
 ///////
 "<artist-action-phrase>": " \
@@ -65,55 +65,49 @@ reviewGrammar = {
 		  The <bizarre-syn> <panic-syn> evoked by <artist> will <spellbind-syn> <fans-syn> of <genre>, \
 		  <roving-syn> from <structure-description> to <structure-description> | \
 		\
-		  The sound and style of <genre>, closely identified with the music of <artist>, \
-      serves as both a metaphor — culture that breaks free of oppressive structure — and, \
-      through its sound, a direct expression of pain, anger, and redemption | \
-    \
-      The music of <artist> <join-phrase> alternated catchy, sing-song melodies inspired by \
-      European folk songs and propulsive army-band marches, with highly textured and \
-      high-energy abstract playing almost completely divorced from form. It was an unusual mix \
-      of the cerebral, highly technical and the nakedly emotional | \
-    \
-			Draped in robotic vocal hooks, the music of <artist> will be a shock to many listeners expecting \
-			simply more of the same, but in many ways it continued and elevated the message \
-			of its predecessor | \
+		  The sound and style of <genre>, closely associated with the music of <artist>, \
+      	  serves to break free of oppressive structures through its sound, in a direct expression \
+      	  of <panic-syn>, anger, and redemption | \
+    	\
+      	  The music of <artist> <join-phrase> <structure-description> inspired by \
+      	  European folk songs and <structure-description>, with highly textured and \
+      	  high-energy abstract playing almost completely divorced from form. It was an unusual mix \
+      	  of the cerebral, highly technical and the nakedly emotional | \
+    	\
+		  Draped in <structure-description>, the music of <artist> will be a shock to many listeners expecting \
+		  simply more of the same, however it <song-description-phrase> | \
 		\
-			The righteous, the political, the expression of black Jamaican consciousness that comes \
-			from JA’s vocal and rocksteady traditions is ignored, no-one wanting to sound like \
-			they ‘identify’, no-one wanting to be the worse kind of white dread |\
+		  The political expression of black <Jamaican> consciousness by <artist> misses the target, \
+		  diluting an ingenious Rocksteady tradition like the worse kind of white dread | \
 		\
-		 	When music rags publish their list of the greatest albums of all time, two of them were \
-			reggae albums and they were both by Bob Marley. This is the way forgetting, driven by  \
-			class and race, becomes cumulative, drives out the detail, the shades and shadow |\
+		  The greatest albums of all time, two of them were \
+		  reggae albums and they were both by <artist>. This is the way forgetting, driven by  \
+		  class and race, becomes cumulative, drives out the detail, the shades and shadow |\
 		\
-		 Again and again, what you find is that because white critique is wary, timid and uncomfortable \
-		 with attempting to understand or interrogate Jamaican music what is clung to as a value is a \
-		 kind of otherness and oddity, a vanishing into the pure pleasure of sonics to avert any \
-		 apprehension of the politics or meaning of what black Jamaican people were making. It’s akin to \
-		 the avoidance of complexity and the reduction to western precepts and expectations (esp. that which is \
-		 amenable to Western ‘experiment’), in most appraisal of Bollywood music, as I talked about in Eastern Spring. |\
-	 \
-		 But to sum up Jamaican music, particularly from the year 1976, into Super Ape criminally overlooks the \
-		 truly important artefacts of that year, three albums with no dubs, deeply lyrical, sweetly recorded, \
-		 absolutely drenched in harmony and melody and pop, that together form a triumvirate of roots reggae \
-		 classics and a snapshot of the Island’s turmoil in 76 better than most studio-spun dub confections could manage |\
-	\
-		The music of <artist> is an elasticated jumble of jittering phrases and toppling vignettes, \
-		alternately hypnotising and hernia-inducing | \
-	\
-	 The music of <artist> is seven minutes and 40 seconds of <city>-infused disco house that also sounds like a game of air \
-	 hockey being conducted inside a spring-reverb unit | \
-	\
-		Melding the bassy abstractions of Nicolai and Bender with less purified dub, \
-		techno, ‘step and pop/rock vocabularies (and, again, vocals), it takes the Pan-Sonic-meets-Pangaea \
-		concrète jungle of the earlier Pruitt Igoe EP on an psychedelic trip into the late-capitalist peaks, \
-		questing through widescreen landscapes as it steadily builds, climaxes, resets and repeats | \
-	\
-		The sound of <artist> explores beat-science at the intersection of ‘fucked up’ and ‘groovy’, mixing \
-		dark bass pressure and samples inspired by Blackspoitation soundtracks and orchestrated K-pop | \
-	\
-		<Roving-syn> from <structure-description> to <structure-description>, the \
-		<bizarre-syn> <panic-syn> evoked by <artist> will <spellbind-syn> <fans-syn> of <genre> <genre-noun>",
+		  Pitchfork's milquetoast critique of <artist> is wary and timid, superficially \
+		  attempting to interrogate black <Jamaican> music, reinforcing an artificial sense of otherness \
+		  and a reduction to Western aesthetics, all while reveling in the \
+		  virtuous <structure-description-01> | \
+	 	\
+		  The music of <artist>, particularly from the year 1976, criminally overlooks the \
+		  truly important artefacts of <Jamaican> roots reggae:  deeply lyrical, sweetly recorded, \
+		  studio-spun dub confections, absolutely drenched in harmony and melody |\
+		\
+		  The music of <artist> is an elasticated jumble of jittering phrases and toppling vignettes, \
+		  alternately hypnotising and hernia-inducing | \
+	    \
+	 	  The music of <artist> is seven minutes and 40 seconds of <city>-infused <structure-description> that also sounds like a game of air \
+	 	  hockey being conducted inside a spring-reverb unit | \
+		\
+		  Melding the bassy abstractions of Nicolai and Bender with less purified dub, \
+		  techno and <genre> vocabularies, <artist> takes the Pan-Sonic-meets-Pangaea \
+		  concrète jungle on a psychedelic trip through widescreen landscapes, climaxes and <structure-description> | \
+		\
+		  The sound of <artist> explores beat-science at the intersection of ‘fucked up’ and ‘groovy’, mixing \
+		  dark bass pressure and samples inspired by Blacksploitation soundtracks and orchestrated <J-pop> | \
+		\
+		  <Roving-syn> from <structure-description> to <structure-description>, the \
+		  <bizarre-syn> <panic-syn> evoked by <artist> will <spellbind-syn> <fans-syn> of <genre> <genre-noun>",
 
 ///////
 "<music-recording-phrase>": " \
@@ -222,7 +216,7 @@ reviewGrammar = {
 "<reconstruction-syn>": "reconstruction | emulsion |  modulation | inflection | \
 						rewriting | rescripting | commingling",
 
-"<panic-syn>": "panic | terror | longing | hysteria | dread | malaise | discomfort | unease",
+"<panic-syn>": "panic | terror | longing | hysteria | dread | malaise | discomfort | unease | pain",
 
 "<experimental-syn>": "experimental | avant-garde | new-wave | vanguard",
 
@@ -341,8 +335,8 @@ reviewGrammar = {
 								shimmering muted strings like late-afternoon sunlight on a placid lake | \
 								sounding like <skank-artist> in a skank off, after inhaling a canister of nitrous oxide | \
 								sounding like Vladislav Delay and <skank-artist> sipping cocktails near a Funktion-One | \
-								sounding like of Plastikman, Fela Kuti and <skank-artist> dropping 12″s at a Kraftwerk afterparty | \
-								sounding like <skank-artist>, Ilpo Väisänen and feral dogs baking to death in a white Econoline van
+								sounding like of Plastikman, Fela Kuti and <skank-artist> dropping 12”s at a Kraftwerk afterparty | \
+								sounding like <skank-artist>, Ilpo Väisänen and feral dogs baking to death in a white Econoline van | \
 								sounding like Björk jamming with <static-artist> after a relaxing sauna session | \
 								swarming like a locust storm of kaleidoscopic, obsidian distortion | \
 								sounding like an accomplished and arresting tribute to the melancholia of childhood | \
@@ -623,6 +617,7 @@ reviewGrammar = {
 								processed orchestral drone | \
 								pure Balearic house bliss | \
 								reptilian distress cries | \
+								robotic vocal hooks | \
 								rootsy one-drop dub keys | \
 								round, toothless syllables | \
 								<sexy-syn> dancehall minimalisms | \
@@ -676,7 +671,6 @@ reviewGrammar = {
 								 the hazy botanical film interludes by Boards of Canada | \
 								 the hypnotic minimalism of Terry Riley | \
 								 the intricately funked syncopations of Autechre or Alva Noto | \
-
 								 the isolationist bleeps of Mika Vainio | \
 								 the oneiric dramaturgy of Robert Ashley | \
 								 the pointillist dynamics of Arnold Schoenberg | \
@@ -686,6 +680,7 @@ reviewGrammar = {
 								 the subdued ferric tones of Kevin Drumm | \
 								 the synth drones of Klaus Schulze | \
  								 the wind-chilled electronics of Thomas Köner",
+
 
 "<song-description-phrase>":	"<adverb> defies categorisation with <structure-description-01> | \
 								\
@@ -809,6 +804,11 @@ reviewGrammar = {
 "<Finnish-syn>": "Scandinavian | Nordic | Flemish| Teutonic | Slavic | Baltic | Turkic | Basque | Crimean | Uzbek",
 
 "<J-pop>": "J-pop | K-pop | Hokkien-pop | Cantopop | Mandopop | Pinoy-pop | Shibuya-kei",
+
+"<Jamaican>": "Jamaican | Haitian | Cuban | Dominican | Bajan | Trinidadian | Colombian | Brazilian | \
+			  Venezuelan | Panamanian | Puerto Rican | Mexican",
+
+
 
 "<artist-genre>": 	"`getArtistGenre()` | <genre>",
 
