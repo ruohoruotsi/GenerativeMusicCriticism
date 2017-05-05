@@ -10,7 +10,9 @@ reviewGrammar = {
 "<start>": "<artist-phrase>. | <artist-phrase>. <interjection>",
 
 ///////
-"<artist-phrase>": "<artist-action-phrase> | <artist-descriptive-phrase> [2] | <music-recording-phrase>",
+"<artist-phrase>": "<artist-action-phrase> | \
+				    <artist-descriptive-phrase> | \
+				    <music-recording-phrase>",
 
 ///////
 "<artist-action-phrase>": " \
@@ -19,25 +21,24 @@ reviewGrammar = {
 		  <time-adjective> <music-recording-noun> by <artist> <join-phrase> <structure-description> and <structure-description> | \
 		\
 		  <artist> and <static-artist> take on the <label> crew for another <music-recording-noun>, \
-			demonstrating <structure-description> and a <creative-syn> <ferocity-syn>, <verb-phrase-singular> | \
+		  demonstrating <structure-description> and a <creative-syn> <ferocity-syn>, <verb-phrase-singular> | \
 		\
-		  Your mind is about to be blown by the unearthing of a <year> curio from <artist>, offering a truly <bizarre-syn>, \
-		  but ultimately <adept-syn> selection of privately-pressed tracks that sound somewhere between <genre> and <folk-genre> | \
+		  Your mind will blown by the unearthing of a <year> curio from <artist>, offering a truly \
+		  <bizarre-syn> cache of privately-pressed tracks that interpolate <pop-genre> and <folk-genre> | \
 		\
-		  Your mind is about to be blown by the unearthing of a <year> curio from <artist>, showing off <structure-description>, \
-		  <present-participle-phrase> | \
+		  The exhumation of a <year> curio from <artist> <reverbs-with-phrase> <a-structure-description> | \
 		\
 		  The songwriting <ferocity-syn> <exhibited-syn> by <artist> <raises-goosebumps-syn>, showing off <structure-description>, \
 		  dwarfing the <structure-description> of many better known artists | \
 		\
-		  The songwriting <ferocity-syn> <exhibited-syn> by <artist> <wrenches-syn> ideas from <genre>, <genre> and <folk-genre>, \
+		  The lyrical <ferocity-syn> <exhibited-syn> by <artist> <wrenches-syn> ideas from <genre>, <genre> and <folk-genre>, \
 		  crafting sidewinding <derangements-syn> that blend <structure-description> and <structure-description> | \
 		\
 		  The <creative-syn> <ferocity-syn> of <artist> is on display again, showing off <structure-description>, \
 		  <present-participle-phrase> | \
 		\
-		  The musical <ferocity-syn> of <artist> invokes states of psychological <panic-syn> that will resonate \
-		  beyond <experimental-syn> <genre> <circles-syn>, into the <daily-lives-syn> of <fans-syn> of <genre>",
+		  The <creative-syn> <ferocity-syn> of <artist> invokes states of psychological <panic-syn> that resonate \
+		  beyond <experimental-syn> <genre> <circles-syn>, showing off <structure-description>, <present-participle-phrase>",
 
 ///////
 "<artist-descriptive-phrase>": " \
@@ -71,7 +72,7 @@ reviewGrammar = {
     	\
       	  The music of <artist> <join-phrase> <structure-description> inspired by \
       	  European folk songs and <structure-description>, with highly textured and \
-      	  high-energy abstract playing almost completely divorced from form. It was an unusual mix \
+      	  high-energy abstract playing almost completely divorced from form. It's an unusual mix \
       	  of the cerebral, highly technical and the nakedly emotional | \
     	\
 		  Draped in <structure-description>, the music of <artist> will be a shock to many listeners expecting \
@@ -81,7 +82,7 @@ reviewGrammar = {
 		  diluting an ingenious Rocksteady tradition like the worse kind of white dread | \
 		\
 		  The greatest albums of all time, two of them were \
-		  reggae albums and they were both by <artist>. This is the way forgetting, driven by  \
+		  reggae albums and they were both by <artist>. This is the way forgetting, fueled by  \
 		  class and race, becomes cumulative, drives out the detail, the shades and shadow |\
 		\
 		  Pitchfork's milquetoast critique of <artist> is wary and timid, superficially \
@@ -89,22 +90,27 @@ reviewGrammar = {
 		  and a reduction to Western aesthetics, all while reveling in the \
 		  virtuous <structure-description-01> | \
 	 	\
-		  The music of <artist>, particularly from the year 1976, criminally overlooks the \
+		  The music of <artist>, particularly from the year <year>, criminally overlooks the \
 		  truly important artefacts of <Jamaican> roots reggae:  deeply lyrical, sweetly recorded, \
-		  studio-spun dub confections, absolutely drenched in harmony and melody |\
+		  studio-spun dub confections, absolutely drenched in harmony and <structure-description-02> |\
 		\
-		  The music of <artist> is an elasticated jumble of jittering phrases and toppling vignettes, \
+		  The music of <artist> is an elasticated jumble of jittering phrases and <structure-description-02>, \
 		  alternately hypnotising and hernia-inducing | \
 	    \
+		  From <structure-description-01> to <structure-description-02>, the <genre-noun> of <artist> \
+			<writhes-syn> over <plains-syn> of polychromatic distortion, <evocative-adjective> of <the-synth-drones-Klaus> | \
+		\
 	 	  The music of <artist> is seven minutes and 40 seconds of <city>-infused <structure-description> that also sounds like a game of air \
 	 	  hockey being conducted inside a spring-reverb unit | \
 		\
-		  Melding the bassy abstractions of Nicolai and Bender with less purified dub, \
-		  techno and <genre> vocabularies, <artist> takes the Pan-Sonic-meets-Pangaea \
+		  Melding the bassy abstractions of Nicolai and Bender with less purified techno and \
+		  <genre> vocabularies, <artist> takes the Pan-Sonic-meets-Pangaea \
 		  concrète jungle on a psychedelic trip through widescreen landscapes, climaxes and <structure-description> | \
 		\
 		  The sound of <artist> explores beat-science at the intersection of ‘fucked up’ and ‘groovy’, mixing \
 		  dark bass pressure and samples inspired by Blacksploitation soundtracks and orchestrated <J-pop> | \
+		\
+		  The <structure-description> common in the <repertoire> of <artist> <reverbs-with-phrase> <a-structure-description> | \
 		\
 		  <Roving-syn> from <structure-description> to <structure-description>, the \
 		  <bizarre-syn> <panic-syn> evoked by <artist> will <spellbind-syn> <fans-syn> of <genre> <genre-noun>",
@@ -131,7 +137,7 @@ reviewGrammar = {
 		  <genre> <balladry-syn> <verb-phrase-singular> | \
 		\
 		  Ping-ponging from <structure-description> to <structure-description>, the music of <artist> draws \
-		  on everything from <genre> to <genre> and <latino> reggaetón | \
+		  on everything from <genre> to <genre> and <Jamaican> reggaetón | \
 		\
 		  The <ferocity-syn> of <artist> has a simplicity and warmth that sidesteps \
 		  the <structure-description> that <blight-syn> the <lesser-syn> moments of <genre> <balladry-syn>",
@@ -157,21 +163,19 @@ reviewGrammar = {
 
 "<raises-goosebumps-syn>": "raises the biggest goosebumps | \
 							raises the biggest gooseflesh | \
-							induces the biggest frissons | \
+							induces frissons that <spellbind-syn>| \
 							induces the biggest exhilaration | \
 							induces the biggest rush | \
 							generates the biggest rush | \
 							generates the biggest frissons | \
-							generates the biggest frissons | \
 							coaxes out the biggest gooseflesh | \
 							coaxes out the biggest exhilaration | \
-							causes the biggest rush | \
-							produces the biggest rush | \
+							will <spellbind-syn> <fans-syn>| \
 							produces the biggest goosebumps | \
 							produces the biggest frissons",
 
-"<fans-syn>": "fans | enthusiasts | devotees | lovers | admirers | zealots | connoisseurs | \
-			   aficionados | addicts | junkies | fanatics | disciples",
+"<fans-syn>": "fans | enthusiasts | devotees | lovers | admirers | connoisseurs | \
+			   aficionados | addicts | junkies | fanatics ",
 
 
 "<spellbind-syn>": "spellbind | bewitch | enthrall | grip | mesmerize | hypnotize | entrance | \
@@ -185,7 +189,9 @@ reviewGrammar = {
 "<Roving-syn>": "Roving | Wandering | Ranging | Drifting | Meandering | Gallivanting | \
 				Zigzagging | Moving | Pivoting | Floating",
 
-"<retro-syn>": "retro | modern | ",
+"<retro-syn>": "retro | modern ",
+
+"<repertoire>": "repertoire | repertory | performances | emissions | discharges | releases | outflow ",
 
 "<musical-universe-syn>": "musical universe | collective subconscious",
 
@@ -222,8 +228,6 @@ reviewGrammar = {
 
 "<circles-syn>": "circles | milieux | spaces | settings",
 
-"<daily-lives-syn>": "daily lives | quotidian | everyday | daily routine | day-to-day",
-
 "<bizarre-syn>": "bizarre | curious | peculiar | unusual",
 
 "<adept-syn>": "adept | skilled | masterful | deft | dexterous | brilliant",
@@ -236,21 +240,16 @@ reviewGrammar = {
 
 "<zeitgeist-syn>": "zeitgeist | spirit | current mood | current character | tone | trending course | future",
 
-"<creative-syn>":	"sonic | tasteful | creative | musical | novel | \
-					fresh melodic | stirring acoustic | visionary | \
-					trendy | stylish | refined | auteurist | \
-					magnificent | poetic | fizzling ",
+"<creative-syn>":	"sonic  | musical | novel |  melodic | visionary | \
+					 stylish | refined  | magnificent | poetic | fizzling ",
 
 "<wrenches-syn>": "wrenches | plucks | wrests | snatches | prys | pulls | borrows",
 
-"<ferocity-syn>": 	"ferocity | artistry | courage | charisma | cowardice | nerve | \
-					brillance | stoutheartedness | dauntlessness | savagery | brutality | \
+"<ferocity-syn>": 	"ferocity | artistry | courage | charisma | \
+					brillance | dauntlessness | savagery | brutality | \
 					genius | furiousness | violence |  wildness | severeness | \
-					accessibility | straightforwardness | \
-					unpretentiousness | naturalness | spareness | austerity | \
-					effortlessness | pretentiousness | posturing | \
-					mulishness | recalcitrance | generosity | \
-					excess | drama | gutsiness",
+					accessibility | straightforwardness | unpretentiousness | austerity | \
+					effortlessness | pretentiousness | excess | drama ",
 
 "<riffs-syn>": "riffs | noodlings | melodies",
 
@@ -268,27 +267,22 @@ reviewGrammar = {
 
 "<electro-acoustic-syn>":  "electro-acoustic | 8-bit | Illbient | Nintendocore | ambient | shoegazey",
 
-"<latino>": "Panamanian | Puerto Rican | Dominican | Colombian | Costa Rican",
-
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-"<interjection>": 	"Crucial release! | Most excellent! |  Utterly astounding! | Somewhat mind-blowing! | \
-					Jaw-dropping! | Breathtaking! | This is gripping sh*t! | Frankly intoxicating! | F**kin' nuts! | \
-					Rousing material! | Electrifying! | Most-definitely heady! | A modern compositional masterpiece! | \
-					Miss out at your peril! | Seriously? | Wow! | Bitchin'! | Hearing is believing! | Yikes! | \
-					Riveting! | A vital release! | Solid. | Wikkid! | Happy listening! | Hella good! | \
-					Don't waste your time. | Phatness! | Bad*ss! | Dope. | Sublime. | Another excellent transmission! | \
-					A musical treat. | For connoisseurs only. | Zing! | Gesundheit! | Anyhoo ... | Meh. | Encore! | \
-					Oops! | Totally awesomesauce! | Marinating in lamesauce. | Drowning. In. Weaksauce. | Budgeree! | \
-					Supernacular! | Topgallant! | Bonzer! | Immense! | A triumph! | The. Dog's. Bollocks. | Rollicking! | \
-					Original gangsta! | Popping Fresh! | Sicknasty! | Sugar Honey Ice Tea!! | Just plain rancid! | \
-					Greasy sweet! | Tickety-boo! ",
+"<interjection>": 	"Crucial! | Excellent! |  Astounding! | Mind-blowing! | \
+					Jaw-dropping! | Breathtaking! | Gripping sh*t! | Intoxicating! | F**kin' nuts! | \
+					Rousing! | Electrifying! |  Un chef d'œuvre! | Seriously? | Wow. | Bitchin'! | Yikes! | \
+					Tasty! |  Immense! | Phatness! | Bad*ss! |  Encore! | Zing! | Gesundheit! | \
+					Dope. | Sublime. | Heady. | Anyhoo. | Meh. | A treat. | For connoisseurs only. | \
+					Awesomesauce. | Budgeree! | Supernacular. | Topgallant. | Bonzer. | \
+					A triumph. | Bollocks. | Rollicking. | Popping. | Sicknasty. | Sugar. Honey. Ice. Tea. | Rancid. | \
+					Greasy. | Sweet. | Riveting. | Vital. | Solid. | Wikkid. ",
 
 "<music-recording-noun>":	"12” vinyl | cassette | 4-track cartridge | instrumental fantasia | \
 							live-stream | laserdisc | DVD-R | EP | ogg-vorbis download | maxi-single | \
 							ambisonic release | white-label | Spotify stream | Apple Music special | Pandora exclusive | \
 							17-track compilation | Soundcloud clip | YouTube clip | 7” vinyl | trending iHeartRadio exclusive | \
-							Mixcloud set | unplugged session | Super 8 mm video | 27-track anthology",
+							Mixcloud set | unplugged session | Super 8mm video | 27-track anthology",
 
 "<time-adjective>":	"latest | recent | newest | charting | forthcoming | upcoming | trending",
 
@@ -328,6 +322,7 @@ reviewGrammar = {
 								melting <genre> accordion and Diwali-riddim claps with woozy <electro-acoustic-syn> static | \
 								ploughing furrows of unresolved chord changes, stretching out to infinity | \
 								propelling ethereal glitching rhythms across <plains-syn> of elaborately fashioned <electro-acoustic-syn> static | \
+								propelling <structure-description-02> across <plains-syn> of <structure-description-01> |\
 								resounding like Richie Hawtin and <skank-artist> DJ-ing in vast gasometer | \
 								resonating like perfectly formed, oblique melodic miniature mobiles | \
 								reverberating like a bombardment of freeform consonants in a nuclear particle accelerator | \
@@ -367,7 +362,7 @@ reviewGrammar = {
 								a low key, grotty Jakbeat | \
 								a lush electronic lamentation | \
 								a morally inflamatory, skronking bassline | \
-								a multicoloured blast of intoxicating feedback | \
+								a multicoloured blast of <struct-adj> feedback | \
 								a mindblowing dubscape of effects | \
 								an overbearingly fuzzy thicket of layered drones | \
 								an obscure, Warrior Queen gunman lyric | \
@@ -378,7 +373,7 @@ reviewGrammar = {
 								a series of shamanic, trance-state mutterings | \
 								a timeless, primal yearning for volume and repetition | \
 								a toxic hellstew of glitched-out tapestries | \
-								a vaporous spray of submerged analogue delays | \
+								a vaporous spray of <struct-adj> analogue delays | \
 								a veritable haberdashery of vintage musical textures | \
 								a wash of tidal rhythms and turbulent crackle",
 
@@ -406,6 +401,7 @@ reviewGrammar = {
 				fluttering | \
 				hyper-prismic | \
 				hypnagogic | \
+				intoxicating | \
 				julienned | \
 				lysergic | \
 				liturgical | \
@@ -424,6 +420,7 @@ reviewGrammar = {
 				shimmering | \
 				shuffling | \
 				shuddering | \
+				submerged | \
 				somnambulistic | \
 				soporific | \
 				sprawling | \
@@ -475,7 +472,7 @@ reviewGrammar = {
 							<struct-adj>, feathery breakbeats | \
 							<struct-adj>, rhythmic collages | \
 							<struct-adj>, garage syncopations | \
-							<struct-adj> guitar riffs  | \
+							<struct-adj> guitar <riffs-syn>  | \
 							<struct-adj>, gristly synths | \
 							<struct-adj>, ghoulish cries | \
 							<struct-adj>, harmonic machinations | \
@@ -615,7 +612,7 @@ reviewGrammar = {
 								orchestral level pomp & bombast | \
 								post-pop slacker tendencies | \
 								processed orchestral drone | \
-								pure Balearic house bliss | \
+								Balearic house bliss | \
 								reptilian distress cries | \
 								robotic vocal hooks | \
 								rootsy one-drop dub keys | \
@@ -647,6 +644,7 @@ reviewGrammar = {
 								suspended, fluid textures | \
 								testosterone-fuelled, urban mutations | \
 								textural guitar-scapes | \
+								toppling vignettes | \
 								tranquil, free-floating chorales | \
 								uncharacteristically spry tempos | \
 								undulating, unstable cadences | \
@@ -700,7 +698,7 @@ reviewGrammar = {
 								\
 								is a deep tech-house number, laced with effect throws, percussion solos and dramatic breakdowns | \
 								\
-								is a dark vocal-house number, laced with moody guitar riffs, layers of percussion and hypnotizing filtered stabs | \
+								is a dark vocal-house number, laced with moody guitar <riffs-syn>, layers of percussion and hypnotizing filtered stabs | \
 								\
 								is an incredible, <adverb> mesmerising sound that will tempt, allure, petrify and \
 								utterly mind-f**k you in equal measure | \
@@ -806,13 +804,12 @@ reviewGrammar = {
 "<J-pop>": "J-pop | K-pop | Hokkien-pop | Cantopop | Mandopop | Pinoy-pop | Shibuya-kei",
 
 "<Jamaican>": "Jamaican | Haitian | Cuban | Dominican | Bajan | Trinidadian | Colombian | Brazilian | \
-			  Venezuelan | Panamanian | Puerto Rican | Mexican",
-
+			  Venezuelan | Panamanian | Puerto Rican | Mexican  | Costa Rican",
 
 
 "<artist-genre>": 	"`getArtistGenre()` | <genre>",
 
-"<genre>": "<pop-genre>",
+"<genre>": "<pop-genre> | <folk-genre>",
 
 "<folk-genre>":    "Afro-Brazilian Maracatu de nação | Afro-Venezuelan Gaita | \
 					Afro-Venezuelan Parranda | Greenlandic folk | Colombian big band | \
@@ -883,7 +880,7 @@ reviewGrammar = {
 				Stoner rock | Surf rock | Swamp blues | Synthpop | \
 				Texas blues | Thrashcore | Tribal house | \
 				Trip-hop | Tumba | Turntablism | Two-tone | UK garage | \
-				Vaudeville |  Vocal house | Spanish operetta | Zouk | Zydeco"
+				Vaudeville | Vocal house | Spanish operetta | Zouk | Zydeco"
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
