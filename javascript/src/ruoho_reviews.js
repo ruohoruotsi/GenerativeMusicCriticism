@@ -110,6 +110,8 @@ reviewGrammar = {
 		  The sound of <artist> explores beat-science at the intersection of ‘fucked up’ and ‘groovy’, mixing \
 		  dark bass pressure and samples inspired by Blacksploitation soundtracks and orchestrated <J-pop> | \
 		\
+		  The <structure-description> favoured by <artist> fits in with the tinny, vapid crap constipating the top 100 | \
+		\
 		  The <structure-description> common in the <repertoire> of <artist> <reverbs-with-phrase> <a-structure-description> | \
 		\
 		  <Roving-syn> from <structure-description> to <structure-description>, the \
@@ -744,8 +746,8 @@ reviewGrammar = {
 								does not seem to be doing anything special, but the subtlety and intensity  \
 								eventually worms its way into your heart",
 
-"<reverbs-with-phrase>":	"reverberates with | feels like | strikes one with | resonates with | conjures up  | \
-							echoes with | gently throbs with | softly palpitates, with | \
+"<reverbs-with-phrase>":	"reverberates with | strikes one with | resonates with | conjures up  | \
+							echoes with | gently throbs with | softly palpitates with | \
 							<rocks-syn> <adverb-terminal> with",
 
 "<verb-phrase-singular>":	"that floats in & out of your <consciousness-syn> with a wool-lined ease | \
