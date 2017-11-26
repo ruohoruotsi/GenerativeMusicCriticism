@@ -1,9 +1,10 @@
 ruoho reviews
 ========================
 
-#### Clicky &rarr; [ruohoreviews.com](http://ruohoreviews.com) 
+### Clicky &rarr;&rarr;&rarr; [ruohoreviews.com](http://ruohoreviews.com) 
 
-### About ###
+
+### What ###
 
 * What if [Timbaland](http://en.wikipedia.org/wiki/Timbaland) produced [Stromae](http://en.wikipedia.org/wiki/Stromae) for [Kompakt](http://en.wikipedia.org/wiki/Kompakt) records? 
 * What if [Taylor Swift](https://instagram.com/taylorswift) & [Theo Parrish](http://www.residentadvisor.net/dj/theoparrish) fraternized to transcend the pedestrian screeching that beleaguers her pop balladry? 
@@ -12,16 +13,23 @@ ruoho reviews
 
 These reviews are a creative writing experiment that (re)imagines an alternative musical cosmos where dissimilar musical expressions intermingle, unshackled by time, geography and class. 
 
+### How ###
+
+First-class criticism allows the reader to escape flatland, putting her in the front-row or inside the recording booth. But as a critic and writer:
+
+ * How do you reflect the spirit of the music? 
+ * How do you avoid descriptive repetition? 
+ * How do you keep :hankey: fresh? 
+
+### Who ###
 As a label manager Ruoho Ruotsi wrote copy for artist profiles, featured releases, promo reviews, tweets, onesheets, blog posts & online commentary, amassing a prodigious collection of musical phrases, idiomatic expressions and colourful constructions.
 								 
 These reviews are fashioned using Ruoho's custom [context-free grammar](http://en.wikipedia.org/wiki/Context-free_grammar), [RiTa](https://github.com/dhowe/RiTa) and "hottt" artist [charts](http://developer.echonest.com/docs/v4/artist.html#top-hottt) pulled down in realtime from [The Echo Nest](http://developer.echonest.com).
 								
 								
-Ruoho hopes these reviews will dislodge writer's block, suggest new musical vistas, creative possibilities, artist collaborations and perhaps garner a few chuckles.
-								
+As a regular reader of the Oxford American, Pitchfork, Boomkat, The Fader & The Wire, Ruoho hopes these reviews will dislodge writer's block, suggest new musical vistas, artist collaborations & even garner a few chuckles. For connoisseurs & entertainment purposes only.					
   
 For connoisseurs & entertainment purposes only. 
+
   
-  
-  
-&copy; 2014-2017 iroro orife.
+&copy; 2014-2018 iroro orife.
