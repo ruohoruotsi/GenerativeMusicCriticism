@@ -1,10 +1,9 @@
 ruoho reviews
 ========================
 
-### Clicky &rarr;&rarr;&rarr; [ruohoreviews.com](http://ruohoreviews.com) 
+<img src="javascript/css/images/rranimated.gif" width="500">
 
-
-### What ###
+### [What](http://ruohoreviews.com) ###
 
 * What if [Timbaland](http://en.wikipedia.org/wiki/Timbaland) produced [Stromae](http://en.wikipedia.org/wiki/Stromae) for [Kompakt](http://en.wikipedia.org/wiki/Kompakt) records? 
 * What if [Taylor Swift](https://instagram.com/taylorswift) & [Theo Parrish](http://www.residentadvisor.net/dj/theoparrish) fraternized to transcend the pedestrian screeching that beleaguers her pop balladry? 
