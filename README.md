@@ -1,7 +1,7 @@
 ruoho reviews
 ========================
 
-<img src="javascript/css/images/rranimated.gif" width="500">
+<img src="javascript/css/images/rranimated.gif" width="600">
 
 ### [What](http://ruohoreviews.com) ###
 
@@ -23,12 +23,12 @@ First-class criticism allows the reader to escape flatland, putting her in the f
 ### Who ###
 As a label manager Ruoho Ruotsi wrote copy for artist profiles, featured releases, promo reviews, tweets, onesheets, blog posts & online commentary, amassing a prodigious collection of musical phrases, idiomatic expressions and colourful constructions.
 								 
-These reviews are fashioned using Ruoho's custom [context-free grammar](http://en.wikipedia.org/wiki/Context-free_grammar), [RiTa](https://github.com/dhowe/RiTa) and "hottt" artist [charts](http://developer.echonest.com/docs/v4/artist.html#top-hottt) pulled down in realtime from [The Echo Nest](http://developer.echonest.com).
+These reviews are fashioned using Ruoho's probabilistic [context-free grammar](http://en.wikipedia.org/wiki/Context-free_grammar), [RiTa](https://github.com/dhowe/RiTa) and "hottt" artist [charts](http://developer.echonest.com/docs/v4/artist.html#top-hottt) pulled down from [The Echo Nest](http://developer.echonest.com).
 								
 								
-As a regular reader of the Oxford American, Pitchfork, Boomkat, The Fader & The Wire, Ruoho hopes these reviews will dislodge writer's block, suggest new musical vistas, artist collaborations & even garner a few chuckles. For connoisseurs & entertainment purposes only.					
+As a regular reader of the [Oxford American](http://www.oxfordamerican.org), [Pitchfork](https://pitchfork.com), [Boomkat](https://boomkat.com), [The Fader](http://www.thefader.com) & [The Wire](https://www.thewire.co.uk), Ruoho hopes these reviews will dislodge writer's block, suggest new musical vistas, artist collaborations & even garner a few chuckles. For connoisseurs & entertainment purposes only.					
   
-For connoisseurs & entertainment purposes only. 
+For connoisseurs & entertainment purposes only.
 
   
 &copy; 2014-2018 iroro orife.
