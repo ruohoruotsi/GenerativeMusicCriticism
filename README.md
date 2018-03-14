@@ -1,7 +1,7 @@
 ruoho reviews
 ========================
 
-<img src="javascript/css/images/rranimated.gif" width="600">
+![webpage](javascript/css/images/rranimated.gif)
 
 ### [What](http://ruohoreviews.com) ###
 
