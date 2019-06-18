@@ -1,7 +1,7 @@
 ruoho reviews
 ========================
 
-<img src="javascript/css/images/rranimated.gif" width="600">
+![webpage](javascript/css/images/rranimated.gif)
 
 ### [What](http://ruohoreviews.com) ###
 
@@ -26,9 +26,8 @@ As a label manager Ruoho Ruotsi wrote copy for artist profiles, featured release
 These reviews are fashioned using Ruoho's probabilistic [context-free grammar](http://en.wikipedia.org/wiki/Context-free_grammar), [RiTa](https://github.com/dhowe/RiTa) and "hottt" artist [charts](http://developer.echonest.com/docs/v4/artist.html#top-hottt) pulled down from [The Echo Nest](http://developer.echonest.com).
 								
 								
-As a regular reader of the [Oxford American](http://www.oxfordamerican.org), [Pitchfork](https://pitchfork.com), [Boomkat](https://boomkat.com), [The Fader](http://www.thefader.com) & [The Wire](https://www.thewire.co.uk), Ruoho hopes these reviews will dislodge writer's block, suggest new musical vistas, artist collaborations & even garner a few chuckles. For connoisseurs & entertainment purposes only.					
+As a regular reader of the [Oxford American](http://www.oxfordamerican.org), [Pitchfork](https://pitchfork.com), [Boomkat](https://boomkat.com), [The Fader](http://www.thefader.com) & [The Wire](https://www.thewire.co.uk), Ruoho hopes these reviews will dislodge writer's block, suggest new musical vistas, artist collaborations & even garner a few chuckles.
   
 For connoisseurs & entertainment purposes only.
 
-  
 &copy; 2014-2018 iroro orife.
